@@ -1,6 +1,6 @@
 <?php
 if (!isset($_POST['submit'])) {
-    echo "<script>location.href='login.html';</script>";
+    echo "<script>location.href='login-demo.html';</script>";
     exit;
 }
 
@@ -10,7 +10,7 @@ include('../utils/conn.php');
 
 $p = $_POST;
 //4、执行SQL&处理结果===================================
-$sql = "select * from admins";
+$sql = "select * from user";
 $rst = mysqli_query($conn, $sql);
 
 $match = false;
