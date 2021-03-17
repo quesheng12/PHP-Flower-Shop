@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Personal Profile</title>
@@ -13,6 +13,8 @@
     <input type="hidden" name="type" value="header">
     <input type="submit" value="submit">
 </form>
+<p style="font-weight: bold;font-size: 24px">你看我头像dio吗：</p>
+<img src="" alt="我还没有头像" id="header">
 <script>
     $(':submit').click(function () {
         $('#form1').ajaxForm({
@@ -23,13 +25,21 @@
                     alert("上传成功")
                 } else if (data == 200) {
                     alert("存储图片失败")
-                }else if(data==300){
+                } else if (data == 300) {
                     alert("头像上传失败")
                 }
                 // alert(status);
             }
         });
     });
+
+    $.get(
+        'user-information.php',
+        function (data, status) {
+            let userInfo = jQuery.parseJSON(data)
+            console.log(userInfo)
+            $('#header').attr('src', userInfo['header'])
+        });
 </script>
 </body>
 </html>
