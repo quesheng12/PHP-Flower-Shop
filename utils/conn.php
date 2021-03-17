@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "rswy", "a1b2c3hj");
+$conn = mysqli_connect("123.56.136.219", "root", "123456");
 
 if (!$conn) {
     die("数据库链接失败!");

@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('./conn.php');
 
 $type = $_POST['type'];
@@ -11,7 +12,7 @@ $filepathIndex = array(
 );
 
 $sqlStatementIndex = array(
-    "header" => ""
+    "header" => "UPDATE user SET header='" . $filepath . $imgname . "' WHERE username='" . $_SESSION['username'] . "'"
 );
 
 //$returnHrefIndex = array(
