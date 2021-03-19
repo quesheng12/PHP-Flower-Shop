@@ -13,6 +13,19 @@
     <input type="hidden" name="type" value="header">
     <input type="submit" value="submit">
 </form>
+
+<div>
+    <label>
+        原密码：
+        <input id="opass" type="text" placeholder="origin">
+    </label>
+    <label>
+        新密码：
+        <input id="npass" type="text" placeholder="new">
+    </label>
+    <button id="btn" onclick="edit_password()">修改密码</button>
+</div>
+
 <p style="font-weight: bold;font-size: 24px">你看我头像dio吗：</p>
 <img src="" alt="我还没有头像" id="header">
 <script>
@@ -40,6 +53,23 @@
             console.log(userInfo)
             $('#header').attr('src', userInfo['header'])
         });
+
+    function edit_password() {
+        console.log($('#opass').val())
+        console.log($('#npass').val())
+        $.post(
+            'user-information-edit.php',
+            {
+                origin_password: $('#opass').val(),
+                password: $('#npass').val()
+            },
+            function (data, status) {
+                alert(data);
+            }
+        )
+
+        location.reload();
+    }
 </script>
 </body>
 </html>
