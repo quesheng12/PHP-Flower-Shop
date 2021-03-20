@@ -1,19 +1,17 @@
 <?php
-include "../utils/conn.php";
+include "conn.php";
 
 $attrs = $_POST['attrs'];
-//$attrs = ["name", "stock"];
+$table = $_POST['table'];
 
-$sql = "SELECT * FROM item";
+$sql = "SELECT * FROM " . $table;
 $rst = mysqli_query($conn, $sql);
 
 $result = [];
 while ($item = mysqli_fetch_assoc($rst)) {
-    $attrs_list = [];
     foreach ($attrs as $attr) {
-        $attrs_list[$attr] = $item[$attr];
+        $result[$attr] = $item[$attr];
     }
-    $result[$item["id"]] = $attrs_list;
 }
 
 echo json_encode($result);
