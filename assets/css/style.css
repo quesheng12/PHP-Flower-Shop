@@ -1,4 +1,46 @@
+/*-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    01. Theme default CSS
+	02. Elements CSS
+		2.1 - Button CSS
+		2.2 - Form CSS
+		2.3 - Blockquote CSS		
+	03. Header CSS
+		3.1 - Header Top CSS
+		3.2 - Header Main CSS
+	04. Pages CSS (All Page Styles)
+		4.1 - Slider CSS
+		4.2 - Shipping CSS
+		4.3 - Product CSS
+		4.4 - About CSS
+		4.5 - Testimonial CSS
+		4.6 - Experts CSS
+		4.7 - Blog CSS
+		4.8 - Newsletter CSS
+		4.9 - Chose CSS
+		4.10 - Brand CSS
+		4.11 - Shop CSS
+		4.12 - Shop Single CSS
+		4.13 - Login CSS
+		4.14 - Cart CSS
+		4.15 - Checkout CSS
+		4.16 - Compare CSS
+		4.17 - Empty Cart CSS
+		4.18 - My Account CSS
+		4.19 - Contact CSS
+		4.20 - Blog CSS
+		4.21 - Quick View CSS		
+	05. Widget CSS
+		5.1 - Sidebar Widget CSS
+	07. Footer CSS
 
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
 /*-- Google Font --*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
@@ -534,7 +576,12 @@ figure {
   font-size: 18px;
 }
 
-
+/*----------------------------------------*/
+/*  02. Elements CSS
+/*----------------------------------------*/
+/*--
+/*  2.1 - Button CSS
+/*----------------------------------------*/
 .btn-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1396,6 +1443,9 @@ figure {
   border-color: #e50000;
 }
 
+/*--
+/*  2.2 - Form CSS
+/*----------------------------------------*/
 label {
   display: block;
   line-height: 1;
@@ -1405,6 +1455,7 @@ label {
   font-size: 13px;
 }
 
+/*Input Field & Select*/
 input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]),
 textarea {
   border: 1px solid #e5e5e5;
@@ -1457,6 +1508,7 @@ select {
   margin-top: 15px;
 }
 
+/*Switch*/
 .ht-mcs-switcher-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1616,6 +1668,7 @@ select {
           box-shadow: 0 0 15px rgba(23, 162, 184, 0.5);
 }
 
+/*Custom Checkbox*/
 .cus-checkbox-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1739,6 +1792,7 @@ select {
   border-color: #17a2b8;
 }
 
+/*Custom Radio*/
 .cus-radio-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1942,6 +1996,9 @@ select {
   padding: 0;
 }
 
+/*--
+/*  2.3 - Blockquote CSS
+/*----------------------------------------*/
 blockquote {
   background-color: #f6f6f6;
   padding: 30px 45px;
@@ -1965,6 +2022,12 @@ blockquote p {
   font-weight: 400;
 }
 
+/*----------------------------------------*/
+/*  03. Header CSS
+/*----------------------------------------*/
+/*--
+/*  3.1 - Header Top CSS
+/*----------------------------------------*/
 .top-notification-bar {
   -webkit-background: -webkit-gradient(linear, left top, right top, from(#323232), to(#323232));
   -webkit-background: -webkit-linear-gradient(left, #323232 0%, #323232 100%);
@@ -2000,6 +2063,9 @@ blockquote p {
   font-size: 14px;
 }
 
+/*--
+/*  3.2 - Header Main CSS
+/*----------------------------------------*/
 .header-section {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2953,6 +3019,12 @@ blockquote p {
   opacity: 1;
 }
 
+/*----------------------------------------*/
+/*  04. Pages CSS (All Page Styles)
+/*----------------------------------------*/
+/*--
+/*  4.1 - Slider CSS
+/*----------------------------------------*/
 @media only screen and (min-width: 1500px) {
   .slider-area .container {
     max-width: 1427px;
@@ -3223,6 +3295,9 @@ blockquote p {
   background-color: #f34f3f;
 }
 
+/*--
+/*  4.2 - Shipping CSS
+/*----------------------------------------*/
 .single-shipping {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3260,6 +3335,9 @@ blockquote p {
   font-weight: 300;
 }
 
+/*--
+/*  4.3 - Product CSS
+/*----------------------------------------*/
 .product-wrapper {
   padding-top: 25px;
 }
@@ -3678,6 +3756,9 @@ blockquote p {
   margin-top: 0;
 }
 
+/*--
+/*  4.4 - About CSS
+/*----------------------------------------*/
 .about-image {
   margin-top: 45px;
 }
@@ -3771,6 +3852,9 @@ blockquote p {
   margin-top: 25px;
 }
 
+/*--
+/*  4.5 - Testimonial CSS
+/*----------------------------------------*/
 .testimonial-area {
   background-position: center center;
   background-size: cover;
@@ -4072,6 +4156,9 @@ blockquote p {
   visibility: visible;
 }
 
+/*--
+/*  4.8 - Newsletter CSS
+/*----------------------------------------*/
 .newsletter-form .form-wrapper {
   max-width: 630px;
   margin: 30px auto 0;
@@ -4117,6 +4204,9 @@ blockquote p {
   color: #666666;
 }
 
+/*--
+/*  4.9 - Chose CSS
+/*----------------------------------------*/
 .single-chose {
   margin-top: 30px;
 }
@@ -4162,7 +4252,9 @@ blockquote p {
   transform: rotatey(180deg);
 }
 
-
+/*--
+/*  4.10 - Brand CSS
+/*----------------------------------------*/
 .brand-area {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -4175,7 +4267,9 @@ blockquote p {
   }
 }
 
-
+/*--
+/*  4.11 - Shop CSS
+/*----------------------------------------*/
 .shop-top-bar {
   margin-top: 50px;
   border: 1px solid #e5e5e5;
@@ -4298,6 +4392,9 @@ blockquote p {
   padding-top: 20px;
 }
 
+/*--
+/*  4.12 - Shop Single CSS
+/*----------------------------------------*/
 .shop-image {
   position: relative;
   margin-top: 50px;
@@ -5242,7 +5339,9 @@ blockquote p {
   border-color: #f34f3f;
 }
 
-
+/*--
+/*  4.14 - Cart CSS
+/*----------------------------------------*/
 .cart-table .table thead {
   background-color: #e1e1e1;
 }
@@ -5476,6 +5575,9 @@ blockquote p {
   border-color: #292d32;
 }
 
+/*--
+/*  4.15 - Checkout CSS
+/*----------------------------------------*/
 .checkout-info .info-header {
   padding: 14px 30px;
   margin: 0 0 30px;
@@ -5724,7 +5826,9 @@ blockquote p {
   margin-top: 20px;
 }
 
-
+/*--
+/*  4.16 - Compare CSS
+/*----------------------------------------*/
 .compare-table .table {
   margin-bottom: 0;
 }
@@ -5813,7 +5917,9 @@ blockquote p {
   color: #FF9800;
 }
 
-
+/*--
+/*  4.17 - Empty Cart CSS
+/*----------------------------------------*/
 .empty-cart-content .empty-cart-title {
   color: #222222;
   font-family: "Rubik", sans-serif;
@@ -5852,8 +5958,9 @@ blockquote p {
   border-color: #292d32;
 }
 
-
-
+/*--
+/*  4.18 - My Account CSS
+/*----------------------------------------*/
 .my-account-menu .account-menu-list {
   background-color: #f7f7f7;
 }
@@ -5989,7 +6096,9 @@ blockquote p {
   font-weight: 400;
 }
 
-
+/*--
+/*  4.19 - Contact CSS
+/*----------------------------------------*/
 .contact-map #contact-map {
   height: 500px;
   border-width: 100%;
@@ -6054,7 +6163,9 @@ blockquote p {
   border-color: #f34f3f;
 }
 
-
+/*--
+/*  4.20 - Blog CSS
+/*----------------------------------------*/
 .blog-single {
   padding-top: 30px;
 }
@@ -6347,7 +6458,9 @@ blockquote p {
   width: 37px;
 }
 
-
+/*--
+/*  4.21 - Quick View CSS
+/*----------------------------------------*/
 .modal .modal-dialog {
   max-width: 1000px;
 }
@@ -6586,7 +6699,9 @@ blockquote p {
   }
 }
 
-
+/*--
+/*  4.9 - Page Banner CSS
+/*----------------------------------------*/
 .page-banner {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -6633,7 +6748,12 @@ blockquote p {
   color: #222222;
 }
 
-
+/*----------------------------------------*/
+/*  05. Widget CSS
+/*----------------------------------------*/
+/*--
+/*  5.1 - Sidebar Widget CSS
+/*----------------------------------------*/
 .widget-title {
   font-size: 15px;
   font-family: "Rubik", sans-serif;
@@ -6968,7 +7088,9 @@ blockquote p {
   color: #f34f3f;
 }
 
-
+/*--
+/*  07. Footer CSS
+/*----------------------------------------*/
 .footer-area {
   background-color: #222222;
 }
@@ -7084,7 +7206,7 @@ blockquote p {
   padding-top: 20px;
 }
 
-
+/*===== Back To Top =====*/
 .back-to-top {
   position: fixed;
   bottom: 20px;
