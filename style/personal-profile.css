@@ -177,4 +177,10 @@
 .header__contact li:last-child {
   margin-bottom: 0;
 }
+.account-right {
+  margin-left: 95px;
+}
+#pills-order {
+  margin-left: -50px;
+}
 /*# sourceMappingURL=personal-profile.css.map */
