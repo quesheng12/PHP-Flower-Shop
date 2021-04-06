@@ -4,9 +4,9 @@ if (!isset($_POST['submit'])) {
     exit;
 }
 
-include "../utils/conn.php";
+include("../utils/conn.php");
 
-$username=$_POST['username'];
+$username = $_POST['username'];
 $password = $_POST['password'];
 
 $sql = "select * from user";
@@ -20,7 +20,7 @@ while ($arr = mysqli_fetch_assoc($rst)) {
 }
 
 //向数据库中插入注册用户信息
-$sql = "INSERT INTO user (username, password) VALUES ('".$username."', '".$password."');";
+$sql = "INSERT INTO user (username, password) VALUES ('" . $username . "', '" . $password . "');";
 if ($conn->query($sql) === TRUE) {
     echo 100;
 } else {
