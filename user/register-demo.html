@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <script src="/js/jquery-3.5.1.js"></script>
+    <script src="/js/jquery.form.js"></script>
+</head>
+<body>
+<form method="POST" action="" class="register-form" id="form1">
+    <div class="title">注册</div>
+    <div class="content">
+        <input type="text" name="username" class="username" placeholder="请输入账号"><br>
+        <input type="password" name="password" class="password" placeholder="请输入密码"><br>
+        <input type="password" name="re-password" class="password" placeholder="请再次输入密码"><br>
+        <input type="submit" name="submit" value="注册" class="submit">
+        <div>已有账号,<a href="login-demo.html">立即登陆</a></div>
+    </div>
+</form>
+<script>
+    $(':submit').click(function () {
+        $('#form1').ajaxForm({
+            url: 'register.php',
+            success: function (data, status) {
+                alert(data)
+                if (data == 100) {
+                    alert("注册成功")
+                } else if (data == 200) {
+                    alert("用户名重复")
+                } else if (data == 300) {
+                    alert("注册失败")
+                }
+                // alert(status);
+            }
+        });
+    });
+</script>
+</body>
+</html>
