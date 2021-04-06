@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="debased">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff-portal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick-theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick-theme.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
