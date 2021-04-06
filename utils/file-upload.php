@@ -18,7 +18,7 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 $id = $user['id'];
 
 $filepathIndex = array(
-    "header" => "/image/user/header/" . $id . "/"
+    "header" => "/images/user/header/" . $id . "/"
 );
 
 $sqlStatementIndex = array(
