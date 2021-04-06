@@ -1,7 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff-portal" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff-portal">
+      <change afterPath="$PROJECT_DIR$/kugu-images/about/about-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/about/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/avater-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/avater-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/bkg_grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/bkg_grid_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/bkg_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/bkg_list_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog-single/blog-dec-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog-single/blog-dec-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog-single/blog-single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/blog/blog-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/brand/brand-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/brand/brand-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/brand/brand-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/brand/brand-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/brand/brand-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/brand/brand-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/cart/cart-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/cart/cart-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/cart/cart-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/chose-icon/100_-Money-Back-Guarantee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/chose-icon/Creative-Design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/chose-icon/Online-Support-247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/experts/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/experts/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/experts/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/experts/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/icons/select-arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/logo/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/main-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/menu-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment-icon/payment-7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product-single/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product-single/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product-single/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product-single/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/product/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/shipping-icon/Free-Delivery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/shipping-icon/Freshness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/shipping-icon/Made-By-Artists.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/shipping-icon/Online-Order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/signature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/slider/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/slider/slider-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/testimonial-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/testimonial-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kugu-images/testimonial-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/kugu-helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/kugu-plugins/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/kugu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/personal-profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/personal-profile.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/personal-profile.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/register-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/register-demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/register.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
