@@ -1,7 +1,3 @@
-<?php
-//staff登陆检测
-require '../../utils/check-staff-login.php';
-?>
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
@@ -63,23 +59,19 @@ require '../../utils/check-staff-login.php';
             <h3 class="block-title">All Products</h3>
             <div class="block-options">
                 <div class="dropdown">
-                    <button type="button" class="btn btn-light" id="dropdown-ecom-filters" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                        Filters <i class="fa fa-angle-down ml-1"></i>
+                    <button type="button" class="btn btn-light" id="dropdown-ecom-filters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Filters <i class="fa fa-angle-down ml-1"></i> 
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-ecom-filters">
-                        <a class="dropdown-item d-flex align-items-center justify-content-between"
-                           href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
                             New
                             <span class="badge badge-success badge-pill">260</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between"
-                           href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
                             Out of Stock
                             <span class="badge badge-danger badge-pill">63</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between"
-                           href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
                             All
                             <span class="badge badge-secondary badge-pill">36k</span>
                         </a>
@@ -91,8 +83,7 @@ require '../../utils/check-staff-login.php';
             <!-- Search Form -->
             <form action="be_pages_ecom_products.php" method="POST" onsubmit="return false;">
                 <div class="form-group">
-                    <input type="text" class="form-control form-control-alt" id="dm-ecom-products-search"
-                           name="dm-ecom-products-search" placeholder="Search all products..">
+                    <input type="text" class="form-control form-control-alt" id="dm-ecom-products-search" name="dm-ecom-products-search" placeholder="Search all products..">
                 </div>
             </form>
             <!-- END Search Form -->
@@ -102,39 +93,35 @@ require '../../utils/check-staff-login.php';
             <div class="table-responsive">
                 <table class="table table-borderless table-striped table-vcenter">
                     <thead>
-                    <tr>
-                        <th class="text-center" style="width: 100px;">ID</th>
-                        <th class="d-none d-sm-table-cell text-center">Added</th>
-                        <th class="d-none d-md-table-cell">Product</th>
-                        <th>Status</th>
-                        <th class="d-none d-sm-table-cell text-right">Value</th>
-                        <th class="text-center">Actions</th>
-                    </tr>
-                    </thead>
+                        <tr>
+                            <th class="text-center" style="width: 100px;">ID</th>
+                            <th class="d-none d-sm-table-cell text-center">Added</th>
+                            <th class="d-none d-md-table-cell">Product</th>
+                            <th>Status</th>
+                            <th class="d-none d-sm-table-cell text-right">Value</th>
+                            <th class="text-center">Actions</th>
+                        </tr>
+                    </thead>   
                     <tbody>
-                    <?php
-                    $badges['0']['class'] = "badge-success";
-                    $badges['0']['text'] = "Available";
-                    $badges['1']['class'] = "badge-danger";
-                    $badges['1']['text'] = "Out of Stock";
-                    ?>
-                    <?php for ($i = 35; $i > 16; $i--) { ?>
+                        <?php
+                        $badges['0']['class']   = "badge-success";
+                        $badges['0']['text']    = "Available";
+                        $badges['1']['class']   = "badge-danger";
+                        $badges['1']['text']    = "Out of Stock";
+                        ?>
+                        <?php for ($i = 35; $i > 16; $i--) { ?>
                         <tr>
                             <td class="text-center font-size-sm">
                                 <a class="font-w600" href="be_pages_ecom_product_edit.php">
                                     <strong>PID.0365<?php echo $i; ?></strong>
                                 </a>
                             </td>
-                            <td class="d-none d-sm-table-cell text-center font-size-sm"><?php echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>
-                                /2019
-                            </td>
+                            <td class="d-none d-sm-table-cell text-center font-size-sm"><?php echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>/2019</td>
                             <td class="d-none d-md-table-cell font-size-sm">
-                                <a class="font-w600" href="be_pages_ecom_product_edit.php">Product
-                                    #<?php echo $i; ?></a>
+                                <a class="font-w600" href="be_pages_ecom_product_edit.php">Product #<?php echo $i; ?></a>
                             </td>
                             <td>
-                                <span class="badge<?php $rand = rand(0, 1);
-                                echo ($badges[$rand]['class']) ? " " . $badges[$rand]['class'] : ""; ?>"><?php echo $badges[$rand]['text']; ?></span>
+                                <span class="badge<?php $rand = rand(0, 1); echo ($badges[$rand]['class']) ? " " . $badges[$rand]['class'] : ""; ?>"><?php echo $badges[$rand]['text']; ?></span>
                             </td>
                             <td class="text-right d-none d-sm-table-cell font-size-sm">
                                 <strong>$<?php echo rand(10, 99); ?>,00</strong>
@@ -148,7 +135,7 @@ require '../../utils/check-staff-login.php';
                                 </a>
                             </td>
                         </tr>
-                    <?php } ?>
+                        <?php } ?>
                     </tbody>
                 </table>
             </div>

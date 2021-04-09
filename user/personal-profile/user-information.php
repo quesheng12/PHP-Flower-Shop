@@ -10,9 +10,4 @@ $user = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 
 echo '{
     "username": "' . $username . '",
-    "first_name": "' . $user['first_name'] . '",
-    "last_name": "' . $user['last_name'] . '",
-    "phone": "' . $user['phone'] . '",
-    "email": "' . $user['email'] . '",
-    "header": "' . $user['header'] . '"
-    }';
+    "header": "' . $user['header'] . '"}';

@@ -1,8 +1,3 @@
-<?php
-//staff登陆检测
-require '../../utils/check-staff-login.php';
-require '../../utils/conn.php';
-?>
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
@@ -13,12 +8,6 @@ require '../../utils/conn.php';
 
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
-
-<?php
-$sql = "select * from item WHERE id=" . $_GET['id'];
-$rst = mysqli_query($conn, $sql);
-$item = mysqli_fetch_assoc($rst);
-?>
 
 <!-- Page Content -->
 <div class="content">
@@ -67,36 +56,70 @@ $item = mysqli_fetch_assoc($rst);
         <div class="block-content">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8">
-                    <form action="../backend/product-edit.php" method="POST">
+                    <form action="be_pages_ecom_product_edit.php" method="POST" onsubmit="return false;">
                         <div class="form-group">
                             <label for="dm-ecom-product-id">PID</label>
-                            <input type="text" class="form-control" id="dm-ecom-product-id" name="id"
-                                   value="<?php echo $item['id']; ?>" readonly>
+                            <input type="text" class="form-control" id="dm-ecom-product-id" name="dm-ecom-product-id" value="1256" readonly>
                         </div>
                         <div class="form-group">
                             <label for="dm-ecom-product-name">Name</label>
-                            <input type="text" class="form-control" id="dm-ecom-product-name"
-                                   name="name" value="<?php echo $item['name']; ?>">
+                            <input type="text" class="form-control" id="dm-ecom-product-name" name="dm-ecom-product-name" value="Bloodborne">
                         </div>
                         <div class="form-group">
                             <!-- CKEditor (js-ckeditor-inline + js-ckeditor ids are initialized in Helpers.ckeditor()) -->
                             <!-- For more info and examples you can check out http://ckeditor.com -->
                             <label>Description</label>
-                            <textarea id="js-ckeditor"
-                                      name="description"><?php echo $item['description']; ?></textarea>
+                            <textarea id="js-ckeditor" name="dm-ecom-product-description"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="dm-ecom-product-description-short">Short Description</label>
+                            <textarea class="form-control" id="dm-ecom-product-description-short" name="dm-ecom-product-description-short" rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <!-- Select2 (.js-select2 class is initialized in Helpers.select2()) -->
+                            <!-- For more info and examples you can check out https://github.com/select2/select2 -->
+                            <label for="dm-ecom-product-category">Category</label>
+                            <select class="js-select2 form-control" id="dm-ecom-product-category" name="dm-ecom-product-category" style="width: 100%;" data-placeholder="Choose one..">
+                                <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                                <option value="1">Cables</option>
+                                <option value="2" selected>Video Games</option>
+                                <option value="3">Tablets</option>
+                                <option value="4">Laptops</option>
+                                <option value="5">PC</option>
+                                <option value="6">Home Cinema</option>
+                                <option value="7">Sound</option>
+                                <option value="8">Office</option>
+                                <option value="9">Adapters</option>
+                            </select>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-6">
-                                <label for="dm-ecom-product-price">Price in CNY (¥)</label>
-                                <input type="text" class="form-control" id="dm-ecom-product-price"
-                                       name="price" value="<?php echo $item['price']; ?>">
+                                <label for="dm-ecom-product-price">Price in USD ($)</label>
+                                <input type="text" class="form-control" id="dm-ecom-product-price" name="dm-ecom-product-price" value="59,00">
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-6">
                                 <label for="dm-ecom-product-stock">Stock</label>
-                                <input type="text" class="form-control" id="dm-ecom-product-stock"
-                                       name="stock" value="<?php echo $item['stock']; ?>">
+                                <input type="text" class="form-control" id="dm-ecom-product-stock" name="dm-ecom-product-stock" value="29">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="d-block">Condition</label>
+                            <div class="custom-control custom-radio custom-control-inline mb-1">
+                                <input type="radio" class="custom-control-input" id="dm-ecom-product-condition-new" name="dm-ecom-product-condition" checked>
+                                <label class="custom-control-label" for="dm-ecom-product-condition-new">New</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline mb-1">
+                                <input type="radio" class="custom-control-input" id="dm-ecom-product-condition-old" name="dm-ecom-product-condition">
+                                <label class="custom-control-label" for="dm-ecom-product-condition-old">Old</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Published?</label>
+                            <div class="custom-control custom-switch mb-1">
+                                <input type="checkbox" class="custom-control-input" id="dm-ecom-product-published" name="dm-ecom-product-published" checked>
+                                <label class="custom-control-label" for="dm-ecom-product-published"></label>
                             </div>
                         </div>
                         <div class="form-group">
@@ -109,20 +132,71 @@ $item = mysqli_fetch_assoc($rst);
     </div>
     <!-- END Info -->
 
+    <!-- Meta Data -->
+    <div class="block block-rounded">
+        <div class="block-header block-header-default">
+            <h3 class="block-title">Meta Data</h3>
+        </div>
+        <div class="block-content">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8">
+                    <form action="be_pages_ecom_product_edit.php" method="POST" onsubmit="return false;">
+                        <div class="form-group">
+                            <!-- Bootstrap Maxlength (.js-maxlength class is initialized in Helpers.maxlength()) -->
+                            <!-- For more info and examples you can check out https://github.com/mimo84/bootstrap-maxlength -->
+                            <label for="dm-ecom-product-meta-title">Title</label>
+                            <input type="text" class="js-maxlength form-control" id="dm-ecom-product-meta-title" name="dm-ecom-product-meta-title" value="Bloodborne" maxlength="55" data-always-show="true" data-placement="top">
+                            <small class="form-text text-muted">
+                                55 Character Max
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <!-- Select2 (.js-select2 class is initialized in Helpers.select2()) -->
+                            <!-- For more info and examples you can check out https://github.com/select2/select2 -->
+                            <label for="dm-ecom-product-meta-keywords">Keywords</label>
+                            <select class="js-select2 form-control" id="dm-ecom-product-meta-keywords" name="dm-ecom-product-meta-keywords" style="width: 100%;" data-placeholder="Choose many.." multiple>
+                                <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
+                                <option value="1" selected>Action</option>
+                                <option value="2" selected>RPG</option>
+                                <option value="3">Racing</option>
+                                <option value="4">Strategy</option>
+                                <option value="5">Adventure</option>
+                                <option value="6">Strategy</option>
+                                <option value="7">Puzzle</option>
+                                <option value="8">Horror</option>
+                                <option value="9">MMO</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <!-- Bootstrap Maxlength (.js-maxlength class is initialized in Helpers.maxlength()) -->
+                            <!-- For more info and examples you can check out https://github.com/mimo84/bootstrap-maxlength -->
+                            <label for="dm-ecom-product-meta-description">Description</label>
+                            <textarea class="js-maxlength form-control" id="dm-ecom-product-meta-description" name="dm-ecom-product-meta-description" rows="4" maxlength="115" data-always-show="true" data-placement="top">Bloodborne is an action role-playing video game developed by FromSoftware.</textarea>
+                            <small class="form-text text-muted">
+                                115 Character Max
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-alt-primary">Update</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Meta Data -->
+
     <!-- Media -->
     <div class="block block-rounded">
         <div class="block-header block-header-default">
-            <h3 class="block-title">Preview Picture</h3>
+            <h3 class="block-title">Media</h3>
         </div>
         <div class="block-content block-content-full">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8">
-                    <form id="form1" method="POST" action="../backend/product-image-upload.php"
-                          enctype="multipart/form-data">
-                        Select Preview Picture：<input type="file" name='file'/>
-                        <input id="img-id" type="hidden" name="id" value="">
-                        <input type="submit" value="submit">
-                    </form>
+                    <!-- Dropzone (functionality is auto initialized by the plugin itself in js/plugins/dropzone/dropzone.min.js) -->
+                    <!-- For more info and examples you can check out http://www.dropzonejs.com/#usage -->
+                    <form class="dropzone" action="be_pages_ecom_product_edit.php"></form>
                 </div>
             </div>
         </div>
@@ -141,25 +215,6 @@ $item = mysqli_fetch_assoc($rst);
 <?php $dm->get_js('js/plugins/dropzone/dropzone.min.js'); ?>
 
 <!-- Page JS Helpers (Select2 + CKEditor plugins) -->
-<script>
-    jQuery(function () {
-        Dashmix.helpers(['select2', 'maxlength', 'ckeditor']);
-    });
-
-
-    function getUrlParam(name) {
-        //构造一个含有目标参数的正则表达式对象
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-        //匹配目标参数
-        var r = window.location.search.substr(1).match(reg);
-        //返回参数值
-        if (r != null) {
-            return decodeURI(r[2]);
-        }
-        return null;
-    }
-
-    $("#img-id").val(getUrlParam('id'));
-</script>
+<script>jQuery(function(){ Dashmix.helpers(['select2', 'maxlength', 'ckeditor']); });</script>
 
 <?php require 'inc/_global/views/footer_end.php'; ?>
