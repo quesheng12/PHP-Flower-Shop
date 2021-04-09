@@ -55,11 +55,6 @@ $dm->main_nav = array(
         'icon' => 'fa fa-boxes'
     ),
     array(
-        'name' => 'Product Edit',
-        'url' => 'be_pages_ecom_product_edit.php',
-        'icon' => 'fa fa-grip-horizontal'
-    ),
-    array(
         'name' => 'Chat',
         'url' => 'be_comp_chat.php',
         'icon' => 'fa fa-user-friends'
