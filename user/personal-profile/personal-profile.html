@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../../kugu-asset/css/plugins-min/plugins.min.css">
     <link rel="stylesheet" href="../../kugu-asset/css/style.min.css">
     <link rel="stylesheet" href="../../style/personal-profile.css">
+    <link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
+    <script src="../../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -504,7 +506,7 @@
                         <div class="tab-pane fade" id="pills-address">
                             <div class="my-account-address account-wrapper">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <h4 class="account-title">Billing address</h4>
                                         <div class="account-address mt-30">
                                             <h6 class="name">Alex Tuntuni</h6>
@@ -513,15 +515,77 @@
                                             <a class="btn btn-primary" href="#"><i class="fa fa-edit"></i> Edit Address</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <h4 class="account-title">Shipping address</h4>
+                                    <div class="col-md-3">
                                         <div class="account-address mt-30">
-                                            <h6 class="name">Alex Tuntuni</h6>
-                                            <p>1355 Market St, Suite 900 <br> San Francisco, CA 94103</p>
-                                            <p>Mobile: (123) 456-7890</p>
-                                            <a class="btn btn-primary" href="#"><i class="fa fa-edit"></i> Edit Address</a>
+                                            <a id="add-address" class="btn btn-primary col-md-12" href="#"
+                                               onclick="xtip_open2()"><i
+                                                    class="fa fa-edit"></i>Add
+                                                address</a>
                                         </div>
                                     </div>
+
+                                    <div id="tip_content2">
+                                        <!--<form id="" method="post" action="user-information-edit.php"
+                                              style="padding: 0 20px">
+                                            <input id='address-form-type' type="hidden" name="type" value="">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="single-form">
+                                                        <input type="text" name="province" placeholder="Province">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="single-form">
+                                                        <input type="text" name="city" placeholder="City">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="single-form">
+                                                        <input type="text" name="area" placeholder="Area">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-form">
+                                                        <input type="text" name="detail" placeholder="Detail Address">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-form">
+                                                        <input type="text" name="phone" placeholder="Phone Number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 m-auto">
+                                                    <div class="single-form">
+                                                        <button class="btn btn-primary m-auto" style="display: block">Confirm</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>-->
+                                    </div>
+
+                                    <script type="text/javascript">
+                                        function xtip_open2() {
+                                            xtip.open({
+                                                type: 'noready',
+                                                content: '#tip_content2',
+                                                title: '【noready类型】',
+                                                width: (document.documentElement.clientWidth - 50) + 'px',
+                                                min: true,
+                                                shade: false,
+                                            });
+
+                                            $('#address-form-type').val('add');
+
+                                            //信息修改表单点按改变边框
+                                            $(".single-form").find("input").on("click", function () {
+                                                $(this).css("border", "1px solid #f34f3f");
+                                            })
+
+                                            $(".single-form").find("input").blur(function () {
+                                                $(this).css("border", "1px solid #e5e5e5");
+                                            });
+                                        }
+                                    </script>
                                 </div>
                             </div>
                         </div>
