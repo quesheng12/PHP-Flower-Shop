@@ -1,47 +1,42 @@
 <?php
 session_start();
 include("../../utils/conn.php");
+
 if (!isset($_SESSION['username'])) {
     echo "<script>location.href='../login-demo.html';</script>";
     exit;
 }
 
-$password_set = true;
-$information_set = true;
-
-if (isset($_POST['c-password']) && isset($_POST['new-password'])) {
-    $current_password = $_POST['c-password'];
-    $password = $_POST['new-password'];
-
-    $sql = "SELECT password FROM user WHERE username='" . $_SESSION['username'] . "'";
-
-    if (mysqli_fetch_assoc(mysqli_query($conn, $sql))['password'] != $current_password) {
-        $password_set = false;
-    } else {
-        $sql = "UPDATE user SET password='" . $password . "' WHERE username='" . $_SESSION['username'] . "'";
-
-        if ($conn->query($sql) === TRUE) {
-            $password_set = true;
-        } else {
-            $password_set = false;
+if ($_POST['type'] == 'add') {
+    $sql = "select id from user WHERE username='" . $_SESSION['username'] . "'";
+    $id = mysqli_fetch_assoc(mysqli_query($conn, $sql))['id'];
+    $attr_str = "user_id,";
+    $value_str = $id . ",";
+    foreach ($_POST as $key => $value) {
+        if ($key != 'type') {
+            $attr_str .= $key . ",";
+            $value_str .= "'" . $value . "',";
         }
     }
-}
+    $attr_str = rtrim($attr_str, ",");
+    $value_str = rtrim($value_str, ",");
 
-$edit_str = "";
-foreach ($_POST as $key => $value) {
-    if ($key != 'c-password' && $key != 'new-password') {
-        $edit_str .= $key . "='" . $value . "',";
+    $sql = "INSERT INTO address (" . $attr_str . ") VALUES (" . $value_str . ");";
+} else {
+    $edit_str = "";
+    foreach ($_POST as $key => $value) {
+        if ($key != "id" && $key != 'type') {
+            $edit_str .= $key . "='" . $value . "',";
+        }
     }
-}
 
-if ($edit_str != "") {
     $edit_str = rtrim($edit_str, ",");
-    $sql = "UPDATE user SET " . $edit_str . " WHERE username='" . $_SESSION['username'] . "'";
-    if ($conn->query($sql) === TRUE) {
-        $information_set = true;
-    } else {
-        $information_set = false;
-    }
+    $sql = "UPDATE address SET " . $edit_str . " WHERE id='" . $_POST['id'] . "'";
 }
 
+if ($conn->query($sql) === TRUE) {
+    echo "<script>location.href='personal-profile.html';alert('Edit Successfully!')</script>";
+} else {
+    echo "<script>location.href='personal-profile.html';alert('Edit Failed')</script>";
+    echo "Error:" . $sql . "<br>" . $conn->error;
+}

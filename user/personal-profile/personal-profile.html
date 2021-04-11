@@ -524,8 +524,8 @@
                                         </div>
                                     </div>
 
-                                    <div id="tip_content2">
-                                        <!--<form id="" method="post" action="user-information-edit.php"
+                                    <div id="address-form">
+                                        <!--<form id="" method="post" action="address-manage.php"
                                               style="padding: 0 20px">
                                             <input id='address-form-type' type="hidden" name="type" value="">
                                             <div class="row">
@@ -562,30 +562,6 @@
                                             </div>
                                         </form>-->
                                     </div>
-
-                                    <script type="text/javascript">
-                                        function xtip_open2() {
-                                            xtip.open({
-                                                type: 'noready',
-                                                content: '#tip_content2',
-                                                title: '【noready类型】',
-                                                width: (document.documentElement.clientWidth - 50) + 'px',
-                                                min: true,
-                                                shade: false,
-                                            });
-
-                                            $('#address-form-type').val('add');
-
-                                            //信息修改表单点按改变边框
-                                            $(".single-form").find("input").on("click", function () {
-                                                $(this).css("border", "1px solid #f34f3f");
-                                            })
-
-                                            $(".single-form").find("input").blur(function () {
-                                                $(this).css("border", "1px solid #e5e5e5");
-                                            });
-                                        }
-                                    </script>
                                 </div>
                             </div>
                         </div>
@@ -789,6 +765,56 @@
 <script src="../../kugu-asset/js/plugins.min.js"></script>
 <script src="../../kugu-asset/js/main.js"></script>
 <script src="../../js/jquery.form.js"></script>
+
+<!--address form弹窗-->
+<script type="text/javascript">
+    var option = {
+        type: 'noready',
+        content: '#address-form',
+        title: 'Address',
+        width: (document.documentElement.clientWidth / 2) + 'px',
+        height: '300px',
+        min: true,
+        shade: true,
+        shadeClose: true,
+        app: false,
+    }
+
+    if (document.documentElement.clientWidth <= 580) {
+        option.app = true;
+        option.height = '400px';
+    }
+
+    //屏幕尺寸变化时设置弹窗app切换
+    $(window).resize(function () {
+        var w = document.documentElement.clientWidth;
+        console.log(w)
+        if (w <= 580) {
+            option.app = true;
+            option.height = '400px';
+            option.width = (document.documentElement.clientWidth / 2) + 'px'
+        } else {
+            option.app = false;
+            option.height = '300px';
+            option.width = (document.documentElement.clientWidth / 2) + 'px'
+        }
+    })
+
+    function xtip_open2() {
+        xtip.open(option);
+
+        $('#address-form-type').val('add');
+
+        //信息修改表单点按改变边框
+        $(".single-form").find("input").on("click", function () {
+            $(this).css("border", "1px solid #f34f3f");
+        })
+
+        $(".single-form").find("input").blur(function () {
+            $(this).css("border", "1px solid #e5e5e5");
+        });
+    }
+</script>
 
 <script>
     $.get(
