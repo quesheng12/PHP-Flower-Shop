@@ -505,62 +505,59 @@
                         </div>
                         <div class="tab-pane fade" id="pills-address">
                             <div class="my-account-address account-wrapper">
+                                <h4 class="account-title col-md-12">Address</h4>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <h4 class="account-title">Billing address</h4>
-                                        <div class="account-address mt-30">
-                                            <h6 class="name">Alex Tuntuni</h6>
-                                            <p>1355 Market St, Suite 900 <br> San Francisco, CA 94103</p>
-                                            <p>Mobile: (123) 456-7890</p>
-                                            <a class="btn btn-primary" href="#"><i class="fa fa-edit"></i> Edit Address</a>
-                                        </div>
-                                    </div>
                                     <div class="col-md-3">
                                         <div class="account-address mt-30">
                                             <a id="add-address" class="btn btn-primary col-md-12" href="#"
-                                               onclick="xtip_open2()"><i
+                                               onclick="address_form_open_add()"><i
                                                     class="fa fa-edit"></i>Add
                                                 address</a>
                                         </div>
                                     </div>
-
                                     <div id="address-form">
-                                        <!--<form id="" method="post" action="address-manage.php"
-                                              style="padding: 0 20px">
-                                            <input id='address-form-type' type="hidden" name="type" value="">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="single-form">
-                                                        <input type="text" name="province" placeholder="Province">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="single-form">
-                                                        <input type="text" name="city" placeholder="City">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="single-form">
-                                                        <input type="text" name="area" placeholder="Area">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="single-form">
-                                                        <input type="text" name="detail" placeholder="Detail Address">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="single-form">
-                                                        <input type="text" name="phone" placeholder="Phone Number">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 m-auto">
-                                                    <div class="single-form">
-                                                        <button class="btn btn-primary m-auto" style="display: block">Confirm</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>-->
+                                        <!-- <form id="" method="post" action="address-manage.php"
+                                               style="padding: 0 20px">
+                                             <input id="address-form-type" type="hidden" name="type" value="">
+                                             <input id="address-form-id" type="hidden" name="id" value="">
+                                             <div class="row">
+                                                 <div class="col-md-4">
+                                                     <div class="single-form">
+                                                         <input id="form-province" type="text" name="province" placeholder="Province">
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="single-form">
+                                                         <input id="form-city" type="text" name="city" placeholder="City">
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-4">
+                                                     <div class="single-form">
+                                                         <input id="form-area" type="text" name="area" placeholder="Area">
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-12">
+                                                     <div class="single-form">
+                                                         <input id="form-detail" type="text" name="detail" placeholder="Detail Address">
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-6">
+                                                     <div class="single-form">
+                                                         <input id="form-name" type="text" name="name" placeholder="Name">
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-6">
+                                                     <div class="single-form">
+                                                         <input id="form-phone" type="text" name="phone" placeholder="Phone Number">
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-md-6 m-auto">
+                                                     <div class="single-form">
+                                                         <button class="btn btn-primary m-auto" style="display: block">Confirm</button>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </form>-->
                                     </div>
                                 </div>
                             </div>
@@ -788,7 +785,6 @@
     //屏幕尺寸变化时设置弹窗app切换
     $(window).resize(function () {
         var w = document.documentElement.clientWidth;
-        console.log(w)
         if (w <= 580) {
             option.app = true;
             option.height = '400px';
@@ -800,10 +796,8 @@
         }
     })
 
-    function xtip_open2() {
+    function open_form() {
         xtip.open(option);
-
-        $('#address-form-type').val('add');
 
         //信息修改表单点按改变边框
         $(".single-form").find("input").on("click", function () {
@@ -813,6 +807,11 @@
         $(".single-form").find("input").blur(function () {
             $(this).css("border", "1px solid #e5e5e5");
         });
+    }
+
+    function address_form_open_add() {
+        open_form();
+        $('#address-form-type').val('add');
     }
 </script>
 
@@ -829,6 +828,36 @@
             $(".header__base-info").find("h4").html(data['first_name'] + ' ' + data['last_name']);
             $("#email").html(data['email']);
             $("#phone").html(data['phone']);
+
+            //设置address栏信息
+            var address_str = "";
+            for (var key in data['address']) {
+                var add_temp = data['address'][key];
+                address_str += '            <div class="col-md-4" data-address-id="' + add_temp['id'] + '">\n' +
+                    '                <div class="account-address mt-30">\n' +
+                    '                    <h6 class="name">' + add_temp['name'] + '</h6>\n' +
+                    '                    <p>' + add_temp['province'] + " " + add_temp['city'] + " " + add_temp['area'] + " " + add_temp['detail'] + '</p>\n' +
+                    '                    <p>Mobile: ' + add_temp['phone'] + '</p>\n' +
+                    '                    <a class="btn btn-primary" data-phone="' + add_temp['phone'] + '" data-detail="' + add_temp['detail'] + '" data-area="' + add_temp['area'] + '" data-city="' + add_temp['city']
+                    + '" data-province="' + add_temp['province'] + '" data-name="' + add_temp['name'] + '" href="#"><i class="fa fa-edit"></i> Edit Address</a>\n' +
+                    '                </div>\n' +
+                    '            </div>';
+            }
+
+            $(".my-account-address").find(".row").first().prepend(address_str);
+
+            //设置address下方的edit按钮
+            $(".my-account-address").find(".row").first().find(".btn-primary").not(":last").on('click', function () {
+                open_form();
+                $('#address-form-type').val('edit');
+                $('#form-name').val($(this).attr('data-name'));
+                $('#form-province').val($(this).attr('data-province'));
+                $('#form-city').val($(this).attr('data-city'));
+                $('#form-area').val($(this).attr('data-area'));
+                $('#form-detail').val($(this).attr('data-detail'));
+                $('#form-phone').val($(this).attr('data-phone'));
+                $('#address-form-id').val($(this).parent().parent().attr('data-address-id'));
+            })
         }
     );
 
@@ -846,7 +875,6 @@
         $('#edit-personal-profiles').ajaxForm({
             url: 'user-information-edit.php',
             success: function (data, status) {
-                alert(data)
                 if (data === "100" || data === "200") {
                     alert("Password Reset Successfully!")
                 } else {
