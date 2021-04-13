@@ -191,4 +191,9 @@
     margin-left: -50px;
   }
 }
+.account-address .del {
+  float: right;
+  padding-right: 30px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=personal-profile.css.map */
