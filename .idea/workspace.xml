@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal login">
-      <change afterPath="$PROJECT_DIR$/images/item/pre-image/1/WechatIMG156.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/item/pre-image/2/WechatIMG156.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/item/pre-image/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/backend/product-image-upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/personal-profile.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_07___Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/.idea/02 - Dashmix Source (PHP).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dropzone.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" afterDir="false" />
-    </list>
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
