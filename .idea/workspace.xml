@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="get all my work back from a terrible disaster">
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Anniversary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Best Sellers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Birthday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Gifts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/JustBecause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Plants.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Sympathy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/getWell.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_07___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_07___Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3__6_14___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3__6_14___Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="fix: fix an error on the categories">
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-02.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/personal-profile.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_07___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3,_6_14_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3__6_14___Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +57,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/blog" />
     <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -69,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Group9-web\assets\images\blog" />
       <recent name="D:\Group9-web\assets\images\product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -118,6 +121,7 @@
       <workItem from="1617444419657" duration="57000" />
       <workItem from="1617444502290" duration="910000" />
       <workItem from="1617670174871" duration="3000000" />
+      <workItem from="1618298831856" duration="6981000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -266,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617941351299</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix: fix an error on the categories">
+      <created>1618283717375</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1618283717375</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +309,7 @@
     <MESSAGE value="rebased from master" />
     <MESSAGE value="debased" />
     <MESSAGE value="get all my work back from a terrible disaster" />
-    <option name="LAST_COMMIT_MESSAGE" value="get all my work back from a terrible disaster" />
+    <MESSAGE value="fix: fix an error on the categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix an error on the categories" />
   </component>
 </project>
