@@ -47,6 +47,13 @@ function address_form_open_add() {
     $('#address-form-type').val('add');
 }
 
+function fillUserInfoForm(data) {
+    $('#info-first-name').val(data['first_name']);
+    $('#info-last-name').val(data['last_name']);
+    $('#info-email').val(data['email']);
+    $('#info-phone').val(data['phone']);
+}
+
 function getUserInfo() {
     $.get(
         "user-information.php",
@@ -60,6 +67,8 @@ function getUserInfo() {
             $(".header__base-info").find("h4").html(data['first_name'] + ' ' + data['last_name']);
             $("#email").html(data['email']);
             $("#phone").html(data['phone']);
+
+            fillUserInfoForm(data);
 
             //设置address栏信息
             var address_str = "";
