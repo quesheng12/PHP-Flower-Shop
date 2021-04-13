@@ -17,11 +17,17 @@
     <link rel="stylesheet" href="../../style/personal-profile.css">
     <link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
     <script src="../../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
-
+    <script src="../../kugu-asset/js/vendor/jquery-3.3.1.min.js"></script>
+    <script>
+        $.get("login-check.php", function (data) {
+            if (!data) {
+                location.href = '../login-demo.html';
+            }
+        });
+    </script>
 </head>
 
 <body>
-
 <div class="main-wrapper">
 
     <div id="header">
@@ -432,7 +438,7 @@
                                 <a data-toggle="pill" href="#pills-edit-account"><i class="fa fa-user"></i> Edit Account</a>
                             </li>
                             <li>
-                                <a href="login.html"><i class="fa fa-sign-out"></i> Logout</a>
+                                <a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a>
                             </li>
                         </ul>
                     </div>
@@ -761,7 +767,6 @@
 
 </div>
 
-<script src="../../kugu-asset/js/vendor/jquery-3.3.1.min.js"></script>
 <script src="../../kugu-asset/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="../../kugu-asset/js/plugins.min.js"></script>
 <script src="../../kugu-asset/js/main.js"></script>

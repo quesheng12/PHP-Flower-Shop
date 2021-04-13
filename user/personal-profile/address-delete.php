@@ -1,8 +1,12 @@
 <?php
 include("../../utils/conn.php");
 
-$id = $_POST['id'];
+if (!isset($_SESSION['username'])) {
+    echo "<script>location.href='../login-demo.html';</script>";
+    exit;
+}
 
+$id = $_POST['id'];
 
 $sql = "DELETE FROM address WHERE id= " . $id;
 if ($conn->query($sql) === TRUE) {
