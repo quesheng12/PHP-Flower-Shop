@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="address function finished">
-      <change afterPath="$PROJECT_DIR$/js/personal-profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/personal-profile/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/personal-profile/address-delete.php" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal login">
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/1/WechatIMG156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/2/WechatIMG156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/product-image-upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/personal-profile.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_07___Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/personal-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/personal-profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/personal-profile.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/.idea/02 - Dashmix Source (PHP).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dropzone.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main_back" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +65,7 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -109,7 +116,7 @@
       <workItem from="1617444419657" duration="57000" />
       <workItem from="1617444502290" duration="910000" />
       <workItem from="1617670174871" duration="3000000" />
-      <workItem from="1617962499275" duration="3159000" />
+      <workItem from="1617870906844" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -251,63 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617710223500</updated>
     </task>
-    <task id="LOCAL-00021" summary="get all my work back from a terrible disaster">
-      <created>1617941351299</created>
+    <task id="LOCAL-00021" summary="staff portal chat">
+      <created>1617711174684</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1617941351299</updated>
+      <updated>1617711174684</updated>
     </task>
-    <task id="LOCAL-00022" summary="index collected">
-      <created>1617942154846</created>
+    <task id="LOCAL-00022" summary="staff portal login">
+      <created>1617713613023</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1617942154846</updated>
+      <updated>1617713613023</updated>
     </task>
-    <task id="LOCAL-00023" summary="index collected">
-      <created>1618051921102</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1618051921102</updated>
-    </task>
-    <task id="LOCAL-00024" summary="main_back">
-      <created>1618054616571</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1618054616571</updated>
-    </task>
-    <task id="LOCAL-00025" summary="main_back">
-      <created>1618054666687</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1618054666687</updated>
-    </task>
-    <task id="LOCAL-00026" summary="personal profile page&#10;address form">
-      <created>1618068159670</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1618068159670</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add address">
-      <created>1618153617121</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1618153617121</updated>
-    </task>
-    <task id="LOCAL-00028" summary="address function finished">
-      <created>1618240043431</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1618240043431</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,12 +303,8 @@
     <MESSAGE value="staff-portal" />
     <MESSAGE value="rebased from master" />
     <MESSAGE value="debased" />
-    <MESSAGE value="get all my work back from a terrible disaster" />
-    <MESSAGE value="index collected" />
-    <MESSAGE value="main_back" />
-    <MESSAGE value="personal profile page&#10;address form" />
-    <MESSAGE value="add address" />
-    <MESSAGE value="address function finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="address function finished" />
+    <MESSAGE value="staff portal chat" />
+    <MESSAGE value="staff portal login" />
+    <option name="LAST_COMMIT_MESSAGE" value="staff portal login" />
   </component>
 </project>

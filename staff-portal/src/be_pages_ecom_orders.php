@@ -1,3 +1,7 @@
+<?php
+//staff登陆检测
+require '../../utils/check-staff-login.php';
+?>
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
@@ -57,32 +61,39 @@
             <h3 class="block-title">All Orders</h3>
             <div class="block-options">
                 <div class="dropdown">
-                    <button type="button" class="btn btn-light" id="dropdown-ecom-filters" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-light" id="dropdown-ecom-filters" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                         Filters
                         <i class="fa fa-angle-down ml-1"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-ecom-filters">
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between"
+                           href="javascript:void(0)">
                             Pending..
                             <span class="badge badge-primary badge-pill">78</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between"
+                           href="javascript:void(0)">
                             Processing
                             <span class="badge badge-secondary badge-pill">12</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between"
+                           href="javascript:void(0)">
                             For Delivery
                             <span class="badge badge-secondary badge-pill">20</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between"
+                           href="javascript:void(0)">
                             Canceled
                             <span class="badge badge-secondary badge-pill">5</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between"
+                           href="javascript:void(0)">
                             Delivered
                             <span class="badge badge-secondary badge-pill">280</span>
                         </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between"
+                           href="javascript:void(0)">
                             All
                             <span class="badge badge-secondary badge-pill">19k</span>
                         </a>
@@ -94,7 +105,8 @@
             <!-- Search Form -->
             <form action="be_pages_ecom_orders.php" method="POST" onsubmit="return false;">
                 <div class="form-group">
-                    <input type="text" class="form-control form-control-alt" id="dm-ecom-orders-search" name="dm-ecom-orders-search" placeholder="Search all orders..">
+                    <input type="text" class="form-control form-control-alt" id="dm-ecom-orders-search"
+                           name="dm-ecom-orders-search" placeholder="Search all orders..">
                 </div>
             </form>
             <!-- END Search Form -->
@@ -104,37 +116,40 @@
             <div class="table-responsive">
                 <table class="table table-borderless table-striped table-vcenter font-size-sm">
                     <thead>
-                        <tr>
-                            <th class="text-center" style="width: 100px;">ID</th>
-                            <th class="d-none d-sm-table-cell text-center">Submitted</th>
-                            <th>Status</th>
-                            <th class="d-none d-xl-table-cell">Customer</th>
-                            <th class="d-none d-xl-table-cell text-center">Products</th>
-                            <th class="d-none d-sm-table-cell text-right">Value</th>
-                            <th class="text-center">Actions</th>
-                        </tr>
-                    </thead>   
+                    <tr>
+                        <th class="text-center" style="width: 100px;">ID</th>
+                        <th class="d-none d-sm-table-cell text-center">Submitted</th>
+                        <th>Status</th>
+                        <th class="d-none d-xl-table-cell">Customer</th>
+                        <th class="d-none d-xl-table-cell text-center">Products</th>
+                        <th class="d-none d-sm-table-cell text-right">Value</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                    </thead>
                     <tbody>
-                        <?php
-                        $badges['0']['class']   = "badge-success";
-                        $badges['0']['text']    = "Delivered";
-                        $badges['1']['class']   = "badge-info";
-                        $badges['1']['text']    = "For delivery";
-                        $badges['2']['class']   = "badge-danger";
-                        $badges['2']['text']    = "Canceled";
-                        $badges['3']['class']   = "badge-warning";
-                        $badges['3']['text']    = "Processing";
-                        ?>
-                        <?php for ($i = 65; $i > 46; $i--) { ?>
+                    <?php
+                    $badges['0']['class'] = "badge-success";
+                    $badges['0']['text'] = "Delivered";
+                    $badges['1']['class'] = "badge-info";
+                    $badges['1']['text'] = "For delivery";
+                    $badges['2']['class'] = "badge-danger";
+                    $badges['2']['text'] = "Canceled";
+                    $badges['3']['class'] = "badge-warning";
+                    $badges['3']['text'] = "Processing";
+                    ?>
+                    <?php for ($i = 65; $i > 46; $i--) { ?>
                         <tr>
                             <td class="text-center">
                                 <a class="font-w600" href="be_pages_ecom_order.php">
                                     <strong>ORD.0192<?php echo $i; ?></strong>
                                 </a>
                             </td>
-                            <td class="d-none d-sm-table-cell text-center"><?php echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>/2020</td>
+                            <td class="d-none d-sm-table-cell text-center"><?php echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>
+                                /2020
+                            </td>
                             <td class="font-size-base">
-                                <span class="badge badge-pill<?php $rand = rand(0, 3); echo ($badges[$rand]['class']) ? " " . $badges[$rand]['class'] : ""; ?>"><?php echo $badges[$rand]['text']; ?></span>
+                                <span class="badge badge-pill<?php $rand = rand(0, 3);
+                                echo ($badges[$rand]['class']) ? " " . $badges[$rand]['class'] : ""; ?>"><?php echo $badges[$rand]['text']; ?></span>
                             </td>
                             <td class="d-none d-xl-table-cell">
                                 <a class="font-w600" href="be_pages_ecom_customer.php"><?php $dm->get_name(); ?></a>
@@ -154,7 +169,7 @@
                                 </a>
                             </td>
                         </tr>
-                        <?php } ?>
+                    <?php } ?>
                     </tbody>
                 </table>
             </div>

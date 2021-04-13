@@ -211,7 +211,7 @@
         </div>
         <div class="col-md-6">
             <!-- Sign Up Box Alt -->
-            <a class="block block-rounded block-link-shadow" href="op_auth_signup_box_alt.php">
+            <a class="block block-rounded block-link-shadow" href="staff-login.php">
                 <div class="block-content block-content-full">
                     <div class="row py-4">
                         <div class="col-4 d-flex align-items-center justify-content-end border-right py-4">
