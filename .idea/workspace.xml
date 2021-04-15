@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="optimise personal-profile.html">
-      <change afterPath="$PROJECT_DIR$/user/personal-profile/login-check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/personal-profile/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="integrated">
+      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/tanchuang/css/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/tanchuang/css/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/logout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="staff_portal" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
