@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="debased">
+      <change afterPath="$PROJECT_DIR$/assets/css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/cart_query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/shoplist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/personal-profile.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31__11_07___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3,_6_14_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3__6_14___Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/slick-carousel/slick.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1pV4ZfwoMzKOsBw0RkWb3RGdeEM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,13 +61,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mario\PhpstormProjects\Group9-web\assets\css" />
+      <recent name="C:\Users\Mario\PhpstormProjects\Group9-web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
     </key>
@@ -105,6 +120,7 @@
       <workItem from="1617444419657" duration="57000" />
       <workItem from="1617444502290" duration="910000" />
       <workItem from="1617670174871" duration="3000000" />
+      <workItem from="1618488096737" duration="1539000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -271,5 +287,9 @@
     <MESSAGE value="rebased from master" />
     <MESSAGE value="debased" />
     <option name="LAST_COMMIT_MESSAGE" value="debased" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
