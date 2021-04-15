@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('../../utils/conn.php');
+include('../utils/conn.php');
 
 $imgname = $_FILES['file']['name'];
 $tmp = $_FILES['file']['tmp_name'];

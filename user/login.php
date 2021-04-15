@@ -1,6 +1,6 @@
 <?php
 if (!isset($_POST['submit'])) {
-    echo "<script>location.href='login-demo.html';</script>";
+    echo "<script>location.href='login.html';</script>";
     exit;
 }
 

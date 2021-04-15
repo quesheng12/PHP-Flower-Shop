@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("../../utils/conn.php");
+include("../utils/conn.php");
 if (!isset($_POST) || !isset($_SESSION['staff_id'])) {
     echo "<script>location.href='../src/be_pages_ecom_orders.php';</script>";
     exit;

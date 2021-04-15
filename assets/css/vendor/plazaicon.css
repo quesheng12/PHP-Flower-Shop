@@ -5,12 +5,12 @@
 
   @font-face {
     font-family: 'plaza-icon';
-    src: url('../../fonts/plazaicon.eot');
-    src: url('../../fonts/plazaicon.eot') format('embedded-opentype'),
-         url('../../fonts/plazaicon.woff2') format('woff2'),
-         url('../../fonts/plazaicon.woff') format('woff'),
-         url('../../fonts/plazaicon.ttf') format('truetype'),
-         url('../../fonts/plazaicon.svg#plazaicon') format('svg');
+    src: url('../fonts/plazaicon.eot');
+    src: url('../fonts/plazaicon.eot') format('embedded-opentype'),
+         url('../fonts/plazaicon.woff2') format('woff2'),
+         url('../fonts/plazaicon.woff') format('woff'),
+         url('../fonts/plazaicon.ttf') format('truetype'),
+         url('../fonts/plazaicon.svg#plazaicon') format('svg');
 }
   
   [class^="icon-"], [class*=" icon-"] {
