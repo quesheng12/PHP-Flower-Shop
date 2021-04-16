@@ -13045,6 +13045,7 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 
 .content {
   width: 100%;
+  height: 400px;
   margin: 0 auto;
   padding: 0.875rem 0.875rem 1px;
   overflow-x: visible;

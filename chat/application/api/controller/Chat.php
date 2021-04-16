@@ -36,8 +36,11 @@ class Chat extends Controller
 //    根据用户id返回用户名
     public function getName($uid)
     {
-
-        $userinfo = Db::name("user")->where('id', $uid)->field('nickname')->find();
+        if($uid<100) {
+            $userinfo = Db::name("user")->where('id', $uid)->field('nickname')->find();
+        }else{
+            $userinfo = Db::name("staff")->where('id', $uid)->field('nickname')->find();
+        }
         return $userinfo['nickname'];
     }
 
@@ -48,8 +51,13 @@ class Chat extends Controller
             $fromid = input('fromid');
             $toid = input('toid');
 
-            $frominfo = Db::name('user')->where('id', $fromid)->field('headimgurl')->find();
-            $toinfo = Db::name('user')->where('id', $toid)->field('headimgurl')->find();
+            if($fromid < 100) {
+                $frominfo = Db::name('user')->where('id', $fromid)->field('headimgurl')->find();
+                $toinfo = Db::name('staff')->where('id', $toid)->field('headimgurl')->find();
+            }else{
+                $frominfo = Db::name('staff')->where('id', $fromid)->field('headimgurl')->find();
+                $toinfo = Db::name('user')->where('id', $toid)->field('headimgurl')->find();
+            }
 
             return [
                 'from_head' => $frominfo['headimgurl'],
@@ -64,7 +72,11 @@ class Chat extends Controller
     {
         if (Request::instance()->isAjax()) {
             $uid = input('uid');
-            $toinfo = Db::name('user')->where('id', $uid)->field('nickname')->find();
+            if($uid > 100) {
+                $toinfo = Db::name('staff')->where('id', $uid)->field('nickname')->find();
+            }else{
+                $toinfo = Db::name('user')->where('id', $uid)->field('nickname')->find();
+            }
             return ["toname" => $toinfo['nickname']];
         }
     }
