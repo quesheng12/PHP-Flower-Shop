@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="fix: fix an error on the header">
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Anniversary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Best Sellers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Birthday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Gifts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/JustBecause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Plants.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/Sympathy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/getWell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/blog/blog-02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loggedin-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/blog-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/blog-03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/chat/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -123,6 +120,7 @@
       <workItem from="1617670174871" duration="3000000" />
       <workItem from="1618488096737" duration="1539000" />
       <workItem from="1618541622981" duration="622000" />
+      <workItem from="1618577132399" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
