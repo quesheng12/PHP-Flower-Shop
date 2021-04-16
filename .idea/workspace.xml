@@ -2,84 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/style/login-signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/login-signup.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/login-signup.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/order-status-change.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/plugins-min/plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/plugins-min/plugins.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor/plazaicon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/plazaicon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/themify-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kugu-asset/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kugu-asset/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/product-image-upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/product-image-upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/plugins/balloonpanel/skins/kama/balloonpanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/plugins/balloonpanel/skins/kama/balloonpanel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/plugins/balloontoolbar/skins/kama/balloontoolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/plugins/balloontoolbar/skins/kama/balloontoolbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/appendto.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/appendto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/autogrow/autogrow.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/autogrow/autogrow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/bbcode/bbcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/bbcode/bbcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/codesnippet/codesnippet.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/codesnippet/codesnippet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/datafiltering.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/datafiltering.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/devtools/devtools.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/devtools/devtools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/divarea/divarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/divarea/divarea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/divreplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/divreplace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/docprops/docprops.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/docprops/docprops.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/easyimage/easyimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/easyimage/easyimage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/emoji/emoji.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/emoji/emoji.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/image2/image2.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/image2/image2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/inlineall.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/inlineall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/inlinebycode.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/jquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/jquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/mathjax/mathjax.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/mathjax/mathjax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/mentions/mentions.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/mentions/mentions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/placeholder/placeholder.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/placeholder/placeholder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/readonly.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/readonly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/replacebyclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/replacebycode.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/replacebycode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/sharedspace/sharedspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/sharedspace/sharedspace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/sourcedialog/sourcedialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/sourcedialog/sourcedialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/stylesheetparser/stylesheetparser.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/stylesheetparser/stylesheetparser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/tabindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/tabindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/tableresize/tableresize.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/tableresize/tableresize.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/uicolor.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/uicolor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/uicolor/uicolor.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/uicolor/uicolor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/uilanguages.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/uilanguages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-classic/build/ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-classic/build/ckeditor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/register-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main_new" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +37,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1pV4ZfwoMzKOsBw0RkWb3RGdeEM" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

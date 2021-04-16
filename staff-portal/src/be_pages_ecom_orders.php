@@ -121,52 +121,61 @@ require '../../utils/check-staff-login.php';
                         <th class="d-none d-sm-table-cell text-center">Submitted</th>
                         <th>Status</th>
                         <th class="d-none d-xl-table-cell">Customer</th>
-                        <th class="d-none d-xl-table-cell text-center">Products</th>
-                        <th class="d-none d-sm-table-cell text-right">Value</th>
+                        <!--                        <th class="d-none d-xl-table-cell text-center">Products</th>-->
+                        <!--                        <th class="d-none d-sm-table-cell text-right">Value</th>-->
                         <th class="text-center">Actions</th>
                     </tr>
                     </thead>
                     <tbody>
                     <?php
-                    $badges['0']['class'] = "badge-success";
-                    $badges['0']['text'] = "Delivered";
-                    $badges['1']['class'] = "badge-info";
-                    $badges['1']['text'] = "For delivery";
-                    $badges['2']['class'] = "badge-danger";
-                    $badges['2']['text'] = "Canceled";
-                    $badges['3']['class'] = "badge-warning";
-                    $badges['3']['text'] = "Processing";
+                    include('../../utils/conn.php');
+
+                    $badges['FOR_DELIVERY']['class'] = "badge-info";
+                    $badges['FOR_DELIVERY']['text'] = "For delivery";
+                    $badges['FINISHED']['class'] = "badge-success";
+                    $badges['FINISHED']['text'] = "Finished";
+                    $badges['CANCELED']['class'] = "badge-danger";
+                    $badges['CANCELED']['text'] = "Canceled";
+                    $badges['OFFLINE']['class'] = "badge-warning";
+                    $badges['OFFLINE']['text'] = "Offline";
+                    $badges['DELIVERING']['class'] = "badge-primary";
+                    $badges['DELIVERING']['text'] = "Delivering";
+
+                    $sql = "select id,user_id,service,status,time from orders";
+                    $rst = mysqli_query($conn, $sql);
                     ?>
-                    <?php for ($i = 65; $i > 46; $i--) { ?>
+                    <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
                         <tr>
                             <td class="text-center">
-                                <a class="font-w600" href="be_pages_ecom_order.php">
-                                    <strong>ORD.0192<?php echo $i; ?></strong>
+                                <a class="font-w600" href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
+                                    <strong>ORD.<?php echo $arr['id']; ?></strong>
                                 </a>
                             </td>
-                            <td class="d-none d-sm-table-cell text-center"><?php echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>
-                                /2020
-                            </td>
+                            <td class="d-none d-sm-table-cell text-center"><?php echo $arr['time'] ?></td>
                             <td class="font-size-base">
-                                <span class="badge badge-pill<?php $rand = rand(0, 3);
-                                echo ($badges[$rand]['class']) ? " " . $badges[$rand]['class'] : ""; ?>"><?php echo $badges[$rand]['text']; ?></span>
+                                <span class="badge badge-pill<?php $status = $arr['status'];
+                                echo ($badges[$status]['class']) ? " " . $badges[$status]['class'] : ""; ?>"><?php echo $badges[$status]['text']; ?></span>
                             </td>
                             <td class="d-none d-xl-table-cell">
-                                <a class="font-w600" href="be_pages_ecom_customer.php"><?php $dm->get_name(); ?></a>
+                                <a class="font-w600"
+                                   href="be_pages_ecom_customer.php">USER.<?php echo $arr['user_id']; ?></a>
                             </td>
-                            <td class="d-none d-xl-table-cell text-center">
-                                <a class="font-w600" href="be_pages_ecom_order.php"><?php echo rand(1, 9); ?></a>
-                            </td>
-                            <td class="d-none d-sm-table-cell text-right">
-                                <strong>$<?php echo rand(25, 2500) . ',' . rand(10, 99); ?></strong>
-                            </td>
+                            <!--                            <td class="d-none d-xl-table-cell text-center">-->
+                            <!--                                <a class="font-w600" href="be_pages_ecom_order.php">-->
+                            <?php //echo rand(1, 9); ?><!--</a>-->
+                            <!--                            </td>-->
+                            <!--                            <td class="d-none d-sm-table-cell text-right">-->
+                            <!--                                <strong>$-->
+                            <?php //echo rand(25, 2500) . ',' . rand(10, 99); ?><!--</strong>-->
+                            <!--                            </td>-->
                             <td class="text-center font-size-base">
-                                <a class="btn btn-sm btn-alt-secondary" href="be_pages_ecom_order.php">
+                                <a class="btn btn-sm btn-alt-secondary"
+                                   href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
                                     <i class="fa fa-fw fa-eye"></i>
                                 </a>
-                                <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-times text-danger"></i>
-                                </a>
+                                <!--                                <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">-->
+                                <!--                                    <i class="fa fa-fw fa-times text-danger"></i>-->
+                                <!--                                </a>-->
                             </td>
                         </tr>
                     <?php } ?>
