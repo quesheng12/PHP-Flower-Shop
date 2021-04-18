@@ -7,6 +7,12 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/head_start.php'; ?>
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
+<?php
+include('../../utils/conn.php');
+$today = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE TO_DAYS(NOW()) - TO_DAYS(time) < 1"))['num'];
+$yesterday = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE TO_DAYS(NOW()) - TO_DAYS(time) = 1"))['num'];
+$this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= time"))['num'];
+?>
 
 <!-- Page Content -->
 <div class="content">
@@ -15,7 +21,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="be_pages_ecom_orders.php">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 text-primary mb-1">78</div>
+                    <div class="font-size-h3 font-w600 text-primary mb-1"><?php echo $today; ?></div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
                         Pending
                     </p>
@@ -25,7 +31,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 mb-1">126</div>
+                    <div class="font-size-h3 font-w600 mb-1"><?php echo $today; ?></div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
                         Today
                     </p>
@@ -35,7 +41,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 mb-1">350</div>
+                    <div class="font-size-h3 font-w600 mb-1"><?php echo $yesterday; ?></div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
                         Yesterday
                     </p>
@@ -45,7 +51,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 mb-1">89.752</div>
+                    <div class="font-size-h3 font-w600 mb-1"><?php echo $this_month; ?></div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
                         This Month
                     </p>
@@ -128,8 +134,6 @@ require '../../utils/check-staff-login.php';
                     </thead>
                     <tbody>
                     <?php
-                    include('../../utils/conn.php');
-
                     $badges['FOR_DELIVERY']['class'] = "badge-info";
                     $badges['FOR_DELIVERY']['text'] = "For delivery";
                     $badges['FINISHED']['class'] = "badge-success";
@@ -141,7 +145,7 @@ require '../../utils/check-staff-login.php';
                     $badges['DELIVERING']['class'] = "badge-primary";
                     $badges['DELIVERING']['text'] = "Delivering";
 
-                    $sql = "select id,user_id,service,status,time from orders";
+                    $sql = "select id,user_id,service,status,time from orders ORDER BY time DESC";
                     $rst = mysqli_query($conn, $sql);
                     ?>
                     <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
