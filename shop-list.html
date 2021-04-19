@@ -635,11 +635,11 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="quick-view-content">
-                                    <h4 class="product-title">Sweet Alyssum</h4>
+                                    <h4 class="product-title"></h4>
                                     <div class="thumb-price">
-                                        <span class="current-price">$19.00</span>
-                                        <span class="old-price">$29.00</span>
-                                        <span class="discount">-34%</span>
+                                        <span class="current-price"></span>
+<!--                                        <span class="old-price">$29.00</span>-->
+<!--                                        <span class="discount">-34%</span>-->
                                     </div>
                                     <div class="product-rating">
                                         <ul class="rating-star">
@@ -651,7 +651,7 @@
                                         </ul>
                                         <span>No reviews</span>
                                     </div>
-                                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will</p>
+                                    <p class="description"></p>
 
                                     <div class="quick-view-quantity-addcart d-flex flex-wrap">
                                         <div action="#">
@@ -662,7 +662,7 @@
                                             </div>
                                         </div>
                                         <div class="addcart-btn">
-                                            <button class="btn btn-primary">Add to cart</button>
+                                            <button class="btn btn-primary add_to_cart">Add to cart</button>
                                         </div>
                                     </div>
                                 </div>
@@ -712,7 +712,6 @@
         let page = 1;
         $(document).ready(function() {
             page_select(page);
-
         });
 
         function to(id) {
@@ -775,7 +774,7 @@
                             '                                        </a>\n' +
                             '                                        <div class="action-links">\n' +
                             '                                            <ul>\n' +
-                            '                                                <li><a href="javascript:void(0);" onclick="add_to_cart(' + 1 + ', ' + data[key]['id'] + ', 1)"  data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>\n' +
+                            '                                                <li><a href="javascript:void(0);" onclick="add_to_cart(' + data[key]['id'] + ', 1)"  data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>\n' +
                             '                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>\n' +
                             '                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>\n' +
                             '                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>\n' +
@@ -826,7 +825,7 @@
                             '                                <p>' + data[key]['description'] + '</p>\n' +
                             '\n' +
                             '                                <ul class="action-links">\n' +
-                            '                                    <li><a href="javascript:void(0);" onclick="add_to_cart(' + 1 + ', ' + data[key]['id'] + ', 1)" class="add-cart" data-tooltip="tooltip" data-placement="top" title="Add to cart"> Add to cart </a></li>\n' +
+                            '                                    <li><a href="javascript:void(0);" onclick="add_to_cart(' + data[key]['id'] + ', 1)" class="add-cart" data-tooltip="tooltip" data-placement="top" title="Add to cart"> Add to cart </a></li>\n' +
                             '                                    <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="top" title="Add to Wishlist" class="wishlist"><i class="icon-heart"></i></a></li>\n' +
                             '                                    <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="top" title="Compare" class="compare"><i class="icon-sliders"></i></a></li>\n' +
                             '                                </ul>\n' +
@@ -867,13 +866,12 @@
             }
         }
 
-        function add_to_cart(uid, iid, q) {
+        function add_to_cart(iid, q) {
             $.ajax({
                 type: "POST",
-                url: "/trading/cart_query.php",
+                url: "trading/cart_query.php",
                 data: {
                     action: 2,
-                    user_id: uid,
                     item_id: iid,
                     quantity: q
                 },

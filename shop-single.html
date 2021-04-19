@@ -1351,8 +1351,7 @@
 
     let stock;
     let id=getQueryVariable('id');
-    // let quan = $('#quantity').val();
-    $('#add_to_cart').html('<button class="btn btn-primary" onclick="add_to_cart(' + 1 + ', ' + id + ', $(\'#quantity\').val())">Add to cart</button>');
+    $('#add_to_cart').html('<button class="btn btn-primary" onclick="add_to_cart(' + id + ', $(\'#quantity\').val())">Add to cart</button>');
     $.ajax({
         type: "POST",
         url: "trading/item.php",
@@ -1372,13 +1371,12 @@
         }
     })
 
-    function add_to_cart(uid, iid, q) {
+    function add_to_cart(iid, q) {
         $.ajax({
             type: "POST",
             url: "trading/cart_query.php",
             data: {
                 action: 2,
-                user_id: uid,
                 item_id: iid,
                 quantity: q
             },
