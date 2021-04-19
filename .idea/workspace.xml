@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="feature: add header functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/cart_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart_query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature_index" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,7 +274,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
