@@ -29,7 +29,10 @@ $(window).resize(function () {
     }
 })
 
-function open_form() {
+function open_form(content, title) {
+    option.content = content;
+    option.title = title;
+
     xtip.open(option);
 
     //信息修改表单点按改变边框
@@ -43,7 +46,7 @@ function open_form() {
 }
 
 function address_form_open_add() {
-    open_form();
+    open_form('#address-form', 'Address');
     $('#address-form-type').val('add');
 }
 
@@ -104,7 +107,7 @@ function getUserInfo() {
 
 //设置address下方的edit按钮
             $(".my-account-address").find(".row").first().find(".btn-primary").not(":last").on('click', function () {
-                open_form();
+                open_form('#address-form', 'Address');
                 $('#address-form-type').val('edit');
                 $('#form-name').val($(this).attr('data-name'));
                 $('#form-province').val($(this).attr('data-province'));
@@ -137,6 +140,7 @@ function delmsg(id) {
         });
 }
 
+
 $(document).ready(function () {
     getUserInfo();
 
@@ -167,4 +171,36 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('.order-view').on('click', function () {
+        // alert($(this).attr('data-id'))
+        let id = $(this).attr('data-id');
+        open_form('#order-view-modal', 'Order')
+        $.post('get-order.php',
+            {'oid': parseInt(id)},
+            function (data, status) {
+                data = JSON.parse(data);
+                $('#tbody').html(data['str'] +
+                    '   <tr class="table-active">\n' +
+                    '<td colspan="3" class="text-right text-uppercase"><strong>Total\n' +
+                    'Price:</strong></td>\n' +
+                    '<td class="text-right"><strong id=\'total-price\'>¥' + data['total_price'] + '</strong>\n' +
+                    '</td>\n' +
+                    '</tr>');
+
+                if (data['status'] !== 'FINISHED' && data['status'] !== 'CANCELED') {
+                    $('#btns').html(' <button class="btn btn-primary" style="display: block" data-id="' + id + '">Canceled</button>');
+                    $('#btns').find('button').on('click', function () {
+                        $.post('/staff-portal/backend/order-status-change.php',
+                            {
+                                'oid': parseInt($(this).attr('data-id')),
+                                'status': '4'
+                            },
+                            function (data, status) {
+                                alert('Order Canceled Successfully');
+                            })
+                    })
+                }
+            })
+    })
 })

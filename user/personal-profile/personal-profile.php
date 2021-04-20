@@ -91,6 +91,22 @@
                             <div class="my-account-order account-wrapper">
                                 <h4 class="account-title">Orders</h4>
                                 <div class="account-table text-center mt-30 table-responsive">
+                                    <div id="order-view-modal">
+                                        <!--<table id='quick-view-table' class="table table-borderless table-striped table-vcenter font-size-sm">
+                                            <thead>
+                                            <tr>
+                                                <th>Product Name</th>
+                                                <th class="text-center">Quantity</th>
+                                                <th class="text-right" >Unit Cost</th>
+                                                <th class="text-right" >Price</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody id='tbody'>
+                                            </tbody>
+                                        </table>
+                                        <div id='btns'>
+                                        </div>-->
+                                    </div>
                                     <div class="table-responsive">
                                         <table class="table table-borderless table-striped table-vcenter font-size-sm">
                                             <thead>
@@ -148,9 +164,9 @@
                                                     <?php //echo rand(25, 2500) . ',' . rand(10, 99); ?><!--</strong>-->
                                                     <!--                            </td>-->
                                                     <td class="text-center font-size-base">
-                                                        <a class="btn btn-sm btn-alt-secondary"
-                                                           href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
-                                                            <i class="fa fa-fw fa-eye"></i>
+                                                        <a class="btn btn-sm btn-alt-secondary order-view"
+                                                           data-id="<?php echo $arr['id']; ?>">
+                                                            <i class=" fa fa-fw fa-eye"></i>
                                                         </a>
                                                         <!--                                <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">-->
                                                         <!--                                    <i class="fa fa-fw fa-times text-danger"></i>-->
@@ -161,6 +177,7 @@
                                             </tbody>
                                         </table>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

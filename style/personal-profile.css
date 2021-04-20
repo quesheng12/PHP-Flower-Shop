@@ -196,4 +196,21 @@
   padding-right: 30px;
   cursor: pointer;
 }
+.xtiper_tit.xmcss1 p {
+  margin: auto 0;
+  display: inline;
+  font-weight: 600;
+  font-size: initial;
+}
+#quick-view-table {
+  padding: 0 20px;
+}
+#btns .btn {
+  display: block;
+  margin: auto;
+  font-size: 12px;
+  margin-bottom: 20px !important;
+  padding: 0 15px;
+  line-height: 0;
+}
 /*# sourceMappingURL=personal-profile.css.map */
