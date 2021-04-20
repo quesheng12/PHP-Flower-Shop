@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/personal-profile.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_3_31,_11_07_上午_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_4_3,_6_14_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/plugins-min/plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/plugins-min/plugins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/vendor/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/vendor/plazaicon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/plazaicon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/vendor/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/themify-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -35,8 +35,8 @@ if ($_POST['type'] == 'add') {
 }
 
 if ($conn->query($sql) === TRUE) {
-    echo "<script>location.href='personal-profile.html';alert('Edit Successfully!')</script>";
+    echo "<script>location.href='personal-profile.php';alert('Edit Successfully!')</script>";
 } else {
-    echo "<script>location.href='personal-profile.html';alert('Edit Failed')</script>";
+    echo "<script>location.href='personal-profile.php';alert('Edit Failed')</script>";
     echo "Error:" . $sql . "<br>" . $conn->error;
 }
