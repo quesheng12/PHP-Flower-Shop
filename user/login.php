@@ -22,6 +22,7 @@ while ($arr = mysqli_fetch_assoc($rst)) {
         session_start();
         $_SESSION['username'] = $p['username'];
         $_SESSION['password'] = $p['password'];
+        $_SESSION['uid'] = $arr['id'];
         echo 100;
     }
 }

@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal">
-      <change afterPath="$PROJECT_DIR$/template/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="footer, header 封装">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/plugins-min/plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/plugins-min/plugins.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor/plazaicon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/plazaicon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/vendor/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/vendor/themify-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login-signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login-signup.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login-signup.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -331,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618584694914</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="footer, header 封装">
+      <created>1618891224763</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1618891224763</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +382,8 @@
     <MESSAGE value="**** git" />
     <MESSAGE value="1" />
     <MESSAGE value="staff portal" />
-    <option name="LAST_COMMIT_MESSAGE" value="staff portal" />
+    <MESSAGE value="footer, header 封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer, header 封装" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

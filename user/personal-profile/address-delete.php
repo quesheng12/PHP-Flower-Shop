@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("../../utils/conn.php");
 
 if (!isset($_SESSION['username'])) {

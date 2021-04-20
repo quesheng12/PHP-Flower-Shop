@@ -11,6 +11,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../../kugu-asset/images/favicon.png">
 
+    <link rel="stylesheet" href="../../staff-portal/src/assets/css/dashmix.min.css">
     <link rel="stylesheet" href="../../kugu-asset/css/helper.css">
     <link rel="stylesheet" href="../../kugu-asset/css/plugins-min/plugins.min.css">
     <link rel="stylesheet" href="../../kugu-asset/css/style.min.css">
@@ -25,6 +26,10 @@
             }
         });
     </script>
+    <?php
+    session_start();
+    include("../../utils/conn.php");
+    ?>
 </head>
 
 <body>
@@ -86,50 +91,82 @@
                             <div class="my-account-order account-wrapper">
                                 <h4 class="account-title">Orders</h4>
                                 <div class="account-table text-center mt-30 table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                        <tr>
-                                            <th class="no">No</th>
-                                            <th class="name">Name</th>
-                                            <th class="date">Date</th>
-                                            <th class="status">Status</th>
-                                            <th class="total">Total</th>
-                                            <th class="action">Action</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mostarizing Oil</td>
-                                            <td>Aug 22, 2020</td>
-                                            <td>Pending</td>
-                                            <td>$100</td>
-                                            <td><a href="#">View</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Katopeno Altuni</td>
-                                            <td>July 22, 2020</td>
-                                            <td>Approved</td>
-                                            <td>$45</td>
-                                            <td><a href="#">View</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Murikhete Paris</td>
-                                            <td>June 22, 2020</td>
-                                            <td>On Hold</td>
-                                            <td>$99</td>
-                                            <td><a href="#">View</a></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-responsive">
+                                        <table class="table table-borderless table-striped table-vcenter font-size-sm">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center" style="width: 100px;">ID</th>
+                                                <th class="d-none d-sm-table-cell text-center">Submitted</th>
+                                                <th>Status</th>
+                                                <!--                                                <th class="d-none d-xl-table-cell">Customer</th>-->
+                                                <!--                        <th class="d-none d-xl-table-cell text-center">Products</th>-->
+                                                <!--                        <th class="d-none d-sm-table-cell text-right">Value</th>-->
+                                                <th class="text-center">Actions</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <?php
+                                            $badges['FOR_DELIVERY']['class'] = "badge-info";
+                                            $badges['FOR_DELIVERY']['text'] = "For delivery";
+                                            $badges['FINISHED']['class'] = "badge-success";
+                                            $badges['FINISHED']['text'] = "Finished";
+                                            $badges['CANCELED']['class'] = "badge-danger";
+                                            $badges['CANCELED']['text'] = "Canceled";
+                                            $badges['OFFLINE']['class'] = "badge-warning";
+                                            $badges['OFFLINE']['text'] = "Offline";
+                                            $badges['DELIVERING']['class'] = "badge-primary";
+                                            $badges['DELIVERING']['text'] = "Delivering";
+
+                                            $sql = "select id,user_id,service,status,time from orders WHERE user_id=" . $_SESSION['uid'] . " ORDER BY time DESC";
+                                            $rst = mysqli_query($conn, $sql);
+                                            ?>
+                                            <?php $num = 1;
+                                            while ($arr = mysqli_fetch_assoc($rst)) { ?>
+                                                <tr>
+                                                    <td class="text-center">
+                                                        <a class="font-w600"
+                                                           href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
+                                                            <strong>ORD.<?php echo $num++; ?></strong>
+                                                        </a>
+                                                    </td>
+                                                    <td class="d-none d-sm-table-cell text-center"><?php echo $arr['time'] ?></td>
+                                                    <td class="font-size-base">
+                                <span class="badge badge-pill<?php $status = $arr['status'];
+                                echo ($badges[$status]['class']) ? " " . $badges[$status]['class'] : ""; ?>"><?php echo $badges[$status]['text']; ?></span>
+                                                    </td>
+                                                    <!--                                                    <td class="d-none d-xl-table-cell">-->
+                                                    <!--                                                        <a class="font-w600"-->
+                                                    <!--                                                           href="be_pages_ecom_customer.php">USER.-->
+                                                    <?php //echo $arr['user_id']; ?><!--</a>-->
+                                                    <!--                                                    </td>-->
+                                                    <!--                            <td class="d-none d-xl-table-cell text-center">-->
+                                                    <!--                                <a class="font-w600" href="be_pages_ecom_order.php">-->
+                                                    <?php //echo rand(1, 9); ?><!--</a>-->
+                                                    <!--                            </td>-->
+                                                    <!--                            <td class="d-none d-sm-table-cell text-right">-->
+                                                    <!--                                <strong>$-->
+                                                    <?php //echo rand(25, 2500) . ',' . rand(10, 99); ?><!--</strong>-->
+                                                    <!--                            </td>-->
+                                                    <td class="text-center font-size-base">
+                                                        <a class="btn btn-sm btn-alt-secondary"
+                                                           href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
+                                                            <i class="fa fa-fw fa-eye"></i>
+                                                        </a>
+                                                        <!--                                <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">-->
+                                                        <!--                                    <i class="fa fa-fw fa-times text-danger"></i>-->
+                                                        <!--                                </a>-->
+                                                    </td>
+                                                </tr>
+                                            <?php } ?>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-address">
                             <div class="my-account-address account-wrapper">
-                                <h4 class="account-title col-md-12">Address</h4>
+                                <h4 class="account-title">Address</h4>
                                 <div id="address-form">
                                     <!--<form id="" method="post" action="address-manage.php"
                                           style="padding: 0 20px">
@@ -256,132 +293,7 @@
     </div>
     <!--My Account End-->
 
-    <!--Footer Section Start-->
-    <div class="footer-area">
-        <div class="container">
-            <div class="footer-widget-area section-padding-6">
-                <div class="row justify-content-between">
-
-                    <!--Footer Widget Start-->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget">
-                            <a class="footer-logo" href="#"><img src="../../kugu-asset/images/logo/logo-white.png"
-                                                                 alt=""></a>
-                            <div class="footer-widget-text">
-                                <p>A perfect blend of creativity, energy, communication, happiness and love. Let us
-                                    arrange a smile for you. </p>
-                            </div>
-                            <div class="widget-social">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Footer Widget End-->
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Information</h4>
-
-                            <div class="footer-widget-menu">
-                                <ul>
-                                    <li><a href="#">Search Terms</a></li>
-                                    <li><a href="#">Advanced Search</a></li>
-                                    <li><a href="#">Helps & Faqs</a></li>
-                                    <li><a href="#">Store Location</a></li>
-                                    <li><a href="#">Orders & Returns</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">My Account</h4>
-
-                            <div class="footer-widget-menu">
-                                <ul>
-                                    <li><a href="#">Delivery</a></li>
-                                    <li><a href="#">Legal Notice</a></li>
-                                    <li><a href="#">Secure payment</a></li>
-                                    <li><a href="#">Sitemap</a></li>
-                                    <li><a href="about.html">About us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Help</h4>
-
-                            <div class="footer-widget-menu">
-                                <ul>
-                                    <li><a href="#">FAQ’s</a></li>
-                                    <li><a href="#">Pricing Plans</a></li>
-                                    <li><a href="#">Track</a></li>
-                                    <li><a href="#">Your Order</a></li>
-                                    <li><a href="#">Returns</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Customer Service</h4>
-
-                            <div class="footer-widget-menu">
-                                <ul>
-                                    <li><a href="my-account.html">My Account</a></li>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Deliveries & Returns</a></li>
-                                    <li><a href="#">Gift card</a></li>
-                                    <li><a href="#">Legal Notice</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Footer Section End-->
-
-    <!--Copyright Section Start-->
-    <div class="copyright-section">
-        <div class="container">
-            <div class="copyright-wrapper text-center d-lg-flex align-items-center justify-content-between">
-
-                <!--Right Start-->
-                <div class="copyright-content">
-                    <p>Copyright 2020 &copy; <a href="http://www.bootstrapmb.com/">HasThemes</a> . All Rights Reserved
-                    </p>
-                </div>
-                <!--Right End-->
-
-                <!--Right Start-->
-                <div class="copyright-payment">
-                    <img src="../../kugu-asset/images/payment.png" alt="">
-                </div>
-                <!--Right End-->
-
-            </div>
-        </div>
-    </div>
-    <!--Copyright Section End-->
-
-
-    <!--Back To Start-->
-    <a href="#" class="back-to-top">
-        <i class="fa fa-angle-double-up"></i>
-    </a>
-    <!--Back To End-->
+    <?php include('../../template/footer.html'); ?>
 
 </div>
 
