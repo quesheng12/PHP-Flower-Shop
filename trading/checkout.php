@@ -29,7 +29,7 @@ function f($pp){
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png">
 
     <!-- CSS
 	============================================ -->
@@ -48,15 +48,15 @@ function f($pp){
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css"> -->
 
     <!-- Helper CSS -->
-    <link rel="stylesheet" href="assets/css/helper.css">
+    <link rel="stylesheet" href="../assets/css/helper.css">
 
     <!-- Main Style CSS -->
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 
 
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
-    <link rel="stylesheet" href="assets/css/plugins-min/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
+    <link rel="stylesheet" href="../assets/css/style.min.css">
 
 
 </head>
@@ -86,7 +86,7 @@ function f($pp){
                     <div class="row align-items-center">
                         <div class="col-lg-2">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                                <a href="index.html"><img src="../assets/images/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-7 position-static">
@@ -135,7 +135,7 @@ function f($pp){
                                                 </li>
                                                 <li class="mega-dropdown">
                                                     <a class="menu-banner" href="#">
-                                                        <img src="assets/images/menu-banner.jpg" alt="">
+                                                        <img src="../assets/images/menu-banner.jpg" alt="">
                                                     </a>
                                                 </li>
                                             </ul>
@@ -210,7 +210,7 @@ function f($pp){
                                             <li class="product-cart">
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+                                                        <a href="shop-single.html"><img src="../assets/images/cart/cart-1.jpg" alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
@@ -224,7 +224,7 @@ function f($pp){
                                                 </div>
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+                                                        <a href="shop-single.html"><img src="../assets/images/cart/cart-2.jpg" alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
@@ -238,7 +238,7 @@ function f($pp){
                                                 </div>
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-3.jpg" alt=""></a>
+                                                        <a href="shop-single.html"><img src="../assets/images/cart/cart-3.jpg" alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
@@ -277,7 +277,7 @@ function f($pp){
                 <div class="row align-items-center">
                     <div class="col-6">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                            <a href="index.html"><img src="../assets/images/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-6">
@@ -377,7 +377,7 @@ function f($pp){
                                 </li>
                                 <li class="mega-dropdown">
                                     <a class="menu-banner" href="#">
-                                        <img src="assets/images/menu-banner.jpg" alt="">
+                                        <img src="../assets/images/menu-banner.jpg" alt="">
                                     </a>
                                 </li>
                             </ul>
@@ -439,7 +439,7 @@ function f($pp){
         <!--Overlay-->
 
         <!--Page Banner Start-->
-        <div class="page-banner" style="background-image: url(assets/images/testimonial-bg.jpg);">
+        <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">
             <div class="container">
                 <div class="page-banner-content text-center">
                     <h2 class="title">Checkout</h2>
@@ -769,7 +769,7 @@ function f($pp){
 
                     <!--Right Start-->
                     <div class="copyright-payment">
-                        <img src="assets/images/payment.png" alt="">
+                        <img src="../assets/images/payment.png" alt="">
                     </div>
                     <!--Right End-->
 
@@ -791,9 +791,9 @@ function f($pp){
     ============================================ -->
 
     <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="../assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/vendor/jquery-3.3.1.min.js"></script>
     <!-- Bootstrap JS -->
     <!-- <script src="assets/js/vendor/popper.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script> -->
@@ -807,15 +807,15 @@ function f($pp){
 
 
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
-    <script src="assets/js/plugins.min.js"></script>
+    <script src="../assets/js/plugins.min.js"></script>
 
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 
 
     <!-- Google Map js -->
     <script src="http://www.google.cn/maps/api/js?key=AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"></script>
-    <script src="assets/js/map-script.js"></script>
+    <script src="../assets/js/map-script.js"></script>
     <script>
         let choose = 0;
         $(document).ready(function () {

@@ -47,7 +47,7 @@
                             <p>Bouquets your mom will love!</p>
 
                             <ul class="slider-btn">
-                                <li><a href="shop-single.html" class="btn btn-round btn-primary">Start Shopping</a></li>
+                                <li><a href="trading/shop-single.html" class="btn btn-round btn-primary">Start Shopping</a></li>
                             </ul>
                         </div>
                     </div>
@@ -94,91 +94,91 @@
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/Birthday.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Birthday</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Birthday</a></h4>
                                         </div>
                                     </div>
 
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/Sympathy.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Sympathy</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Sympathy</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/getWell.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Get Well</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Get Well</a></h4>
                                         </div>
                                     </div>
 
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/Anniversary.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Anniversary</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Anniversary</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/JustBecause.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Just Because</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Just Because</a></h4>
                                         </div>
                                     </div>
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/Best%20Sellers.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Best Sellers</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Best Sellers</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/Plants.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Plants</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Plants</a></h4>
                                         </div>
                                     </div>
 
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="shop-single.html">
+                                            <a href="trading/shop-single.html">
                                                 <img src="assets/images/product/Gifts.png" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="shop-single.html">Gifts</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-single.html">Gifts</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -309,14 +309,14 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-1.jpg" alt="">
                                     </a>
                                     <span class="sticker-new soldout-title">Soldout</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -336,7 +336,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Spring Snowflake</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Spring Snowflake</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$29.00</span>
@@ -347,12 +347,12 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-2.jpg" alt="">
                                     </a>
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -372,7 +372,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Rock Soapwort</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Rock Soapwort</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$50.00</span>
                                     </div>
@@ -382,7 +382,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-3.jpg" alt="">
                                     </a>
 
@@ -390,7 +390,7 @@
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -415,7 +415,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Scarlet Sage</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Scarlet Sage</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$39.00</span>
                                         <span class="old-price">$60.00</span>
@@ -426,13 +426,13 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-4.jpg" alt="">
                                     </a>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -452,7 +452,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Foxglove Flower</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Foxglove Flower</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$79.00</span>
                                     </div>
@@ -462,7 +462,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-5.jpg" alt="">
                                     </a>
 
@@ -470,7 +470,7 @@
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -490,7 +490,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Summer Savory</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Summer Savory</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$40.00</span>
                                         <span class="old-price">$85.00</span>
@@ -501,7 +501,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-6.jpg" alt="">
                                     </a>
 
@@ -509,7 +509,7 @@
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -529,7 +529,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Wild Roses</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Wild Roses</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$21.00</span>
@@ -540,13 +540,13 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-7.jpg" alt="">
                                     </a>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -566,7 +566,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Sweet Alyssum</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Sweet Alyssum</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$50.00</span>
                                     </div>
@@ -576,7 +576,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-8.jpg" alt="">
                                     </a>
 
@@ -584,7 +584,7 @@
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -604,7 +604,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Lity Majesty Palm</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Lity Majesty Palm</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$29.00</span>
@@ -615,7 +615,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="trading/shop-single.html">
                                         <img src="assets/images/product/product-9.jpg" alt="">
                                     </a>
 
@@ -623,7 +623,7 @@
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -643,7 +643,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Majesty Palm</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.html">Majesty Palm</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$29.00</span>
