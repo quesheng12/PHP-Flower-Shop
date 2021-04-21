@@ -7,12 +7,15 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/head_start.php'; ?>
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
+<link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
+<script src="../../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
 <?php
 include('../../utils/conn.php');
 $today = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE TO_DAYS(NOW()) - TO_DAYS(time) < 1"))['num'];
 $yesterday = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE TO_DAYS(NOW()) - TO_DAYS(time) = 1"))['num'];
 $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= time"))['num'];
 ?>
+
 
 <!-- Page Content -->
 <div class="content">
@@ -221,6 +224,13 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
     <!-- END All Orders -->
 </div>
 <!-- END Page Content -->
+
+<script>
+    setTimeout(function () {
+        //内容3秒后执行
+        xtip.confirm('You have a new order!', '', {icon: 's'});
+    }, 3000);
+</script>
 
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>

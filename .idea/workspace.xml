@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal: news upload and edit">
-      <change afterPath="$PROJECT_DIR$/images/news/2/图1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/2/图26810900.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/5/图12638300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/5/图1795980.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/5/图19354800.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="page-zh" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
