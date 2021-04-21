@@ -1,4 +1,24 @@
-﻿<!doctype html>
+﻿<?php
+session_start();
+
+$p = $_POST;
+$pp = json_decode($p['data'], true);
+function f($pp){
+    $html = '';
+    for ($i = 0; $i < count($pp['id']); $i++) {
+        $html .= '<tr>\n' .
+            '                                                <td class="Product-name">\n' .
+            '                                                    <p>' . $pp['name'][$i] . ' x ' . $pp['quantity'][$i] . '</p>\n' .
+            '                                                </td>\n' .
+            '                                                <td class="Product-price">\n' .
+            '                                                    <p>' . $pp['price'][$i] . '</p>\n' .
+            '                                                </td>\n' .
+            '                                            </tr>\n';
+    }
+    return $html;
+}
+?>
+<!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -163,10 +183,10 @@
                         <div class="col-lg-3">
                             <div class="header-meta-info">
                                 <div class="header-search">
-                                    <div action="#">
+                                    <form action="#">
                                         <input type="text" placeholder="Search our store ">
                                         <button><i class="icon-search"></i></button>
-                                    </div>
+                                    </form>
                                 </div>
                                 <div class="header-account">
                                     <div class="header-account-list dropdown top-link">
@@ -305,10 +325,10 @@
 
             <div class="header-meta-info">
                 <div class="header-search">
-                    <div action="#">
+                    <form action="#">
                         <input type="text" placeholder="Search our store ">
                         <button><i class="icon-search"></i></button>
-                    </div>
+                    </form>
                 </div>
             </div>
 
@@ -422,76 +442,223 @@
         <div class="page-banner" style="background-image: url(assets/images/testimonial-bg.jpg);">
             <div class="container">
                 <div class="page-banner-content text-center">
-                    <h2 class="title">Products</h2>
+                    <h2 class="title">Checkout</h2>
                     <ol class="breadcrumb justify-content-center">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Products</li>
+                        <li class="breadcrumb-item active" aria-current="page">Checkout</li>
                     </ol>
                 </div>
             </div>
         </div>
         <!--Page Banner End-->
 
-        <!--Shop Start-->
-        <div class="shop-page section-padding-6">
+        <!--Register Start-->
+        <div class="checkout-page section-padding-5">
             <div class="container">
+<!--                <div class="checkout-info mt-30">-->
+<!--                    <p class="info-header error"><i class="fa fa-exclamation-circle"></i> <strong>Error:</strong> Username is required.</p>-->
+<!--                </div>-->
 
-                <!--Shop Top Bar Start-->
-                <div class="shop-top-bar d-sm-flex align-items-center justify-content-between">
-                    <div class="top-bar-btn">
-                        <ul class="nav" role="tablist">
-                            <li class="nav-item"><a class="nav-link grid" data-toggle="tab" href="#grid" role="tab"></a></li>
-                            <li class="nav-item"><a class="nav-link list active" data-toggle="tab" href="#list" role="tab"></a></li>
-                        </ul>
-                    </div>
-                    <div class="top-bar-sorter">
-                        <div class="sorter-wrapper d-flex align-items-center">
-                            <label>Sort by:</label>
-                            <select class="sorter wide" name="SortBy" id="SortBy">
-                                <option value="manual">Featured</option>
-                                <option value="best-selling">Best Selling</option>
-                                <option value="title-ascending">Alphabetically, A-Z</option>
-                                <option value="title-descending">Alphabetically, Z-A</option>
-                                <option value="price-ascending">Price, low to high</option>
-                                <option value="price-descending">Price, high to low</option>
-                                <option value="created-descending">Date, new to old</option>
-                                <option value="created-ascending">Date, old to new</option>
-                            </select>
+<!--                <div class="checkout-info mt-30">-->
+<!--                    <p class="info-header"> <i class="fa fa-exclamation-circle"></i> Returning customer? <a data-toggle="collapse" href="#login">Click here to login</a></p>-->
+
+<!--                    <div class="collapse" id="login">-->
+<!--                        <div class="card-body">-->
+<!--                            <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>-->
+<!--                            <form action="#">-->
+
+<!--                                <div class="row">-->
+<!--                                    <div class="col-lg-6">-->
+<!--                                        <div class="single-form">-->
+<!--                                            <label>Username or email *</label>-->
+<!--                                            <input type="email">-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-lg-6">-->
+<!--                                        <div class="single-form">-->
+<!--                                            <label>Password</label>-->
+<!--                                            <input type="password">-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                                <div class="single-form d-flex align-items-center">-->
+<!--                                    <button class="btn btn-primary">Login</button>-->
+<!--                                    <div class="cus-checkbox">-->
+<!--                                        <input type="checkbox" id="remember">-->
+<!--                                        <label for="remember"><span></span> Remember Me</label>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="forget">-->
+<!--                                    <a href="#">Lost Your Password</a>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="checkout-info mt-30">-->
+<!--                    <p class="info-header"> <i class="fa fa-exclamation-circle"></i> Have a coupon? <a data-toggle="collapse" href="#coupon">Click here to enter your code</a></p>-->
+
+<!--                    <div class="collapse" id="coupon">-->
+<!--                        <div class="card-body">-->
+<!--                            <form action="#">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-lg-6">-->
+<!--                                        <div class="single-form">-->
+<!--                                            <input type="email" placeholder="Coupon code">-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-lg-6">-->
+<!--                                        <div class="single-form">-->
+<!--                                            <button class="btn btn-primary">Login</button>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="checkout-form mt-30">
+
+                                <div class="checkout-title">
+                                    <h4 class="title">Choose Your Address</h4>
+                                </div>
+
+                                <div class="choose-address">
+
+                                </div>
+
+                                <div class="single-form checkout-note">
+                                    <label>Order notes</label>
+                                    <textarea class="note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="checkout-review-order mt-30">
+                                <div class="checkout-title">
+                                    <h4 class="title">Your Order</h4>
+                                </div>
+
+                                <div class="checkout-review-order-table table-responsive mt-15">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="Product-name">Product</th>
+                                                <th class="Product-price">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="item">
+
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td class="Product-name">
+                                                    <p>Subtotal</p>
+                                                </td>
+                                                <td class="Product-price subtotal">
+                                                    <p></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="Product-name">
+                                                    <p>Pickup Mode</p>
+                                                </td>
+                                                <td class="Product-price">
+                                                    <ul class="shipping-list">
+<!--                                                        <li class="cus-radio">-->
+<!--                                                            <input type="radio" name="shipping" id="radio1" checked>-->
+<!--                                                            <label for="radio1"><span></span> Flat Rate</label>-->
+<!--                                                        </li>-->
+                                                        <li class="cus-radio">
+                                                            <input type="radio" name="shipping" id="radio2" value="DELIVERY" checked="checked">
+                                                            <label for="radio2"><span></span> Delivery</label>
+                                                        </li>
+                                                        <li class="cus-radio">
+                                                            <input type="radio" name="shipping" id="radio3" value="OFFLINE">
+                                                            <label for="radio3"><span></span> Local Pickup</label>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="Product-name">
+                                                    <p>Total</p>
+                                                </td>
+                                                <td class="total-price final-total">
+                                                    <p></p>
+                                                </td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+
+                                <div class="checkout-payment">
+                                    <ul>
+                                        <li>
+                                            <div class="single-payment">
+                                                <div class="payment-radio cus-radio">
+                                                    <input type="radio" name="radio" id="wechat">
+                                                    <label for="wechat"><span></span> WeChat Pay </label>
+
+<!--                                                    <div class="payment-details">-->
+<!--                                                        <p>Please send a Check to Store name with Store Street, Store Town, Store State, Store Postcode, Store Country.</p>-->
+<!--                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="single-payment">
+                                                <div class="payment-radio cus-radio">
+                                                    <input type="radio" name="radio" id="ali">
+                                                    <label for="ali"><span></span> Alipay </label>
+
+<!--                                                    <div class="payment-details">-->
+<!--                                                        <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>-->
+<!--                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="single-payment">
+                                                <div class="payment-radio cus-radio">
+                                                    <input type="radio" name="radio" id="cash" checked="checked">
+                                                    <label for="cash"><span></span> Cash</label>
+
+<!--                                                    <div class="payment-details">-->
+<!--                                                        <p>Pay with cash upon delivery.</p>-->
+<!--                                                    </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+<!--                                        <li>-->
+<!--                                            <div class="single-payment">-->
+<!--                                                <div class="payment-radio cus-radio">-->
+<!--                                                    <input type="radio" name="radio" id="paypal">-->
+<!--                                                    <label for="paypal"><span></span> Paypal <img class="payment" src="assets/images/payment-2.png" alt=""> <a href="#">What is PayPal?</a></label>-->
+
+<!--                                                    <div class="payment-details">-->
+<!--                                                        <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </li>-->
+                                    </ul>
+
+                                    <div class="checkout-btn">
+                                        <button class="btn btn-primary btn-block place-order">Place Order</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="top-bar-page-amount">
-
-                    </div>
-                </div>
-                <!--Shop Top Bar End-->
-
-
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade" id="grid" role="tabpanel">
-
-                    </div>
-                    <div class="tab-pane fade show active" id="list" role="tabpanel">
-
-                    </div>
-                </div>
-
-
-                <!--Pagination Start-->
-                <div class="page-pagination">
-<!--                    <ul class="pagination justify-content-center">-->
-<!--                        <li class="page-item"><a class="page-link prev" href="#" onclick="pre_page()">Prev</a></li>-->
-<!--                        <li class="page-item"><a class="page-link active" href="#">1</a></li>-->
-<!--                        <li class="page-item"><a class="page-link" href="#">2</a></li>-->
-<!--                        <li class="page-item"><a class="page-link" href="#">3</a></li>-->
-<!--                        <li class="page-item"><a class="page-link next" href="#" onclick="next_page()">Next</a></li>-->
-<!--                    </ul>-->
-                </div>
-                <!--Pagination End-->
-
-
             </div>
         </div>
-        <!--Shop End-->
+        <!--Register End-->
 
 
         <!--Footer Section Start-->
@@ -618,63 +785,6 @@
         </a>
         <!--Back To End-->
 
-
-
-
-        <!-- Quick View  Start-->
-        <div class="modal fade" id="exampleModal">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="quick-view-image">
-                                    <img src="assets/images/product-single/product-1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="quick-view-content">
-                                    <h4 class="product-title"></h4>
-                                    <div class="thumb-price">
-                                        <span class="current-price"></span>
-<!--                                        <span class="old-price">$29.00</span>-->
-<!--                                        <span class="discount">-34%</span>-->
-                                    </div>
-                                    <div class="product-rating">
-                                        <ul class="rating-star">
-                                            <li><i class="fa fa-star-o"></i></li>
-                                            <li><i class="fa fa-star-o"></i></li>
-                                            <li><i class="fa fa-star-o"></i></li>
-                                            <li><i class="fa fa-star-o"></i></li>
-                                            <li><i class="fa fa-star-o"></i></li>
-                                        </ul>
-                                        <span>No reviews</span>
-                                    </div>
-                                    <p class="description"></p>
-
-                                    <div class="quick-view-quantity-addcart d-flex flex-wrap">
-                                        <div action="#">
-                                            <div class="quantity d-inline-flex">
-                                                <button type="button" class="sub"><i class="ti-minus"></i></button>
-                                                <input type="text" value="1" />
-                                                <button type="button" class="add"><i class="ti-plus"></i></button>
-                                            </div>
-                                        </div>
-                                        <div class="addcart-btn">
-                                            <button class="btn btn-primary add_to_cart">Add to cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Quick View Tags End-->
-
-
     </div>
 
     <!-- JS
@@ -706,183 +816,100 @@
     <!-- Google Map js -->
     <script src="http://www.google.cn/maps/api/js?key=AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"></script>
     <script src="assets/js/map-script.js"></script>
-
     <script>
-        let num = 0;
-        let page = 1;
-        $(document).ready(function() {
-            page_select(page);
+        let choose = 0;
+        $(document).ready(function () {
+            $.ajax({
+                type: "POST",
+                url: "trading/address.php",
+                dataType: "json",
+                success: function (data) {
+                    showAddress(data);
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
+
+            $('.item').html('<?php echo f($pp); ?>');
+            $('.subtotal').html('$'+'<?php echo $pp['subtotal']; ?>');
+            $('.final-total').html('$'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
+            $('#radio2').click(function() {
+                $('.final-total').html('$'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
+                $('.choose-address').css({'z-index':'', 'background':'', 'opacity': '', 'display': ''});
+                $('.btn-choose-address').removeAttr("disabled");
+            });
+            $('#radio3').click(function() {
+                $('.final-total').html('$'+'<?php echo $pp['subtotal']; ?>');
+                $('.choose-address').css({'z-index':100, 'background':'#dee2e6', 'opacity': 0.3, 'display': 'block'});
+                $('.btn-choose-address').attr('disabled', 'disabled');
+            });
+            $('.place-order').click(function () {
+                let service = '';
+                let status = '';
+                if($('[name="shipping"]:checked').val()=='DELIVERY'){
+                    service = 'DELIVERY';
+                    status = 'FOR_DELIVERY';
+                }
+                else if($('[name="shipping"]:checked').val()=='OFFLINE'){
+                    service = 'OFFLINE';
+                    status = 'OFFLINE';
+                }
+                let item = '<?php echo implode(', ', $pp['id']); ?>';
+                let quantity = '<?php echo implode(', ', $pp['quantity']); ?>';
+                $.ajax({
+                    type: "POST",
+                    url: "trading/order.php",
+                    data: {
+                        action: 1,
+                        service: service,
+                        address: choose,
+                        note: $('.note').val(),
+                        status: status,
+                        item: item.split(', '),
+                        quantity: quantity.split(', ')
+                    },
+                    dataType: "json",
+                    success: function () {
+                        alert("Check Successfully!");
+                        window.location.href = 'shop-list.html';
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+                });
+                $.ajax({
+                    type: "POST",
+                    url: "trading/cart_query.php",
+                    data: {
+                        action: 4
+                    }
+                })
+            });
         });
 
-        function to(id) {
-            window.location.href = 'shop-single.html?id=' + id;
+        function c(id) {
+            $('[data-address-id] .address-node').css('border', '');
+            $('[data-address-id=' + id + '] .address-node').css('border', '2px solid red');
+            choose = id;
         }
-        function pre_page() {
-            if(page>1) {
-                page_select(page - 1);
+        function showAddress(data) {
+            //设置address栏信息
+            let address_str = "";
+            let address_num = 0;
+            for (let key in data) {
+                address_num++;
+                let add_temp = data[key];
+                address_str += '            <div class="col-md-4" style="display: inline-flex" data-address-id="' + add_temp['id'] + '">\n' +
+                    '                <div class="account-address mt-30 address-node">\n' +
+                    '                    <h6 class="name">' + add_temp['name'] + '</h6>\n' +
+                    '                    <p>' + add_temp['province'] + " " + add_temp['city'] + " " + add_temp['area'] + " " + add_temp['detail'] + '</p>\n' +
+                    '                    <p>Mobile: ' + add_temp['phone'] + '</p>\n' +
+                    '                    <a href="javascript:void(0)" onclick="c(' + add_temp['id'] + ')" class="btn btn-primary btn-choose-address"><i class="fa fa-edit"></i> Choose Address</a>\n' +
+                    '                </div>\n' +
+                    '            </div>';
             }
-            else{
-                alert("It's already the first page!");
-            }
-        }
-        function next_page() {
-            if(page < Math.ceil(num/12)){
-                page_select(page + 1)
-            }
-            else{
-                alert("It's already the last page!");
-            }
-
-        }
-        function page_select(p) {
-            page = p;
-            $.ajax({
-                type: "POST",
-                url: "trading/shoplist.php",
-                data: {action: 2},
-                // cache: false,
-                async: false,
-                success: function(data) {
-                    num = data;
-                    let max = p*12;
-                    if(max > num){
-                        max = num;
-                    }
-                    let str1 = '<p>Showing ' + ((p-1)*12+1) + ' - ' + max + ' of ' + num + ' result</p>';
-                    $('.top-bar-page-amount').html(str1);
-                },
-                error: function () {
-                    alert("error");
-                }
-            });
-            $.ajax({
-                type: "POST",
-                url: "trading/shoplist.php",
-                data: {action: 1,
-                       page: p},
-                dataType: "json",
-                // async: false,
-                success: function (data) {
-                    let grid_html = '<div class="row">\n';
-                    let list_html = '';
-                    for (let key in data) {
-                        grid_html += '<div class="col-lg-3 col-sm-6">\n' +
-                            '                                <div class="single-product">\n' +
-                            '                                    <div class="product-image">\n' +
-                            '                                        <a href="javascript:void(0);" onclick="to(' + data[key]['id'] + ')">\n' +
-                            '                                            <img src="'+ data[key]['image'] + '" alt="">\n' +
-                            '                                        </a>\n' +
-                            '                                        <div class="action-links">\n' +
-                            '                                            <ul>\n' +
-                            '                                                <li><a href="javascript:void(0);" onclick="add_to_cart(' + data[key]['id'] + ', 1)"  data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>\n' +
-                            '                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>\n' +
-                            '                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>\n' +
-                            '                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>\n' +
-                            '                                            </ul>\n' +
-                            '                                        </div>\n' +
-                            '                                    </div>\n' +
-                            '                                    <div class="product-content text-center">\n' +
-                            '                                        <ul class="rating">\n' +
-                            '                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                        </ul>\n' +
-                            '                                        <h4 class="product-name"><a href="javascript:void(0);" onclick="to(' + data[key]['id'] + ')">' + data[key]['name'] + '</a></h4>\n' +
-                            '                                        <div class="price-box">\n' +
-                            '                                            <span class="current-price">$' + data[key]['price'] + '</span>\n' +
-                            '                                        </div>\n' +
-                            '                                    </div>\n' +
-                            '                                </div>\n' +
-                            '                            </div>';
-
-
-                        list_html += '<div class="single-product product-list">\n' +
-                            '                            <div class="product-image">\n' +
-                            '                                <a href="javascript:void(0);" onclick="to(' + data[key]['id'] + ')">\n' +
-                            '                                    <img src="'+ data[key]['image'] + '" alt="">\n' +
-                            '                                </a>\n' +
-                            '\n' +
-                            '                                <div class="action-links">\n' +
-                            '                                    <ul>\n' +
-                            '                                        <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>\n' +
-                            '                                    </ul>\n' +
-                            '                                </div>\n' +
-                            '                            </div>\n' +
-                            '                            <div class="product-content">\n' +
-                            '                                <ul class="rating">\n' +
-                            '                                    <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                    <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                    <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                    <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                    <li class="rating-on"><i class="fa fa-star-o"></i></li>\n' +
-                            '                                </ul>\n' +
-                            '                                <h4 class="product-name"><a href="javascript:void(0);" onclick="to(' + data[key]['id'] + ')">' + data[key]['name'] + '</a></h4>\n' +
-                            '                                <div class="price-box">\n' +
-                            '                                    <span class="current-price">$' + data[key]['price'] + '</span>\n' +
-                            '                                </div>\n' +
-                            '                                <p>' + data[key]['description'] + '</p>\n' +
-                            '\n' +
-                            '                                <ul class="action-links">\n' +
-                            '                                    <li><a href="javascript:void(0);" onclick="add_to_cart(' + data[key]['id'] + ', 1)" class="add-cart" data-tooltip="tooltip" data-placement="top" title="Add to cart"> Add to cart </a></li>\n' +
-                            '                                    <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="top" title="Add to Wishlist" class="wishlist"><i class="icon-heart"></i></a></li>\n' +
-                            '                                    <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="top" title="Compare" class="compare"><i class="icon-sliders"></i></a></li>\n' +
-                            '                                </ul>\n' +
-                            '                            </div>\n' +
-                            '                        </div>';
-                    }
-                    grid_html += '</div>';
-                    $('#grid').html(grid_html);
-                    $('#list').html(list_html);
-                },
-                error: function () {
-                    alert("error");
-                }
-
-            });
-            let maxpage = Math.ceil(num/12);
-            let html = '<ul class="pagination justify-content-center">\n' +
-                '                        <li class="page-item"><a class="page-link prev" id=p0 href="#" onclick="pre_page()">Prev</a></li>\n' +
-                '                        <li class="page-item"><a class="page-link" id=p1 href="#" onclick="page_select(' + (p-2) + ')">' + (p-2) + '</a></li>\n' +
-                '                        <li class="page-item"><a class="page-link" id=p2 href="#" onclick="page_select(' + (p-1) + ')">' + (p-1) + '</a></li>\n' +
-                '                        <li class="page-item"><a class="page-link active" id=p3 href="#" onclick="page_select(' + (p) + ')">' + p + '</a></li>\n' +
-                '                        <li class="page-item"><a class="page-link" id=p4 href="#" onclick="page_select(' + (p+1) + ')">' + (p+1) + '</a></li>\n' +
-                '                        <li class="page-item"><a class="page-link" id=p5 href="#" onclick="page_select(' + (p+2) + ')">' + (p+2) + '</a></li>\n' +
-                '                        <li class="page-item"><a class="page-link next" id=p6 href="#" onclick="next_page()">Next</a></li>\n' +
-                '                    </ul>';
-            $('.page-pagination').html(html);
-            if(p==1){
-                $('#p0, #p1, #p2').hide();
-            }
-            else if(p==2){
-                $('#p1').hide();
-            }
-            if(p==maxpage){
-                $('#p4, #p5, #p6').hide();
-            }
-            else if(p==maxpage-1){
-                $('#p5').hide();
-            }
-        }
-
-        function add_to_cart(iid, q) {
-            $.ajax({
-                type: "POST",
-                url: "trading/cart_query.php",
-                data: {
-                    action: 2,
-                    item_id: iid,
-                    quantity: q
-                },
-                dataType: "json",
-                success: function () {
-                    alert("Added Successfully!");
-                },
-                error: function () {
-                    alert("error");
-                }
-            });
+            $('.choose-address').html(address_str);
         }
 
     </script>
