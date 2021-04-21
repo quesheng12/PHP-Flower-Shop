@@ -6,8 +6,12 @@ $dm->l_header_style = 'dark-glass';
 ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
 <?php require 'inc/_global/views/head_end.php'; ?>
-<?php require 'inc/_global/views/page_start.php'; ?>
 
+<link rel="stylesheet" href="/assets/css/plugins-min/plugins.min.css">
+<link rel="stylesheet" href="/assets/css/style.min.css">
+<link rel="stylesheet" href="/style/style.css">
+
+<?php include('../../template/header.html'); ?>
 <!-- Hero -->
 <div class="bg-image" style="background-image: url('<?php echo $dm->assets_folder; ?>/media/photos/photo9@2x.jpg');">
     <div class="bg-black-50">
@@ -15,7 +19,8 @@ $dm->l_header_style = 'dark-glass';
             <h1 class="font-w700 text-white mt-5 mb-2 invisible" data-toggle="appear">
                 Check out our latest stories
             </h1>
-            <h3 class="font-w400 text-white-75 mb-5 invisible" data-toggle="appear" data-timeout="400">Be inspired and create something amazing today.</h3>
+            <h3 class="font-w400 text-white-75 mb-5 invisible" data-toggle="appear" data-timeout="400">Be inspired and
+                create something amazing today.</h3>
         </div>
     </div>
 </div>
@@ -31,10 +36,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Get things done</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 30, 2019 · <em class="text-muted">9 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 30, 2019 · <em
+                                class="text-muted">9 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -48,10 +55,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">What to do in the night market</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 24, 2019 · <em class="text-muted">8 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 24, 2019 · <em
+                                class="text-muted">8 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -65,10 +74,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Work &amp; Travel</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 21, 2019 · <em class="text-muted">14 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 21, 2019 · <em
+                                class="text-muted">14 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -82,10 +93,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Learn to code</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 18, 2019 · <em class="text-muted">9 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 18, 2019 · <em
+                                class="text-muted">9 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -99,10 +112,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Enjoy Life</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 16, 2019 · <em class="text-muted">17 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 16, 2019 · <em
+                                class="text-muted">17 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -116,10 +131,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Spring is here</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 14, 2019 · <em class="text-muted">13 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 14, 2019 · <em
+                                class="text-muted">13 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -133,10 +150,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Winter is coming</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 12, 2019 · <em class="text-muted">6 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 12, 2019 · <em
+                                class="text-muted">6 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -150,10 +169,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">How to do a special sale</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 6, 2019 · <em class="text-muted">21 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 6, 2019 · <em
+                                class="text-muted">21 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet....
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet....
                     </p>
                 </div>
             </a>
@@ -167,10 +188,12 @@ $dm->l_header_style = 'dark-glass';
                 <div class="block-content">
                     <h4 class="mb-1">Up in the mountains</h4>
                     <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 1, 2019 · <em class="text-muted">20 min</em>
+                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 1, 2019 · <em
+                                class="text-muted">20 min</em>
                     </p>
                     <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus justo amet...
+                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
+                        varius vel euismod sed, tristique et lectus justo amet...
                     </p>
                 </div>
             </a>
@@ -209,6 +232,12 @@ $dm->l_header_style = 'dark-glass';
     <!-- END Pagination -->
 </div>
 <!-- END Page Content -->
+<?php include('../../template/footer.html'); ?>
+
+<script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="/assets/js/vendor/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/plugins.min.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>

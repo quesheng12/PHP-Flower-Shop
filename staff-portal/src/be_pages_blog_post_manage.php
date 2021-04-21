@@ -4,6 +4,9 @@
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
 
+<link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
+<script src="../../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
+
 <!-- Hero -->
 <div class="bg-body-light">
     <div class="content content-full">
@@ -17,7 +20,7 @@
                 </ol>
             </nav>
         </div>
-   </div>
+    </div>
 </div>
 <!-- END Hero -->
 
@@ -25,7 +28,7 @@
 <div class="content content-full">
     <!-- Posts Statistics -->
     <div class="row text-center">
-        <div class="col-6 col-xl-3">
+        <div class="col-6 col-xl-6">
             <!-- All Posts -->
             <a class="block block-rounded" href="be_pages_blog_post_manage.php">
                 <div class="block-content block-content-full">
@@ -44,45 +47,7 @@
             </a>
             <!-- END All Posts -->
         </div>
-        <div class="col-6 col-xl-3">
-            <!-- Active Posts -->
-            <a class="block block-rounded" href="be_pages_blog_post_manage.php">
-                <div class="block-content block-content-full">
-                    <div class="py-md-3">
-                        <div class="py-3 d-none d-md-block">
-                            <i class="far fa-2x fa-eye opacity-50"></i>
-                        </div>
-                        <p class="font-size-h3 font-w700 mb-0">
-                            140
-                        </p>
-                        <p class="text-muted mb-0">
-                            Active
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <!-- END Active Posts -->
-        </div>
-        <div class="col-6 col-xl-3">
-            <!-- Draft Posts -->
-            <a class="block block-rounded" href="be_pages_blog_post_manage.php">
-                <div class="block-content block-content-full">
-                    <div class="py-md-3">
-                        <div class="py-3 d-none d-md-block">
-                            <i class="fa fa-2x fa-pencil-alt opacity-50"></i>
-                        </div>
-                        <p class="font-size-h3 font-w700 mb-0">
-                            10
-                        </p>
-                        <p class="text-muted mb-0">
-                            Drafts
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <!-- END Draft Posts -->
-        </div>
-        <div class="col-6 col-xl-3">
+        <div class="col-6 col-xl-6">
             <!-- New Post -->
             <a class="block block-rounded" href="be_pages_blog_post_add.php">
                 <div class="block-content block-content-full">
@@ -123,299 +88,47 @@
             </form>
             <!-- END Search Posts -->
 
+            <?php
+            include('../../utils/conn.php');
+            $sql = "SELECT id,title,date FROM news ORDER BY date DESC";
+            $rst = mysqli_query($conn, $sql);
+            ?>
             <!-- Posts Table -->
             <table class="table table-striped table-borderless table-vcenter">
                 <thead class="thead-light">
-                    <tr>
-                        <th style="width: 60px;">ID</th>
-                        <th style="width: 33%;">Title</th>
-                        <th class="d-none d-sm-table-cell">Author</th>
-                        <th class="d-none d-xl-table-cell">Created</th>
-                        <th class="d-none d-xl-table-cell">Published</th>
-                        <th style="width: 100px;" class="text-center">Actions</th>
-                    </tr>
+                <tr>
+                    <th style="width: 60px;">ID</th>
+                    <th style="width: 33%;">Title</th>
+                    <th class="d-none d-xl-table-cell">Created</th>
+                    <th style="width: 100px;" class="text-center">Actions</th>
+                </tr>
                 </thead>
                 <tbody>
+                <?php while ($news = mysqli_fetch_assoc($rst)) { ?>
                     <tr>
                         <td>
-                            150
+                            <?php echo $news['id']; ?>
                         </td>
                         <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
                             <a href="be_pages_blog_story.php">
-                                An adventure of a lifetime
+                                <?php echo $news['title']; ?>
                             </a>
                         </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
                         <td class="d-none d-xl-table-cell">
-                            January 14, 2020 at 17:20
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 15, 2020 at 16:34
+                            <?php echo $news['date']; ?>
                         </td>
                         <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
+                            <a class="btn btn-sm btn-light"
+                               href="javascript:void(0)">
                                 <i class="fa fa-fw fa-pencil-alt text-primary"></i>
                             </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
+                            <a class="btn btn-sm btn-light" href="javascript:void(0)"
+                               onclick="deleteNews(<?php echo $news['id']; ?>)">
                                 <i class="fa fa-fw fa-times text-danger"></i>
                             </a>
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            149
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Learn to code in one week
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 13, 2020 at 15:36
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 16, 2020 at 20:48
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            148
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Can you travel &amp; work efficiently?
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 11, 2020 at 20:12
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 16, 2020 at 19:19
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            147
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-danger mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                The best places to work from
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 10, 2020 at 18:10
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 11, 2020 at 17:20
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            146
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Visual Studio Code vs Atom Editor
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 07, 2020 at 23:19
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 10, 2020 at 15:12
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            145
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Exploring the mysterious mountains
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 04, 2020 at 15:12
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 05, 2020 at 19:12
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            144
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Inspire a new generation of web developers
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 03, 2020 at 17:33
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 08, 2020 at 14:51
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            143
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-danger mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                What to do in the night market
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 02, 2020 at 08:23
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 07, 2020 at 21:
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            142
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Modern CSS for Developers
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 02, 2020 at 14:54
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 05, 2020 at 20:18
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            141
-                        </td>
-                        <td>
-                            <i class="fa fa-eye text-success mr-1"></i>
-                            <a href="be_pages_blog_story.php">
-                                Laravel 6 From Scratch
-                            </a>
-                        </td>
-                        <td class="d-none d-sm-table-cell">
-                            <a href="be_pages_generic_profile.php"><?php $dm->get_name(); ?></a>
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 01, 2020 at 12:20
-                        </td>
-                        <td class="d-none d-xl-table-cell">
-                            January 01, 2020 at 11:30
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-light" href="be_pages_blog_post_edit.php">
-                                <i class="fa fa-fw fa-pencil-alt text-primary"></i>
-                            </a>
-                            <a class="btn btn-sm btn-light" href="javascript:void(0)">
-                                <i class="fa fa-fw fa-times text-danger"></i>
-                            </a>
-                        </td>
-                    </tr>
+                <?php } ?>
                 </tbody>
             </table>
             <!-- END Posts Table -->
@@ -459,7 +172,17 @@
     <!-- END Posts -->
 </div>
 <!-- END Page Content -->
-
+<script>
+    function deleteNews(id) {
+        xtip.confirm('Conform Delete News? id=' + id, function () {
+            $.post('../backend/news-delete.php',
+                {'id': id},
+                function () {
+                    xtip.alert('Success', 's');
+                })
+        });
+    }
+</script>
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>
 <?php require 'inc/_global/views/footer_end.php'; ?>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="login register optimize">
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="login and register">
+      <change afterPath="$PROJECT_DIR$/images/news/1/新闻资讯2151740.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/1/新闻资讯3544730.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/news-delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/news-release.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="page-zh" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/presentation/blog" />
       <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/image" />
     </key>

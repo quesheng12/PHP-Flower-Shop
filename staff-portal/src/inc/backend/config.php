@@ -59,4 +59,9 @@ $dm->main_nav = array(
         'url' => 'be_comp_chat.php',
         'icon' => 'fa fa-user-friends'
     ),
+    array(
+        'name' => 'News',
+        'url' => 'be_pages_blog_post_manage.php',
+        'icon' => 'fa fa-sticky-note',
+    )
 );
