@@ -119,7 +119,7 @@
                         </td>
                         <td class="text-center">
                             <a class="btn btn-sm btn-light"
-                               href="javascript:void(0)">
+                               href="be_pages_blog_post_edit.php?id=<?php echo $news['id']; ?>">
                                 <i class="fa fa-fw fa-pencil-alt text-primary"></i>
                             </a>
                             <a class="btn btn-sm btn-light" href="javascript:void(0)"

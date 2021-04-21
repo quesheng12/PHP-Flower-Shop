@@ -4,6 +4,8 @@
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
 
+<script src='../../utils/tinymce/js/tinymce/tinymce.min.js'></script>
+
 <!-- Hero -->
 <div class="bg-body-light">
     <div class="content content-full">
@@ -24,19 +26,19 @@
 <!-- Page Content -->
 <div class="content content-full content-boxed">
     <!-- New Post -->
-    <form action="../backend/news-release.php" method="POST" enctype="multipart/form-data" >
+    <form action="../backend/news-release.php" method="POST" enctype="multipart/form-data">
         <div class="block">
             <div class="block-header block-header-default">
                 <a class="btn btn-light" href="be_pages_blog_post_manage.php">
                     <i class="fa fa-arrow-left mr-1"></i> Manage Posts
                 </a>
-                <div class="block-options">
-                    <div class="custom-control custom-switch custom-control-success">
-                        <input type="checkbox" class="custom-control-input" id="dm-post-add-active"
-                               name="dm-post-add-active">
-                        <label class="custom-control-label" for="dm-post-add-active">Set post as active</label>
-                    </div>
-                </div>
+<!--                <div class="block-options">-->
+<!--                    <div class="custom-control custom-switch custom-control-success">-->
+<!--                        <input type="checkbox" class="custom-control-input" id="dm-post-add-active"-->
+<!--                               name="dm-post-add-active">-->
+<!--                        <label class="custom-control-label" for="dm-post-add-active">Set post as active</label>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
             <div class="block-content">
                 <div class="row justify-content-center push">
@@ -96,9 +98,17 @@
 <?php $dm->get_js('js/plugins/ckeditor/ckeditor.js'); ?>
 
 <!-- Page JS Helpers (CKEditor plugin) -->
-<script>jQuery(function () {
-        CKEDITOR.config.height = '450px';
-        Dashmix.helpers(['ckeditor']);
-    });</script>
+<script>
+    jQuery(function () {
+        tinymce.init({
+            selector: '#js-ckeditor',
+            language: 'zh_CN',
+            height: 450,
+            plugins: 'advlist autolink link image lists preview',
+            toolbar: 'undo redo | styleselect | bold italic |alignleft aligncenter alignright alignjustify| link image',
+            images_upload_url: '../backend/news-picture-save.php',
+        });
+    });
+</script>
 
 <?php require 'inc/_global/views/footer_end.php'; ?>
