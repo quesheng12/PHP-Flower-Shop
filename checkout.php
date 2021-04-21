@@ -520,7 +520,6 @@ function f($pp){
 <!--                    </div>-->
 <!--                </div>-->
 
-                <form action="#">
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="checkout-form mt-30">
@@ -535,7 +534,7 @@ function f($pp){
 
                                 <div class="single-form checkout-note">
                                     <label>Order notes</label>
-                                    <textarea placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                                    <textarea class="note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                                 </div>
                             </div>
                         </div>
@@ -576,11 +575,11 @@ function f($pp){
 <!--                                                            <label for="radio1"><span></span> Flat Rate</label>-->
 <!--                                                        </li>-->
                                                         <li class="cus-radio">
-                                                            <input type="radio" name="shipping" id="radio2" checked="checked">
+                                                            <input type="radio" name="shipping" id="radio2" value="DELIVERY" checked="checked">
                                                             <label for="radio2"><span></span> Delivery</label>
                                                         </li>
                                                         <li class="cus-radio">
-                                                            <input type="radio" name="shipping" id="radio3">
+                                                            <input type="radio" name="shipping" id="radio3" value="OFFLINE">
                                                             <label for="radio3"><span></span> Local Pickup</label>
                                                         </li>
                                                     </ul>
@@ -651,13 +650,12 @@ function f($pp){
                                     </ul>
 
                                     <div class="checkout-btn">
-                                        <a class="btn btn-primary btn-block" href="#">Place Order</a>
+                                        <button class="btn btn-primary btn-block place-order">Place Order</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
             </div>
         </div>
         <!--Register End-->
@@ -819,6 +817,7 @@ function f($pp){
     <script src="http://www.google.cn/maps/api/js?key=AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"></script>
     <script src="assets/js/map-script.js"></script>
     <script>
+        let choose = 0;
         $(document).ready(function () {
             $.ajax({
                 type: "POST",
@@ -838,15 +837,62 @@ function f($pp){
             $('#radio2').click(function() {
                 $('.final-total').html('$'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
                 $('.choose-address').css({'z-index':'', 'background':'', 'opacity': '', 'display': ''});
-                $('.choose-address').removeAttr("disabled");
+                $('.btn-choose-address').removeAttr("disabled");
             });
             $('#radio3').click(function() {
                 $('.final-total').html('$'+'<?php echo $pp['subtotal']; ?>');
                 $('.choose-address').css({'z-index':100, 'background':'#dee2e6', 'opacity': 0.3, 'display': 'block'});
-                $('.choose-address').attr('disabled', 'disabled');
+                $('.btn-choose-address').attr('disabled', 'disabled');
+            });
+            $('.place-order').click(function () {
+                let service = '';
+                let status = '';
+                if($('[name="shipping"]:checked').val()=='DELIVERY'){
+                    service = 'DELIVERY';
+                    status = 'FOR_DELIVERY';
+                }
+                else if($('[name="shipping"]:checked').val()=='OFFLINE'){
+                    service = 'OFFLINE';
+                    status = 'OFFLINE';
+                }
+                let item = '<?php echo implode(', ', $pp['id']); ?>';
+                let quantity = '<?php echo implode(', ', $pp['quantity']); ?>';
+                $.ajax({
+                    type: "POST",
+                    url: "trading/order.php",
+                    data: {
+                        action: 1,
+                        service: service,
+                        address: choose,
+                        note: $('.note').val(),
+                        status: status,
+                        item: item.split(', '),
+                        quantity: quantity.split(', ')
+                    },
+                    dataType: "json",
+                    success: function () {
+                        alert("Check Successfully!");
+                        window.location.href = 'shop-list.html';
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+                });
+                $.ajax({
+                    type: "POST",
+                    url: "trading/cart_query.php",
+                    data: {
+                        action: 4
+                    }
+                })
             });
         });
 
+        function c(id) {
+            $('[data-address-id] .address-node').css('border', '');
+            $('[data-address-id=' + id + '] .address-node').css('border', '2px solid red');
+            choose = id;
+        }
         function showAddress(data) {
             //设置address栏信息
             let address_str = "";
@@ -855,12 +901,11 @@ function f($pp){
                 address_num++;
                 let add_temp = data[key];
                 address_str += '            <div class="col-md-4" style="display: inline-flex" data-address-id="' + add_temp['id'] + '">\n' +
-                    '                <div class="account-address mt-30">\n' +
+                    '                <div class="account-address mt-30 address-node">\n' +
                     '                    <h6 class="name">' + add_temp['name'] + '</h6>\n' +
                     '                    <p>' + add_temp['province'] + " " + add_temp['city'] + " " + add_temp['area'] + " " + add_temp['detail'] + '</p>\n' +
                     '                    <p>Mobile: ' + add_temp['phone'] + '</p>\n' +
-                    '                    <button class="btn btn-primary choose-address" data-phone="' + add_temp['phone'] + '" data-detail="' + add_temp['detail'] + '" data-area="' + add_temp['area'] + '" data-city="' + add_temp['city']
-                    + '" data-province="' + add_temp['province'] + '" data-name="' + add_temp['name'] + '" href="javascript:{}"><i class="fa fa-edit"></i> Choose Address</button>\n' +
+                    '                    <a href="javascript:void(0)" onclick="c(' + add_temp['id'] + ')" class="btn btn-primary btn-choose-address"><i class="fa fa-edit"></i> Choose Address</a>\n' +
                     '                </div>\n' +
                     '            </div>';
             }
