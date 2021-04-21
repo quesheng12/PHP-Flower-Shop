@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="feature: add header functions">
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="cart.html">
+      <change afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggedin-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/loggedin-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart_query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/chat/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -30,11 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature_index" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1pV4ZfwoMzKOsBw0RkWb3RGdeEM" />
@@ -67,10 +79,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mario\PhpstormProjects\Group9-web" />
       <recent name="D:\Group9-web" />
       <recent name="D:\Group9-web\assets\images" />
       <recent name="C:\Users\Mario\PhpstormProjects\Group9-web\assets\css" />
-      <recent name="C:\Users\Mario\PhpstormProjects\Group9-web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
@@ -122,6 +134,8 @@
       <workItem from="1618488096737" duration="1539000" />
       <workItem from="1618541622981" duration="622000" />
       <workItem from="1618577132399" duration="2222000" />
+      <workItem from="1618890291578" duration="10037000" />
+      <workItem from="1618909688283" duration="27590000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -274,19 +288,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
