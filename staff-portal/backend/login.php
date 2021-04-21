@@ -5,7 +5,7 @@ if (!isset($_POST)) {
 }
 
 //连接数据库
-include('../utils/conn.php');
+include('../../utils/conn.php');
 
 
 $p = $_POST;

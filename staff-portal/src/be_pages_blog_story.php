@@ -9,6 +9,14 @@
 <link rel="stylesheet" href="/assets/css/plugins-min/plugins.min.css">
 <link rel="stylesheet" href="/assets/css/style.min.css">
 <link rel="stylesheet" href="/style/style.css">
+
+<?php
+include('../../utils/conn.php');
+$id = $_GET['id'];
+$sql = "SELECT id,title,content FROM news WHERE id=" . $id;
+$news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
+?>
+
 <?php include('../../template/header.html'); ?>
 
 <!-- Hero -->
@@ -16,17 +24,17 @@
     <div class="bg-black-75">
         <div class="content content-top content-full text-center">
             <h1 class="font-w700 text-white mt-5 mb-3 invisible" data-toggle="appear">
-                Inspire a new generation of web developers
+                <?php echo $news['title']; ?>
             </h1>
             <h2 class="h3 font-w400 text-white-75 mb-5 invisible" data-toggle="appear" data-timeout="400">Building a new
                 web platform.</h2>
             <p class="invisible" data-toggle="appear" data-timeout="400">
-                <a class="badge badge-pill badge-primary font-size-base px-3 py-2 mr-2 m-1" href="javascript:void(0)">
-                    <i class="fa fa-user-circle mr-1"></i> by Lisa Smith
-                </a>
-                <span class="badge badge-pill badge-primary font-size-base px-3 py-2 m-1">
-                    <i class="fa fa-clock mr-1"></i> 10 min read
-                </span>
+                <!--                <a class="badge badge-pill badge-primary font-size-base px-3 py-2 mr-2 m-1" href="javascript:void(0)">-->
+                <!--                    <i class="fa fa-user-circle mr-1"></i> by Lisa Smith-->
+                <!--                </a>-->
+                <!--                <span class="badge badge-pill badge-primary font-size-base px-3 py-2 m-1">-->
+                <!--                    <i class="fa fa-clock mr-1"></i> 10 min read-->
+                <!--                </span>-->
             </p>
         </div>
     </div>
@@ -41,61 +49,68 @@
             <!-- Magnific Popup (.js-gallery class is initialized in Helpers.magnific()) -->
             <!-- For more info and examples you can check out http://dimsemenov.com/plugins/magnific-popup/ -->
             <article class="js-gallery story">
-                <?php $dm->get_text('small'); ?>
-                <?php $dm->get_text('medium'); ?>
-                <div class="row gutters-tiny items-push push img-fluid-100">
-                    <div class="col-12 animated fadeIn">
-                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"
-                           href="<?php echo $dm->assets_folder; ?>/media/photos/photo21@2x.jpg">
-                            <?php $dm->get_photo(21, true, 'img-fluid'); ?>
-                        </a>
-                    </div>
-                </div>
-                <?php $dm->get_text('medium'); ?>
-                <div class="row gutters-tiny items-push push img-fluid-100">
-                    <div class="col-4 animated fadeIn">
-                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"
-                           href="<?php echo $dm->assets_folder; ?>/media/photos/photo22@2x.jpg">
-                            <?php $dm->get_photo(22, false, 'img-fluid'); ?>
-                        </a>
-                    </div>
-                    <div class="col-4 animated fadeIn">
-                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"
-                           href="<?php echo $dm->assets_folder; ?>/media/photos/photo4@2x.jpg">
-                            <?php $dm->get_photo(4, false, 'img-fluid'); ?>
-                        </a>
-                    </div>
-                    <div class="col-4 animated fadeIn">
-                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"
-                           href="<?php echo $dm->assets_folder; ?>/media/photos/photo23@2x.jpg">
-                            <?php $dm->get_photo(23, false, 'img-fluid'); ?>
-                        </a>
-                    </div>
-                </div>
-
-                <h3>Coding</h3>
-                <?php $dm->get_text('small', 3); ?>
-
-                <h3>Education</h3>
-                <?php $dm->get_text('medium'); ?>
-                <div class="row gutters-tiny items-push push img-fluid-100">
-                    <div class="col-6 animated fadeIn">
-                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"
-                           href="<?php echo $dm->assets_folder; ?>/media/photos/photo24@2x.jpg">
-                            <?php $dm->get_photo(24, false, 'img-fluid'); ?>
-                        </a>
-                    </div>
-                    <div class="col-6 animated fadeIn">
-                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"
-                           href="<?php echo $dm->assets_folder; ?>/media/photos/photo25@2x.jpg">
-                            <?php $dm->get_photo(25, false, 'img-fluid'); ?>
-                        </a>
-                    </div>
-                </div>
-                <?php $dm->get_text('medium'); ?>
-
-                <h3>Inspiration</h3>
-                <?php $dm->get_text('medium', 2); ?>
+                <?php echo $news['content']; ?>
+                <!--                --><?php //$dm->get_text('small'); ?>
+                <!--                --><?php //$dm->get_text('medium'); ?>
+                <!--                <div class="row gutters-tiny items-push push img-fluid-100">-->
+                <!--                    <div class="col-12 animated fadeIn">-->
+                <!--                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"-->
+                <!--                           href="-->
+                <?php //echo $dm->assets_folder; ?><!--/media/photos/photo21@2x.jpg">-->
+                <!--                            --><?php //$dm->get_photo(21, true, 'img-fluid'); ?>
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                --><?php //$dm->get_text('medium'); ?>
+                <!--                <div class="row gutters-tiny items-push push img-fluid-100">-->
+                <!--                    <div class="col-4 animated fadeIn">-->
+                <!--                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"-->
+                <!--                           href="-->
+                <?php //echo $dm->assets_folder; ?><!--/media/photos/photo22@2x.jpg">-->
+                <!--                            --><?php //$dm->get_photo(22, false, 'img-fluid'); ?>
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-4 animated fadeIn">-->
+                <!--                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"-->
+                <!--                           href="-->
+                <?php //echo $dm->assets_folder; ?><!--/media/photos/photo4@2x.jpg">-->
+                <!--                            --><?php //$dm->get_photo(4, false, 'img-fluid'); ?>
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-4 animated fadeIn">-->
+                <!--                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"-->
+                <!--                           href="-->
+                <?php //echo $dm->assets_folder; ?><!--/media/photos/photo23@2x.jpg">-->
+                <!--                            --><?php //$dm->get_photo(23, false, 'img-fluid'); ?>
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!---->
+                <!--                <h3>Coding</h3>-->
+                <!--                --><?php //$dm->get_text('small', 3); ?>
+                <!---->
+                <!--                <h3>Education</h3>-->
+                <!--                --><?php //$dm->get_text('medium'); ?>
+                <!--                <div class="row gutters-tiny items-push push img-fluid-100">-->
+                <!--                    <div class="col-6 animated fadeIn">-->
+                <!--                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"-->
+                <!--                           href="-->
+                <?php //echo $dm->assets_folder; ?><!--/media/photos/photo24@2x.jpg">-->
+                <!--                            --><?php //$dm->get_photo(24, false, 'img-fluid'); ?>
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!--                    <div class="col-6 animated fadeIn">-->
+                <!--                        <a class="img-link img-link-simple img-link-zoom-in img-lightbox"-->
+                <!--                           href="-->
+                <?php //echo $dm->assets_folder; ?><!--/media/photos/photo25@2x.jpg">-->
+                <!--                            --><?php //$dm->get_photo(25, false, 'img-fluid'); ?>
+                <!--                        </a>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                --><?php //$dm->get_text('medium'); ?>
+                <!---->
+                <!--                <h3>Inspiration</h3>-->
+                <!--                --><?php //$dm->get_text('medium', 2); ?>
             </article>
             <!-- END Story -->
 
@@ -134,8 +149,8 @@
                 <p class="font-size-sm">
                     <i class="fa fa-thumbs-up text-info"></i>
                     <i class="fa fa-heart text-danger"></i>
-                    <a class="font-w600" href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */?></a>,
-                    <a class="font-w600" href="javascript:void(0)"><?php /*echo $dm->get_name('female'); */?></a>,
+                    <a class="font-w600" href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */ ?></a>,
+                    <a class="font-w600" href="javascript:void(0)"><?php /*echo $dm->get_name('female'); */ ?></a>,
                     <a class="font-w600" href="javascript:void(0)">and 72 others</a>
                 </p>
                 <form action="be_pages_blog_story.php" method="POST" onsubmit="return false;">
@@ -144,12 +159,12 @@
                 <div class="pt-3 font-size-sm">
                     <div class="media">
                         <a class="img-link mr-2" href="javascript:void(0)">
-                            <?php /*$dm->get_avatar(0, 'female', 32, true); */?>
+                            <?php /*$dm->get_avatar(0, 'female', 32, true); */ ?>
                         </a>
                         <div class="media-body">
                             <p class="mb-1">
                                 <a class="font-w600"
-                                   href="javascript:void(0)"><?php /*echo $dm->get_name('female'); */?></a>
+                                   href="javascript:void(0)"><?php /*echo $dm->get_name('female'); */ ?></a>
                                 Vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
                                 vulputate fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                                 tincidunt sollicitudin sem nec ultrices. Sed at mi velit.
@@ -160,12 +175,12 @@
                             </p>
                             <div class="media">
                                 <a class="img-link mr-2" href="javascript:void(0)">
-                                    <?php /*$dm->get_avatar(0, 'male', 32, true); */?>
+                                    <?php /*$dm->get_avatar(0, 'male', 32, true); */ ?>
                                 </a>
                                 <div class="media-body">
                                     <p class="mb-1">
                                         <a class="font-w600"
-                                           href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */?></a>
+                                           href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */ ?></a>
                                         Odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
                                         ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                     </p>
@@ -179,11 +194,11 @@
                     </div>
                     <div class="media">
                         <a class="img-link mr-2" href="javascript:void(0)">
-                            <?php /*$dm->get_avatar(0, 'male', 32, true); */?>
+                            <?php /*$dm->get_avatar(0, 'male', 32, true); */ ?>
                         </a>
                         <div class="media-body">
                             <p class="mb-1">
-                                <a class="font-w600" href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */?></a>
+                                <a class="font-w600" href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */ ?></a>
                                 Leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate. Integer sed dolor
                                 erat. Fusce erat ipsum, varius vel euismod sed, tristique et lectus? Etiam egestas
                                 fringilla enim, id convallis lectus laoreet at. Fusce purus nisi, gravida sed
@@ -197,12 +212,12 @@
                             </p>
                             <div class="media">
                                 <a class="img-link mr-2" href="javascript:void(0)">
-                                    <?php /*$dm->get_avatar(0, 'male', 32, true); */?>
+                                    <?php /*$dm->get_avatar(0, 'male', 32, true); */ ?>
                                 </a>
                                 <div class="media-body">
                                     <p class="mb-1">
                                         <a class="font-w600"
-                                           href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */?></a>
+                                           href="javascript:void(0)"><?php /*echo $dm->get_name('male'); */ ?></a>
                                         Odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
                                         ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                     </p>

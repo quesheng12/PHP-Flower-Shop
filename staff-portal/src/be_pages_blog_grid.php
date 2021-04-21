@@ -11,6 +11,12 @@ $dm->l_header_style = 'dark-glass';
 <link rel="stylesheet" href="/assets/css/style.min.css">
 <link rel="stylesheet" href="/style/style.css">
 
+<?php
+include('../../utils/conn.php');
+$sql = "SELECT id,title,pre_image,date,excerpt FROM news";
+$rst = mysqli_query($conn, $sql);
+?>
+
 <?php include('../../template/header.html'); ?>
 <!-- Hero -->
 <div class="bg-image" style="background-image: url('<?php echo $dm->assets_folder; ?>/media/photos/photo9@2x.jpg');">
@@ -29,176 +35,29 @@ $dm->l_header_style = 'dark-glass';
 <!-- Page Content -->
 <div class="content content-full">
     <div class="row row-deck">
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(21, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Get things done</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 30, 2019 · <em
-                                class="text-muted">9 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
 
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(13, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">What to do in the night market</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 24, 2019 · <em
-                                class="text-muted">8 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
+        <?php while ($news = mysqli_fetch_assoc($rst)) { ?>
 
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(23, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Work &amp; Travel</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 21, 2019 · <em
-                                class="text-muted">14 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
+            <!-- Story -->
+            <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
+                <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
+                    <img class="img-fluid" src="<?php echo $news['pre_image']; ?>" alt="">
+                    <div class="block-content">
+                        <h4 class="mb-1"><?php echo $news['title']; ?></h4>
+                        <p class="font-size-sm">
+                            <span class="text-primary"></span>
+                            <?php echo $news['date']; ?>
+<!--                            March 30, 2019-->
+                        </p>
+                        <p>
+                            <?php echo $news['excerpt']; ?>
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <!-- END Story -->
 
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(24, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Learn to code</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 18, 2019 · <em
-                                class="text-muted">9 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
-
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(4, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Enjoy Life</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 16, 2019 · <em
-                                class="text-muted">17 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
-
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(6, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Spring is here</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on March 14, 2019 · <em
-                                class="text-muted">13 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
-
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(7, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Winter is coming</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 12, 2019 · <em
-                                class="text-muted">6 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
-
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(8, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">How to do a special sale</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 6, 2019 · <em
-                                class="text-muted">21 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet....
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
-
-        <!-- Story -->
-        <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-            <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
-                <?php $dm->get_photo(9, true, 'img-fluid'); ?>
-                <div class="block-content">
-                    <h4 class="mb-1">Up in the mountains</h4>
-                    <p class="font-size-sm">
-                        <span class="text-primary"><?php $dm->get_name(); ?></span> on May 1, 2019 · <em
-                                class="text-muted">20 min</em>
-                    </p>
-                    <p>
-                        Anam commodo turpis id lectus scelerisque vulputate. Integer sed dolor erat. Fusce erat ipsum,
-                        varius vel euismod sed, tristique et lectus justo amet...
-                    </p>
-                </div>
-            </a>
-        </div>
-        <!-- END Story -->
+        <?php } ?>
     </div>
 
     <!-- Pagination -->

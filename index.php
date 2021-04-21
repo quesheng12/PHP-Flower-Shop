@@ -30,8 +30,8 @@
                      style="background-image: url(assets/images/slider/slider-1.jpg);height: 500px;">
                     <div class="container">
                         <div class="slider-content">
-                            <h2 class="main-title" style="color: white">Buy flowers online in our shop, we will deliver
-                                them to you as soon as possible! </h2>
+                            <h2 class="main-title" style="color: white">Valentine's day!<br >
+                                Send your love to your darling! </h2>
                         </div>
                     </div>
                 </div>
@@ -84,6 +84,7 @@
                 </div>
             </div>
             <div class="product-wrapper">
+
 
 
                 <div class="tab-content product-items-tab">
