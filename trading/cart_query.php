@@ -1,17 +1,19 @@
 <?php
 session_start();
+$uid = $_SESSION['uid'];
+
 include('../utils/conn.php');
 
 $p = $_POST;
-//使userid为session中的id
-$p['user_id'] = $_SESSION['uid'];
 
 if ($p['action'] == 1) {
-    show_cart($conn, $p['user_id']);
+    show_cart($conn, $uid);
 } else if ($p['action'] == 2) {
-    add_to_cart($conn, $p['user_id'], $p['item_id'], $p['quantity']);
+    add_to_cart($conn, $uid, $p['item_id'], $p['quantity']);
 } else if ($p['action'] == 3) {
-    delete_from_cart($conn, $p['user_id'], $p['item_id']);
+    delete_single($conn, $uid, $p['item_id']);
+} else if ($p['action'] == 4) {
+    delete_all($conn, $uid);
 }
 
 mysqli_close($conn);
@@ -20,19 +22,23 @@ mysqli_close($conn);
 function show_cart($conn, $user_id)
 {
     try {
-        $sql = "select item_id, name, image, price, stock from cart natural join item where user_id = " . $user_id;
+        $sql = "select item_id, name, image, price, quantity, stock from cart inner join item on cart.item_id = item.id where user_id = " . $user_id;
         $rst = mysqli_query($conn, $sql);
-        if (mysqli_num_rows($rst) > 0) {
-            $data = '{"items": [';
-            while ($arr = mysqli_fetch_assoc($rst)) {
-                $data = $data . '{"item_id": ' . $arr['item_id'] . ', "name": ' . $arr['name'] . ', "image": ' . $arr['image'] . ', "price": ' . $arr['price'] . ', "stock": ' . $arr['stock'] . '}, ';
-            }
-            $data = chop($data, ", ");
-            $data = $data . ']}';
-            echo json_encode($data);
-        } else {
-            echo 300;
+        $num = 1;
+        $data = array();
+        while ($arr = mysqli_fetch_assoc($rst)) {
+            $node = array(
+                "id" => $arr['item_id'],
+                "name" => $arr['name'],
+                "image" => $arr['image'],
+                "price" => $arr['price'],
+                "quantity" => $arr['quantity'],
+                "stock" => $arr['stock']
+            );
+            $data[$num] = $node;
+            $num++;
         }
+        echo json_encode($data);
     } catch (Exception $e) {
         echo 200;
     }
@@ -58,7 +64,7 @@ function add_to_cart($conn, $user_id, $item_id, $quantity)
 }
 
 //从购物车中删除
-function delete_from_cart($conn, $user_id, $item_id)
+function delete_single($conn, $user_id, $item_id)
 {
     try {
         $sql = "delete from cart where user_id = " . $user_id . " and item_id = " . $item_id;
@@ -69,4 +75,13 @@ function delete_from_cart($conn, $user_id, $item_id)
     }
 }
 
-
+function delete_all($conn, $user_id)
+{
+    try {
+        $sql = "delete from cart where user_id = " . $user_id;
+        mysqli_query($conn, $sql);
+        echo 100;
+    } catch (Exception $e) {
+        echo 200;
+    }
+}
