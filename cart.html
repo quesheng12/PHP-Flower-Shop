@@ -114,7 +114,7 @@
                                                     <li><a href="cart.html">Cart</a></li>
                                                     <li><a href="wishlist.html">Wishlist</a></li>
                                                     <li><a href="compare.html">Compare</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a href="checkout.php">Checkout</a></li>
                                                     <li><a href="empty-cart.html">Empty Cart</a></li>
                                                     <li><a href="my-account.html">My Account</a></li>
                                                 </ul>
@@ -156,7 +156,7 @@
                                             <li><a href="cart.html">Cart</a></li>
                                             <li><a href="wishlist.html">Wishlist</a></li>
                                             <li><a href="compare.html">Compare</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
                                             <li><a href="empty-cart.html">Empty Cart</a></li>
                                             <li><a href="my-account.html">My Account</a></li>
                                             <li><a href="login.html">Login</a></li>
@@ -251,7 +251,7 @@
                                             </ul>
                                         </li>
                                         <li class="product-btn">
-                                            <a href="checkout.html" class="btn btn-dark btn-block">Checkout</a>
+                                            <a href="checkout.php" class="btn btn-dark btn-block">Checkout</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -364,7 +364,7 @@
                                     <li><a href="cart.html">Cart</a></li>
                                     <li><a href="wishlist.html">Wishlist</a></li>
                                     <li><a href="compare.html">Compare</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="checkout.php">Checkout</a></li>
                                     <li><a href="empty-cart.html">Empty Cart</a></li>
                                     <li><a href="my-account.html">My Account</a></li>
                                 </ul>
@@ -404,7 +404,7 @@
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="compare.html">Compare</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="checkout.php">Checkout</a></li>
                             <li><a href="empty-cart.html">Empty Cart</a></li>
                             <li><a href="my-account.html">My Account</a></li>
                             <li><a href="login.html">Login</a></li>
@@ -478,64 +478,26 @@
 
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="cart-shipping">
-                        <div class="cart-title">
-                            <h4 class="title">Choose Your Address</h4>
-<!--                            <p>Estimate your shipping fee *</p>-->
-                        </div>
-                        <div class="cart-form mt-25">
-<!--                            <p>Calculate shipping</p>-->
-                            <form action="#">
-                                <div class="single-select2">
-                                    <div class="form-select2">
-                                        <select class="select2">
-                                            <option value="0">Select an address…</option>
-                                            <option value="1">Bangladesh</option>
-                                            <option value="2">Canada</option>
-                                            <option value="3">Colombia</option>
-                                            <option value="4">Indonesia</option>
-                                            <option value="5">Italy</option>
-                                            <option value="6">Pakistan</option>
-                                            <option value="7">Turkey</option>
-                                        </select>
-                                    </div>
-                                </div>
-<!--                                <div class="single-select2">-->
-<!--                                    <div class="form-select2">-->
-<!--                                        <select class="select2">-->
-<!--                                            <option value="">Select an option…</option>-->
-<!--                                            <option value="BAG">Bagerhat</option>-->
-<!--                                        </select>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-                                <div class="single-form">
-                                    <input type="text" placeholder="Note">
-                                </div>
-<!--                                <div class="cart-form-btn">-->
-<!--                                    <button class="btn btn-primary">Update totals</button>-->
-<!--                                </div>-->
-                            </form>
-                        </div>
-                    </div>
+
                 </div>
-<!--                <div class="col-lg-4">-->
-<!--                    <div class="cart-coupon">-->
-<!--                        <div class="cart-title">-->
-<!--                            <h4 class="title">Coupon Code</h4>-->
-<!--                            <p>Enter your coupon code if you have one.</p>-->
-<!--                        </div>-->
-<!--                        <div class="cart-form mt-25">-->
-<!--                            <form action="#">-->
-<!--                                <div class="single-form">-->
-<!--                                    <input type="text" placeholder="Enter your coupon code..">-->
-<!--                                </div>-->
-<!--                                <div class="cart-form-btn">-->
-<!--                                    <button class="btn btn-primary">Apply Coupon</button>-->
-<!--                                </div>-->
-<!--                            </form>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
+                <!--                <div class="col-lg-4">-->
+                <!--                    <div class="cart-coupon">-->
+                <!--                        <div class="cart-title">-->
+                <!--                            <h4 class="title">Coupon Code</h4>-->
+                <!--                            <p>Enter your coupon code if you have one.</p>-->
+                <!--                        </div>-->
+                <!--                        <div class="cart-form mt-25">-->
+                <!--                            <form action="#">-->
+                <!--                                <div class="single-form">-->
+                <!--                                    <input type="text" placeholder="Enter your coupon code..">-->
+                <!--                                </div>-->
+                <!--                                <div class="cart-form-btn">-->
+                <!--                                    <button class="btn btn-primary">Apply Coupon</button>-->
+                <!--                                </div>-->
+                <!--                            </form>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
                 <div class="col-lg-4">
                     <div class="cart-totals">
                         <div class="cart-title">
@@ -552,40 +514,11 @@
                                         <p class="price subtotal"></p>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <p class="value">Pickup Mode</p>
-                                    </td>
-                                    <td>
-                                        <ul class="shipping-list">
-<!--                                            <li class="cus-radio">-->
-<!--                                                <input type="radio" name="shipping" id="radio1" checked="">-->
-<!--                                                <label for="radio1"><span></span> Flat Rate</label>-->
-<!--                                            </li>-->
-                                            <li class="cus-radio">
-                                                <input type="radio" name="shipping" id="radio2" checked="checked">
-                                                <label for="radio2"><span></span> Delivery</label>
-                                            </li>
-                                            <li class="cus-radio">
-                                                <input type="radio" name="shipping" id="radio3">
-                                                <label for="radio3"><span></span> Local Pickup</label>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p class="value">Total</p>
-                                    </td>
-                                    <td>
-                                        <p class="price final-total"></p>
-                                    </td>
-                                </tr>
                                 </tbody>
                             </table>
                         </div>
                         <div class="cart-total-btn">
-                            <a href="#" class="btn btn-primary btn-block">Proceed To Checkout</a>
+                            <button class="btn btn-primary btn-block checkout">Proceed To Checkout</button>
                         </div>
                     </div>
                 </div>
@@ -754,7 +687,6 @@
 <script src="assets/js/map-script.js"></script>
 
 <script>
-    let array = [];
     $(document).ready(function () {
         show_cart();
     });
@@ -764,29 +696,29 @@
     }
 
     function add(id, q) {
-        let s1 = $('[data-id='+id+'] .number');
-        s1.attr('value', parseInt(s1.attr('value'))+q);
-        $('[data-id='+id+'] .total').html('$' + array[id-1]*s1.attr('value'));
-        add_to_cart(id, q);
-        $('.subtotal').html('$'+(parseInt($('.subtotal').html().substr(1))+parseInt(array[id-1])*q));
-        if($('#radio2').checked()) {
-            $('.final-total').html('$' + (parseInt($('.final-total').html().substr(1)) + parseInt(array[id-1])*q));
+        let s1 = $('[data-id=' + id + '] .number');
+        if ((parseInt(s1.attr('value')) + q) >= 1) {
+            let s2 = $('[data-id=' + id + '] .amount');
+            s1.attr('value', (parseInt(s1.attr('value')) + q));
+            $('[data-id=' + id + '] .item-total').html('$' + s2.html().substr(1) * s1.attr('value'));
+            add_to_cart(id, q);
+            $('.subtotal').html('$' + (Number(parseFloat($('.subtotal').html().substr(1)).toFixed(2)) + Number(parseFloat(s2.html().substr(1)).toFixed(2)) * q).toFixed(2));
+            // $('.final-total').html('$' + (Number(parseFloat($('.final-total').html().substr(1)).toFixed(2)) + Number((parseInt(s2.html().substr(1))+0.01).toFixed(2)*q)).toFixed(2));
+        } else if ((parseInt(s1.attr('value')) + q) < 1) {
+            let s2 = $('[data-id=' + id + '] .amount');
+            let q2 = 1 - parseInt(s1.attr('value'));
+            s1.attr('value', (parseInt(s1.attr('value')) + q2));
+            $('[data-id=' + id + '] .item-total').html('$' + s2.html().substr(1) * s1.attr('value'));
+            add_to_cart(id, q2);
+            $('.subtotal').html('$' + (Number(parseFloat($('.subtotal').html().substr(1)).toFixed(2)) + Number(parseFloat(s2.html().substr(1)).toFixed(2)) * q2).toFixed(2));
+            // $('.final-total').html('$' + (Number(parseFloat($('.final-total').html().substr(1)).toFixed(2)) + Number((parseInt(s2.html().substr(1))+0.01).toFixed(2)*q2)).toFixed(2));
         }
     }
-
-    // function sub(id) {
-    //     if($('[data-id='+id+'] .number').attr('value')>1) {
-    //         $('[data-id=' + id + '] .number').attr('value', parseInt($('[data-id=' + id + '] .number').attr('value')) - 1);
-    //         $('[data-id=' + id + '] .item-total').html('$' + array[id - 1] * $('[data-id=' + id + '] .number').attr('value'));
-    //         add_to_cart(id, -1);
-    //         $('.subtotal').html('$'+(parseInt($('.subtotal').html().substr(1))-array[id-1]));
-    //     }
-    // }
 
     function total_quantity() {
         let i = 0;
         $('#cart-body').find('tr').each(function () {
-            i++;
+            i += parseInt($(this).find('.number').attr('value'));
         });
         return i;
     }
@@ -818,21 +750,20 @@
                         '                                        <div class="quantity d-inline-flex">\n' +
                         '                                            <button type="button" class="sub" onclick="add(' + data[key]['id'] + ', -10)">-10</button>\n' +
                         '                                            <button type="button" class="sub" onclick="add(' + data[key]['id'] + ', -1)"><i class="ti-minus"></i></button>\n' +
-                        '                                            <input type="text" class="number" value="' + data[key]['quantity'] + '" />\n' +
+                        '                                            <input type="text" class="number" readonly="readonly" value="' + data[key]['quantity'] + '" />\n' +
                         '                                            <button type="button" class="add" onclick="add(' + data[key]['id'] + ', 1)"><i class="ti-plus"></i></button>\n' +
                         '                                            <button type="button" class="add" onclick="add(' + data[key]['id'] + ', 10)">+10</button>\n' +
                         '                                        </div>\n' +
                         '                                    </form>\n' +
                         '                                </td>\n' +
                         '                                <td class="total">\n' +
-                        '                                    <span class="total-amount" class="item-total">$' + data[key]['price']*data[key]['quantity'] + '</span>\n' +
+                        '                                    <span class="total-amount item-total">$' + data[key]['price'] * data[key]['quantity'] + '</span>\n' +
                         '                                </td>\n' +
                         '                                <td class="remove">\n' +
                         '                                    <a href="#" onclick="delete_single(' + data[key]['id'] + ')"><i class="ti-close"></i></a>\n' +
                         '                                </td>\n' +
                         '                            </tr>'
-                    array.push(data[key]['price']);
-                    subtotal += data[key]['price']*data[key]['quantity'];
+                    subtotal += data[key]['price'] * data[key]['quantity'];
                 }
 
                 $('.tbody').html(html);
@@ -842,37 +773,42 @@
                 $('.clear').click(function () {
                     delete_all();
                 });
-                $('.subtotal').html('$'+subtotal);
-                $('.final-total').html('$'+subtotal);
+                $('.subtotal').html('$' + subtotal);
 
-                $.ajax({
-                    type: "POST",
-                    url: "trading/address.php",
-                    dataType: "json",
-                    success: function (data) {
-                        let html = '<option value="-1">Select a country…</option>';
-                        for(let key in data){
-                            html += '<option value="' + data[key]['id'] + '">' +
-                                '<p>Name: ' + data[key]['name'] + '</p>' +
-                                '<p>Province: ' + data[key]['province'] + '</p>' +
-                                '<p>City: ' + data[key]['city'] + '</p>' +
-                                '<p>Area: ' + data[key]['area'] + '</p>' +
-                                '<p>Detail: ' + data[key]['detail'] + '</p>' +
-                                '<p>Phone: ' + data[key]['phone'] + '</p>' +
-                                '</option>';
-                            $('.select2').html(html);
-                        }
-                    }
-                });
+                $('.checkout').click(function () {
+                    let arr_id = [];
+                    let arr_name = [];
+                    let arr_quantity = [];
+                    let arr_price = [];
+                    $('#cart-body').find('tr').each(function () {
+                        arr_id.push($(this).attr('data-id'));
+                        arr_name.push($(this).find('.product a').html());
+                        arr_quantity.push(parseInt($(this).find('.number').attr('value')));
+                        arr_price.push($(this).find('.item-total').html());
+                    });
 
-                $('#radio2').click(function() {
-                    $('.final-total').html('$'+0.01*total_quantity());
-                    $('.select2').removeAttr("disabled");
-                });
-                $('#radio3').click(function() {
-                    $('.final-total').html('$'+$('.subtotal').html().substr(1));
-                    $('.cart-shipping').css({'z-index':100, 'background':'#dee2e6', 'opacity': 0.3, 'display': 'block'});
-                    $('.select2').attr('disabled', 'disabled');
+                    let PARAMS = {
+                        id: arr_id,
+                        name: arr_name,
+                        quantity: arr_quantity,
+                        price: arr_price,
+                        total_quantity: total_quantity(),
+                        subtotal: $('.subtotal').html().substr(1)
+                    };
+
+                    let temp = document.createElement("form");
+                    temp.action = 'checkout.php';
+                    temp.method = "post";
+                    temp.style.display = "none";
+                    // for (var x in PARAMS) {
+                    let opt = document.createElement("textarea");
+                    opt.name = 'data';
+                    opt.value = JSON.stringify(PARAMS);
+                    temp.appendChild(opt);
+                    // }
+                    document.body.appendChild(temp);
+                    temp.submit();
+
                 });
             },
             error: function () {
@@ -926,7 +862,7 @@
                 action: 4
             },
             dataType: "json",
-            success: function (data) {
+            success: function () {
                 show_cart();
             },
             error: function () {
@@ -934,7 +870,6 @@
             }
         });
     }
-
 
     // $('购物车的结账按钮').on('click', function () {
     //     $.post("生成订单的后端php的url",

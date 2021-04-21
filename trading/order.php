@@ -1,23 +1,22 @@
 <?php
+session_start();
+$uid = $_SESSION['uid'];
 
 include ('../utils/conn.php');
 
 $p = $_POST;
 
 if($p['action'] == 1){
-    order_generate($conn, $p['user_id'], $p['item_id'], $p['quantity'], $p['service'], $p['address'], $p['tel']);
+    orders($conn, $p['user_id'], $p['item_id'], $p['quantity'], $p['service'], $p['address'], $p['tel']);
 }
 
 mysqli_close($conn);
 
 //结算
-function order_generate($conn, $user_id, $item_id, $quantity, $service, $address, $tel){
+function orders($conn, $user_id, $service, $address, $note, $status){
     try{
-        $sql = "insert into order values (?, ?, ?, ?, ?, ?, ?)";
-        $stmt = mysqli_prepare($conn, $sql);
-        mysqli_stmt_bind_param($stmt, "iiiissi", $user_id, $item_id, $quantity, $service, $address, $tel, 1);
-        mysqli_stmt_execute($stmt);
-        mysqli_stmt_close($stmt);
+        $sql = "insert into orders user_id, service, address_id, note, status, time values ('$user_id', '$service', '$address', '$note', '$status', NOW())";
+        mysqli_query($conn, $sql);
         echo 100;
     }catch (Exception $e){
         echo 200;

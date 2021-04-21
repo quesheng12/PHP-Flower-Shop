@@ -6,12 +6,12 @@ include('../utils/conn.php');
 
 $p = $_POST;
 
-address($uid);
+address($conn, $uid);
 
 mysqli_close($conn);
 
-function address($uid){
-    $sql = "select * from address where user_id = " . $uid;
+function address($conn, $uid){
+    $sql = "select id, name, province, city, area, detail, phone from address where user_id = " . $uid;
     $rst = mysqli_query($conn, $sql);
     $num = 1;
     $data = array();
