@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal: news upload and edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_blocks_api.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_blocks_api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

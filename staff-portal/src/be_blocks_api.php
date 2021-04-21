@@ -1,4 +1,3 @@
-<?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
 <?php require 'inc/_global/views/head_end.php'; ?>

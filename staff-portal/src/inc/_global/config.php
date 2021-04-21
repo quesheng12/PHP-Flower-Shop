@@ -26,7 +26,7 @@ $dm                             = new Template('Dashmix', '3.1', 'assets');
 //                              : The data is added in the <head> section of the page
 $dm->author                     = 'pixelcave';
 $dm->robots                     = 'noindex, nofollow';
-$dm->title                      = 'Dashmix - Bootstrap 4 Admin Template &amp; UI Framework';
+$dm->title                      = 'FlowerShop';
 $dm->description                = 'Dashmix - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest';
 
 //                              : The url of your site, used in Open Graph Meta Data (eg 'https://example.com')

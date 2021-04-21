@@ -26,7 +26,7 @@ $rst = mysqli_query($conn, $sql);
                         <i class="fa fa-clock"></i>
                     </div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
-                        ORD.01852
+                        ORD.<?php echo $oid; ?>
                     </p>
                 </div>
             </a>
