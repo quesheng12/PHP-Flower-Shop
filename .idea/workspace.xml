@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="merge to master">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal item post">
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/W_HU_REPORTING.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/backend/product-image-upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/product-image-upload.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1617670174871" duration="3000000" />
       <workItem from="1617870906844" duration="2215000" />
       <workItem from="1619011574174" duration="591000" />
-      <workItem from="1619068520369" duration="2405000" />
+      <workItem from="1619068520369" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -361,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618975754966</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="staff portal item post">
+      <created>1619071276270</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1619071276270</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +418,8 @@
     <MESSAGE value="login register optimize" />
     <MESSAGE value="staff portal: news delete" />
     <MESSAGE value="staff portal: news upload and edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="staff portal: news upload and edit" />
+    <MESSAGE value="staff portal item post" />
+    <option name="LAST_COMMIT_MESSAGE" value="staff portal item post" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
