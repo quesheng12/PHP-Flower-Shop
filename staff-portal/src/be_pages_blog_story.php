@@ -26,8 +26,7 @@ $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
             <h1 class="font-w700  mt-5 mb-3 invisible" data-toggle="appear">
                 <?php echo $news['title']; ?>
             </h1>
-            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">Building a new
-                web platform.</h2>
+            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">You deserve a better life</h2>
             <p class="invisible" data-toggle="appear" data-timeout="400">
                 <!--                <a class="badge badge-pill badge-primary font-size-base px-3 py-2 mr-2 m-1" href="javascript:void(0)">-->
                 <!--                    <i class="fa fa-user-circle mr-1"></i> by Lisa Smith-->

@@ -126,7 +126,7 @@ $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
         tinymce.init({
             selector: '#js-ckeditor',
             language: 'zh_CN',
-            height: 450,
+            height:600,
             plugins: 'advlist autolink link image lists preview',
             toolbar: 'undo redo | styleselect | bold italic |alignleft aligncenter alignright alignjustify| link image',
             images_upload_url: '../backend/news-picture-save.php?type="edit"&id=<?php echo $id; ?>',

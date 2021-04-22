@@ -129,7 +129,7 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                     <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
                         <tr>
                             <td class="text-center font-size-sm">
-                                <a class="font-w600" href="be_pages_ecom_product_edit.php">
+                                <a class="font-w600" href="be_pages_ecom_product_edit.php?id=45">
                                     <strong>PID.<?php echo $arr['id']; ?></strong>
                                 </a>
                             </td>
@@ -148,7 +148,7 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                                 <strong>¥<?php echo $arr['price']; ?></strong>
                             </td>
                             <td class="text-center font-size-sm">
-                                <a class="btn btn-sm btn-alt-secondary" href="be_pages_ecom_product_edit.php">
+                                <a class="btn btn-sm btn-alt-secondary" href="be_pages_ecom_product_edit.php?id=45">
                                     <i class="fa fa-fw fa-eye"></i>
                                 </a>
                                 <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">

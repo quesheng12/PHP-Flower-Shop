@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-single8560420.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-single950120.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-single9777540.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/7/blog-dec-img18006020.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/7/blog-single5965650.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/7/blog-single7381160.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="trading" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
