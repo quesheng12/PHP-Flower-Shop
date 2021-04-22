@@ -9,7 +9,7 @@ if (!isset($_POST) || !isset($_SESSION['staff_id'])) {
 $sqlDic = array(
     'edit' => "UPDATE item SET name = '" . $_POST['name'] . "', price = '" . $_POST['price'] . "', stock = '" . $_POST['stock'] . "', description = '" . $_POST['description'] . "' WHERE id= " . $_POST['id'],
     'add' => "INSERT INTO item (name,price,stock,description) VALUES ('" . $_POST['name'] . "','"
-        . $_POST['price'] . "','" . $_POST['stock'] . "','" . $_POST['description'] . "' );"
+        . $_POST['price'] . "','" . $_POST['stock'] . "','".$_POST['description']."' );"
 );
 
 $sql = $sqlDic[$_POST['type']];

@@ -32,8 +32,8 @@ if (move_uploaded_file($tmp, $filepath . $imgname)) {
     echo "<script>alert('图片储存失败');</script>";
 }
 
-$sql = "INSERT INTO item (name,price,stock,description) VALUES ('" . $_POST['name'] . "','"
-    . $_POST['price'] . "','" . $_POST['stock'] . "','" . $_POST['description'] . "' )";
+$sql = "INSERT INTO item (name,price,stock,description,image) VALUES ('" . $_POST['name'] . "','"
+    . $_POST['price'] . "','" . $_POST['stock'] . "','" . $_POST['description'] . "','/images/news/" . $id . "/" . $imgname . "' )";
 
 
 if ($conn->query($sql) === TRUE) {
