@@ -20,13 +20,13 @@ $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 <?php include('../../template/header.html'); ?>
 
 <!-- Hero -->
-<div class="bg-image" style="background-image: url('<?php echo $dm->assets_folder; ?>/media/photos/photo22@2x.jpg');">
-    <div class="bg-black-75">
+<div class="bg-image" style="background-image: url(../../assets/images/testimonial-bg.jpg);">
+    <div class="">
         <div class="content content-top content-full text-center">
-            <h1 class="font-w700 text-white mt-5 mb-3 invisible" data-toggle="appear">
+            <h1 class="font-w700  mt-5 mb-3 invisible" data-toggle="appear">
                 <?php echo $news['title']; ?>
             </h1>
-            <h2 class="h3 font-w400 text-white-75 mb-5 invisible" data-toggle="appear" data-timeout="400">Building a new
+            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">Building a new
                 web platform.</h2>
             <p class="invisible" data-toggle="appear" data-timeout="400">
                 <!--                <a class="badge badge-pill badge-primary font-size-base px-3 py-2 mr-2 m-1" href="javascript:void(0)">-->

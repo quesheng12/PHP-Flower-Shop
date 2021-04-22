@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal item post" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-dec-img1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-dec-img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-single7884880.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news/7/blog-single.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -382,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619078469001</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="1">
+      <created>1619086481434</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1619086481434</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,14 +445,14 @@
     <MESSAGE value="integrated" />
     <MESSAGE value="optimise personal-profile.html" />
     <MESSAGE value="**** git" />
-    <MESSAGE value="1" />
     <MESSAGE value="staff portal" />
     <MESSAGE value="footer, header 封装" />
     <MESSAGE value="login register optimize" />
     <MESSAGE value="staff portal: news delete" />
     <MESSAGE value="staff portal: news upload and edit" />
     <MESSAGE value="staff portal item post" />
-    <option name="LAST_COMMIT_MESSAGE" value="staff portal item post" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
