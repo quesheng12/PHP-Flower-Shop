@@ -33,7 +33,7 @@ if (move_uploaded_file($tmp, $filepath . $imgname)) {
 }
 
 $sql = "INSERT INTO item (name,price,stock,description,image) VALUES ('" . $_POST['name'] . "','"
-    . $_POST['price'] . "','" . $_POST['stock'] . "','" . $_POST['description'] . "','/images/news/" . $id . "/" . $imgname . "' )";
+    . $_POST['price'] . "','" . $_POST['stock'] . "','" . $_POST['description'] . "','../images/item/" . $id . "/" . $imgname . "' )";
 
 
 if ($conn->query($sql) === TRUE) {

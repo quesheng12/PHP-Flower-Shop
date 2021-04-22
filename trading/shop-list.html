@@ -587,7 +587,6 @@
                 data: {action: 1,
                        page: p},
                 dataType: "json",
-                // async: false,
                 success: function (data) {
                     let grid_html = '<div class="row">\n';
                     let list_html = '';
@@ -661,6 +660,7 @@
                     grid_html += '</div>';
                     $('#grid').html(grid_html);
                     $('#list').html(list_html);
+                    $('.product-content>:nth-child(7)').hide();
                 },
                 error: function () {
                     xtip.alert("error");
@@ -706,7 +706,8 @@
                     xtip.msg("Added Successfully!");
                 },
                 error: function () {
-                    xtip.alert("error");
+                    xtip.alert("Please Login First!");
+                    window.location.href = '../user/login.html';
                 }
             });
         }

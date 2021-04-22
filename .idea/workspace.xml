@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal item post">
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="Detail optimization">
+      <change afterPath="$PROJECT_DIR$/images/item/30/pink-product-BALI HAI6908070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/31/pink-product-SWEET EMBRACE6327680.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/32/pink-product-BALI HAI7193750.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/33/pink-product-BELLA8769760.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/34/pink-product-BLUSH DELIGHT3864440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/35/pink-product-COUNTRY FIELDS3924160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/36/pink-product-CRANBERRY SORBET2327410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/37/pink-product-PERFECT PINKS5603580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/38/pink-product-PINK PEARLS7349410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/39/pink-product-SUMMER HOLIDAY2597410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/40/pink-product-SUMMER TIME1921200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/41/pink-product-VELVET CLOUD8370530.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/42/pink-product-VELVET PARFAIT7672640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/43/white-product-LILY DELIGHT9013320.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/44/white-product-MOONLIGHT ROSES6936560.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/45/white-product-SPRING SKIES3511800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-BELLA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-BLUSH DELIGHT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-CRANBERRY SORBET.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-PERFECT PINKS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product/pink/SWEET EMBRACE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/product/pink/pink-product-SWEET EMBRACE.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-portal/backend/product-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/product-add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/product-edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +81,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />

@@ -684,9 +684,9 @@ function f($pp){
 
             $('.item').html('<?php echo f($pp); ?>');
             $('.subtotal').html('￥'+'<?php echo $pp['subtotal']; ?>');
-            $('.final-total').html('￥'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
+            $('.final-total').html('￥'+'<?php echo $pp['subtotal']+$pp['total_quantity']*5; ?>');
             $('#radio2').click(function() {
-                $('.final-total').html('￥'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
+                $('.final-total').html('￥'+'<?php echo $pp['subtotal']+$pp['total_quantity']*5; ?>');
                 $('.choose-address').css({'z-index':'', 'background':'', 'opacity': '', 'display': ''});
                 $('.btn-choose-address').removeAttr("disabled");
             });

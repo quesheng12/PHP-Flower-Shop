@@ -397,7 +397,6 @@
 <!--                            <span class="old-price">$29.00</span>-->
 <!--                            <span class="discount">-34%</span>-->
                         </div>
-                        <p class="description"></p>
 
                         <ul class="product-additional-information">
 <!--                            <li>-->
@@ -1196,7 +1195,7 @@
             if (data == 200) {
                 xtip.alert("error")
             } else {
-                $('.shop-single-preview-image').html('<img class="product-zoom" src=' + data.image + ' alt="">');
+                $('.shop-single-preview-image').html('<img class="product-zoom" src="' + data.image + '" alt="">');
                 $('.title').html(data.name);
                 $('.product-sku').html('SKU:' + data.stock);
                 $('.current-price').html('￥' + data.price);
