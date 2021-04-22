@@ -225,13 +225,6 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
 </div>
 <!-- END Page Content -->
 
-<script>
-
-        //内容3秒后执行
-        xtip.confirm('You have a new order!', '', {icon: 's'});
-
-</script>
-
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>
 <?php require 'inc/_global/views/footer_end.php'; ?>

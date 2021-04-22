@@ -15,9 +15,25 @@ require '../../utils/conn.php';
 <?php require 'inc/_global/views/page_start.php'; ?>
 
 <?php
-$sql = "select * from item WHERE id=" . $_GET['id'];
-$rst = mysqli_query($conn, $sql);
-$item = mysqli_fetch_assoc($rst);
+if (!isset($_GET['add'])) {
+    $sql = "select * from item WHERE id=" . $_GET['id'];
+    $rst = mysqli_query($conn, $sql);
+    $item = mysqli_fetch_assoc($rst);
+    $id = $item['id'];
+    $type='edit';
+} else {
+    $sql = "select id from item ORDER BY id DESC LIMIT 1";
+    $id = mysqli_fetch_assoc(mysqli_query($conn, $sql))['id'] + 1;
+    $item = array(
+        'id' => $id,
+        'name' => '',
+        'description' => '',
+        'stock' => '',
+        'price' => ''
+    );
+    $type='add';
+}
+
 ?>
 
 <!-- Page Content -->
@@ -68,6 +84,7 @@ $item = mysqli_fetch_assoc($rst);
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8">
                     <form action="../backend/product-edit.php" method="POST">
+                        <input id="type" type="hidden" name="type" value="">
                         <div class="form-group">
                             <label for="dm-ecom-product-id">PID</label>
                             <input type="text" class="form-control" id="dm-ecom-product-id" name="id"
@@ -159,7 +176,8 @@ $item = mysqli_fetch_assoc($rst);
         return null;
     }
 
-    $("#img-id").val(getUrlParam('id'));
+    $("#img-id").val(getUrlParam('<?php echo $id;?>'));
+    $("#type").val('<?php echo $type;?>');
 </script>
 
 <?php require 'inc/_global/views/footer_end.php'; ?>
