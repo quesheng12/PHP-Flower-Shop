@@ -8,6 +8,11 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
 
+<?php
+$sql = "select COUNT(id) as num from item WHERE stock=0";
+$out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
+?>
+
 <!-- Page Content -->
 <div class="content">
     <!-- Quick Overview -->
@@ -27,7 +32,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="javascript:void(0)">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 text-danger mb-1">63</div>
+                    <div class="font-size-h3 font-w600 text-danger mb-1"><?php echo $out_stock; ?></div>
                     <p class="font-w600 font-size-sm text-danger text-uppercase mb-0">
                         Out of stock
                     </p>
@@ -37,7 +42,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="be_pages_ecom_dashboard.php">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 text-dark mb-1">690</div>
+                    <div class="font-size-h3 font-w600 text-dark mb-1">0</div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
                         New
                     </p>
@@ -47,7 +52,7 @@ require '../../utils/check-staff-login.php';
         <div class="col-6 col-lg-3">
             <a class="block block-rounded block-link-shadow text-center" href="be_pages_ecom_dashboard.php">
                 <div class="block-content py-5">
-                    <div class="font-size-h3 font-w600 text-dark mb-1">36.963</div>
+                    <div class="font-size-h3 font-w600 text-dark mb-1">15</div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
                         All Products
                     </p>
@@ -104,10 +109,10 @@ require '../../utils/check-staff-login.php';
                     <thead>
                     <tr>
                         <th class="text-center" style="width: 100px;">ID</th>
-                        <th class="d-none d-sm-table-cell text-center">Added</th>
-                        <th class="d-none d-md-table-cell">Product</th>
+                        <!--                        <th class="d-none d-sm-table-cell text-center">Added</th>-->
+                        <!--                        <th class="d-none d-md-table-cell">Product</th>-->
                         <th>Status</th>
-                        <th class="d-none d-sm-table-cell text-right">Value</th>
+                        <th class="d-none d-sm-table-cell text-right">Price</th>
                         <th class="text-center">Actions</th>
                     </tr>
                     </thead>
@@ -117,27 +122,30 @@ require '../../utils/check-staff-login.php';
                     $badges['0']['text'] = "Available";
                     $badges['1']['class'] = "badge-danger";
                     $badges['1']['text'] = "Out of Stock";
+
+                    $sql = "select id,name,stock,price from item ORDER BY id DESC";
+                    $rst = mysqli_query($conn, $sql);
                     ?>
-                    <?php for ($i = 35; $i > 16; $i--) { ?>
+                    <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
                         <tr>
                             <td class="text-center font-size-sm">
                                 <a class="font-w600" href="be_pages_ecom_product_edit.php">
-                                    <strong>PID.0365<?php echo $i; ?></strong>
+                                    <strong>PID.<?php echo $arr['id']; ?></strong>
                                 </a>
                             </td>
-                            <td class="d-none d-sm-table-cell text-center font-size-sm"><?php echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>
-                                /2019
-                            </td>
-                            <td class="d-none d-md-table-cell font-size-sm">
-                                <a class="font-w600" href="be_pages_ecom_product_edit.php">Product
-                                    #<?php echo $i; ?></a>
-                            </td>
+                            <!--                            <td class="d-none d-sm-table-cell text-center font-size-sm">--><?php //echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>
+                            <!--                                /2019-->
+                            <!--                            </td>-->
+                            <!--                            <td class="d-none d-md-table-cell font-size-sm">-->
+                            <!--                                <a class="font-w600" href="be_pages_ecom_product_edit.php">Product-->
+                            <!--                                    #--><?php //echo $i; ?><!--</a>-->
+                            <!--                            </td>-->
                             <td>
-                                <span class="badge<?php $rand = rand(0, 1);
-                                echo ($badges[$rand]['class']) ? " " . $badges[$rand]['class'] : ""; ?>"><?php echo $badges[$rand]['text']; ?></span>
+                                <span class="badge<?php
+                                echo ($arr['stock'] == 0) ? " " . $badges['1']['class'] : " " . $badges['0']['class']; ?>"><?php echo ($arr['stock'] == 0) ? "" . $badges['1']['text'] : "" . $badges['0']['text']; ?></span>
                             </td>
                             <td class="text-right d-none d-sm-table-cell font-size-sm">
-                                <strong>$<?php echo rand(10, 99); ?>,00</strong>
+                                <strong>¥<?php echo $arr['price']; ?></strong>
                             </td>
                             <td class="text-center font-size-sm">
                                 <a class="btn btn-sm btn-alt-secondary" href="be_pages_ecom_product_edit.php">

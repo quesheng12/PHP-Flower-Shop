@@ -237,60 +237,6 @@
     <!-- END Past Orders -->
 
     <!-- Referred Members -->
-    <div class="block block-rounded">
-        <div class="block-header block-header-default">
-            <h3 class="block-title">Referred Members (3)</h3>
-        </div>
-        <div class="block-content">
-            <div class="row row-deck">
-                <div class="col-md-4">
-                    <!-- Referred User -->
-                    <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                        <div class="block-content block-content-full d-flex align-items-center justify-content-between">
-                            <div>
-                                <div class="font-w600 mb-1"><?php $dm->get_name('female'); ?></div>
-                                <div class="font-size-sm text-muted">4 Orders</div>
-                            </div>
-                            <div class="ml-3">
-                                <?php $dm->get_avatar(0, 'female'); ?>    
-                            </div>
-                        </div>
-                    </a>
-                    <!-- END Referred User -->
-                </div>
-                <div class="col-md-4">
-                    <!-- Referred User -->
-                    <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                        <div class="block-content block-content-full d-flex align-items-center justify-content-between">
-                            <div>
-                                <div class="font-w600 mb-1"><?php $dm->get_name('male'); ?></div>
-                                <div class="font-size-sm text-muted">5 Orders</div>
-                            </div>
-                            <div class="ml-3">
-                                <?php $dm->get_avatar(0, 'male'); ?>    
-                            </div>
-                        </div>
-                    </a>
-                    <!-- END Referred User -->
-                </div>
-                <div class="col-md-4">
-                    <!-- Referred User -->
-                    <a class="block block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
-                        <div class="block-content block-content-full d-flex align-items-center justify-content-between">
-                            <div>
-                                <div class="font-w600 mb-1"><?php $dm->get_name('female'); ?></div>
-                                <div class="font-size-sm text-muted">3 Orders</div>
-                            </div>
-                            <div class="ml-3">
-                                <?php $dm->get_avatar(0, 'female'); ?>    
-                            </div>
-                        </div>
-                    </a>
-                    <!-- END Referred User -->
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- END Referred Members -->
 
     <!-- Private Notes -->

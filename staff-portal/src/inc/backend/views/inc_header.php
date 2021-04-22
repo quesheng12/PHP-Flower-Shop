@@ -35,36 +35,36 @@
         <div>
             <!-- User Dropdown -->
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn btn-dual" id="page-header-user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-dual" id="page-header-user-dropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-fw fa-user d-sm-none"></i>
                     <span class="d-none d-sm-inline-block">Admin</span>
                     <i class="fa fa-fw fa-angle-down ml-1 d-none d-sm-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-right p-0" aria-labelledby="page-header-user-dropdown">
                     <div class="bg-primary rounded-top font-w600 text-white text-center p-3">
-                       User Options
+                        User Options
                     </div>
                     <div class="p-2">
-                        <a class="dropdown-item" href="be_pages_generic_profile.php">
-                            <i class="far fa-fw fa-user mr-1"></i> Profile
-                        </a>
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.php">
-                            <span><i class="far fa-fw fa-envelope mr-1"></i> Inbox</span>
-                            <span class="badge badge-primary badge-pill">3</span>
-                        </a>
-                        <a class="dropdown-item" href="be_pages_generic_invoice.php">
-                            <i class="far fa-fw fa-file-alt mr-1"></i> Invoices
-                        </a>
-                        <div role="separator" class="dropdown-divider"></div>
+                        <!-- <a class="dropdown-item" href="be_pages_generic_profile.php">
+                             <i class="far fa-fw fa-user mr-1"></i> Profile
+                         </a>
+                         <a class="dropdown-item d-flex align-items-center justify-content-between" href="be_pages_generic_inbox.php">
+                             <span><i class="far fa-fw fa-envelope mr-1"></i> Inbox</span>
+                             <span class="badge badge-primary badge-pill">3</span>
+                         </a>
+                         <a class="dropdown-item" href="be_pages_generic_invoice.php">
+                             <i class="far fa-fw fa-file-alt mr-1"></i> Invoices
+                         </a>
+                         <div role="separator" class="dropdown-divider"></div>
 
-                        <!-- Toggle Side Overlay -->
-                        <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-                        <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
-                            <i class="far fa-fw fa-building mr-1"></i> Settings
-                        </a>
-                        <!-- END Side Overlay -->
 
-                        <div role="separator" class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="javascript:void(0)" data-toggle="layout" data-action="side_overlay_toggle">
+                             <i class="far fa-fw fa-building mr-1"></i> Settings
+                         </a>
+
+
+                         <div role="separator" class="dropdown-divider"></div>-->
                         <a class="dropdown-item" href="op_auth_signin.php">
                             <i class="far fa-fw fa-arrow-alt-circle-left mr-1"></i> Sign Out
                         </a>
@@ -75,16 +75,18 @@
 
             <!-- Notifications Dropdown -->
             <div class="dropdown d-inline-block">
-                <button type="button" class="btn btn-dual" id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn btn-dual" id="page-header-notifications-dropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-fw fa-bell"></i>
                     <span class="badge badge-secondary badge-pill">5</span>
                 </button>
-                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0" aria-labelledby="page-header-notifications-dropdown">
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
+                     aria-labelledby="page-header-notifications-dropdown">
                     <div class="bg-primary rounded-top font-w600 text-white text-center p-3">
-                       Notifications
+                        Notifications
                     </div>
                     <ul class="nav-items my-2">
-                        <li>
+                        <!--<li>
                             <a class="text-dark media py-2" href="javascript:void(0)">
                                 <div class="mx-3">
                                     <i class="fa fa-fw fa-check-circle text-success"></i>
@@ -116,29 +118,39 @@
                                     <div class="text-muted font-italic">30 min ago</div>
                                 </div>
                             </a>
-                        </li>
-                        <li>
-                            <a class="text-dark media py-2" href="javascript:void(0)">
-                                <div class="mx-3">
-                                    <i class="fa fa-fw fa-exclamation-circle text-warning"></i>
-                                </div>
-                                <div class="media-body font-size-sm pr-2">
-                                    <div class="font-w600">You are running out of space. Please consider upgrading your plan.</div>
-                                    <div class="text-muted font-italic">1 hour ago</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-dark media py-2" href="javascript:void(0)">
-                                <div class="mx-3">
-                                    <i class="fa fa-fw fa-plus-circle text-primary"></i>
-                                </div>
-                                <div class="media-body font-size-sm pr-2">
-                                    <div class="font-w600">New Sale! + $30</div>
-                                    <div class="text-muted font-italic">2 hours ago</div>
-                                </div>
-                            </a>
-                        </li>
+                        </li>-->
+                        <?php
+                        include('../../utils/conn.php');
+                        $sql = "select name from item WHERE stock = 0";
+                        $rst = mysqli_query($conn, $sql);
+                        ?>
+                        <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
+                            <li>
+                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                    <div class="mx-3">
+                                        <i class="fa fa-fw fa-exclamation-circle text-warning"></i>
+                                    </div>
+                                    <div class="media-body font-size-sm pr-2">
+                                        <div class="font-w600"><?php echo $arr['name']; ?> is out of stock!
+                                            Please restock as soon as
+                                            possible.
+                                        </div>
+                                        <div class="text-muted font-italic">1 hour ago</div>
+                                    </div>
+                                </a>
+                            </li>
+                        <?php } ?>
+                        <!--    <li>
+                                <a class="text-dark media py-2" href="javascript:void(0)">
+                                    <div class="mx-3">
+                                        <i class="fa fa-fw fa-plus-circle text-primary"></i>
+                                    </div>
+                                    <div class="media-body font-size-sm pr-2">
+                                        <div class="font-w600">New Sale! + $30</div>
+                                        <div class="text-muted font-italic">2 hours ago</div>
+                                    </div>
+                                </a>
+                            </li>-->
                     </ul>
                     <div class="p-2 border-top">
                         <a class="btn btn-light btn-block text-center" href="javascript:void(0)">
@@ -168,11 +180,13 @@
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-                            <button type="button" class="btn btn-alt-primary" data-toggle="layout" data-action="header_search_off">
+                            <button type="button" class="btn btn-alt-primary" data-toggle="layout"
+                                    data-action="header_search_off">
                                 <i class="fa fa-fw fa-times-circle"></i>
                             </button>
                         </div>
-                        <input type="text" class="form-control border-0" placeholder="Search or hit ESC.." id="page-header-search-input" name="page-header-search-input">
+                        <input type="text" class="form-control border-0" placeholder="Search or hit ESC.."
+                               id="page-header-search-input" name="page-header-search-input">
                     </div>
                 </form>
             </div>
