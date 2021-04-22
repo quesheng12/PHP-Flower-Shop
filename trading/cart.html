@@ -171,7 +171,7 @@
                                             class="icon-users"></i></a>
                                 </div>
                                 <div class="header-account-list mini-cart">
-                                    <a href="#" role="button">
+                                    <a href="../trading/cart.html" role="button">
                                         <i class="icon-shopping-bag"></i>
                                     </a>
                                 </div>
@@ -209,7 +209,7 @@
                                 </ul>
                             </div>
                             <div class="header-account-list mini-cart">
-                                <a href="#">
+                                <a href="../trading/cart.html">
                                     <i class="icon-shopping-cart"></i>
                                     <span class="item-count ">0</span>
                                 </a>
@@ -550,14 +550,14 @@
         if ((parseInt(s1.attr('value')) + q) >= 1) {
             let s2 = $('[data-id=' + id + '] .amount');
             s1.attr('value', (parseInt(s1.attr('value')) + q));
-            $('[data-id=' + id + '] .item-total').html('￥' + s2.html().substr(1) * s1.attr('value'));
+            $('[data-id=' + id + '] .item-total').html('￥' + (s2.html().substr(1) * s1.attr('value')).toFixed(1));
             add_to_cart(id, q);
             $('.subtotal').html('￥' + (Number(parseFloat($('.subtotal').html().substr(1)).toFixed(2)) + Number(parseFloat(s2.html().substr(1)).toFixed(2)) * q).toFixed(2));
         } else if ((parseInt(s1.attr('value')) + q) < 1) {
             let s2 = $('[data-id=' + id + '] .amount');
             let q2 = 1 - parseInt(s1.attr('value'));
             s1.attr('value', (parseInt(s1.attr('value')) + q2));
-            $('[data-id=' + id + '] .item-total').html('￥' + s2.html().substr(1) * s1.attr('value'));
+            $('[data-id=' + id + '] .item-total').html('￥' + (s2.html().substr(1) * s1.attr('value')).toFixed(1));
             add_to_cart(id, q2);
             $('.subtotal').html('￥' + (Number(parseFloat($('.subtotal').html().substr(1)).toFixed(2)) + Number(parseFloat(s2.html().substr(1)).toFixed(2)) * q2).toFixed(2));
         }
@@ -583,9 +583,11 @@
             success: function (data) {
                 if(data==''){
                     $('.empty-cart-page').removeAttr('hidden');
+                    $('.cart-page').hide();
                 }
                 else {
                     $('.cart-page').removeAttr('hidden');
+                    $('.empty-cart-page').hide();
                     let html = '';
                     for (let key in data) {
                         html += '<tr data-id="' + data[key]['id'] + '">\n' +
@@ -701,6 +703,7 @@
             dataType: "json",
             success: function () {
                 show_cart();
+                location.reload();
             },
             error: function () {
                 xtip.alert("error");
@@ -718,6 +721,7 @@
             dataType: "json",
             success: function () {
                 show_cart();
+                location.reload();
             },
             error: function () {
                 xtip.alert("error");

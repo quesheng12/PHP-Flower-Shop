@@ -147,7 +147,7 @@
                                                 class="icon-users"></i></a>
                                     </div>
                                     <div class="header-account-list mini-cart">
-                                        <a href="#" role="button">
+                                        <a href="../trading/cart.html" role="button">
                                             <i class="icon-shopping-bag"></i>
                                         </a>
                                     </div>
@@ -185,7 +185,7 @@
                                     </ul>
                                 </div>
                                 <div class="header-account-list mini-cart">
-                                    <a href="#">
+                                    <a href="../trading/cart.html">
                                         <i class="icon-shopping-cart"></i>
                                         <span class="item-count ">0</span>
                                     </a>
@@ -660,6 +660,7 @@
                     grid_html += '</div>';
                     $('#grid').html(grid_html);
                     $('#list').html(list_html);
+                    $('.product-content>:nth-child(6)').hide();
                     $('.product-content>:nth-child(7)').hide();
                 },
                 error: function () {

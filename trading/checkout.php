@@ -191,7 +191,7 @@ function f($pp){
                                                     class="icon-users"></i></a>
                                     </div>
                                     <div class="header-account-list mini-cart">
-                                        <a href="#" role="button">
+                                        <a href="../trading/cart.html" role="button">
                                             <i class="icon-shopping-bag"></i>
                                         </a>
                                     </div>
@@ -229,7 +229,7 @@ function f($pp){
                                     </ul>
                                 </div>
                                 <div class="header-account-list mini-cart">
-                                    <a href="#">
+                                    <a href="../trading/cart.html">
                                         <i class="icon-shopping-cart"></i>
                                         <span class="item-count ">0</span>
                                     </a>
