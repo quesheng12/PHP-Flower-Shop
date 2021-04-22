@@ -57,7 +57,8 @@ function f($pp){
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
     <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
     <link rel="stylesheet" href="../assets/css/style.min.css">
-
+    <link href="../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
+    <script src="../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -67,74 +68,74 @@ function f($pp){
 
 
         <!--Top Notification Start-->
-        <div class="top-notification-bar text-center">
-            <div class="container">
-                <div class="notification-entry">
-                    <p>All featured product 50% off <a href="#">Shop Now</a></p>
-                </div>
-            </div>
-            <div class="notification-close">
-                <button class="notification-close-btn"><i class="fa fa-times"></i></button>
-            </div>
-        </div>
+<!--        <div class="top-notification-bar text-center">-->
+<!--            <div class="container">-->
+<!--                <div class="notification-entry">-->
+<!--                    <p>All featured product 50% off <a href="#">Shop Now</a></p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="notification-close">-->
+<!--                <button class="notification-close-btn"><i class="fa fa-times"></i></button>-->
+<!--            </div>-->
+<!--        </div>-->
         <!--Top Notification End-->
 
         <!--Header Section Start-->
         <div class="header-section d-none d-lg-block">
+            <!--    背景透明    -->
+            <!--    style="background: linear-gradient(0deg, rgba(255,255,255,0.3)0%, rgba(145,145,145,0.3)100%)!important"    -->
             <div class="main-header">
                 <div class="container position-relative">
                     <div class="row align-items-center">
                         <div class="col-lg-2">
                             <div class="header-logo">
-                                <a href="index.html"><img src="../assets/images/logo/logo.png" alt=""></a>
+                                <a href="/index.php"><img src="../assets/images/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-7 position-static">
                             <div class="site-main-nav">
                                 <nav class="site-nav">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="/index.php">Home</a></li>
                                         <li>
                                             <a href="#">Shop <span class="new">New</span></a>
 
                                             <ul class="mega-sub-menu">
                                                 <li class="mega-dropdown">
-                                                    <a class="mega-title" href="#">Shop</a>
+                                                    <a class="mega-title">FLOWERS BY COLOUR</a>
 
                                                     <ul class="mega-item">
-                                                        <li><a href="shop-grid-3.html">Shop Grid 3</a></li>
-                                                        <li><a href="shop-grid-4.html">Shop Grid 4</a></li>
-                                                        <li><a href="shop-list.html">Shop List</a></li>
-                                                        <li><a href="shop-grid-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                                        <li><a href="shop-grid-right-sidebar.html">Shop Grid Right Sidebar</a></li>
-                                                        <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                                        <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
+                                                        <li><a href="Pink.html">Pink</a></li>
+                                                        <li><a href="White.html">White</a></li>
+                                                        <li><a href="Blue.html">Blue</a></li>
+                                                        <li><a href="Orange.html">Orange</a></li>
+                                                        <li><a href="Red.html">Red</a></li>
+                                                        <li><a href="Yellow.html">Yellow</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-dropdown">
-                                                    <a class="mega-title" href="#">Shop Single</a>
+                                                    <a class="mega-title">FLOWER VARIETIES</a>
 
                                                     <ul class="mega-item">
-                                                        <li><a href="shop-single.html">Shop Single</a></li>
-                                                        <li><a href="shop-single-affiliate.html">Shop Single Affiliate</a></li>
-                                                        <li><a href="shop-single-variable.html">Shop Single Variable</a></li>
-                                                        <li><a href="shop-single-group.html">Shop Single Group</a></li>
+                                                        <li><a href="Roses.html">Roses</a></li>
+                                                        <li><a href="Lilies.html">Lilies</a></li>
+                                                        <li><a href="Gerbera.html">Gerbera</a></li>
+                                                        <li><a href="Carnations.html">Carnations</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-dropdown">
-                                                    <a class="mega-title" href="#">Page</a>
+                                                    <a class="mega-title">FUNERAL FLOWERS</a>
 
                                                     <ul class="mega-item">
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                        <li><a href="compare.html">Compare</a></li>
-                                                        <li><a href="checkout.php">Checkout</a></li>
-                                                        <li><a href="empty-cart.html">Empty Cart</a></li>
-                                                        <li><a href="my-account.html">My Account</a></li>
+                                                        <li><a href="Bestsellers.html">Bestsellers</a></li>
+                                                        <li><a href="Sheaves.html">Sheaves</a></li>
+                                                        <li><a href="Wreaths.html">Wreaths</a></li>
+                                                        <li><a href="Arrangements.html">Arrangements</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-dropdown">
-                                                    <a class="menu-banner" href="#">
+                                                    <a class="mega-title">DEAL OF THE WEEK</a>
+                                                    <a class="menu-banner">
                                                         <img src="../assets/images/menu-banner.jpg" alt="">
                                                     </a>
                                                 </li>
@@ -155,27 +156,23 @@ function f($pp){
                                                 <li>
                                                     <a href="#">Blog Single</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                                        <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
+                                                        <li><a href="blog-single-left-sidebar.html">Blog Single Left
+                                                                Sidebar</a></li>
+                                                        <li><a href="blog-single-right-sidebar.html">Blog Single Right
+                                                                Sidebar</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Pages <span class="sale">Sale</span></a>
+                                            <a href="#">About Us</a>
                                             <ul class="sub-menu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                <li><a href="compare.html">Compare</a></li>
-                                                <li><a href="checkout.php">Checkout</a></li>
-                                                <li><a href="empty-cart.html">Empty Cart</a></li>
-                                                <li><a href="my-account.html">My Account</a></li>
-                                                <li><a href="login.html">Login</a></li>
-                                                <li><a href="register.html">Register</a></li>
+                                                <li><a href="about.html">Our Company</a></li>
+                                                <li><a href="Employee.html">Employee Style</a></li>
+
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -189,77 +186,14 @@ function f($pp){
                                     </form>
                                 </div>
                                 <div class="header-account">
-                                    <div class="header-account-list dropdown top-link">
-                                        <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
-
-                                        <ul class="dropdown-menu ">
-                                            <li><a href="#">Delivery</a></li>
-                                            <li><a href="#">Legal Notice</a></li>
-                                            <li><a href="#">Secure payment</a></li>
-                                            <li><a href="#">Sitemap</a></li>
-                                            <li><a href="#">About us</a></li>
-                                        </ul>
+                                    <div class="header-account-list top-link">
+                                        <a href="/user/personal-profile/personal-profile.php" role="button"><i
+                                                    class="icon-users"></i></a>
                                     </div>
-                                    <div class="header-account-list dropdown mini-cart">
-                                        <a href="#" role="button" data-toggle="dropdown">
+                                    <div class="header-account-list mini-cart">
+                                        <a href="#" role="button">
                                             <i class="icon-shopping-bag"></i>
-                                            <span class="item-count ">3</span>
                                         </a>
-
-                                        <ul class="dropdown-menu ">
-                                            <li class="product-cart">
-                                                <div class="single-cart-box">
-                                                    <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="../assets/images/cart/cart-1.jpg" alt=""></a>
-                                                        <span class="pro-quantity">1x</span>
-                                                    </div>
-                                                    <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
-                                                        <div class="cart-price">
-                                                            <span class="sale-price">$70.00</span>
-                                                            <span class="regular-price">$80.00</span>
-                                                        </div>
-                                                    </div>
-                                                    <a href="javascript:void(0);" class="del-icon"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                                <div class="single-cart-box">
-                                                    <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="../assets/images/cart/cart-2.jpg" alt=""></a>
-                                                        <span class="pro-quantity">1x</span>
-                                                    </div>
-                                                    <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
-                                                        <div class="cart-price">
-                                                            <span class="sale-price">$70.00</span>
-                                                            <span class="regular-price">$80.00</span>
-                                                        </div>
-                                                    </div>
-                                                    <a href="javascript:void(0);" class="del-icon"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                                <div class="single-cart-box">
-                                                    <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="../assets/images/cart/cart-3.jpg" alt=""></a>
-                                                        <span class="pro-quantity">1x</span>
-                                                    </div>
-                                                    <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
-                                                        <div class="cart-price">
-                                                            <span class="sale-price">$70.00</span>
-                                                            <span class="regular-price">$80.00</span>
-                                                        </div>
-                                                    </div>
-                                                    <a href="javascript:void(0);" class="del-icon"><i class="fa fa-trash"></i></a>
-                                                </div>
-                                            </li>
-                                            <li class="product-total">
-                                                <ul class="cart-total">
-                                                    <li> Total : <span>$189.00</span></li>
-                                                </ul>
-                                            </li>
-                                            <li class="product-btn">
-                                                <a href="checkout.php" class="btn btn-dark btn-block">Checkout</a>
-                                            </li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -275,9 +209,9 @@ function f($pp){
         <div class="header-mobile d-lg-none">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-6">
+                    <div class="col -6">
                         <div class="header-logo">
-                            <a href="index.html"><img src="../assets/images/logo/logo.png" alt=""></a>
+                            <a href="/index.php"><img src="../assets/images/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-6">
@@ -287,16 +221,16 @@ function f($pp){
                                     <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
 
                                     <ul class="dropdown-menu ">
-                                        <li><a href="#">Delivery</a></li>
-                                        <li><a href="#">Legal Notice</a></li>
-                                        <li><a href="#">Secure payment</a></li>
-                                        <li><a href="#">Sitemap</a></li>
-                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">My Orders</a></li>
+                                        <li><a href="#">Sign In</a></li>
+                                        <li><a href="#">Register</a></li>
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="#">Log Out</a></li>
                                     </ul>
                                 </div>
                                 <div class="header-account-list mini-cart">
                                     <a href="#">
-                                        <i class="icon-shopping-bag"></i>
+                                        <i class="icon-shopping-cart"></i>
                                         <span class="item-count ">0</span>
                                     </a>
                                 </div>
@@ -325,9 +259,9 @@ function f($pp){
 
             <div class="header-meta-info">
                 <div class="header-search">
-                    <form action="#">
+                    <form action="#" class="search-form">
                         <input type="text" placeholder="Search our store ">
-                        <button><i class="icon-search"></i></button>
+                        <button><i class="icon-search" style="color: deeppink"></i></button>
                     </form>
                 </div>
             </div>
@@ -335,51 +269,22 @@ function f($pp){
             <div class="site-main-nav">
                 <nav class="site-nav">
                     <ul class="navbar-mobile-wrapper">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/index.php">Home</a></li>
                         <li>
-                            <a href="#">Shop <span class="new">New</span></a>
+                            <a href="#">Shop</a>
 
                             <ul class="mega-sub-menu">
                                 <li class="mega-dropdown">
-                                    <a class="mega-title" href="#">Shop</a>
+                                <li><a href="shop-grid-Spring.html">Spring</a></li>
+                                <li><a href="shop-grid-Summer.html">Summer</a></li>
+                                <li><a href="shop-grid-Autumn.html">Autumn</a></li>
+                                <li><a href="shop-grid-Winter.html">Winter</a></li>
+                                <li><a href="shop-grid-Plants.html">Plants</a></li>
+                                <li><a href="shop-grid-Birthday.html">Birthday</a></li>
+                                <li><a href="shop-grid-Wedding.html">Wedding</a></li>
+                                <li><a href="shop-grid-Sale.html">Sale</a></li>
+                                </li>
 
-                                    <ul class="mega-item">
-                                        <li><a href="shop-grid-3.html">Shop Grid 3</a></li>
-                                        <li><a href="shop-grid-4.html">Shop Grid 4</a></li>
-                                        <li><a href="shop-list.html">Shop List</a></li>
-                                        <li><a href="shop-grid-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                        <li><a href="shop-grid-right-sidebar.html">Shop Grid Right Sidebar</a></li>
-                                        <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                        <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mega-dropdown">
-                                    <a class="mega-title" href="#">Shop Single</a>
-
-                                    <ul class="mega-item">
-                                        <li><a href="shop-single.html">Shop Single</a></li>
-                                        <li><a href="shop-single-affiliate.html">Shop Single Affiliate</a></li>
-                                        <li><a href="shop-single-variable.html">Shop Single Variable</a></li>
-                                        <li><a href="shop-single-group.html">Shop Single Group</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mega-dropdown">
-                                    <a class="mega-title" href="#">Page</a>
-
-                                    <ul class="mega-item">
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="compare.html">Compare</a></li>
-                                        <li><a href="checkout.php">Checkout</a></li>
-                                        <li><a href="empty-cart.html">Empty Cart</a></li>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mega-dropdown">
-                                    <a class="menu-banner" href="#">
-                                        <img src="../assets/images/menu-banner.jpg" alt="">
-                                    </a>
-                                </li>
                             </ul>
                         </li>
                         <li>
@@ -387,34 +292,30 @@ function f($pp){
 
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#">Blog</a>
+                                    <a href="#">Blog 1</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                        <li><a href="blog1.html">Blog 1-1</a></li>
+                                        <li><a href="blog1-1.html">Blog1-2</a></li>
+                                        <li><a href="blog1-2.html">Blog1-3</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Blog Single</a>
+                                    <a href="#">Blog 2</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                        <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
+                                        <li><a href="blog2-1.html">Blog2-1</a></li>
+                                        <li><a href="blog2-2.html">Blog2-2</a></li>
                                     </ul>
                                 </li>
                             </ul>
+
                         </li>
                         <li>
-                            <a href="#">Pages <span class="sale">Sale</span></a>
+                            <a href="#">Pages</a>
                             <ul class="sub-menu">
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="about.html">About Us</a></li>
                                 <li><a href="cart.html">Cart</a></li>
                                 <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="compare.html">Compare</a></li>
-                                <li><a href="checkout.php">Checkout</a></li>
-                                <li><a href="empty-cart.html">Empty Cart</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="register.html">Register</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
                             </ul>
                         </li>
                         <li><a href="contact.html">Contact</a></li>
@@ -670,17 +571,9 @@ function f($pp){
                         <!--Footer Widget Start-->
                         <div class="col-lg-4 col-md-6">
                             <div class="footer-widget">
-                                <a class="footer-logo" href="#"><img src="assets/images/logo/logo-white.png" alt=""></a>
+                                <a class="footer-logo" href="#"><img src="../assets/images/logo/logo2.png" alt=""></a>
                                 <div class="footer-widget-text">
-                                    <p>A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you. </p>
-                                </div>
-                                <div class="widget-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                    </ul>
+                                    <p>Group 9: Programmers Never Give Up</p>
                                 </div>
                             </div>
                             <!--Footer Widget End-->
@@ -688,35 +581,19 @@ function f($pp){
 
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="footer-widget">
-                                <h4 class="footer-widget-title">Information</h4>
+                                <h4 class="footer-widget-title">About Us</h4>
 
                                 <div class="footer-widget-menu">
                                     <ul>
-                                        <li><a href="#">Search Terms</a></li>
-                                        <li><a href="#">Advanced Search</a></li>
-                                        <li><a href="#">Helps & Faqs</a></li>
-                                        <li><a href="#">Store Location</a></li>
-                                        <li><a href="#">Orders & Returns</a></li>
+                                        <li><a href="#">Company</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Wechat</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="footer-widget">
-                                <h4 class="footer-widget-title">My Account</h4>
-
-                                <div class="footer-widget-menu">
-                                    <ul>
-                                        <li><a href="#">Delivery</a></li>
-                                        <li><a href="#">Legal Notice</a></li>
-                                        <li><a href="#">Secure payment</a></li>
-                                        <li><a href="#">Sitemap</a></li>
-                                        <li><a href="about.html">About us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="footer-widget">
@@ -724,27 +601,8 @@ function f($pp){
 
                                 <div class="footer-widget-menu">
                                     <ul>
-                                        <li><a href="#">FAQ’s</a></li>
-                                        <li><a href="#">Pricing Plans</a></li>
-                                        <li><a href="#">Track</a></li>
-                                        <li><a href="#">Your Order</a></li>
-                                        <li><a href="#">Returns</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="footer-widget">
-                                <h4 class="footer-widget-title">Customer Service</h4>
-
-                                <div class="footer-widget-menu">
-                                    <ul>
-                                        <li><a href="my-account.html">My Account</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                        <li><a href="#">Deliveries & Returns</a></li>
-                                        <li><a href="#">Gift card</a></li>
-                                        <li><a href="#">Legal Notice</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Customer Service</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -759,20 +617,13 @@ function f($pp){
         <!--Copyright Section Start-->
         <div class="copyright-section">
             <div class="container">
-                <div class="copyright-wrapper text-center d-lg-flex align-items-center justify-content-between">
+                <div class="copyright-wrapper">
 
                     <!--Right Start-->
-                    <div class="copyright-content">
-                        <p>Copyright 2020 &copy; <a href="http://www.bootstrapmb.com/">HasThemes</a> . All Rights Reserved</p>
+                    <div class="copyright-content" style="text-align: center">
+                        <p>Copyright © 2021 Group9_PNG Inc. All Rights Reserved.</p>
                     </div>
                     <!--Right End-->
-
-                    <!--Right Start-->
-                    <div class="copyright-payment">
-                        <img src="../assets/images/payment.png" alt="">
-                    </div>
-                    <!--Right End-->
-
                 </div>
             </div>
         </div>
@@ -821,26 +672,26 @@ function f($pp){
         $(document).ready(function () {
             $.ajax({
                 type: "POST",
-                url: "trading/address.php",
+                url: "address.php",
                 dataType: "json",
                 success: function (data) {
                     showAddress(data);
                 },
                 error: function () {
-                    alert("error");
+                    xtip.alert("error");
                 }
             });
 
             $('.item').html('<?php echo f($pp); ?>');
-            $('.subtotal').html('$'+'<?php echo $pp['subtotal']; ?>');
-            $('.final-total').html('$'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
+            $('.subtotal').html('￥'+'<?php echo $pp['subtotal']; ?>');
+            $('.final-total').html('￥'+'<?php echo $pp['subtotal']+$pp['total_quantity']*5; ?>');
             $('#radio2').click(function() {
-                $('.final-total').html('$'+'<?php echo (int)$pp['subtotal']+$pp['total_quantity']*0.01; ?>');
+                $('.final-total').html('￥'+'<?php echo $pp['subtotal']+$pp['total_quantity']*5; ?>');
                 $('.choose-address').css({'z-index':'', 'background':'', 'opacity': '', 'display': ''});
                 $('.btn-choose-address').removeAttr("disabled");
             });
             $('#radio3').click(function() {
-                $('.final-total').html('$'+'<?php echo $pp['subtotal']; ?>');
+                $('.final-total').html('￥'+'<?php echo $pp['subtotal']; ?>');
                 $('.choose-address').css({'z-index':100, 'background':'#dee2e6', 'opacity': 0.3, 'display': 'block'});
                 $('.btn-choose-address').attr('disabled', 'disabled');
             });
@@ -859,7 +710,7 @@ function f($pp){
                 let quantity = '<?php echo implode(', ', $pp['quantity']); ?>';
                 $.ajax({
                     type: "POST",
-                    url: "trading/order.php",
+                    url: "order.php",
                     data: {
                         action: 1,
                         service: service,
@@ -871,11 +722,11 @@ function f($pp){
                     },
                     dataType: "json",
                     success: function () {
-                        alert("Check Successfully!");
+                        xtip.msg("Check Successfully!");
                         window.location.href = 'shop-list.html';
                     },
                     error: function () {
-                        alert("error");
+                        xtip.alert("error");
                     }
                 });
                 $.ajax({
