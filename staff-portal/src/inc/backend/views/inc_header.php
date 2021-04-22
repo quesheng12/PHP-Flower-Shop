@@ -73,12 +73,17 @@
             </div>
             <!-- END User Dropdown -->
 
+            <?php
+            include('../../utils/conn.php');
+            $sql = "select COUNT(id) as num from item WHERE stock = 0";
+            $num = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
+            ?>
             <!-- Notifications Dropdown -->
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn btn-dual" id="page-header-notifications-dropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-fw fa-bell"></i>
-                    <span class="badge badge-secondary badge-pill">5</span>
+                    <span class="badge badge-secondary badge-pill"><?php echo $num; ?></span>
                 </button>
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
                      aria-labelledby="page-header-notifications-dropdown">
@@ -120,7 +125,6 @@
                             </a>
                         </li>-->
                         <?php
-                        include('../../utils/conn.php');
                         $sql = "select name from item WHERE stock = 0";
                         $rst = mysqli_query($conn, $sql);
                         ?>
