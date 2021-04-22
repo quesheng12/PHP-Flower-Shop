@@ -1,73 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="feature: add pink and white products material">
-      <change afterPath="$PROJECT_DIR$/EmployeeStyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/hero1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/reza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/signature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/testimonial-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bw-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bw-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bw-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bw-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bw-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bw-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hero1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/signature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/testimonial-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/classie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.appear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/masonry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/masonry.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/smooth-scroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/typed.js" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="feature: add employee style page draft">
+      <change afterPath="$PROJECT_DIR$/images/FuHan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/JiaTiancheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/LiDianzhe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/LiuYuxin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ZhaoYiran.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeStyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeStyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo-big.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo-big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature_index" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -127,9 +76,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Group9-web\images" />
       <recent name="D:\Group9-web" />
       <recent name="D:\Group9-web\js" />
-      <recent name="D:\Group9-web\images" />
       <recent name="D:\Group9-web\fonts" />
       <recent name="D:\Group9-web\js\EmployeeStyle" />
     </key>
@@ -184,6 +133,10 @@
       <workItem from="1618541622981" duration="622000" />
       <workItem from="1618577132399" duration="2222000" />
       <workItem from="1618797642810" duration="2891000" />
+      <workItem from="1619070377961" duration="401000" />
+      <workItem from="1619070798455" duration="1696000" />
+      <workItem from="1619072507659" duration="2665000" />
+      <workItem from="1619075220594" duration="3579000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
