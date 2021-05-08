@@ -20,12 +20,12 @@ if (isset($_FILES['pre_image']['name'])) {
         mkdir($filepath);
     }
 // echo $filepath;
-    if (move_uploaded_file($tmp, $filepath . $imgname)) {
-        $file['tmp_name'] = "1";
-        // echo $i;
-    } else {
-        echo "<script>alert('图片储存失败');</script>";
-    }
+//    if (move_uploaded_file($tmp, $filepath . $imgname)) {
+//        $file['tmp_name'] = "1";
+//        // echo $i;
+//    } else {
+//        echo "<script>alert('图片储存失败');</script>";
+//    }
 }
 
 $dt = new DateTime();
@@ -42,7 +42,7 @@ if (isset($_FILES['pre_image']['name'])) {
 if ($conn->query($sql) === TRUE) {
     echo "<script>alert('更改成功');location.href='../src/be_pages_blog_story.php?id=" . $id . "';</script>";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+//    echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 mysqli_close($conn);

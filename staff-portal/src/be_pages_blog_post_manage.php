@@ -37,7 +37,7 @@
                             <i class="far fa-2x fa-file-alt opacity-50"></i>
                         </div>
                         <p class="font-size-h3 font-w700 mb-0">
-                            150
+                            2
                         </p>
                         <p class="text-muted mb-0">
                             All Posts
@@ -147,7 +147,7 @@
                     <li class="page-item active">
                         <a class="page-link" href="javascript:void(0)">1</a>
                     </li>
-                    <li class="page-item">
+             <!--       <li class="page-item">
                         <a class="page-link" href="javascript:void(0)">2</a>
                     </li>
                     <li class="page-item">
@@ -155,7 +155,7 @@
                     </li>
                     <li class="page-item">
                         <a class="page-link" href="javascript:void(0)">4</a>
-                    </li>
+                    </li>-->
                     <li class="page-item">
                         <a class="page-link" href="javascript:void(0)" aria-label="Next">
                             <span aria-hidden="true">
