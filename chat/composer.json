@@ -24,7 +24,8 @@
         "topthink/think-migration": "1.*",
         "topthink/think-queue": "1.*",
         "topthink/think-helper": "1.*",
-      "ext-mysqli": "*"
+      "ext-mysqli": "*",
+      "ext-json": "*"
     },
     "autoload": {
         "psr-4": {

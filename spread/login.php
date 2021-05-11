@@ -18,11 +18,7 @@ while ($arr = mysqli_fetch_assoc($rst)) {
     // print_r($p);
     if ($p['username'] == $arr['username'] && $p['password'] == $arr['password']) {
         $match = true;
-        //写入session
-        session_start();
-        $_SESSION['username'] = $p['username'];
-        $_SESSION['password'] = $p['password'];
-        $_SESSION['uid'] = $arr['id'];
+
         echo 100;
     }
 }

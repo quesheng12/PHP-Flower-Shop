@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/presentation/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/introduction.css" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="introduction">
+      <change afterPath="$PROJECT_DIR$/image/spread_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/spread_front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/笑脸.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/get_done.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/spread.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spread/success_help.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/chat/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -31,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="index" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,23 +75,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/presentation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spread" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spread" />
       <recent name="$PROJECT_DIR$/presentation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/spread_back" />
       <recent name="$PROJECT_DIR$/style" />
       <recent name="$PROJECT_DIR$/trading" />
       <recent name="$PROJECT_DIR$/presentation/blog" />
-      <recent name="$PROJECT_DIR$/user" />
-      <recent name="$PROJECT_DIR$/image" />
     </key>
   </component>
   <component name="RunManager">
@@ -131,6 +145,7 @@
       <workItem from="1619272043049" duration="320000" />
       <workItem from="1620390993664" duration="582000" />
       <workItem from="1620480073060" duration="1064000" />
+      <workItem from="1620494192579" duration="33155000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
