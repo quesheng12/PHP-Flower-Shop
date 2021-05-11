@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="introduction">
-      <change afterPath="$PROJECT_DIR$/image/spread_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/spread_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/笑脸.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/get_done.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/signup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/spread.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/style.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/success_help.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/user/login_back.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/signup_back.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spread/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/backend/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login-signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login-signup.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/login-signup.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/signup.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/check-staff-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/check-staff-login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -489,7 +492,8 @@
     <MESSAGE value="staff portal item post" />
     <MESSAGE value="blogs" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="spread-page" />
+    <option name="LAST_COMMIT_MESSAGE" value="spread-page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

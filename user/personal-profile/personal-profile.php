@@ -22,7 +22,7 @@
     <script>
         $.get("login-check.php", function (data) {
             if (!data) {
-                location.href = '../login.html';
+                location.href = '../login.php';
             }
         });
     </script>
@@ -133,16 +133,18 @@
                                             $badges['DELIVERING']['class'] = "badge-primary";
                                             $badges['DELIVERING']['text'] = "Delivering";
 
+                                            $sql = "select COUNT(id) as num from orders WHERE user_id=" . $_SESSION['uid'] . " ORDER BY time DESC";
+                                            $num = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                                             $sql = "select id,user_id,service,status,time from orders WHERE user_id=" . $_SESSION['uid'] . " ORDER BY time DESC";
                                             $rst = mysqli_query($conn, $sql);
                                             ?>
-                                            <?php $num = 1;
+                                            <?php $n = 0;
                                             while ($arr = mysqli_fetch_assoc($rst)) { ?>
                                                 <tr>
                                                     <td class="text-center">
                                                         <a class="font-w600"
                                                            href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
-                                                            <strong>ORD.<?php echo $num++; ?></strong>
+                                                            <strong>ORD.<?php echo $num - $n++; ?></strong>
                                                         </a>
                                                     </td>
                                                     <td class="d-none d-sm-table-cell text-center"><?php echo $arr['time'] ?></td>
