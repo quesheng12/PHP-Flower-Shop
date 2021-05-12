@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="login-signup 改进">
-      <change afterPath="$PROJECT_DIR$/staff-portal/backend/epidemic_manage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/src/epidemic_manage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/epidemic_manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/epidemic_manage.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/epidemic_manage.less" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="疫情系统">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +130,7 @@
       <workItem from="1620390993664" duration="582000" />
       <workItem from="1620480073060" duration="1064000" />
       <workItem from="1620494192579" duration="33155000" />
-      <workItem from="1620799740790" duration="3761000" />
+      <workItem from="1620799740790" duration="4422000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -435,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620746499685</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="疫情系统">
+      <created>1620804017642</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1620804017642</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +489,8 @@
     <MESSAGE value="blogs" />
     <MESSAGE value="1" />
     <MESSAGE value="spread-page" />
-    <option name="LAST_COMMIT_MESSAGE" value="spread-page" />
+    <MESSAGE value="疫情系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="疫情系统" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
