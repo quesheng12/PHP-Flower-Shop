@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/user/login_back.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/signup_back.php" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="login-signup 改进">
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/epidemic_manage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/src/epidemic_manage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/epidemic_manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/epidemic_manage.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/epidemic_manage.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spread/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/login-signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/login-signup.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/login-signup.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/login-signup.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/check-staff-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/check-staff-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="login-re_gregister" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,7 +72,7 @@
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -149,6 +139,7 @@
       <workItem from="1620390993664" duration="582000" />
       <workItem from="1620480073060" duration="1064000" />
       <workItem from="1620494192579" duration="33155000" />
+      <workItem from="1620799740790" duration="3761000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -437,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619089206965</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="login-signup 改进">
+      <created>1620746499685</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1620746499685</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

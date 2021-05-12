@@ -16,7 +16,7 @@ require 'inc/_classes/Template.php';
 // **************************************************************************************************
 
 //                              : Name, version and assets folder's name
-$dm                             = new Template('Dashmix', '3.1', 'assets');
+$dm                             = new Template('FLowerShop', '3.1', 'assets');
 
 
 // **************************************************************************************************
@@ -27,7 +27,7 @@ $dm                             = new Template('Dashmix', '3.1', 'assets');
 $dm->author                     = 'pixelcave';
 $dm->robots                     = 'noindex, nofollow';
 $dm->title                      = 'FlowerShop';
-$dm->description                = 'Dashmix - Bootstrap 4 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest';
+$dm->description                = '';
 
 //                              : The url of your site, used in Open Graph Meta Data (eg 'https://example.com')
 $dm->og_url_site                = '';
@@ -53,12 +53,12 @@ $dm->theme                      = '';
 
 // true                         : Enables Page Loader screen
 // false                        : Disables Page Loader screen
-$dm->page_loader                = false;
+$dm->page_loader                = true;
 
 // true                         : Remembers active color theme between pages
 //                                (when set through color theme helper Template._uiHandleTheme())
 // false                        : No cookies
-$dm->cookies                    = false;
+$dm->cookies                    = true;
 
 // You will have to obtain a Google Maps API key to use Google Maps, for more info please have a look at
 // https://developers.google.com/maps/documentation/javascript/get-api-key#key
