@@ -63,5 +63,10 @@ $dm->main_nav = array(
         'name' => 'News',
         'url' => 'be_pages_blog_post_manage.php',
         'icon' => 'fa fa-sticky-note',
+    ),
+    array(
+        'name' => 'Epidemic',
+        'url' => 'epidemic_manage.php',
+        'icon' => 'fa fa-rocket',
     )
 );

@@ -1,4 +1,5 @@
 ﻿<?php
+include ('../utils/conn.php');
 session_start();
 
 $p = $_POST;
@@ -479,10 +480,16 @@ function f($pp){
                                                             <input type="radio" name="shipping" id="radio2" value="DELIVERY" checked="checked">
                                                             <label for="radio2"><span></span> Delivery</label>
                                                         </li>
+                                                        <?php
+                                                        $sql = 'SELECT epidemic from general LIMIT 1';
+                                                        $epi = mysqli_fetch_assoc(mysqli_query($conn, $sql))['epidemic'];
+                                                        if($epi){
+                                                        ?>
                                                         <li class="cus-radio">
                                                             <input type="radio" name="shipping" id="radio3" value="OFFLINE">
                                                             <label for="radio3"><span></span> Local Pickup</label>
                                                         </li>
+                                                        <?php } ?>
                                                     </ul>
                                                 </td>
                                             </tr>

@@ -1,16 +1,16 @@
 <?php
-if (!isset($_POST)) {
-    echo "<script>location.href='../src/staff-login_back.php';</script>";
+if (!isset($_POST['username'])) {
+    echo "<script>location.href='login.php';</script>";
     exit;
 }
 
 //连接数据库
-include('../../utils/conn.php');
+include('../utils/conn.php');
 
 
 $p = $_POST;
 //4、执行SQL&处理结果===================================
-$sql = "select id,username,password from staff";
+$sql = "select * from user";
 $rst = mysqli_query($conn, $sql);
 
 $match = false;
@@ -20,13 +20,15 @@ while ($arr = mysqli_fetch_assoc($rst)) {
         $match = true;
         //写入session
         session_start();
-        $_SESSION['staff_id'] = $arr['id'];
-        echo "<script>location.href='../src/be_pages_ecom_orders.php';</script>";
+        $_SESSION['username'] = $p['username'];
+        $_SESSION['password'] = $p['password'];
+        $_SESSION['uid'] = $arr['id'];
+        echo 100;
     }
 }
 
 if (!$match) {
-    echo "<script>location.href='../src/staff-login_back.php';alert('Username or password wrong!')</script>";
+    echo 200;
 }
 
 mysqli_close($conn);

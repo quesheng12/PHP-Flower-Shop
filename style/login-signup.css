@@ -1,16 +1,8 @@
 .content {
   background: white;
-  border-radius: 1%;
   overflow: hidden;
-  margin-top: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 50px;
-  max-width: 1070px;
-  display: flex;
 }
 .content .imgs {
-  height: 610px;
-  width: 550px;
+  height: 80%;
 }
 /*# sourceMappingURL=login-signup.css.map */

@@ -110,7 +110,7 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                     <tr>
                         <th class="text-center" style="width: 100px;">ID</th>
                         <!--                        <th class="d-none d-sm-table-cell text-center">Added</th>-->
-                        <!--                        <th class="d-none d-md-table-cell">Product</th>-->
+                        <th class="d-none d-md-table-cell">Product</th>
                         <th>Status</th>
                         <th class="d-none d-sm-table-cell text-right">Price</th>
                         <th class="text-center">Actions</th>
@@ -129,7 +129,7 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                     <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
                         <tr>
                             <td class="text-center font-size-sm">
-                                <a class="font-w600" href="be_pages_ecom_product_edit.php?id=45">
+                                <a class="font-w600" href="be_pages_ecom_product_edit.php?id=<?php echo $arr['id']; ?>">
                                     <strong>PID.<?php echo $arr['id']; ?></strong>
                                 </a>
                             </td>
@@ -140,6 +140,11 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                             <!--                                <a class="font-w600" href="be_pages_ecom_product_edit.php">Product-->
                             <!--                                    #--><?php //echo $i; ?><!--</a>-->
                             <!--                            </td>-->
+                            <td>
+                                <a class="font-w600" href="be_pages_ecom_product_edit.php?id=<?php echo $arr['id']; ?>">
+                                    <strong><?php echo $arr['name']; ?></strong>
+                                </a>
+                            </td>
                             <td>
                                 <span class="badge<?php
                                 echo ($arr['stock'] == 0) ? " " . $badges['1']['class'] : " " . $badges['0']['class']; ?>"><?php echo ($arr['stock'] == 0) ? "" . $badges['1']['text'] : "" . $badges['0']['text']; ?></span>

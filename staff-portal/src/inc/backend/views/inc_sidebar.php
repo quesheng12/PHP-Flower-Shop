@@ -28,10 +28,10 @@
             <!-- Logo -->
             <a class="font-w600 text-white tracking-wide" href="index.php">
                 <span class="smini-visible">
-                    D<span class="opacity-75">x</span>
+                    F<span class="opacity-75">s</span>
                 </span>
                 <span class="smini-hidden">
-                    Dash<span class="opacity-75">mix</span>
+                    Flower<span class="opacity-75">Shop</span>
                 </span>
             </a>
             <!-- END Logo -->

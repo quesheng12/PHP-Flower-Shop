@@ -117,6 +117,13 @@ if (!isset($_GET['add'])) {
                             </div>
                         </div>
                         <div class="form-group">
+                            <label>Published?</label>
+                            <div class="custom-control custom-switch mb-1">
+                                <input type="checkbox" class="custom-control-input" id="dm-ecom-product-published" name="dm-ecom-product-published" checked="">
+                                <label class="custom-control-label" for="dm-ecom-product-published"></label>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <button type="submit" class="btn btn-alt-primary">Update</button>
                         </div>
                     </form>
