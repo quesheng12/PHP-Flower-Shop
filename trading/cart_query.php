@@ -56,6 +56,7 @@ function add_to_cart($conn, $user_id, $item_id, $quantity)
         } else {
             $sql = "update cart set quantity = quantity + '$quantity' where user_id = '$user_id' and item_id = '$item_id'";
             mysqli_query($conn, $sql);
+//            echo "Error:" . $sql . "<br>" . $conn->error;
             echo 300;
         }
     } catch (Exception $e) {

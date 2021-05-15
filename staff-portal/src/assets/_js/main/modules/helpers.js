@@ -161,7 +161,7 @@ export default class Helpers {
 
             // Add .js-custom-file-input-enabled class to tag it as activated
             el.addClass('js-custom-file-input-enabled').on('change', e => {
-                let fileName = (e.target.files.length > 1) ? e.target.files.length + ' ' + (el.data('lang-files') || 'Files') : e.target.files[0].name;
+                let fileName = (e.target.files.length > 1) ? e.target.files.length + ' ' + (el.data('lang-Apendix') || 'Files') : e.target.files[0].name;
 
                 el.next('.custom-file-label').css('overflow-x', 'hidden').html(fileName);
             });

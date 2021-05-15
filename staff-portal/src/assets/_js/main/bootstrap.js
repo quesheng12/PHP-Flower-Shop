@@ -8,7 +8,7 @@
 /*
  ********************************************************************************************
  *
- * If you would like to use webpack to handle all required core JS files, you can uncomment
+ * If you would like to use webpack to handle all required core JS Apendix, you can uncomment
  * the following imports and window assignments to have them included in the compiled
  * dashmix.app.min.js as well.
  *
@@ -17,7 +17,7 @@
  *********************************************************************************************
  */
 
-// Import all vital core JS files..
+// Import all vital core JS Apendix..
 //import jQuery from 'jquery';
 //import SimpleBar from 'simplebar';
 //import Cookies from 'js-cookie';

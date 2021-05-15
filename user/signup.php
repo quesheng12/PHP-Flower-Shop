@@ -60,7 +60,7 @@
     $(':submit').on('click', function (event) {
         if ($("#p1").val() === $("#p2").val()) {
             $('#form1').ajaxForm({
-                url: 'signup.php',
+                url: 'signup_back.php',
                 success: function (data, status) {
                     if (data === 100) {
                         // alert("注册成功")

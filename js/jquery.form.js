@@ -220,7 +220,7 @@
             };
         }
 
-        // are there files to upload?
+        // are there Apendix to upload?
 
         // [value] (issue #113), also see comment:
         // https://github.com/malsup/form/commit/588306aedba1de01388032d5f42a60159eea9228#commitcomment-2180219

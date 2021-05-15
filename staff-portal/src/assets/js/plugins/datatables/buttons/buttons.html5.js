@@ -373,9 +373,9 @@ try {
 catch (t) {}
 
 /**
- * Recursively add XML files from an object's structure to a ZIP file. This
+ * Recursively add XML Apendix from an object's structure to a ZIP file. This
  * allows the XSLX file to be easily defined with an object's structure matching
- * the files structure.
+ * the Apendix structure.
  *
  * @param {JSZip} zip ZIP package
  * @param {object} obj Object to add (recursive)
