@@ -1,48 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="bug fix">
-      <change afterPath="$PROJECT_DIR$/js/altha/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/appear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/fixed-left-sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/jquery.background-video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/jquery.bootstrap-touchspin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/jquery.nicescroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/owl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/respond.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/altha/wow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/animated-headline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/custom-animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/flaticon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/jquery.background-video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/owl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading/1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2dcore.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/2dcore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/personal-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/payment.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/payment.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="payment page">
+      <change beforePath="$PROJECT_DIR$/staff-portal/backend/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/check-staff-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/check-staff-login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +134,7 @@
       <workItem from="1620799740790" duration="8463000" />
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
-      <workItem from="1620955767858" duration="10664000" />
+      <workItem from="1620955767858" duration="10973000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -497,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621082494563</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="payment page">
+      <created>1621091899912</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1621091899912</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="password-edit feature" />
     <MESSAGE value="good list" />
     <MESSAGE value="images directory move to image directory" />
     <MESSAGE value="personal-profile前端工作" />
@@ -554,7 +521,8 @@
     <MESSAGE value="疫情系统" />
     <MESSAGE value="trading 疫情系统修改" />
     <MESSAGE value="bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+    <MESSAGE value="payment page" />
+    <option name="LAST_COMMIT_MESSAGE" value="payment page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

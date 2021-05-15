@@ -1,6 +1,6 @@
 <?php
 if (!isset($_POST)) {
-    echo "<script>location.href='../src/staff-login_back.php';</script>";
+    echo "<script>location.href='../src/staff-login.php';</script>";
     exit;
 }
 
@@ -26,7 +26,7 @@ while ($arr = mysqli_fetch_assoc($rst)) {
 }
 
 if (!$match) {
-    echo "<script>location.href='../src/staff-login_back.php';alert('Username or password wrong!')</script>";
+    echo "<script>location.href='../src/staff-login.php';alert('Username or password wrong!')</script>";
 }
 
 mysqli_close($conn);
