@@ -2,99 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="trading 疫情系统修改">
-      <change afterPath="$PROJECT_DIR$/Apendix/database document.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apendix/gantt_chart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apendix/milestone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/2dcore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/payment.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/plugins/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/plugins/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.5.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery-3.5.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/gulpfile.babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_js/main/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_js/main/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_js/main/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_js/main/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_js/main/modules/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_js/main/modules/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/custom/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/custom/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xdream.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xdream.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xeco.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xeco.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xinspire.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xinspire.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xmodern.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xmodern.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xplay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xplay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xpro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xpro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xsmooth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xsmooth.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xwork.scss" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/_scss/dashmix/themes/xwork.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/dashmix.app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/dashmix.app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/chart.js/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/bn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/bs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en-au.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en-gb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/fo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/fr-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/gu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/mn.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/mn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/si.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/tt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/ug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor/lang/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-classic/build/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-classic/build/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-inline/build/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-inline/build/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/datatables/buttons/buttons.html5.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/datatables/buttons/buttons.html5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/dropzone-amd-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/dropzone-amd-module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/dropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/dropzone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/min/dropzone-amd-module.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/min/dropzone-amd-module.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/min/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dist/min/dropzone.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/dropzone/dropzone.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/highlightjs/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/highlightjs/highlight.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/highlightjs/highlight.pack.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/highlightjs/highlight.pack.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/highlightjs/styles/night-owl.css" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/highlightjs/styles/night-owl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-countdown/jquery.countdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-countdown/jquery.countdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-countdown/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-countdown/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-validation/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-validation/additional-methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-validation/additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/jquery-validation/additional-methods.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/select2/js/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/select2/js/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/select2/js/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/select2/js/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/simplemde/simplemde.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/simplemde/simplemde.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-bs4.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-bs4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-bs4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-bs4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-lite.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-lite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-lite.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote-lite.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/summernote/summernote.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/epidemic_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/epidemic_manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/_global/views/head_end.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/_global/views/head_end.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart_query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/tinymce/js/tinymce/jquery.tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tinymce/js/tinymce/jquery.tinymce.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +132,7 @@
       <workItem from="1620799740790" duration="8463000" />
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
-      <workItem from="1620955767858" duration="4129000" />
+      <workItem from="1620955767858" duration="5626000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -534,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620804671469</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="trading 疫情系统修改">
+      <created>1621063234043</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1621063234043</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

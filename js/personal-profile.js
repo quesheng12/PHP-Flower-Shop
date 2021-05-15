@@ -159,15 +159,16 @@ $(document).ready(function () {
             url: 'user-information-edit.php',
             success: function (data, status) {
                 if (data === "100" || data === "200") {
-                    alert("Password Reset Successfully!")
+                    xtip.msg("Password Reset Successfully!")
                 } else {
-                    alert("Password Reset Failed")
+                    xtip.alert("Password Reset Failed")
                 }
                 if (data === "100" || data === "300") {
-                    alert("Personal Profiles Set Successfully!")
+                    xtip.msg("Personal Profiles Set Successfully!")
                 } else {
-                    alert("Personal Profiles Set Failed")
+                    xtip.alert("Personal Profiles Set Failed")
                 }
+                location.reload();
             }
         });
     });
