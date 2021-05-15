@@ -286,7 +286,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="single-form">
-                                                    <input type="password" name="new-password"
+                                                    <input id="new-password" type="password" name="new-password"
                                                            placeholder="New Password">
                                                 </div>
                                             </div>

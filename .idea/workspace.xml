@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="trading 疫情系统修改">
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="bug fix">
+      <change afterPath="$PROJECT_DIR$/js/altha/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/appear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/fixed-left-sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/isotope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/jquery.background-video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/jquery.bootstrap-touchspin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/jquery.nicescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/owl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/altha/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/animated-headline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/custom-animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/jquery.background-video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/altha/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/2dcore.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/2dcore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/personal-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/payment.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/payment.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +98,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/altha" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -67,15 +107,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/altha" />
       <recent name="$PROJECT_DIR$/spread" />
       <recent name="$PROJECT_DIR$/presentation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/altha" />
+      <recent name="$PROJECT_DIR$/style/altha" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/spread_back" />
       <recent name="$PROJECT_DIR$/style" />
-      <recent name="$PROJECT_DIR$/trading" />
-      <recent name="$PROJECT_DIR$/presentation/blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +173,7 @@
       <workItem from="1620799740790" duration="8463000" />
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
-      <workItem from="1620955767858" duration="5626000" />
+      <workItem from="1620955767858" duration="10664000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -449,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621063234043</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="bug fix">
+      <created>1621082494563</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1621082494563</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +529,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="personal-information" />
     <MESSAGE value="password-edit feature" />
     <MESSAGE value="good list" />
     <MESSAGE value="images directory move to image directory" />
@@ -506,7 +553,8 @@
     <MESSAGE value="spread-page" />
     <MESSAGE value="疫情系统" />
     <MESSAGE value="trading 疫情系统修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="trading 疫情系统修改" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

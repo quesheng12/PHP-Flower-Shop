@@ -158,17 +158,23 @@ $(document).ready(function () {
         $('#edit-personal-profiles').ajaxForm({
             url: 'user-information-edit.php',
             success: function (data, status) {
-                if (data === "100" || data === "200") {
-                    xtip.msg("Password Reset Successfully!")
-                } else {
-                    xtip.alert("Password Reset Failed")
-                }
                 if (data === "100" || data === "300") {
                     xtip.msg("Personal Profiles Set Successfully!")
                 } else {
-                    xtip.alert("Personal Profiles Set Failed")
+                    xtip.msg("Personal Profiles Set Failed")
                 }
-                location.reload();
+                if ($('#new-password').val() != '') {
+                    setTimeout(function () {
+                        if (data === "100" || data === "200") {
+                            xtip.msg("Password Reset Successfully!")
+                        } else {
+                            xtip.msg("Password Reset Failed")
+                        }
+                    },800)
+                }
+                setTimeout(function () {
+                    location.reload();
+                },1500)
             }
         });
     });
