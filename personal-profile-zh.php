@@ -10,18 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../../kugu-asset/images/favicon.png">
-
     <link rel="stylesheet" href="../../kugu-asset/css/helper.css">
     <link rel="stylesheet" href="../../kugu-asset/css/plugins-min/plugins.min.css">
     <link rel="stylesheet" href="../../kugu-asset/css/style.min.css">
     <link rel="stylesheet" href="../../style/personal-profile.css">
-
 </head>
-
 <body>
-
 <div class="main-wrapper">
-
     <div id="header">
         <!--Header Section Start-->
         <div class="header-section d-none d-lg-block">
@@ -40,11 +35,9 @@
                                         <li><a href="index.html">主页</a></li>
                                         <li>
                                             <a href="#">商店<span class="new">新！</span></a>
-
                                             <ul class="mega-sub-menu">
                                                 <li class="mega-dropdown">
                                                     <a class="mega-title" href="#">商店</a>
-
                                                     <ul class="mega-item">
                                                         <li><a href="shop-grid-3.html">商店网格 3</a></li>
                                                         <li><a href="shop-grid-4.html">商店网格 4</a></li>
@@ -65,7 +58,6 @@
                                                 </li>
                                                 <li class="mega-dropdown">
                                                     <a class="mega-title" href="#">商品页面</a>
-
                                                     <ul class="mega-item">
                                                         <li><a href="shop-single.html">商品页面</a></li>
                                                         <li><a href="shop-single-affiliate.html">购物单分支</a></li>
@@ -76,7 +68,6 @@
                                                 </li>
                                                 <li class="mega-dropdown">
                                                     <a class="mega-title" href="#">页面</a>
-
                                                     <ul class="mega-item">
                                                         <li><a href="cart.html">购物车</a></li>
                                                         <li><a href="wishlist.html">心愿单</a></li>
@@ -95,10 +86,9 @@
                                         </li>
                                         <li>
                                             <a href="#">博客</a>
-
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="#">Blog</a>
+                                                    <a href="#">博客</a>
                                                     <ul class="sub-menu">
                                                         <li><a href="blog.html">博客</a></li>
                                                         <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
@@ -148,7 +138,6 @@
                                 <div class="header-account">
                                     <div class="header-account-list dropdown top-link">
                                         <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
-
                                         <ul class="dropdown-menu ">
                                             <li><a href="#">配送</a></li>
                                             <li><a href="#">法律条款</a></li>
@@ -162,7 +151,6 @@
                                             <i class="icon-shopping-bag"></i>
                                             <span class="item-count ">3</span>
                                         </a>
-
                                         <ul class="dropdown-menu ">
                                             <li class="product-cart">
                                                 <div class="single-cart-box">
@@ -238,8 +226,6 @@
             </div>
         </div>
         <!--Header Section End-->
-
-
         <!--Header Mobile Start-->
         <div class="header-mobile d-lg-none">
             <div class="container">
@@ -254,7 +240,6 @@
                             <div class="header-account">
                                 <div class="header-account-list dropdown top-link">
                                     <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
-
                                     <ul class="dropdown-menu ">
                                         <li><a href="#">配送</a></li>
                                         <li><a href="#">法律条款</a></li>
@@ -283,15 +268,12 @@
             </div>
         </div>
         <!--Header Mobile End-->
-
         <!--Header Mobile Menu Start-->
         <div class="header-mobile-menu d-lg-none">
-
             <a href="javascript:void(0)" class="mobile-menu-close">
                 <span></span>
                 <span></span>
             </a>
-
             <div class="header-meta-info">
                 <div class="header-search">
                     <form action="#">
@@ -300,18 +282,15 @@
                     </form>
                 </div>
             </div>
-
             <div class="site-main-nav">
                 <nav class="site-nav">
                     <ul class="navbar-mobile-wrapper">
                         <li><a href="index.html">Home</a></li>
                         <li>
                             <a href="#">Shop <span class="new">New</span></a>
-
                             <ul class="mega-sub-menu">
                                 <li class="mega-dropdown">
                                     <a class="mega-title" href="#">Shop</a>
-
                                     <ul class="mega-item">
                                         <li><a href="shop-grid-3.html">商店网格 3</a></li>
                                         <li><a href="shop-grid-4.html">商店网格 4</a></li>
@@ -324,7 +303,6 @@
                                 </li>
                                 <li class="mega-dropdown">
                                     <a class="mega-title" href="#">商品页面</a>
-
                                     <ul class="mega-item">
                                         <li><a href="shop-single.html">商品页面</a></li>
                                         <li><a href="shop-single-affiliate.html">购物单分支</a></li>
@@ -334,7 +312,6 @@
                                 </li>
                                 <li class="mega-dropdown">
                                     <a class="mega-title" href="#">页面</a>
-
                                     <ul class="mega-item">
                                            <li><a href="about.html">关于</a></li>
                                                 <li><a href="cart.html">购物车</a></li>
@@ -354,7 +331,6 @@
                         </li>
                         <li>
                             <a href="#">博客</a>
-
                             <ul class="sub-menu">
                                 <li>
                                     <a href="#">Blog</a>
@@ -374,7 +350,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Pages <span class="sale">促销</span></a>
+                            <a href="#">页面 <span class="sale">促销</span></a>
                             <ul class="sub-menu">
                                                 <li><a href="about.html">关于</a></li>
                                                 <li><a href="cart.html">购物车</a></li>
@@ -391,7 +367,6 @@
                     </ul>
                 </nav>
             </div>
-
             <div class="header-social">
                 <ul class="social">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -401,14 +376,11 @@
                     <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                 </ul>
             </div>
-
         </div>
         <!--Header Mobile Menu End-->
     </div>
-
     <div class="overlay"></div>
     <!--Overlay-->
-
     <!--My Account Start-->
     <div class="register-page section-padding-5">
         <div class="container">
@@ -528,7 +500,6 @@
                         <div class="tab-pane fade" id="pills-edit-account">
                             <div class="my-account-details account-wrapper">
                                 <h4 class="account-title">账户信息</h4>
-
                                 <div class="account-details">
                                     <form id="edit-personal-profiles" method="post" action="user-information-edit.php">
                                         <div class="row">
@@ -590,13 +561,11 @@
         </div>
     </div>
     <!--My Account End-->
-
     <!--Footer Section Start-->
     <div class="footer-area">
         <div class="container">
             <div class="footer-widget-area section-padding-6">
                 <div class="row justify-content-between">
-
                     <!--Footer Widget Start-->
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-widget">
@@ -617,11 +586,9 @@
                         </div>
                         <!--Footer Widget End-->
                     </div>
-
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget-title">信息</h4>
-
                             <div class="footer-widget-menu">
                                 <ul>
                                     <li><a href="#">检索词</a></li>
@@ -633,11 +600,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget-title">我的账户t</h4>
-
                             <div class="footer-widget-menu">
                                 <ul>
                                     <li><a href="#">配送</a></li>
@@ -649,11 +614,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget-title">帮助</h4>
-
                             <div class="footer-widget-menu">
                                 <ul>
                                     <li><a href="#">常见问题</a></li>
@@ -665,11 +628,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
                             <h4 class="footer-widget-title">客户服务</h4>
-
                             <div class="footer-widget-menu">
                                 <ul>
                                     <li><a href="my-account.html">我的账户</a></li>
@@ -681,51 +642,41 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
     <!--Footer Section End-->
-
     <!--Copyright Section Start-->
     <div class="copyright-section">
         <div class="container">
             <div class="copyright-wrapper text-center d-lg-flex align-items-center justify-content-between">
-
                 <!--Right Start-->
                 <div class="copyright-content">
                     <p>Copyright 2020 &copy; <a href="http://www.bootstrapmb.com/">HasThemes</a> . All Rights Reserved
                     </p>
                 </div>
                 <!--Right End-->
-
                 <!--Right Start-->
                 <div class="copyright-payment">
                     <img src="../../kugu-asset/images/payment.png" alt="">
                 </div>
                 <!--Right End-->
-
             </div>
         </div>
     </div>
     <!--Copyright Section End-->
-
-
     <!--Back To Start-->
     <a href="#" class="back-to-top">
         <i class="fa fa-angle-double-up"></i>
     </a>
     <!--Back To End-->
-
 </div>
-
 <script src="../../kugu-asset/js/vendor/jquery-3.3.1.min.js"></script>
 <script src="../../kugu-asset/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="../../kugu-asset/js/plugins.min.js"></script>
 <script src="../../kugu-asset/js/main.js"></script>
 <script src="../../js/jquery.form.js"></script>
-
 <script>
     $.get(
         "user-information.php",
@@ -741,16 +692,13 @@
             $("#phone").html(data['phone']);
         }
     );
-
     //信息修改表单点按改变边框
     $(".single-form").find("input").on("click", function () {
         $(this).css("border", "1px solid #f34f3f");
     })
-
     $(".single-form").find("input").blur(function () {
         $(this).css("border", "1px solid #e5e5e5");
     });
-
     //提交表单代码
     $('#edit-personal-profiles').find(".btn").click(function () {
         $('#edit-personal-profiles').ajaxForm({
@@ -771,7 +719,5 @@
         });
     });
 </script>
-
 </body>
-
 </html>
