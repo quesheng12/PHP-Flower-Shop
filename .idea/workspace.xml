@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="payment适配">
-      <change afterPath="$PROJECT_DIR$/utils/language-switch.php" afterDir="false" />
+    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="11">
+      <change afterPath="$PROJECT_DIR$/mail/Smtp.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail/sendmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/password-reset/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/password-reset/images/into.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/password-reset/images/send-symbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/password-reset/password-reset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/password-reset/reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/reset-back.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reset-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signup-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup-zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-single-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single-zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff portal-zh/be_pages_ecom_order-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff portal-zh/be_pages_ecom_orders-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff portal-zh/be_pages_ecom_product_edit-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff portal-zh/be_pages_ecom_products-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/authcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +86,9 @@
       <recent name="$PROJECT_DIR$/presentation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/staff-portal/src" />
       <recent name="$PROJECT_DIR$/trading" />
-      <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/js/altha" />
       <recent name="$PROJECT_DIR$/style/altha" />
     </key>
@@ -483,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621135603389</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="11">
+      <created>1621154229597</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1621154229597</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="good list" />
     <MESSAGE value="images directory move to image directory" />
     <MESSAGE value="personal-profile前端工作" />
     <MESSAGE value="personal-profile" />
@@ -540,7 +548,8 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="payment page" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
