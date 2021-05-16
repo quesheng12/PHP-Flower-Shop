@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../kugu-asset/css/style.min.css">
     <link rel="stylesheet" href="../style/login-signup.css">
     <link href="../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
+    <link rel="shortcut  icon" href="../images/favicon.ico" type="image/x-icon" />
     <script src="../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
     <script src="../js/jquery-3.5.1.js"></script>
     <script src="../js/jquery.form.js"></script>

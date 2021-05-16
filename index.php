@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Flower Shop By Group 9 - PNG</title>
+    <title>Flower Shop</title>
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/plugins-min/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut  icon" href="../images/favicon.ico" type="image/x-icon" />
 
 </head>
 
