@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+.preloader {
+  width: 100%;
+  height: 100vh;
+  background: url(/image/spread_front.png) 50% no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+.preloader .user-info {
+  position: relative;
+  top: -23%;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+.preloader .preloader__status {
+  z-index: 1000;
+  position: relative;
+  top: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.preloader .preloader__status .preloader__status-text {
+  z-index: 1000;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
+.preloader .preloader__status .preloader__status-loader {
+  z-index: 1000;
+  width: 100%;
+  height: 3px;
+}
+.preloader .preloader__status .preloader__status-loader .preloader__status-bar {
+  z-index: 1000;
+  background: white;
+  height: 100%;
+}
+.frontpage {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url(/image/spread_back.png) 50% no-repeat;
+  justify-content: center;
+  align-items: center;
+  /*background: #34495e;*/
+}
+.frontpage .titles {
+  position: relative;
+  top: 9%;
+}
+.frontpage .titles .success-title {
+  color: #ff5c5c;
+  display: inline-block;
+  position: relative;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+}
+.frontpage__title {
+  /*color: white;*/
+}
+body {
+  overflow: hidden;
+}
+#button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 10vmax;
+  height: 10vmax;
+  background: #222;
+  z-index: 999;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 10vmax;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-size: 1.5vmax;
+  letter-spacing: 0.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+#button:before {
+  content: '.';
+  letter-spacing: 0;
+  visibility: hidden;
+}
+#button:hover {
+  background: #f34f3f;
+  cursor: pointer;
+}
+#button:hover ~ #overlay {
+  transform: scale3d(0, 0, 1);
+  /*transform: scale3d(1.5, 1.5, 1);*/
+}
+#back {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: 777;
+}
+#overlay {
+  position: absolute;
+  z-index: 888;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100vmax;
+  height: 100vmax;
+  background: #000;
+  border-radius: 50%;
+  mix-blend-mode: color;
+  transform: scale3d(1.5, 1.5, 1);
+  transition: transform 0.5s ease-in-out;
+}
+.m-auto {
+  margin: auto !important;
+  float: none !important;
+}
+.single-form {
+  margin-top: 10px;
+}
+.single-form input {
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding: 0px 15px !important;
+  max-width: 100%;
+  width: 100%;
+  font-size: 14px;
+  height: 40px;
+  font-weight: 400;
+  color: #222222;
+}
+.single-form button {
+  background-color: #f34f3f;
+  border-color: #f34f3f;
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 35px;
+  height: 50px;
+  line-height: 48px;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: 0;
+}
+.switch {
+  width: max-content;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 13px;
+  color: #a02c46a6;
+}
+/*# sourceMappingURL=style.css.map */
