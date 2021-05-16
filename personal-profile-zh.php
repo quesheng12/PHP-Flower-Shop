@@ -39,7 +39,7 @@
                                     <ul>
                                         <li><a href="index.html">主页</a></li>
                                         <li>
-                                            <a href="#">Shop <span class="new">New</span></a>
+                                            <a href="#">商店<span class="new">New</span></a>
 
                                             <ul class="mega-sub-menu">
                                                 <li class="mega-dropdown">
