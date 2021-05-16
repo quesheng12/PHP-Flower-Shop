@@ -205,6 +205,9 @@
 #quick-view-table {
   padding: 0 20px;
 }
+#btns {
+  display: flex;
+}
 #btns .btn {
   display: block;
   margin: auto;

@@ -104,7 +104,7 @@
                                             <tbody id='tbody'>
                                             </tbody>
                                         </table>
-                                        <div id='btns'>
+                                        <div id='btns' class='col-md-12'>
                                         </div>-->
                                     </div>
                                     <div class="table-responsive">
@@ -122,6 +122,10 @@
                                             </thead>
                                             <tbody>
                                             <?php
+                                            $badges['DELIVERY_WAIT_PAYMENT']['class'] = "badge-secondary";
+                                            $badges['DELIVERY_WAIT_PAYMENT']['text'] = "Wait payment";
+                                            $badges['OFFLINE_WAIT_PAYMENT']['class'] = "badge-secondary";
+                                            $badges['OFFLINE_WAIT_PAYMENT']['text'] = "Wait payment";
                                             $badges['FOR_DELIVERY']['class'] = "badge-info";
                                             $badges['FOR_DELIVERY']['text'] = "For delivery";
                                             $badges['FINISHED']['class'] = "badge-success";
@@ -314,6 +318,21 @@
 
     <?php include('../../template/footer.html'); ?>
 
+</div>
+<div id="share-wrapper">
+    <!-- <div>
+        <div style="font-weight: 700;
+    font-size: large;
+    color: #e40068;margin-left: 20px;
+    margin-top: 10px;">
+            Share URL:
+        </div>
+        <div id='share-url' style="    font-size: medium;
+    margin-top: 12px;
+    text-align: center;">
+            http://123.56.136.219/spread/spread.html?input=
+        </div>
+    </div>-->
 </div>
 
 <script src="../../kugu-asset/js/vendor/modernizr-3.6.0.min.js"></script>

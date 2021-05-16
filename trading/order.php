@@ -32,7 +32,7 @@ function order_item($conn, $oid, $item, $quantity)
 {
     try {
         $oid_encode = authcode($oid, 'ENCODE');
-        $sql = "insert into dictionary(input, value) values ('" . $oid . "','" . authcode($oid . '', 'ENCODE') . "')";
+        $sql = "insert into dictionary(value,input) values ('" . $oid . "','" . authcode($oid . '', 'ENCODE') . "')";
         mysqli_query($conn, $sql);
         for ($i = 0; $i < count($item); $i++) {
             $iid = $item[$i];

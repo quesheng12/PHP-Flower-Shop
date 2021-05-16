@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/spread/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spread/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/altha/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/payment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/payment.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading/finish_payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/query_dictionary.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apendix/database document.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Apendix/database document.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apendix/gantt_chart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Apendix/gantt_chart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Apendix/milestone.png" beforeDir="false" afterPath="$PROJECT_DIR$/Apendix/milestone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/product/pink/pink-product-SWEET EMBRACE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/product/pink/pink-product-SWEET EMBRACE.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/slider/slider-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2dcore.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/2dcore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ADVERTISEMENT/七彩气球.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/ADVERTISEMENT/七彩气球.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Grid/categories.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Grid/categories.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Grid/reflowers.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Grid/reflowers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/SECOND_BAR/LOGO.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/SECOND_BAR/LOGO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/位置.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/位置.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/公司.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/公司.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/客服.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/客服.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/鲜花.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/鲜花.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/popular.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/popular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/reword.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/reword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/花.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/花.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/reset.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/reset.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/signup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/signup.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/spread_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/spread_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/spread_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/spread_front.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image/笑脸.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/笑脸.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/花艺3.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/花艺3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/item/30/pink-product-BALI HAI6908070.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/30/pink-product-BALI HAI6908070.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/item/31/pink-product-SWEET EMBRACE6327680.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/31/pink-product-SWEET EMBRACE6327680.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/item/32/pink-product-BALI HAI7193750.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/32/pink-product-BALI HAI7193750.jpg" afterDir="false" />
@@ -59,9 +66,21 @@
       <change beforePath="$PROJECT_DIR$/images/news/7/blog-single.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-single.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/news/7/blog-single5965650.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-single5965650.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/news/7/blog-single7381160.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-single7381160.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-classic/build/ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/assets/js/plugins/ckeditor5-classic/build/ckeditor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/tinymce/js/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tinymce/js/tinymce/skins/ui/oxide-dark/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/tinymce/js/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tinymce/js/tinymce/skins/ui/oxide/fonts/tinymce-mobile.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user/header/1/main-interface.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user/header/1/main-interface.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.04.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.21.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/personal-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spread/get_done.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/get_done.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spread/success_help.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/success_help.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/get-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/get-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/authcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -523,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621091899912</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="1">
+      <created>1621135603389</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1621135603389</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
