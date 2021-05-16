@@ -8,16 +8,16 @@ include('../utils/authcode.php');
 $p = $_POST;
 
 if ($p['action'] == 1) {
-    order_item($conn, orders($conn, $uid, $p['service'], $p['address'], $p['note'], $p['status']), $p['item'], $p['quantity']);
+    order_item($conn, orders($conn, $uid, $p['service'], $p['address'], $p['note'], $p['status'], $p['total_price']), $p['item'], $p['quantity']);
 }
 
 mysqli_close($conn);
 
 //结算
-function orders($conn, $user_id, $service, $address, $note, $status)
+function orders($conn, $user_id, $service, $address, $note, $status, $total)
 {
     try {
-        $sql = "insert into orders (user_id, service, address_id, note, status, time) values ('$user_id', '$service', '$address', '$note', '$status', NOW())";
+        $sql = "insert into orders (user_id, service, address_id, note, status, time,total_price) values ('$user_id', '$service', '$address', '$note', '$status', NOW(),'$total')";
         mysqli_query($conn, $sql);
         $sql = "select id, time from orders where user_id = '$user_id' order by time desc limit 1";
         $rst = mysqli_query($conn, $sql);

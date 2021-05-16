@@ -409,7 +409,8 @@ function f($pp)
                     'note': $('.note').val(),
                     'status': status,
                     'item': item.split(', '),
-                    'quantity': quantity.split(', ')
+                    'quantity': quantity.split(', '),
+                    'total_price': parseFloat($('.final-total').html().substr(1)).toFixed(2)
                 },
                 function (data) {
                     //data返回oid加密后的值
@@ -456,7 +457,6 @@ function f($pp)
         }
         $('.choose-address').html(address_str);
     }
-
 </script>
 </body>
 

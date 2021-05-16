@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/assets/images/product/blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/carnation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/chrysanthemum.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/lily.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/pink.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/red.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/rose.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product/white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading/shop-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="employee style">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart_query.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart_query.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/loggedin-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/loggedin-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single-zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shoplist.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shoplist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/get-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/get-order.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
