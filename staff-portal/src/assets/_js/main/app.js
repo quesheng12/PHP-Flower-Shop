@@ -25,7 +25,7 @@ export default class App extends Template {
      *  Here you can override or extend any function you want from Template class
      *  if you would like to change/extend/remove the default functionality.
      *
-     *  This way it will be easier for you to update the module files if a new update
+     *  This way it will be easier for you to update the module Apendix if a new update
      *  is released since all your changes will be in here overriding the original ones.
      *
      *  Let's have a look at the _uiInit() function, the one that runs the first time

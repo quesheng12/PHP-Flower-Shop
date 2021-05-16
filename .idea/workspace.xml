@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="疫情系统">
+    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/trading/finish_payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/query_dictionary.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ADVERTISEMENT/七彩气球.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/ADVERTISEMENT/七彩气球.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Grid/categories.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Grid/categories.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Grid/reflowers.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Grid/reflowers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/SECOND_BAR/LOGO.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/SECOND_BAR/LOGO.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/位置.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/位置.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/公司.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/公司.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/客服.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/客服.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/鲜花.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/TOP_BAR_LEFT_PART/鲜花.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/popular.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/popular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/reword.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/reword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Title/花.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/Title/花.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/reset.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/reset.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/signup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/signup.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/spread_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/spread_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/spread_front.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/spread_front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/笑脸.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/笑脸.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/花艺3.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/花艺3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/30/pink-product-BALI HAI6908070.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/30/pink-product-BALI HAI6908070.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/31/pink-product-SWEET EMBRACE6327680.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/31/pink-product-SWEET EMBRACE6327680.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/32/pink-product-BALI HAI7193750.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/32/pink-product-BALI HAI7193750.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/33/pink-product-BELLA8769760.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/33/pink-product-BELLA8769760.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/34/pink-product-BLUSH DELIGHT3864440.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/34/pink-product-BLUSH DELIGHT3864440.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/35/pink-product-COUNTRY FIELDS3924160.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/35/pink-product-COUNTRY FIELDS3924160.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/36/pink-product-CRANBERRY SORBET2327410.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/36/pink-product-CRANBERRY SORBET2327410.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/37/pink-product-PERFECT PINKS5603580.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/37/pink-product-PERFECT PINKS5603580.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/38/pink-product-PINK PEARLS7349410.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/38/pink-product-PINK PEARLS7349410.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/39/pink-product-SUMMER HOLIDAY2597410.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/39/pink-product-SUMMER HOLIDAY2597410.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/40/pink-product-SUMMER TIME1921200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/40/pink-product-SUMMER TIME1921200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/41/pink-product-VELVET CLOUD8370530.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/41/pink-product-VELVET CLOUD8370530.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/42/pink-product-VELVET PARFAIT7672640.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/42/pink-product-VELVET PARFAIT7672640.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/43/white-product-LILY DELIGHT9013320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/43/white-product-LILY DELIGHT9013320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/44/white-product-MOONLIGHT ROSES6936560.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/44/white-product-MOONLIGHT ROSES6936560.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/45/white-product-SPRING SKIES3511800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/45/white-product-SPRING SKIES3511800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/1/WechatIMG156.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/1/WechatIMG156.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/2/WechatIMG156.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/2/WechatIMG156.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/pink-product-BELLA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-BELLA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/pink-product-BLUSH DELIGHT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-BLUSH DELIGHT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/pink-product-CRANBERRY SORBET.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-CRANBERRY SORBET.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/item/pre-image/pink-product-PERFECT PINKS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/item/pre-image/pink-product-PERFECT PINKS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/1/image13916060.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/1/image13916060.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/1/图13309430.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/1/图13309430.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/1/图34297090.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/1/图34297090.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/2/图1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/2/图1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/2/图26810900.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/2/图26810900.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/5/图12638300.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/5/图12638300.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/5/图1795980.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/5/图1795980.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/5/图19354800.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/5/图19354800.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/6/blog-dec-img1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/6/blog-dec-img1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/6/blog-dec-img2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/6/blog-dec-img2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/6/blog-single7884880.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/6/blog-single7884880.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/6/blog-single8560420.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/6/blog-single8560420.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/6/blog-single950120.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/6/blog-single950120.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/6/blog-single9777540.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/6/blog-single9777540.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/7/blog-dec-img18006020.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-dec-img18006020.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/7/blog-single.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-single.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/7/blog-single5965650.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-single5965650.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/news/7/blog-single7381160.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/news/7/blog-single7381160.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user/header/1/main-interface.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user/header/1/main-interface.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.04.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.21.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user/header/1/截屏2021-01-23 下午8.17.21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/personal-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spread/get_done.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/get_done.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spread/success_help.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/success_help.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/personal-profile.less" beforeDir="false" afterPath="$PROJECT_DIR$/style/personal-profile.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/get-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/get-order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/authcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +104,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="login-re_gregister" />
+        <entry key="$PROJECT_DIR$" value="title_icon" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +136,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/altha" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -68,15 +145,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/altha" />
       <recent name="$PROJECT_DIR$/spread" />
       <recent name="$PROJECT_DIR$/presentation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/altha" />
+      <recent name="$PROJECT_DIR$/style/altha" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/spread_back" />
       <recent name="$PROJECT_DIR$/style" />
-      <recent name="$PROJECT_DIR$/trading" />
-      <recent name="$PROJECT_DIR$/presentation/blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -130,7 +208,10 @@
       <workItem from="1620390993664" duration="582000" />
       <workItem from="1620480073060" duration="1064000" />
       <workItem from="1620494192579" duration="33155000" />
-      <workItem from="1620799740790" duration="4422000" />
+      <workItem from="1620799740790" duration="8463000" />
+      <workItem from="1620820151029" duration="4890000" />
+      <workItem from="1620908914799" duration="409000" />
+      <workItem from="1620955767858" duration="10973000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1615281982175</created>
@@ -433,7 +514,42 @@
       <option name="project" value="LOCAL" />
       <updated>1620804017642</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="trading 疫情系统修改">
+      <created>1620804671469</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1620804671469</updated>
+    </task>
+    <task id="LOCAL-00045" summary="trading 疫情系统修改">
+      <created>1621063234043</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1621063234043</updated>
+    </task>
+    <task id="LOCAL-00046" summary="bug fix">
+      <created>1621082494563</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1621082494563</updated>
+    </task>
+    <task id="LOCAL-00047" summary="payment page">
+      <created>1621091899912</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1621091899912</updated>
+    </task>
+    <task id="LOCAL-00048" summary="1">
+      <created>1621135603389</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1621135603389</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,9 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="login register and file-upload functions" />
-    <MESSAGE value="personal-information" />
-    <MESSAGE value="password-edit feature" />
     <MESSAGE value="good list" />
     <MESSAGE value="images directory move to image directory" />
     <MESSAGE value="personal-profile前端工作" />
@@ -487,10 +600,13 @@
     <MESSAGE value="staff portal: news upload and edit" />
     <MESSAGE value="staff portal item post" />
     <MESSAGE value="blogs" />
-    <MESSAGE value="1" />
     <MESSAGE value="spread-page" />
     <MESSAGE value="疫情系统" />
-    <option name="LAST_COMMIT_MESSAGE" value="疫情系统" />
+    <MESSAGE value="trading 疫情系统修改" />
+    <MESSAGE value="bug fix" />
+    <MESSAGE value="payment page" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

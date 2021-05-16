@@ -35,7 +35,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
  * Copyright (c) 2012, Matias Meno
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
+ * of this software and associated documentation Apendix (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
@@ -166,14 +166,14 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         /**
          * Has to be specified on elements other than form (or when the form
          * doesn't have an `action` attribute). You can also
-         * provide a function that will be called with `files` and
+         * provide a function that will be called with `Apendix` and
          * must return the url (since `v3.12.0`)
          */
         url: null,
 
         /**
          * Can be changed to `"put"` if necessary. You can also provide a function
-         * that will be called with `files` and must return the method (since `v3.12.0`).
+         * that will be called with `Apendix` and must return the method (since `v3.12.0`).
          */
         method: "post",
 
@@ -194,7 +194,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         parallelUploads: 2,
 
         /**
-         * Whether to send multiple files in one request. If
+         * Whether to send multiple Apendix in one request. If
          * this it set to true, then the fallback file input element will
          * have the `multiple` attribute as well. This option will
          * also trigger additional events (like `processingmultiple`). See the events
@@ -203,7 +203,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         uploadMultiple: false,
 
         /**
-         * Whether you want files to be uploaded in chunks to your server. This can't be
+         * Whether you want Apendix to be uploaded in chunks to your server. This can't be
          * used in combination with `uploadMultiple`.
          *
          * See [chunksUploaded](#config-chunksUploaded) for the callback to finalise an upload.
@@ -238,9 +238,9 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         retryChunksLimit: 3,
 
         /**
-         * If not `null` defines how many files this Dropzone handles. If it exceeds,
+         * If not `null` defines how many Apendix this Dropzone handles. If it exceeds,
          * the event `maxfilesexceeded` will be called. The dropzone element gets the
-         * class `dz-max-files-reached` accordingly so you can provide visual feedback.
+         * class `dz-max-Apendix-reached` accordingly so you can provide visual feedback.
          */
         maxFilesize: 256,
 
@@ -319,7 +319,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         filesizeBase: 1000,
 
         /**
-         * Can be used to limit the maximum number of files that will be handled by this Dropzone
+         * Can be used to limit the maximum number of Apendix that will be handled by this Dropzone
          */
         maxFiles: null,
 
@@ -340,7 +340,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         clickable: true,
 
         /**
-         * Whether hidden files in directories should be ignored.
+         * Whether hidden Apendix in directories should be ignored.
          */
         ignoreHiddenFiles: true,
 
@@ -364,10 +364,10 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         acceptedMimeTypes: null,
 
         /**
-         * If false, files will be added to the queue but the queue will not be
+         * If false, Apendix will be added to the queue but the queue will not be
          * processed automatically.
          * This can be useful if you need some additional user input before sending
-         * files (or if you want want all files sent at once).
+         * Apendix (or if you want want all Apendix sent at once).
          * If you're ready to send the file simply call `myDropzone.processQueue()`.
          *
          * See the [enqueuing file uploads](#enqueuing-file-uploads) documentation
@@ -376,7 +376,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         autoProcessQueue: true,
 
         /**
-         * If false, files added to the dropzone will not be queued by default.
+         * If false, Apendix added to the dropzone will not be queued by default.
          * You'll have to call `enqueueFile(file)` manually.
          */
         autoQueue: true,
@@ -436,9 +436,9 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         forceFallback: false,
 
         /**
-         * The text used before any files are dropped.
+         * The text used before any Apendix are dropped.
          */
-        dictDefaultMessage: "Drop files here to upload",
+        dictDefaultMessage: "Drop Apendix here to upload",
 
         /**
          * The text that replaces the default message text it the browser is not supported.
@@ -450,7 +450,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
          * If you provide a  fallback element yourself, or if this option is `null` this will
          * be ignored.
          */
-        dictFallbackText: "Please use the fallback form below to upload your files like in the olden days.",
+        dictFallbackText: "Please use the fallback form below to upload your Apendix like in the olden days.",
 
         /**
          * If the filesize is too big.
@@ -461,7 +461,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         /**
          * If the file doesn't match the file type.
          */
-        dictInvalidFileType: "You can't upload files of this type.",
+        dictInvalidFileType: "You can't upload Apendix of this type.",
 
         /**
          * If the server response was invalid.
@@ -498,7 +498,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
          * Displayed if `maxFiles` is st and exceeded.
          * The string `{{maxFiles}}` will be replaced by the configuration value.
          */
-        dictMaxFilesExceeded: "You can not upload any more files.",
+        dictMaxFilesExceeded: "You can not upload any more Apendix.",
 
         /**
          * Allows you to translate the different units. Starting with `tb` for terabytes and going down to
@@ -520,7 +520,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
 
         /**
          * Can be an **object** of additional parameters to transfer to the server, **or** a `Function`
-         * that gets invoked with the `files`, `xhr` and, if it's a chunked upload, `chunk` arguments. In case
+         * that gets invoked with the `Apendix`, `xhr` and, if it's a chunked upload, `chunk` arguments. In case
          * of a function, this needs to return a map.
          *
          * The default implementation does nothing for normal uploads, but adds relevant information for
@@ -737,7 +737,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
           return this.element.classList.remove("dz-drag-hover");
         },
         paste: function paste(e) {},
-        // Called whenever there are no files left in the dropzone anymore, and the
+        // Called whenever there are no Apendix left in the dropzone anymore, and the
         // dropzone should be displayed as if in the initial state.
         reset: function reset() {
           return this.element.classList.remove("dz-started");
@@ -885,7 +885,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         },
         errormultiple: function errormultiple() {},
         // Called when a file gets processed. Since there is a cue, not all added
-        // files are processed immediately.
+        // Apendix are processed immediately.
         // Receives `file`
         processing: function processing(file) {
           if (file.previewElement) {
@@ -992,7 +992,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
     _this.defaultOptions.previewTemplate = _this.defaultOptions.previewTemplate.replace(/\n*/g, "");
     _this.clickableElements = [];
     _this.listeners = [];
-    _this.files = []; // All files
+    _this.files = []; // All Apendix
 
     if (typeof _this.element === "string") {
       _this.element = document.querySelector(_this.element);
@@ -1077,7 +1077,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
     _this.init();
 
     return _this;
-  } // Returns all files that have been accepted
+  } // Returns all Apendix that have been accepted
 
 
   _createClass(Dropzone, [{
@@ -1088,7 +1088,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }).map(function (file) {
         return file;
       });
-    } // Returns all files that have been rejected
+    } // Returns all Apendix that have been rejected
     // Not sure when that's going to be useful, but added for completeness.
 
   }, {
@@ -1108,7 +1108,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }).map(function (file) {
         return file;
       });
-    } // Returns all files that are in the queue
+    } // Returns all Apendix that are in the queue
 
   }, {
     key: "getQueuedFiles",
@@ -1239,7 +1239,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       });
       this.on("canceled", function (file) {
         return _this3.emit("complete", file);
-      }); // Emit a `queuecomplete` event if all files finished uploading.
+      }); // Emit a `queuecomplete` event if all Apendix finished uploading.
 
       this.on("complete", function (file) {
         if (_this3.getAddedFiles().length === 0 && _this3.getUploadingFiles().length === 0 && _this3.getQueuedFiles().length === 0) {
@@ -1264,7 +1264,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       };
 
       var noPropagation = function noPropagation(e) {
-        // If there are no files, we don't want to stop
+        // If there are no Apendix, we don't want to stop
         // propagation so we don't interfere with other
         // drag and drop behaviour.
         if (!containsFiles(e)) return;
@@ -1289,7 +1289,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
             return _this3.emit("dragenter", e);
           },
           "dragover": function dragover(e) {
-            // Makes it possible to drag files from chrome's download bar
+            // Makes it possible to drag Apendix from chrome's download bar
             // http://stackoverflow.com/questions/19526430/drag-and-drop-file-uploads-from-chrome-downloads-bar
             // Try is required to prevent bug in Internet Explorer 11 (SCRIPT65535 exception)
             var efct;
@@ -1505,7 +1505,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
           return result;
         }();
       });
-    } // Removes all event listeners and cancels all files in the queue or being processed.
+    } // Removes all event listeners and cancels all Apendix in the queue or being processed.
 
   }, {
     key: "disable",
@@ -1555,7 +1555,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }
 
       return "<strong>".concat(selectedSize, "</strong> ").concat(this.options.dictFileSizeUnits[selectedUnit]);
-    } // Adds or removes the `dz-max-files-reached` class from the form.
+    } // Adds or removes the `dz-max-Apendix-reached` class from the form.
 
   }, {
     key: "_updateMaxFilesReachedClass",
@@ -1565,9 +1565,9 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
           this.emit('maxfilesreached', this.files);
         }
 
-        return this.element.classList.add("dz-max-files-reached");
+        return this.element.classList.add("dz-max-Apendix-reached");
       } else {
-        return this.element.classList.remove("dz-max-files-reached");
+        return this.element.classList.remove("dz-max-Apendix-reached");
       }
     }
   }, {
@@ -1584,14 +1584,14 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
 
       for (var i = 0; i < e.dataTransfer.files.length; i++) {
         files[i] = e.dataTransfer.files[i];
-      } // Even if it's a folder, files.length will contain the folders.
+      } // Even if it's a folder, Apendix.length will contain the folders.
 
 
       if (files.length) {
         var items = e.dataTransfer.items;
 
         if (items && items.length && items[0].webkitGetAsEntry != null) {
-          // The browser supports dropping of folders, so handle items instead of files
+          // The browser supports dropping of folders, so handle items instead of Apendix
           this._addFilesFromItems(items);
         } else {
           this.handleFiles(files);
@@ -1632,8 +1632,8 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       } finally {
         _iterator13.f();
       }
-    } // When a folder is dropped (or files are pasted), items must be handled
-    // instead of files.
+    } // When a folder is dropped (or Apendix are pasted), items must be handled
+    // instead of Apendix.
 
   }, {
     key: "_addFilesFromItems",
@@ -1655,7 +1655,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
               if (entry.isFile) {
                 result.push(_this5.addFile(item.getAsFile()));
               } else if (entry.isDirectory) {
-                // Append all files from that directory to files
+                // Append all Apendix from that directory to Apendix
                 result.push(_this5._addFilesFromDirectory(entry, entry.name));
               } else {
                 result.push(undefined);
@@ -1879,12 +1879,12 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       if (this.files.length === 0) {
         return this.emit("reset");
       }
-    } // Removes all files that aren't currently processed from the list
+    } // Removes all Apendix that aren't currently processed from the list
 
   }, {
     key: "removeAllFiles",
     value: function removeAllFiles(cancelIfNecessary) {
-      // Create a copy of files since removeFile() changes the @files array.
+      // Create a copy of Apendix since removeFile() changes the @Apendix array.
       if (cancelIfNecessary == null) {
         cancelIfNecessary = false;
       }
@@ -2095,14 +2095,14 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }
 
       return img.src = file.dataURL;
-    } // Goes through the queue and processes files if there aren't too many already.
+    } // Goes through the queue and processes Apendix if there aren't too many already.
 
   }, {
     key: "processQueue",
     value: function processQueue() {
       var parallelUploads = this.options.parallelUploads;
       var processingLength = this.getUploadingFiles().length;
-      var i = processingLength; // There are already at least as many files uploading than should be
+      var i = processingLength; // There are already at least as many Apendix uploading than should be
 
       if (processingLength >= parallelUploads) {
         return;
@@ -2115,7 +2115,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }
 
       if (this.options.uploadMultiple) {
-        // The files should be uploaded in one request
+        // The Apendix should be uploaded in one request
         return this.processFiles(queuedFiles.slice(0, parallelUploads - processingLength));
       } else {
         while (i < parallelUploads) {
@@ -2361,7 +2361,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }
     } // This function actually uploads the file(s) to the server.
     // If dataBlocks contains the actual data to upload (meaning, that this could either be transformed
-    // files, or individual chunks for chunked upload).
+    // Apendix, or individual chunks for chunked upload).
 
   }, {
     key: "_uploadData",
@@ -2478,7 +2478,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         this.emit("sendingmultiple", files, xhr, formData);
       }
 
-      this._addFormElementData(formData); // Finally add the files
+      this._addFormElementData(formData); // Finally add the Apendix
       // Has to be last because some servers (eg: S3) expect the file to be the last parameter
 
 
@@ -2488,7 +2488,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
       }
 
       this.submitRequest(xhr, formData, files);
-    } // Transforms all files with this.options.transformFile and invokes done with the transformed files when done.
+    } // Transforms all Apendix with this.options.transformFile and invokes done with the transformed Apendix when done.
 
   }, {
     key: "_transformFiles",
@@ -2559,7 +2559,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
           _iterator23.f();
         }
       }
-    } // Invoked when there is new progress information about given files.
+    } // Invoked when there is new progress information about given Apendix.
     // If e is not provided, it is assumed that the upload is finished.
 
   }, {
@@ -2643,7 +2643,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
 
             _file4.upload.progress = progress;
             _file4.upload.bytesSent = _file4.upload.total;
-          } // Nothing to do, all files already at 100%
+          } // Nothing to do, all Apendix already at 100%
 
         } catch (err) {
           _iterator27.e(err);

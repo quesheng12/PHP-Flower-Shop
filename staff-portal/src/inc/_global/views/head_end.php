@@ -7,7 +7,7 @@
  * (continue) The first block of code used in every page of the template
  *
  * The reason we separated head_start.php and head_end.php is for enabling
- * us to include between them extra plugin CSS files needed only in specific pages
+ * us to include between them extra plugin CSS Apendix needed only in specific pages
  *
  */
 ?>

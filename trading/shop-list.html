@@ -522,7 +522,7 @@
     <script src="assets/js/plugins/ajax-contact.js"></script> -->
 
 
-    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+    <!--====== Use the minified version Apendix listed below for better performance and remove the Apendix listed above ======-->
     <script src="../assets/js/plugins.min.js"></script>
 
     <!-- Main JS -->
@@ -702,8 +702,9 @@
                     quantity: q
                 },
                 dataType: "json",
-                success: function () {
+                success: function (data) {
                     xtip.msg("Added Successfully!");
+                    console.log(data)
                 },
                 error: function () {
                     xtip.alert("Please Login First!");

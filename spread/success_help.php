@@ -27,3 +27,11 @@ if (!$arr = mysqli_fetch_assoc($rst)) {
 } else {
 }
 
+if ($done >= 100) {
+    $sql = "UPDATE orders SET discount=10 WHERE id=" . $oid;
+    if ($conn->query($sql) === TRUE) {
+    } else {
+        echo "Error:" . $sql . "<br>" . $conn->error;
+    }
+}
+

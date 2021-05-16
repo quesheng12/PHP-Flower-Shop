@@ -27,9 +27,6 @@
 
 <?php include('../template/header.html'); ?>
 
-<div class="overlay"></div>
-<!--Overlay-->
-
 <div class="content col-md-12">
     <div class="col-md-1"></div>
     <div class="col-md-10 m-auto">
@@ -61,9 +58,11 @@
 <script src="../assets/js/main.js"></script>
 <script>
     $(':submit').click(function () {
+        console.log(1111)
         $('#form1').ajaxForm({
             url: 'login_back.php',
             success: function (data, status) {
+                console.log(data)
                 if (data == 100) {
                     // alert("登录成功")
                     xtip.msg('Login Successfully!')
@@ -76,6 +75,8 @@
                     xtip.alert('Wrong Username or Password', 'e');
                 }
                 // alert(status);
+            },error:function () {
+                console.log(2222)
             }
         });
     });

@@ -16493,7 +16493,7 @@ var moment = createCommonjsModule(function (module, exports) {
         meridiemParse: defaultLocaleMeridiemParse
     };
 
-    // internal storage for locale config files
+    // internal storage for locale config Apendix
     var locales = {};
     var localeFamilies = {};
     var globalLocale;

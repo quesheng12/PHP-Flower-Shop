@@ -60,7 +60,7 @@ const pkgName = pkg.name.toLowerCase();
 const pkgNameJSCore = pkgName + '.core';
 const pkgNameJSMain = pkgName + '.app';
 
-// Banner to be added at the top of the files
+// Banner to be added at the top of the Apendix
 const banner = ['/*!',
     ` * ${pkg.name} - v${pkg.version}`,
     ` * @author ${pkg.author} - https://pixelcave.com`,
@@ -106,7 +106,7 @@ const path = {
 // Various file sources used in tasks
 const files = {
     watch: {
-        // When the following files are changed the server will reload
+        // When the following Apendix are changed the server will reload
         server: [
             path.src.css + pkgName + '.min.css',
             path.src.js + pkgNameJSCore + '.min.js',
@@ -115,12 +115,12 @@ const files = {
             path.dir.src + '**/*.php',
             path.dir.src + '**/*.html'
         ],
-        // SASS files to watch
+        // SASS Apendix to watch
         scss: path.src.scss + '**/*.scss',
         es6: {
-            // JS main files to watch (ES6)
+            // JS main Apendix to watch (ES6)
             main: path.src.es6 + 'main/**/*.js',
-            // JS pages files to watch (ES6)
+            // JS pages Apendix to watch (ES6)
             pages: path.src.es6 + 'pages/**/*.js'
         }
     },
@@ -128,13 +128,13 @@ const files = {
         scss: {
             // SASS Main file
             main: path.src.scss + 'main.scss',
-            // SASS Theme files
+            // SASS Theme Apendix
             themes: path.src.scss + pkgName + '/themes/*.scss'
         },
         css: {
             // CSS Main file
             main: path.src.css + pkgName + '.css',
-            // CSS Theme files (excluding minified versions)
+            // CSS Theme Apendix (excluding minified versions)
             themes: [
                 path.src.css + 'themes/*.css',
                 '!' + path.src.css + 'themes/*.min.css'
@@ -143,11 +143,11 @@ const files = {
         es6: {
             // JS Main entry file (ES6)
             main: path.src.es6 + 'main/app.js',
-            // JS Pages files (ES6)
+            // JS Pages Apendix (ES6)
             pages: path.src.es6 + 'pages/**/*.js'
         },
         js: {
-            // JS Core files to be merged together in that specific order
+            // JS Core Apendix to be merged together in that specific order
             coreFiles: [
                 path.src.jscore + 'jquery.min.js',
                 path.src.jscore + 'bootstrap.bundle.min.js',
@@ -156,11 +156,11 @@ const files = {
                 path.src.jscore + 'jquery.appear.min.js',
                 path.src.jscore + 'js.cookie.min.js'
             ],
-            // JS Core file to be created including all JS Core files
+            // JS Core file to be created including all JS Core Apendix
             core: path.src.js + pkgNameJSCore + '*.min.js',
             // JS Main file to be created from ES6
             main: path.src.js + pkgNameJSMain + '*.min.js',
-            // JS Pages files
+            // JS Pages Apendix
             pages: [
                 path.src.js + 'pages/**/*.min.js'
             ]
@@ -491,7 +491,7 @@ gulp.task('serve-html', () => {
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Delete original dependency and copy over new files (Minify or clean source map comments if is set)
+// Delete original dependency and copy over new Apendix (Minify or clean source map comments if is set)
 function depUpdate(depName, depData) {
     del(depData.base).then(() => {
         if (depData.min) {
@@ -602,7 +602,7 @@ gulp.task('css-min-themes', () => {
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Concat/uglify core JS files into one
+// Concat/uglify core JS Apendix into one
 gulp.task('js-concat-core', () => {
     return gulp.src(files.src.js.coreFiles)
         .pipe(concat(pkgNameJSCore + '.min.js'))
@@ -665,7 +665,7 @@ gulp.task('build-clean', () => {
 });
 gulp.task('clean', gulp.series('build-clean'));
 
-// Copy folders and files to build folder
+// Copy folders and Apendix to build folder
 gulp.task('build-copy', () => {
     return gulp.src(files.build.copy, {base: path.dir.src})
         .pipe(gulp.dest(path.dir.build));
@@ -706,12 +706,12 @@ gulp.task('build', gulp.series('css', 'js', 'build-clean', 'build-copy'));
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Watch task for SASS files
+// Watch task for SASS Apendix
 gulp.task('watch-scss', () => {
     return gulp.watch(files.watch.scss, gulp.series('css'));
 });
 
-// Watch tasks for Main JS files
+// Watch tasks for Main JS Apendix
 gulp.task('watch-es6-main-dev', () => {
     return gulp.watch(files.watch.es6.main, gulp.series('js-es6-main-dev', 'js-es6-main'));
 });
@@ -719,7 +719,7 @@ gulp.task('watch-es6-main', () => {
     return gulp.watch(files.watch.es6.main, gulp.series('js-es6-main'));
 });
 
-// Watch tasks for Pages JS files
+// Watch tasks for Pages JS Apendix
 gulp.task('watch-es6-pages-dev', () => {
     return gulp.watch(files.watch.es6.pages, gulp.series('js-es6-pages-dev', 'js-es6-pages'));
 });
@@ -727,7 +727,7 @@ gulp.task('watch-es6-pages', () => {
     return gulp.watch(files.watch.es6.pages, gulp.series('js-es6-pages'));
 });
 
-// Watch task for all files
+// Watch task for all Apendix
 gulp.task('watch-dev', gulp.parallel('watch-scss', 'watch-es6-main-dev', 'watch-es6-pages-dev'));
 gulp.task('watch', gulp.parallel('watch-scss', 'watch-es6-main', 'watch-es6-pages'));
 
@@ -738,11 +738,11 @@ gulp.task('watch', gulp.parallel('watch-scss', 'watch-es6-main', 'watch-es6-page
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-// HTML Server and Watch files (-dev also produces unminimized development friendly JS files from ES6)
+// HTML Server and Watch Apendix (-dev also produces unminimized development friendly JS Apendix from ES6)
 gulp.task('run-html-dev', gulp.parallel('serve-html', 'watch-dev'));
 gulp.task('run-html', gulp.parallel('serve-html', 'watch'));
 
-// PHP Server and Watch files (-dev also produces unminimized development friendly JS files from ES6)
+// PHP Server and Watch Apendix (-dev also produces unminimized development friendly JS Apendix from ES6)
 gulp.task('run-php-dev', gulp.parallel('serve-php', 'watch-dev'));
 gulp.task('run-php', gulp.parallel('serve-php', 'watch'));
 

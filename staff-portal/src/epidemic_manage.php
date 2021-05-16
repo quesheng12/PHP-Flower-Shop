@@ -42,7 +42,11 @@ if ($epi) {
 
 <script>
     $('#button').on('click', function () {
-        xtip.confirm('Are you sure you want to turn on epidemic mode？', function () {
+        xtip.confirm('Are you sure you want to turn <?php if ($epi) {
+            echo "off";
+        } else {
+            echo "on";
+        } ?> epidemic mode？', function () {
             $.post('../backend/epidemic_manage.php',
                 {},
                 function (data, status) {
