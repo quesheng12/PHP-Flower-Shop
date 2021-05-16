@@ -109,7 +109,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Pages <span class="sale">促销</span></a>
+                                            <a href="#">页面 <span class="sale">促销</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="about.html">关于</a></li>
                                                 <li><a href="cart.html">购物车</a></li>
