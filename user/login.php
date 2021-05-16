@@ -62,7 +62,7 @@
 <script>
     $(':submit').click(function () {
         $('#form1').ajaxForm({
-            url: 'login.php',
+            url: 'login_back.php',
             success: function (data, status) {
                 if (data == 100) {
                     // alert("登录成功")
