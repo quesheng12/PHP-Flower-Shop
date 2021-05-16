@@ -38,7 +38,29 @@
     max-width: 60%;
     max-height: 30%;
 }
-
+#about_us{
+    margin: auto;
+    width: 800px;
+  }
+  
+  #about_main {
+    padding: 20px;
+  }
+  
+  #about_us p {
+    text-align: justify;
+    font-size: initial;
+  }
+  
+  #about_us h1 {
+    margin: 20px 0;
+  }
+  
+  #background {
+    background-image: url('../images/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 /*.dropdown{*/
 /*    color: white;*/

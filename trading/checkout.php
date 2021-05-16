@@ -366,14 +366,14 @@ function f($pp)
 
         $('.item').html('<?php echo f($pp); ?>');
         $('.subtotal').html('￥' + '<?php echo $pp['subtotal']; ?>');
-        $('.final-total').html('￥' + '<?php echo $pp['subtotal'] + $pp['total_quantity'] * 5; ?>');
+        $('.final-total').html('￥' + '<?php echo $price = $pp['subtotal'] + $pp['total_quantity'] * 5; ?>');
         $('#radio2').click(function () {
-            $('.final-total').html('￥' + '<?php echo $pp['subtotal'] + $pp['total_quantity'] * 5; ?>');
+            $('.final-total').html('￥' + '<?php echo $price = $pp['subtotal'] + $pp['total_quantity'] * 5; ?>');
             $('.choose-address').css({'z-index': '', 'background': '', 'opacity': '', 'display': ''});
             $('.btn-choose-address').removeAttr("disabled");
         });
         $('#radio3').click(function () {
-            $('.final-total').html('￥' + '<?php echo $pp['subtotal']; ?>');
+            $('.final-total').html('￥' + '<?php echo $price = $pp['subtotal']; ?>');
             $('.choose-address').css({'z-index': 100, 'background': '#dee2e6', 'opacity': 0.3, 'display': 'block'});
             $('.btn-choose-address').attr('disabled', 'disabled');
         });
@@ -382,10 +382,11 @@ function f($pp)
             let status = '';
             if ($('[name="shipping"]:checked').val() == 'DELIVERY') {
                 service = 'DELIVERY';
-                status = 'FOR_DELIVERY';
+                // status = 'FOR_DELIVERY';
+                status = 'DELIVERY_WAIT_PAYMENT';
             } else if ($('[name="shipping"]:checked').val() == 'OFFLINE') {
                 service = 'OFFLINE';
-                status = 'OFFLINE';
+                status = 'OFFLINE_WAIT_PAYMENT';
             }
             let item = '<?php echo implode(', ', $pp['id']); ?>';
             let quantity = '<?php echo implode(', ', $pp['quantity']); ?>';
@@ -428,7 +429,11 @@ function f($pp)
                     //data返回oid加密后的值
                     console.log(data)
                     xtip.msg("Check Successfully!");
-                    window.location.href = 'shop-list.html';
+                    // window.location.href = 'shop-list.html';
+                    <?php
+                    $_SESSION['price'] = $price;
+                    ?>
+                    window.location.href = 'payment.php?id=' + data;
                 })
 
             $.ajax({

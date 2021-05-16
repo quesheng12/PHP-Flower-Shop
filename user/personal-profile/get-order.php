@@ -20,13 +20,14 @@ while ($arr = mysqli_fetch_assoc($rst)) {
     $total_price += $arr['quantity'] * $item['price'];
 }
 
-$sql = "select status from orders where id=" . $oid;
+$sql = "select status,discount from orders where id=" . $oid;
 $order = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 
 $array = array(
     'str' => $str,
     'total_price' => $total_price,
-    'status' => $order['status']
+    'status' => $order['status'],
+    'discount' => (int)$order['discount']
 );
 
 echo json_encode($array);

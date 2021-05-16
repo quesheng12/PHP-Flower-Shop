@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Login</title>
+    <title>Log In</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
@@ -20,6 +20,7 @@
     <script src="../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
     <script src="../js/jquery-3.5.1.js"></script>
     <script src="../js/jquery.form.js"></script>
+    <link rel="shortcut  icon" href="../images/favicon.ico" type="image/x-icon" />
 
 
 </head>

@@ -29,6 +29,38 @@ $(window).resize(function () {
     }
 })
 
+//share弹窗的设置
+var option1 = {
+    type: 'noready',
+    content: '#share-wrapper',
+    title: 'Share',
+    width: (document.documentElement.clientWidth / 4) + 'px',
+    height: '200px',
+    min: true,
+    shade: true,
+    shadeClose: true,
+    app: false,
+}
+
+if (document.documentElement.clientWidth <= 580) {
+    option1.app = true;
+    option1.height = '200px';
+}
+
+//屏幕尺寸变化时设置弹窗app切换
+$(window).resize(function () {
+    var w = document.documentElement.clientWidth;
+    if (w <= 580) {
+        option1.app = true;
+        option1.height = '100px';
+        option1.width = (document.documentElement.clientWidth / 2) + 'px'
+    } else {
+        option1.app = false;
+        option1.height = '300px';
+        option1.width = (document.documentElement.clientWidth / 2) + 'px'
+    }
+})
+
 function open_form(content, title) {
     option.content = content;
     option.title = title;
@@ -170,11 +202,11 @@ $(document).ready(function () {
                         } else {
                             xtip.msg("Password Reset Failed")
                         }
-                    },800)
+                    }, 800)
                 }
                 setTimeout(function () {
                     location.reload();
-                },1500)
+                }, 1500)
             }
         });
     });
@@ -187,24 +219,63 @@ $(document).ready(function () {
             {'oid': parseInt(id)},
             function (data, status) {
                 data = JSON.parse(data);
-                $('#tbody').html(data['str'] +
+                var tbody_html = data['str'] +
                     '   <tr class="table-active">\n' +
                     '<td colspan="3" class="text-right text-uppercase"><strong>Total\n' +
-                    'Price:</strong></td>\n' +
-                    '<td class="text-right"><strong id=\'total-price\'>¥' + data['total_price'] + '</strong>\n' +
-                    '</td>\n' +
-                    '</tr>');
+                    'Price:</strong></td>\n';
+                if (data['discount'] != 0) {
+                    let discount_price = (parseFloat(data['total_price']) * (100 - data['discount']) / 100).toFixed(2);
+                    tbody_html += '<td class="text-right"><strong id=\'total-price\'>¥ <del style="color: grey">' + data['total_price'] + '</del><span style="color: red;"> ' + discount_price + '</span></strong>\n';
+                } else {
+                    tbody_html += '<td class="text-right"><strong id=\'total-price\'>¥' + data['total_price'] + '</strong>\n';
+                }
+                tbody_html += '</td>\n' +
+                    '</tr>';
+                $('#tbody').html(tbody_html);
 
+                //设置取消按钮
                 if (data['status'] !== 'FINISHED' && data['status'] !== 'CANCELED') {
-                    $('#btns').html(' <button class="btn btn-primary" style="display: block" data-id="' + id + '">Canceled</button>');
-                    $('#btns').find('button').on('click', function () {
+                    $('#btns').html(' <button class="btn btn-primary cancel col-md-3 m-auto" style="display: block" data-id="' + id + '">Cancel</button>');
+                    $('#btns').find('.cancel').on('click', function () {
                         $.post('/staff-portal/backend/order-status-change.php',
                             {
                                 'oid': parseInt($(this).attr('data-id')),
                                 'status': '4'
                             },
                             function (data, status) {
-                                alert('Order Canceled Successfully');
+                                xtip.msg('Order Canceled Successfully');
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 1000)
+                            })
+                    })
+                }
+
+                //设置支付和分享按钮
+                if (data['status'] == 'DELIVERY_WAIT_PAYMENT' || data['status'] == 'OFFLINE_WAIT_PAYMENT') {
+                    $('#btns').append('<button class="btn btn-primary payment col-md-3 m-auto" style="display: block" data-id="' + id + '">Pay</button>' +
+                        '<button class="btn btn-primary share col-md-3 m-auto" style="display: block" data-id="' + id + '">Share</button>');
+
+                    $('#btns').find('.share').on('click', function () {
+                        xtip.open(option1);
+                        $.post('/utils/query_dictionary.php',
+                            {
+                                'type': 'value',
+                                'value': parseInt($(this).attr('data-id'))
+                            },
+                            function (data, status) {
+                                $('#share-url').append(data);
+                            })
+                    })
+
+                    $('#btns').find('.payment').on('click', function () {
+                        $.post('/utils/query_dictionary.php',
+                            {
+                                'type': 'value',
+                                'value': parseInt($(this).attr('data-id'))
+                            },
+                            function (data, status) {
+                                location.href = '/trading/payment.php?id=' + data;
                             })
                     })
                 }
