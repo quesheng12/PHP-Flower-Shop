@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="total price">
-      <change afterPath="$PROJECT_DIR$/template/footer-zh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/header-zh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" afterDir="false" />
+    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="登陆注册中文化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/signup-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup-zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,13 +143,6 @@
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
       <workItem from="1620955767858" duration="10973000" />
-    </task>
-    <task id="LOCAL-00003" summary="1">
-      <created>1615984570667</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1615984570667</updated>
     </task>
     <task id="LOCAL-00004" summary="personal-information">
       <created>1615994226850</created>
@@ -487,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621164475826</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="登陆注册中文化">
+      <created>1621182387373</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1621182387373</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="personal-profile" />
     <MESSAGE value="staff-portal" />
     <MESSAGE value="rebased from master" />
     <MESSAGE value="debased" />
@@ -544,7 +543,8 @@
     <MESSAGE value="11" />
     <MESSAGE value="reset password" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="登陆注册中文化" />
+    <option name="LAST_COMMIT_MESSAGE" value="登陆注册中文化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+    echo '<script>location.href="signup-zh.php";</script>';
+}
+?>
 <html>
 <head>
     <meta charset="utf-8">

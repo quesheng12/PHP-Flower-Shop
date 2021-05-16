@@ -1,7 +1,7 @@
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="index-zh.php";</script>';
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="index.php";</script>';
 }
 ?>
 <!doctype html>
@@ -24,7 +24,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 <body>
 
 <div class="main-wrapper">
-    <?php include('template/header.html'); ?>
+    <?php include('template/header-zh.html'); ?>
 
     <!--Slider Start-->
     <div class="slider-area">
@@ -37,8 +37,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                      style="background-image: url(assets/images/slider/slider-1.jpg);height: 500px;">
                     <div class="container">
                         <div class="slider-content">
-                            <h2 class="main-title" style="color: white">Valentine's day!<br>
-                                Send your love to your darling! </h2>
+                            <h2 class="main-title" style="color: white">在本店购买鲜花<br>我们将竭尽所能尽快送货给您!</h2>
                         </div>
                     </div>
                 </div>
@@ -49,13 +48,12 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                      style="background-image: url(assets/images/slider/slider-2.jpg);height: 500px">
                     <div class="container">
                         <div class="slider-content">
-                            <h5 class="sub-title">20% Off For <br> New Members</h5>
-                            <h2 class="main-title">Happy Mother’s Day!</h2>
-                            <p>Bouquets your mom will love!</p>
+                            <h5 class="sub-title">享受8折 <br> 新用户！</h5>
+                            <h2 class="main-title">母亲节快乐!</h2>
+                            <p>母亲会喜欢的花！</p>
 
                             <ul class="slider-btn">
-                                <li><a href="trading/shop-single.php" class="btn btn-round btn-primary">Start
-                                        Shopping</a></li>
+                                <li><a href="shop-single.html" class="btn btn-round btn-primary">开始购物</a></li>
                             </ul>
                         </div>
                     </div>
@@ -106,7 +104,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=rose">Rose</a>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=rose">玫瑰</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -118,7 +116,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=pink">Pink</a>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=pink">粉色</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -131,7 +129,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=blue">Blue</a>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=blue">蓝色</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -143,7 +141,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=chrysanthemum">Chrysanthemum</a>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=chrysanthemum">菊花</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -156,8 +154,8 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=carnation">Carnation</a>
-                                            </h4>
+                                            <h4 class="product-name"><a
+                                                        href="trading/shop-list.php?type=carnation">康乃馨</a></h4>
                                         </div>
                                     </div>
                                     <div class="single-product">
@@ -167,7 +165,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=lily">Lily</a>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=lily">百合</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -180,7 +178,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=red">Red</a>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=red">红色</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -192,8 +190,8 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a
-                                                        href="trading/shop-list.php?color=white">White</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=white">白色</a>
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -243,8 +241,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=31">SWEET EMBRACE</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=31">甜蜜拥抱</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥299.9</span>
                                     </div>
@@ -266,8 +263,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=34">BLUSH DELIGHT</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=34">胭脂爽</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥279.9</span>
                                     </div>
@@ -289,8 +285,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=37">PERFECT PINKS</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=37">完美大粉红</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥299.9</span>
                                     </div>
@@ -312,8 +307,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=35">COUNTRY FIELDS</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=35">乡村领域</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥299.9</span>
                                     </div>
@@ -335,8 +329,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=41">VELVET CLOUD</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=41">天鹅绒云</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥299.9</span>
                                     </div>
@@ -358,8 +351,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=39">SUMMER HOLIDAY</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=39">夏日假期</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥299.9</span>
                                     </div>
@@ -381,8 +373,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=43">LILY DELIGHT</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=43">百合爽</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥299.9</span>
                                     </div>
@@ -404,8 +395,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=45">SPRING SKIES</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=45">初春天空</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥399.9</span>
                                     </div>
@@ -427,8 +417,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.php?id=44">MOONLIGHT ROSES</a>
-                                    </h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=44">月色如你</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">￥279.9</span>
                                         <!--                                        <span class="old-price">$29.00</span>-->
@@ -453,7 +442,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-9 col-sm-2">
                     <div class="section-title text-center">
-                        <h2 class="title">Latest News</h2>
+                        <h2 class="title">最新新闻</h2>
                     </div>
                 </div>
             </div>
@@ -493,7 +482,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                     <p>' . $data[$i]['excerpt'] . '</p>
 
                                     <div class="blog-footer">
-                                        <a class="more" href="blog-single-right-sidebar.html">Continue Reading</a>
+                                        <a class="more" href="blog-single-right-sidebar.html">继续阅读</a>
                                         <p class="comment-count"><i class="icon-message-circle"></i> 0</p>
                                     </div>
                                 </div>
@@ -517,7 +506,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 
     <hr>
 
-    <?php include('template/footer.html'); ?>
+    <?php include('template/footer-zh.html'); ?>
 
 
 </div>

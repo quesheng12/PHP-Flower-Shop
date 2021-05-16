@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="reset.php";</script>';
+}
+?>
 <html>
 <head>
     <meta charset="utf-8">
