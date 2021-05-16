@@ -48,7 +48,7 @@
                             <p>Bouquets your mom will love!</p>
 
                             <ul class="slider-btn">
-                                <li><a href="trading/shop-single.html" class="btn btn-round btn-primary">Start Shopping</a></li>
+                                <li><a href="trading/shop-single.php" class="btn btn-round btn-primary">Start Shopping</a></li>
                             </ul>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
     <!--Slider End-->
 
 
-    <!--New Product Start-->
+    <!--Popular Product Start-->
     <div class="features-product-area section-padding-5">
         <div class="container">
             <div class="col-lg-2 col-md-3 col-sm-2 align-items-start">
@@ -95,91 +95,91 @@
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/Birthday.png" alt="">
+                                            <a href="trading/shop-list.php?type=rose">
+                                                <img src="assets/images/product/rose.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Birthday</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=rose">Rose</a></h4>
                                         </div>
                                     </div>
 
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/Sympathy.png" alt="">
+                                            <a href="trading/shop-list.php?color=pink">
+                                                <img src="assets/images/product/pink.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Sympathy</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=pink">Pink</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/getWell.png" alt="">
+                                            <a href="trading/shop-list.php?color=blue">
+                                                <img src="assets/images/product/blue.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Get Well</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=blue">Blue</a></h4>
                                         </div>
                                     </div>
 
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/Anniversary.png" alt="">
+                                            <a href="trading/shop-list.php?type=chrysanthemum">
+                                                <img src="assets/images/product/chrysanthemum.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Anniversary</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=chrysanthemum">Chrysanthemum</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/JustBecause.png" alt="">
+                                            <a href="trading/shop-list.php?type=carnation">
+                                                <img src="assets/images/product/carnation.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Just Because</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=carnation">Carnation</a></h4>
                                         </div>
                                     </div>
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/Best%20Sellers.png" alt="">
+                                            <a href="trading/shop-list.php?type=lily">
+                                                <img src="assets/images/product/lily.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Best Sellers</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?type=lily">Lily</a></h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/Plants.png" alt="">
+                                            <a href="trading/shop-list.php?color=red">
+                                                <img src="assets/images/product/red.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Plants</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=red">Red</a></h4>
                                         </div>
                                     </div>
 
                                     <div class="single-product">
                                         <div class="product-image">
-                                            <a href="trading/shop-single.html">
-                                                <img src="assets/images/product/Gifts.png" alt="">
+                                            <a href="trading/shop-list.php?color=white">
+                                                <img src="assets/images/product/white.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-single.html">Gifts</a></h4>
+                                            <h4 class="product-name"><a href="trading/shop-list.php?color=white">White</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -194,103 +194,9 @@
             </div>
         </div>
     </div>
-    <!--New Product End-->
+    <!--Popular Product End-->
 
-
-    <!--Blog Start-->
-    <div class="blog-area blog-bg section-padding-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5 col-md-9 col-sm-2">
-                    <div class="section-title text-center">
-                        <h2 class="title">Popular blogs</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="blog-wrapper">
-                <div class="swiper-container blog-active">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="single-blog">
-                                <div class="blog-image">
-                                    <a href="blog-single-right-sidebar.html"><img src="assets/images/blog/blog-01.jpg"
-                                                                                  alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h4 class="title"><a href="blog-single-right-sidebar.html">How to cultivate a
-                                            flower?</a></h4>
-                                    <div class="articles-date">
-                                        <p>By <span>  Liu Yuxin / April 13, 2021</span></p>
-                                    </div>
-                                    <p>I have been growing flowers for more than ten years. At the beginning, I raised
-                                        some foliage plants and woody plants. Flowers bloom very little, the balcony
-                                        looks green...</p>
-
-                                    <div class="blog-footer">
-                                        <a class="more" href="blog-single-right-sidebar.html">Continue Reading</a>
-                                        <p class="comment-count"><i class="icon-message-circle"></i> 0</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="single-blog">
-                                <div class="blog-image">
-                                    <a href="blog-single-right-sidebar.html"><img src="assets/images/blog/blog-02.jpeg"
-                                                                                  alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h4 class="title"><a href="blog-single-right-sidebar.html">Family Floristry</a></h4>
-                                    <div class="articles-date">
-                                        <p>By <span>  Zhao Yiran /  April 13, 2021</span></p>
-                                    </div>
-                                    <p>While plants decorate the living room, they also increase the humidity and
-                                        comfort of the air. Fresh cut flowers will bring back new ones every week.
-                                        Different mood, different season, different flowers and colors...</p>
-
-                                    <div class="blog-footer">
-                                        <a class="more" href="blog-single-right-sidebar.html">Continue Reading</a>
-                                        <p class="comment-count"><i class="icon-message-circle"></i> 0</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="single-blog">
-                                <div class="blog-image">
-                                    <a href="blog-single-right-sidebar.html"><img src="assets/images/blog/blog-03.jpg"
-                                                                                  alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h4 class="title"><a href="blog-single-right-sidebar.html">How to be an excellent
-                                            flower Designer?</a></h4>
-                                    <div class="articles-date">
-                                        <p>By <span>  Shen Shuyi /  April 13, 2021</span></p>
-                                    </div>
-                                    <p>First of all, I would like to talk about the outstanding flower designers in my
-                                        heart. They are more like artists. They just choose flowers and plants as the
-                                        carrier of creation. They have excellent artistic aesthetic...</p>
-
-                                    <div class="blog-footer">
-                                        <a class="more" href="blog-single-right-sidebar.html">Continue Reading</a>
-                                        <p class="comment-count"><i class="icon-message-circle"></i> 0</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Add Arrows -->
-                    <div class="swiper-next"><i class="fa fa-angle-right"></i></div>
-                    <div class="swiper-prev"><i class="fa fa-angle-left"></i></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Blog End-->
-
-
-    <!--New Product Start-->
+    <!--Recommendation Start-->
     <div class="new-product-area section-padding-2">
         <div class="container">
             <div class="col-lg-2 col-md-3 col-sm-2 align-items-start">
@@ -310,24 +216,10 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-1.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=31">
+                                        <img src="images/item/31/pink-product-SWEET EMBRACE6327680.jpg" alt="">
                                     </a>
-                                    <span class="sticker-new soldout-title">Soldout</span>
 
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -337,10 +229,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Spring Snowflake</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=31">SWEET EMBRACE</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$19.00</span>
-                                        <span class="old-price">$29.00</span>
+                                        <span class="current-price">￥299.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -348,22 +239,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-2.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=34">
+                                        <img src="images/item/34/pink-product-BLUSH DELIGHT3864440.jpg" alt="">
                                     </a>
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -373,9 +251,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Rock Soapwort</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=34">BLUSH DELIGHT</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$50.00</span>
+                                        <span class="current-price">￥279.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -383,30 +261,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-3.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=37">
+                                        <img src="images/item/37/pink-product-PERFECT PINKS5603580.jpg" alt="">
                                     </a>
-
-                                    <span class="sticker-new label-sale">-35%</span>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="product-countdown">
-                                        <div data-countdown="2020/12/31"></div>
-                                    </div>
-
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -416,10 +273,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Scarlet Sage</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=37">PERFECT PINKS</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$39.00</span>
-                                        <span class="old-price">$60.00</span>
+                                        <span class="current-price">￥299.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -427,23 +283,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-4.jpg" alt="">
+                                    <a href="trading/shop-single.html？id=35">
+                                        <img src="images/item/35/pink-product-COUNTRY FIELDS3924160.jpg" alt="">
                                     </a>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -453,9 +295,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Foxglove Flower</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=35">COUNTRY FIELDS</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$79.00</span>
+                                        <span class="current-price">￥299.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -463,25 +305,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-5.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=41">
+                                        <img src="images/item/41/pink-product-VELVET CLOUD8370530.jpg" alt="">
                                     </a>
-
-                                    <span class="sticker-new label-sale">-18%</span>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -491,10 +317,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Summer Savory</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=41">VELVET CLOUD</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$40.00</span>
-                                        <span class="old-price">$85.00</span>
+                                        <span class="current-price">￥299.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -502,25 +327,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-6.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=39">
+                                        <img src="images/item/39/pink-product-SUMMER HOLIDAY2597410.jpg" alt="">
                                     </a>
-
-                                    <span class="sticker-new label-sale">-10%</span>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -530,10 +339,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Wild Roses</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=39">SUMMER HOLIDAY</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$19.00</span>
-                                        <span class="old-price">$21.00</span>
+                                        <span class="current-price">￥299.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -541,23 +349,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-7.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=43">
+                                        <img src="images/item/43/white-product-LILY DELIGHT9013320.jpg" alt="">
                                     </a>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -567,9 +361,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Sweet Alyssum</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=43">LILY DELIGHT</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$50.00</span>
+                                        <span class="current-price">￥299.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -577,25 +371,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-8.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=45">
+                                        <img src="images/item/45/white-product-SPRING SKIES3511800.jpg" alt="">
                                     </a>
-
-                                    <span class="sticker-new label-sale">-34%</span>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -605,10 +383,9 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Lity Majesty Palm</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=45">SPRING SKIES</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$19.00</span>
-                                        <span class="old-price">$29.00</span>
+                                        <span class="current-price">￥399.9</span>
                                     </div>
                                 </div>
                             </div>
@@ -616,25 +393,9 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html">
-                                        <img src="assets/images/product/product-9.jpg" alt="">
+                                    <a href="trading/shop-single.php?id=44">
+                                        <img src="images/item/44/white-product-MOONLIGHT ROSES6936560.jpg" alt="">
                                     </a>
-
-                                    <span class="sticker-new soldout-title">Soldout</span>
-
-                                    <div class="action-links">
-                                        <ul>
-                                            <li><a href="trading/cart.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                            <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Compare"><i class="icon-sliders"></i></a></li>
-                                            <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left"
-                                                   title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                            <li><a href="javascript:void(0);" data-tooltip="tooltip"
-                                                   data-placement="left" title="Quick View" data-toggle="modal"
-                                                   data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="product-content text-center">
                                     <ul class="rating">
@@ -644,10 +405,10 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="trading/shop-single.html">Majesty Palm</a></h4>
+                                    <h4 class="product-name"><a href="trading/shop-single.php?id=44">MOONLIGHT ROSES</a></h4>
                                     <div class="price-box">
-                                        <span class="current-price">$19.00</span>
-                                        <span class="old-price">$29.00</span>
+                                        <span class="current-price">￥279.9</span>
+                                        <!--                                        <span class="old-price">$29.00</span>-->
                                     </div>
                                 </div>
                             </div>
@@ -661,7 +422,77 @@
             </div>
         </div>
     </div>
-    <!--New Product End-->
+    <!--Recommendation End-->
+
+    <!--News Start-->
+    <div class="blog-area blog-bg section-padding-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-9 col-sm-2">
+                    <div class="section-title text-center">
+                        <h2 class="title">Latest News</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-wrapper">
+                <div class="swiper-container blog-active">
+                    <div class="swiper-wrapper">
+                        <?php
+                        include('utils/conn.php');
+                        $sql = "select id, title, excerpt, pre_image, date from news order by date desc limit 5";
+                        $rst = mysqli_query($conn, $sql);
+                        $num = 1;
+                        $data = array();
+                        while ($arr = mysqli_fetch_assoc($rst)) {
+                            $node = array(
+                                "id" => $arr['id'],
+                                "title" => $arr['title'],
+                                "excerpt" => $arr['excerpt'],
+                                "pre_image" => $arr['pre_image'],
+                                "date" => $arr['date']
+                            );
+                            $data[$num] = $node;
+                            $num++;
+                        }
+                        $html = '';
+                        for($i=1;$i<=count($data);$i++){
+                            $html .= '<div class="swiper-slide">
+                            <div class="single-blog">
+                                <div class="blog-image">
+                                    <a href="staff-portal/src/be_pages_blog_story.php?id='.$data[$i]['id'].'"><img src="'.$data[$i]['pre_image'].'"
+                                                                                  alt=""></a>
+                                </div>
+                                <div class="blog-content">
+                                    <h4 class="title"><a href="staff-portal/src/be_pages_blog_story.php?id='.$data[$i]['id'].'">'.$data[$i]['title'].'</a></h4>
+                                    <div class="articles-date">
+                                        <p><span>'.$data[$i]['date'].'</span></p>
+                                    </div>
+                                    <p>'.$data[$i]['excerpt'].'</p>
+
+                                    <div class="blog-footer">
+                                        <a class="more" href="blog-single-right-sidebar.html">Continue Reading</a>
+                                        <p class="comment-count"><i class="icon-message-circle"></i> 0</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>';
+                        }
+                        echo $html;
+                        ?>
+
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-next"><i class="fa fa-angle-right"></i></div>
+                    <div class="swiper-prev"><i class="fa fa-angle-left"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Blog End-->
+
+
+
 
     <hr>
 

@@ -7,7 +7,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <div class="header-logo">
-                        <a href="/index.php"><img src="../assets/images/logo/logo.png" alt=""></a>
+                        <a href="/index.php"><img src="/assets/images/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-7 position-static">
@@ -16,71 +16,53 @@
                             <ul>
                                 <li><a href="/index.php">Home</a></li>
                                 <li>
-                                    <a href="#">Shop <span class="new">New</span></a>
+                                    <a href="/trading/shop-list.php">Shop</a>
 
                                     <ul class="mega-sub-menu">
                                         <li class="mega-dropdown">
                                             <a class="mega-title">FLOWERS BY COLOUR</a>
 
                                             <ul class="mega-item">
-                                                <li><a href="Pink.html">Pink</a></li>
-                                                <li><a href="White.html">White</a></li>
-                                                <li><a href="Blue.html">Blue</a></li>
-                                                <li><a href="Orange.html">Orange</a></li>
-                                                <li><a href="Red.html">Red</a></li>
-                                                <li><a href="Yellow.html">Yellow</a></li>
+                                                <li><a href="/trading/shop-list.php?color=pink">Pink</a></li>
+                                                <li><a href="/trading/shop-list.php?color=white">White</a></li>
+                                                <li><a href="/trading/shop-list.php?color=blue">Blue</a></li>
+                                                <!--                                                        <li><a href="shop-list.php?color=orange">Orange</a></li>-->
+                                                <li><a href="/trading/shop-list.php?color=red">Red</a></li>
+                                                <li><a href="/trading/shop-list.php?color=yellow">Yellow</a></li>
+                                                <li><a href="/trading/shop-list.php?color=purple">Purple</a></li>
                                             </ul>
                                         </li>
                                         <li class="mega-dropdown">
                                             <a class="mega-title">FLOWER VARIETIES</a>
 
                                             <ul class="mega-item">
-                                                <li><a href="/trading/shop-list.html">Roses</a></li>
-                                                <li><a href="Lilies.html">Lilies</a></li>
-                                                <li><a href="Gerbera.html">Gerbera</a></li>
-                                                <li><a href="Carnations.html">Carnations</a></li>
+                                                <li><a href="/trading/shop-list.php?type=rose">Rose</a></li>
+                                                <li><a href="/trading/shop-list.php?type=lily">Lily</a></li>
+                                                <li><a href="/trading/shop-list.php?type=chrysanthemum">Chrysanthemum</a></li>
+                                                <li><a href="/trading/shop-list.php?type=carnation">Carnation</a></li>
                                             </ul>
                                         </li>
                                         <li class="mega-dropdown">
-                                            <a class="mega-title">FUNERAL FLOWERS</a>
+                                            <a class="mega-title">SORT BY</a>
 
                                             <ul class="mega-item">
-                                                <li><a href="Bestsellers.html">Bestsellers</a></li>
-                                                <li><a href="Sheaves.html">Sheaves</a></li>
-                                                <li><a href="Wreaths.html">Wreaths</a></li>
-                                                <li><a href="Arrangements.html">Arrangements</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=best-selling">Best Selling</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=title-ascending">Alphabetically, A-Z</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=title-descending">Alphabetically, Z-A</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=price-ascending">Price, low to high</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=price-descending">Price, high to low</a></li>
                                             </ul>
                                         </li>
-                                        <li class="mega-dropdown">
-                                            <a class="mega-title">DEAL OF THE WEEK</a>
-                                            <a class="menu-banner">
-                                                <img src="../assets/images/menu-banner.jpg" alt="">
-                                            </a>
-                                        </li>
+                                        <!--                                                <li class="mega-dropdown">-->
+                                        <!--                                                    <a class="mega-title">DEAL OF THE WEEK</a>-->
+                                        <!--                                                    <a class="menu-banner">-->
+                                        <!--                                                        <img src="../assets/images/menu-banner.jpg" alt="">-->
+                                        <!--                                                    </a>-->
+                                        <!--                                                </li>-->
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Blog</a>
-
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Blog Single</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-single-left-sidebar.html">Blog Single Left
-                                                    Sidebar</a></li>
-                                                <li><a href="blog-single-right-sidebar.html">Blog Single Right
-                                                    Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <a href="/staff-portal/src/be_pages_blog_grid.php">News</a>
                                 </li>
                                 <li>
                                     <a href="#">About Us</a>
@@ -98,10 +80,10 @@
                 <div class="col-lg-3">
                     <div class="header-meta-info">
                         <div class="header-search">
-                            <form action="#">
-                                <input type="text" placeholder="Search">
-                                <button><i class="icon-search"></i></button>
-                            </form>
+
+                            <input type="text" id="searchFor" placeholder="Search">
+                            <button onclick="searchfor()"><i class="icon-search"></i></button>
+
                         </div>
                         <div class="header-account">
                             <div class="header-account-list top-link">
@@ -109,7 +91,7 @@
                                         class="icon-users"></i></a>
                             </div>
                             <div class="header-account-list mini-cart">
-                                <a href="/trading/cart.html" role="button">
+                                <a href="/trading/cart.php" role="button">
                                     <i class="icon-shopping-bag"></i>
                                 </a>
                             </div>
@@ -133,27 +115,27 @@
         <div class="row align-items-center">
             <div class="col -6">
                 <div class="header-logo">
-                    <a href="/index.php"><img src="../assets/images/logo/logo.png" alt=""></a>
+                    <a href="/index.php"><img src="/assets/images/logo/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6">
                 <div class="header-meta-info">
                     <div class="header-account">
                         <div class="header-account-list dropdown top-link">
-                            <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
+                            <a href="/user/personal-profile/personal-profile.php" role="button"><i class="icon-users"></i></a>
 
-                            <ul class="dropdown-menu ">
-                                <li><a href="#">My Orders</a></li>
-                                <li><a href="#">Sign In</a></li>
-                                <li><a href="#">Register</a></li>
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">Log Out</a></li>
-                            </ul>
+<!--                            <ul class="dropdown-menu ">-->
+<!--                                <li><a href="#">My Orders</a></li>-->
+<!--                                <li><a href="#">Sign In</a></li>-->
+<!--                                <li><a href="#">Register</a></li>-->
+<!--                                <li><a href="#">My Account</a></li>-->
+<!--                                <li><a href="#">Log Out</a></li>-->
+<!--                            </ul>-->
                         </div>
                         <div class="header-account-list mini-cart">
-                            <a href="/trading/cart.html">
+                            <a href="/trading/cart.php">
                                 <i class="icon-shopping-cart"></i>
-                                <span class="item-count ">0</span>
+<!--                                <span class="item-count ">0</span>-->
                             </a>
                         </div>
                         <div class="header-account-list mobile-menu-trigger">
@@ -184,10 +166,8 @@
 
     <div class="header-meta-info">
         <div class="header-search">
-            <form action="#" class="search-form">
-                <input type="text" placeholder="Search our store">
-                <button><i class="icon-search" style="color: deeppink"></i></button>
-            </form>
+                <input type="text" id="searchFor2" placeholder="Search our store">
+                <button onclick="searchfor2()"><i class="icon-search" style="color: #ff1493"></i></button>
         </div>
     </div>
 
@@ -199,70 +179,78 @@
                     <a href="#">Shop</a>
 
                     <ul class="mega-sub-menu">
-                        <li class="mega-dropdown">
-                        <li><a href="shop-grid-Spring.html">Spring</a></li>
-                        <li><a href="shop-grid-Summer.html">Summer</a></li>
-                        <li><a href="shop-grid-Autumn.html">Autumn</a></li>
-                        <li><a href="shop-grid-Winter.html">Winter</a></li>
-                        <li><a href="shop-grid-Plants.html">Plants</a></li>
-                        <li><a href="shop-grid-Birthday.html">Birthday</a></li>
-                        <li><a href="shop-grid-Wedding.html">Wedding</a></li>
-                        <li><a href="shop-grid-Sale.html">Sale</a></li>
+                        <li>
+                            <a href="/trading/shop-list.php">All Flowers</a>
+                        </li>
+                        <li>
+                            <a href="#">FLOWERS BY COLOUR</a>
+
+                            <ul class="sub-menu">
+                                <li><a href="/trading/shop-list.php?color=pink">Pink</a></li>
+                                <li><a href="/trading/shop-list.php?color=white">White</a></li>
+                                <li><a href="/trading/shop-list.php?color=blue">Blue</a></li>
+                                <!--                                                        <li><a href="shop-list.php?color=orange">Orange</a></li>-->
+                                <li><a href="/trading/shop-list.php?color=red">Red</a></li>
+                                <li><a href="/trading/shop-list.php?color=yellow">Yellow</a></li>
+                                <li><a href="/trading/shop-list.php?color=purple">Purple</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">FLOWER VARIETIES</a>
+
+                            <ul class="sub-menu">
+                                <li><a href="/trading/shop-list.php?type=rose">Rose</a></li>
+                                <li><a href="/trading/shop-list.php?type=lily">Lily</a></li>
+                                <li><a href="/trading/shop-list.php?type=chrysanthemum">Chrysanthemum</a></li>
+                                <li><a href="/trading/shop-list.php?type=carnation">Carnation</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">SORT BY</a>
+
+                            <ul class="sub-menu">
+                                <li><a href="/trading/shop-list.php?sort=best-selling">Best Selling</a></li>
+                                <li><a href="/trading/shop-list.php?sort=title-ascending">Alphabetically, A-Z</a></li>
+                                <li><a href="/trading/shop-list.php?sort=title-descending">Alphabetically, Z-A</a></li>
+                                <li><a href="/trading/shop-list.php?sort=price-ascending">Price, low to high</a></li>
+                                <li><a href="/trading/shop-list.php?sort=price-descending">Price, high to low</a></li>
+                            </ul>
                         </li>
 
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
-
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="#">Blog 1</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog1.html">Blog 1-1</a></li>
-                                <li><a href="blog1-1.html">Blog1-2</a></li>
-                                <li><a href="blog1-2.html">Blog1-3</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Blog 2</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog2-1.html">Blog2-1</a></li>
-                                <li><a href="blog2-2.html">Blog2-2</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
+                    <a href="/staff-portal/src/be_pages_blog_grid.php">News</a>
                 </li>
                 <li>
-                    <a href="#">Pages</a>
+                    <a href="#">About us</a>
                     <ul class="sub-menu">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="wishlist.html">Wishlist</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="#">Our Company</a></li>
+                        <li><a href="#">Employee Style</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </nav>
     </div>
 
-    <div class="header-social">
-        <ul class="social">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-        </ul>
-    </div>
+<!--    <div class="header-social">-->
+<!--        <ul class="social">-->
+<!--            <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+<!--            <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--            <li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+<!--            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+<!--            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
 
 </div>
 <!--Header Mobile Menu End-->
 
 <div class="overlay"></div>
 <!--Overlay-->
+
+<script src="../trading/search.js"></script>
 <script>
     function language_switch(language) {
         $.post('/utils/language-switch.php',

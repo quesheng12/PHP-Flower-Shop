@@ -46,278 +46,7 @@
 
 <div class="main-wrapper">
 
-
-    <!--Top Notification Start-->
-<!--    <div class="top-notification-bar text-center">-->
-<!--        <div class="container">-->
-<!--            <div class="notification-entry">-->
-<!--                <p>All featured product 50% off <a href="#">Shop Now</a></p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="notification-close">-->
-<!--            <button class="notification-close-btn"><i class="fa fa-times"></i></button>-->
-<!--        </div>-->
-<!--    </div>-->
-    <!--Top Notification End-->
-
-    <!--Header Section Start-->
-    <div class="header-section d-none d-lg-block">
-        <!--    背景透明    -->
-        <!--    style="background: linear-gradient(0deg, rgba(255,255,255,0.3)0%, rgba(145,145,145,0.3)100%)!important"    -->
-        <div class="main-header">
-            <div class="container position-relative">
-                <div class="row align-items-center">
-                    <div class="col-lg-2">
-                        <div class="header-logo">
-                            <a href="/index.php"><img src="../assets/images/logo/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 position-static">
-                        <div class="site-main-nav">
-                            <nav class="site-nav">
-                                <ul>
-                                    <li><a href="/index.php">Home</a></li>
-                                    <li>
-                                        <a href="#">Shop <span class="new">New</span></a>
-
-                                        <ul class="mega-sub-menu">
-                                            <li class="mega-dropdown">
-                                                <a class="mega-title">FLOWERS BY COLOUR</a>
-
-                                                <ul class="mega-item">
-                                                    <li><a href="Pink.html">Pink</a></li>
-                                                    <li><a href="White.html">White</a></li>
-                                                    <li><a href="Blue.html">Blue</a></li>
-                                                    <li><a href="Orange.html">Orange</a></li>
-                                                    <li><a href="Red.html">Red</a></li>
-                                                    <li><a href="Yellow.html">Yellow</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="mega-dropdown">
-                                                <a class="mega-title">FLOWER VARIETIES</a>
-
-                                                <ul class="mega-item">
-                                                    <li><a href="Roses.html">Roses</a></li>
-                                                    <li><a href="Lilies.html">Lilies</a></li>
-                                                    <li><a href="Gerbera.html">Gerbera</a></li>
-                                                    <li><a href="Carnations.html">Carnations</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="mega-dropdown">
-                                                <a class="mega-title">FUNERAL FLOWERS</a>
-
-                                                <ul class="mega-item">
-                                                    <li><a href="Bestsellers.html">Bestsellers</a></li>
-                                                    <li><a href="Sheaves.html">Sheaves</a></li>
-                                                    <li><a href="Wreaths.html">Wreaths</a></li>
-                                                    <li><a href="Arrangements.html">Arrangements</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="mega-dropdown">
-                                                <a class="mega-title">DEAL OF THE WEEK</a>
-                                                <a class="menu-banner">
-                                                    <img src="../assets/images/menu-banner.jpg" alt="">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">Blog</a>
-
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <a href="#">Blog</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Blog Single</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="blog-single-left-sidebar.html">Blog Single Left
-                                                        Sidebar</a></li>
-                                                    <li><a href="blog-single-right-sidebar.html">Blog Single Right
-                                                        Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="#">About Us</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">Our Company</a></li>
-                                            <li><a href="Employee.html">Employee Style</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="header-meta-info">
-                            <div class="header-search">
-                                <form action="#">
-                                    <input type="text" placeholder="Search our store ">
-                                    <button><i class="icon-search"></i></button>
-                                </form>
-                            </div>
-                            <div class="header-account">
-                                <div class="header-account-list top-link">
-                                    <a href="/user/personal-profile/personal-profile.php" role="button"><i
-                                            class="icon-users"></i></a>
-                                </div>
-                                <div class="header-account-list mini-cart">
-                                    <a href="../trading/cart.html" role="button">
-                                        <i class="icon-shopping-bag"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Header Section End-->
-
-
-    <!--Header Mobile Start-->
-    <div class="header-mobile d-lg-none">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col -6">
-                    <div class="header-logo">
-                        <a href="/index.php"><img src="../assets/images/logo/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="header-meta-info">
-                        <div class="header-account">
-                            <div class="header-account-list dropdown top-link">
-                                <a href="#" role="button" data-toggle="dropdown"><i class="icon-users"></i></a>
-
-                                <ul class="dropdown-menu ">
-                                    <li><a href="#">My Orders</a></li>
-                                    <li><a href="#">Sign In</a></li>
-                                    <li><a href="#">Register</a></li>
-                                    <li><a href="#">My Account</a></li>
-                                    <li><a href="#">Log Out</a></li>
-                                </ul>
-                            </div>
-                            <div class="header-account-list mini-cart">
-                                <a href="../trading/cart.html">
-                                    <i class="icon-shopping-cart"></i>
-                                    <span class="item-count ">0</span>
-                                </a>
-                            </div>
-                            <div class="header-account-list mobile-menu-trigger">
-                                <button id="menu-trigger">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Header Mobile End-->
-
-    <!--Header Mobile Menu Start-->
-    <div class="header-mobile-menu d-lg-none">
-
-        <a href="javascript:void(0)" class="mobile-menu-close">
-            <span></span>
-            <span></span>
-        </a>
-
-        <div class="header-meta-info">
-            <div class="header-search">
-                <form action="#" class="search-form">
-                    <input type="text" placeholder="Search our store ">
-                    <button><i class="icon-search" style="color: deeppink"></i></button>
-                </form>
-            </div>
-        </div>
-
-        <div class="site-main-nav">
-            <nav class="site-nav">
-                <ul class="navbar-mobile-wrapper">
-                    <li><a href="/index.php">Home</a></li>
-                    <li>
-                        <a href="#">Shop</a>
-
-                        <ul class="mega-sub-menu">
-                            <li class="mega-dropdown">
-                            <li><a href="shop-grid-Spring.html">Spring</a></li>
-                            <li><a href="shop-grid-Summer.html">Summer</a></li>
-                            <li><a href="shop-grid-Autumn.html">Autumn</a></li>
-                            <li><a href="shop-grid-Winter.html">Winter</a></li>
-                            <li><a href="shop-grid-Plants.html">Plants</a></li>
-                            <li><a href="shop-grid-Birthday.html">Birthday</a></li>
-                            <li><a href="shop-grid-Wedding.html">Wedding</a></li>
-                            <li><a href="shop-grid-Sale.html">Sale</a></li>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Blog 1</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog1.html">Blog 1-1</a></li>
-                                    <li><a href="blog1-1.html">Blog1-2</a></li>
-                                    <li><a href="blog1-2.html">Blog1-3</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Blog 2</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog2-1.html">Blog2-1</a></li>
-                                    <li><a href="blog2-2.html">Blog2-2</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="cart.html">Cart</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="header-social">
-            <ul class="social">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-            </ul>
-        </div>
-
-    </div>
-    <!--Header Mobile Menu End-->
-
-    <div class="overlay"></div>
-    <!--Overlay-->
+    <?php include('../template/header.html'); ?>
 
     <!--Page Banner Start-->
     <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">
@@ -342,7 +71,7 @@
                     <img src="../assets/images/cart.png" alt="">
                 </div>
                 <p>Your cart is currently empty!</p>
-                <a href="shop-list.html" class="btn btn-primary"><i class="fa fa-angle-left"></i> Continue Shopping</a>
+                <a href="shop-list.php" class="btn btn-primary"><i class="fa fa-angle-left"></i> Continue Shopping</a>
             </div>
         </div>
     </div>
@@ -612,7 +341,7 @@
                             '                                    </form>\n' +
                             '                                </td>\n' +
                             '                                <td class="total">\n' +
-                            '                                    <span class="total-amount item-total">￥' + data[key]['price'] * data[key]['quantity'] + '</span>\n' +
+                            '                                    <span class="total-amount item-total">￥' + (data[key]['price'] * data[key]['quantity']).toFixed(1) + '</span>\n' +
                             '                                </td>\n' +
                             '                                <td class="remove">\n' +
                             '                                    <a href="#" onclick="delete_single(' + data[key]['id'] + ')"><i class="ti-close"></i></a>\n' +
@@ -628,7 +357,7 @@
                     $('.clear').click(function () {
                         delete_all();
                     });
-                    $('.subtotal').html('￥' + subtotal);
+                    $('.subtotal').html('￥' + subtotal.toFixed(1));
 
                     $('.checkout').click(function () {
                         let arr_id = [];
@@ -668,7 +397,11 @@
                 }
             },
             error: function () {
-                xtip.alert("error");
+                xtip.alert("Please Login First!");
+                setTimeout(function (){
+                    window.location.href = '../user/login.php';
+                }, 2000);
+
             }
         });
     }

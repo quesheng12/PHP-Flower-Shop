@@ -27,7 +27,7 @@ function f($pp)
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kngu - Flower HTML Bootstrap 5 Template </title>
+    <title>Flower Shop By Group 9 - PNG</title>
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -68,20 +68,6 @@ function f($pp)
 <body>
 
 <div class="main-wrapper">
-
-
-    <!--Top Notification Start-->
-    <!--        <div class="top-notification-bar text-center">-->
-    <!--            <div class="container">-->
-    <!--                <div class="notification-entry">-->
-    <!--                    <p>All featured product 50% off <a href="#">Shop Now</a></p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="notification-close">-->
-    <!--                <button class="notification-close-btn"><i class="fa fa-times"></i></button>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--Top Notification End-->
 
     <?php include('../template/header.html'); ?>
 

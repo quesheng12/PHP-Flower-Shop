@@ -48,10 +48,8 @@ function show_cart($conn, $user_id)
 function add_to_cart($conn, $user_id, $item_id, $quantity)
 {
     try {
-        $sql = "insert into cart values (?, ?, ?)";
-        $stmt = mysqli_prepare($conn, $sql);
-        mysqli_stmt_bind_param($stmt, "iii", $user_id, $item_id, $quantity);
-        if (mysqli_stmt_execute($stmt)) {
+        $sql = "insert into cart values ('$user_id', '$item_id', '$quantity')";
+        if (mysqli_query($conn, $sql)) {
             echo 100;
         } else {
             $sql = "update cart set quantity = quantity + '$quantity' where user_id = '$user_id' and item_id = '$item_id'";
