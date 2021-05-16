@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="employee style">
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/get-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/get-order.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1pV4ZfwoMzKOsBw0RkWb3RGdeEM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -139,13 +135,6 @@
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
       <workItem from="1620955767858" duration="10973000" />
-    </task>
-    <task id="LOCAL-00002" summary="login register and file-upload functions">
-      <created>1615387128982</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615387128982</updated>
     </task>
     <task id="LOCAL-00003" summary="1">
       <created>1615984570667</created>
@@ -483,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621159797223</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update">
+      <created>1621164475826</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1621164475826</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="personal-profile前端工作" />
     <MESSAGE value="personal-profile" />
     <MESSAGE value="staff-portal" />
     <MESSAGE value="rebased from master" />
@@ -540,7 +535,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="11" />
     <MESSAGE value="reset password" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset password" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
