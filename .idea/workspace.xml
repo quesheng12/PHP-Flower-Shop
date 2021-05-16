@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="11">
-      <change afterPath="$PROJECT_DIR$/mail/Smtp.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail/sendmail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/password-reset/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/password-reset/images/into.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/password-reset/images/send-symbol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/password-reset/password-reset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/password-reset/reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/reset-back.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
+    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="reset password">
+      <change afterPath="$PROJECT_DIR$/images/news/6/blog-dec-img14698450.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/authcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/finish_payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/finish_payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="page-zh" />
+        <entry key="$PROJECT_DIR$" value="zhzhzhzhzhzh" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,13 +139,6 @@
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
       <workItem from="1620955767858" duration="10973000" />
-    </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1615281982175</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615281982175</updated>
     </task>
     <task id="LOCAL-00002" summary="login register and file-upload functions">
       <created>1615387128982</created>
@@ -492,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621154229597</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="reset password">
+      <created>1621159797223</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1621159797223</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +515,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="images directory move to image directory" />
     <MESSAGE value="personal-profile前端工作" />
     <MESSAGE value="personal-profile" />
     <MESSAGE value="staff-portal" />
@@ -549,7 +539,8 @@
     <MESSAGE value="payment page" />
     <MESSAGE value="1" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="reset password" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset password" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
