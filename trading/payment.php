@@ -180,7 +180,7 @@
                 if (data == '100') {
                     xtip.msg("Successful payment");
                     setTimeout(function () {
-                        location.href = '/trading/cart.html';
+                        location.href = 'cart.php';
                     }, 1000)
                 }
             })
