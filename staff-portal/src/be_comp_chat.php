@@ -6,7 +6,7 @@
 
 
 <div class="content">
-    <iframe src="http://chat.com/index.php/index/index/lists?fromid=85"
+    <iframe src="http://42.193.97.82/index.php/index/index/lists?fromid=101"
             id = "frame"
             height="100%"
             width="100%"

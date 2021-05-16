@@ -512,6 +512,13 @@
                         </div>
                         <p class="description"></p>
 
+                        <?php
+                        session_start();
+                        $from_id = $_SESSION['username'];
+                        $href = "http://42.193.97.82/index.php/index/index/index?fromid="+$from_id+"&toid=101";
+                        ?>
+                        $_SESSION['views']=1;
+
                         <ul class="product-additional-information">
                             <li>
                                 <button><i class="ti-ruler-pencil"></i> Size Guide</button>
@@ -520,7 +527,7 @@
                                 <button><i class="fa fa-truck"></i> Shipping</button>
                             </li>
                             <li>
-                                <button><i class="ti-email"></i> Ask About This product</button>
+                                <a href="<?php echo $href; ?>"><button><i class="ti-email"></i> Ask About This product</button></a>
                             </li>
                         </ul>
 

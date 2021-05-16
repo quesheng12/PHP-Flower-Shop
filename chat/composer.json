@@ -23,8 +23,7 @@
         "topthink/think-mongo": "1.*",
         "topthink/think-migration": "1.*",
         "topthink/think-queue": "1.*",
-        "topthink/think-helper": "1.*",
-      "ext-mysqli": "*"
+        "topthink/think-helper": "1.*"
     },
     "autoload": {
         "psr-4": {

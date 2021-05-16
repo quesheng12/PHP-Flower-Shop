@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"E:\phpStudy\WWW\chat\public/../application/index\view\index\index.html";i:1517895306;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:70:"C:\wampserver64\WWW\chat\public/../application/index\view\index\index.html";i:1517895306;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -24,10 +24,11 @@
 <div class='fui-page-group'>
     <div class='fui-page chatDetail-page'>
         <div class="chat-header flex">
-            <i class="icon icon-toleft t-48"></i>
+            <a href="javascript:history.go(-1)"><i class="icon icon-toleft t-48" ></i></a>
             <span class="shop-titlte t-30">Customer service system</span>
             <span class="shop-online t-26"></span>
-            <span class="into-shop">enter the market</span>
+            <!-- <span class="into-shop"><a href="123.56.136.219">enter the market</a></span> -->
+            <!-- <a href="123.56.136.219"><span>enter the market</span></a> -->
         </div>
         <div class="fui-content navbar" style="padding:1.2rem 0 1.35rem 0;">
             <div class="chat-content">
@@ -78,9 +79,13 @@
     var online = 0;
 
     var to_name = '';
-    var API_URL = "http://chat.com/index.php/api/chat/";
+    // var API_URL = "http://chat.com/index.php/api/chat/";
+    var API_URL = "http://42.193.97.82/index.php/api/chat/";
+    // var API_URL = "http://localhost/index.php/api/chat/";
 
-    var ws = new WebSocket("ws://127.0.0.1:8282");
+    var ws = new WebSocket("ws://42.193.97.82:8282");
+    // var ws = new WebSocket("ws://127.0.0.1:8282");
+
 
     // if (ws.readyState === 1) {
 
