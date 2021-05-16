@@ -39,7 +39,7 @@
                                     <ul>
                                         <li><a href="index.html">主页</a></li>
                                         <li>
-                                            <a href="#">商店<span class="new">New</span></a>
+                                            <a href="#">商店<span class="new">新！</span></a>
 
                                             <ul class="mega-sub-menu">
                                                 <li class="mega-dropdown">
@@ -636,7 +636,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
-                            <h4 class="footer-widget-title">My Account</h4>
+                            <h4 class="footer-widget-title">我的账户t</h4>
 
                             <div class="footer-widget-menu">
                                 <ul>
@@ -668,7 +668,7 @@
 
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
-                            <h4 class="footer-widget-title">Customer Service</h4>
+                            <h4 class="footer-widget-title">客户服务</h4>
 
                             <div class="footer-widget-menu">
                                 <ul>
