@@ -303,7 +303,6 @@
                         <div class="tab-pane fade" id="pills-edit-account">
                             <div class="my-account-details account-wrapper">
                                 <h4 class="account-title">Account Details</h4>
-
                                 <div class="account-details">
                                     <form id="edit-personal-profiles" method="post" action="user-information-edit.php">
                                         <div class="row">
