@@ -1,6 +1,9 @@
 <?php
 //staff登陆检测
 require '../../utils/check-staff-login.php';
+if ($_SESSION['language'] == 'zh') {
+    echo "<script>location.href='be_pages_ecom_orders-zh.php';</script>";
+}
 ?>
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
@@ -137,6 +140,10 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
                     </thead>
                     <tbody>
                     <?php
+                    $badges['DELIVERY_WAIT_PAYMENT']['class'] = "badge-secondary";
+                    $badges['DELIVERY_WAIT_PAYMENT']['text'] = "Wait payment";
+                    $badges['OFFLINE_WAIT_PAYMENT']['class'] = "badge-secondary";
+                    $badges['OFFLINE_WAIT_PAYMENT']['text'] = "Wait payment";
                     $badges['FOR_DELIVERY']['class'] = "badge-info";
                     $badges['FOR_DELIVERY']['text'] = "For delivery";
                     $badges['FINISHED']['class'] = "badge-success";

@@ -134,7 +134,7 @@ $rst = mysqli_query($conn, $sql);
     $sql = "select status,address_id from orders where id=" . $oid;
     $order = mysqli_fetch_assoc(mysqli_query($conn, $sql));
     $sql = "select * from address where id=" . $order['address_id'];
-    $address = mysqli_fetch_assoc(mysqli_query($conn, $sql));
+    //    $address = mysqli_fetch_assoc(mysqli_query($conn, $sql));
     ?>
 
     <!-- Customer -->
@@ -146,12 +146,14 @@ $rst = mysqli_query($conn, $sql);
                     <h3 class="block-title">Address</h3>
                 </div>
                 <div class="block-content">
-                    <div class="font-size-h4 mb-1"><?php echo $address['name']; ?></div>
-                    <address class="font-size-sm">
-                        <?php echo $address['province'] . "<br>" . $address['city'] . "<br>" . $address['area'] . "<br>" . $address['detail']; ?>
-                        <br><br>
-                        <i class="fa fa-phone"></i> <?php echo $address['phone']; ?><br>
-                    </address>
+                    <?php if ($address = mysqli_fetch_assoc(mysqli_query($conn, $sql))) { ?>
+                        <div class="font-size-h4 mb-1"><?php echo $address['name']; ?></div>
+                        <address class="font-size-sm">
+                            <?php echo $address['province'] . "<br>" . $address['city'] . "<br>" . $address['area'] . "<br>" . $address['detail']; ?>
+                            <br><br>
+                            <i class="fa fa-phone"></i> <?php echo $address['phone']; ?><br>
+                        </address>
+                    <?php } ?>
                 </div>
             </div>
             <!-- END Billing Address -->

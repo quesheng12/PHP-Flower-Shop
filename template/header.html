@@ -114,9 +114,10 @@
                                 </a>
                             </div>
                         </div>
-                        <div style="margin-left: 8%; margin-right: 5%;"><a href="#">zh</a></div>
+                        <div style="margin-left: 8%; margin-right: 5%;">
+                            <a id="zh" href="#" onclick="language_switch('zh')">zh</a></div>
                         <div style="float:left;width: 1px;height: 20px; background: darkgray;"></div>
-                        <div style="margin-left: 5%;"><a href="#">en</a> </div>
+                        <div style="margin-left: 5%;"><a id="en" href="#" onclick="language_switch('en')">en</a></div>
                     </div>
                 </div>
             </div>
@@ -165,7 +166,7 @@
                     </div>
                     <div style="margin-left: 5%; margin-right: 5%;"><a href="#">zh</a></div>
                     <div style="float:left;width: 1px;height: 20px; background: darkgray;"></div>
-                    <div style="margin-left: 5%;"><a href="#">en</a> </div>
+                    <div style="margin-left: 5%;"><a href="#">en</a></div>
                 </div>
             </div>
         </div>
@@ -262,3 +263,14 @@
 
 <div class="overlay"></div>
 <!--Overlay-->
+<script>
+    function language_switch(language) {
+        $.post('/utils/language-switch.php',
+            {
+                'language': language
+            },
+            function () {
+                location.reload();
+            })
+    }
+</script>
