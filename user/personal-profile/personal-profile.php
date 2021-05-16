@@ -83,6 +83,65 @@
                                     <ul class="header__contact">
                                         <li><span class="overhead">Email: </span><span id="email"></span></li>
                                         <li><span class="overhead">Phone: </span><span id="phone"></span></li>
+                                        <li><span class="overhead">Current Level:
+                                            <?php
+                                            $sql = "select level from user where id=".$_SESSION['uid'];
+                                            $result = mysqli_query($conn, $sql);
+                                            while($row=mysqli_fetch_assoc($result)){
+//                                                echo"<span>".$row['level']."</span>";
+                                                if($row['level']<100){
+                                                    echo"<span>"."1"."</span>";
+                                                    echo"<br>";
+                                                    $exp = 100-$row['level'];
+                                                    echo"<span>You have ".$exp." exp left to upgrade!</span>";
+                                                }
+                                                elseif(100<=$row['level']&&$row['level']<200){
+                                                    echo"<span>"."2"."</span>";
+                                                    echo"<br>";
+                                                    $exp = 200-$row['level'];
+                                                    echo"<span>You have ".$exp." exp left to upgrade!</span>";
+                                                }
+                                                elseif(200<=$row['level']&&$row['level']<300){
+                                                    echo"<span>"."3"."</span>";
+                                                    echo"<br>";
+                                                    $exp = 300-$row['level'];
+                                                    echo"<span>You have ".$exp." exp left to upgrade!</span>";
+                                                }
+                                                elseif(300<=$row['level']&&$row['level']<400){
+                                                    echo"<span>"."4"."</span>";
+                                                    echo"<br>";
+                                                    $exp = 400-$row['level'];
+                                                    echo"<span>You have ".$exp." exp left to upgrade!</span>";
+                                                }
+                                                elseif(400<=$row['level']&&$row['level']<500){
+                                                    echo"<span>"."5"."</span>";
+                                                    echo"<br>";
+                                                    $exp = 500-$row['level'];
+                                                    echo"<span>You have ".$exp." exp left to upgrade!</span>";
+                                                }
+                                                elseif(500<=$row['level']&&$row['level']<600){
+                                                    echo"<span>"."6"."</span>";
+                                                    echo"<br>";
+                                                    $exp = 600-$row['level'];
+                                                    echo"<span>You have ".$exp." exp left to upgrade!</span>";
+                                                }
+                                                else{
+                                                    echo"<span>"."MAX"."</span>";
+                                                    echo"<br>";
+                                                    echo"<span>You have reached the highest level!</span>";
+                                                }
+                                            }
+                                            ?></span> </li>
+                                        <?php
+                                        function updateLevel(){
+                                            $price = 0;//用户下单所付的钱，这里暂时设置为0；
+                                            $exp = $price/10;//用户获得的经验值，因为好像价格都比较高，除10降低数值
+                                            $sql = "select level from user where id=".$_SESSION['uid'];//用户当前的等级值
+                                            $update = $exp + $sql;
+                                            $s = "update 'user' set level = '$update' where id=".$_SESSION['uid'];//上传到数据库
+                                        }
+
+                                        ?>
                                     </ul>
                                 </div>
                             </div>
