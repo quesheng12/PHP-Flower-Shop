@@ -283,7 +283,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="trading/shop-single.html？id=35">
+                                    <a href="trading/shop-single.php?id=35">
                                         <img src="images/item/35/pink-product-COUNTRY FIELDS3924160.jpg" alt="">
                                     </a>
                                 </div>
