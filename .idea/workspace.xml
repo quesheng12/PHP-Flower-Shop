@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="reset password">
-      <change afterPath="$PROJECT_DIR$/images/news/6/blog-dec-img14698450.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/finish_payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/finish_payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/employee-style.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/employee-style.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="zhzhzhzhzhzh" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
