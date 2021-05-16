@@ -2,8 +2,8 @@
 /*-----------------------------------------1) General--------------------------------------------------*/
 @font-face {
   font-family: 'Glyphter';
-  src: url('../fonts/Glyphter.eot');
-  src: url('../fonts/Glyphter?#iefix') format('embedded-opentype'), url('../fonts/Glyphter.woff') format('woff'), url('../fonts/Glyphter.ttf') format('truetype'), url('../fonts/Glyphter.svg#Glyphter') format('svg');
+  src: url('/fonts/Glyphter.eot');
+  src: url('/fonts/Glyphter?#iefix') format('embedded-opentype'), url('/fonts/Glyphter.woff') format('woff'), url('../fonts/Glyphter.ttf') format('truetype'), url('../fonts/Glyphter.svg#Glyphter') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -81,7 +81,7 @@ img { max-width: 100%; }
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../images/loader.gif);
+  background-image: url(/images/loader.gif);
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
@@ -482,7 +482,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/background.png');
+  background: url('/images/background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -751,7 +751,7 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(../images/testimonial-bg.jpg);
+  background-image: url(/images/testimonial-bg.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -889,7 +889,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/reza.jpg');
+  background: url('/images/reza.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -905,7 +905,7 @@ ul.portfolio-image li .desc{
   float: left;
 }
 .bg-about1 {
-  background: url('../images/ZhaoYiran.jpg');
+  background: url('/images/ZhaoYiran.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -921,7 +921,7 @@ ul.portfolio-image li .desc{
   float: left;
 }
 .bg-about2 {
-  background: url('../images/LiDianzhe.jpg');
+  background: url('/images/LiDianzhe.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -937,7 +937,7 @@ ul.portfolio-image li .desc{
   float: left;
 }
 .bg-about3 {
-  background: url('../images/LiuYuxin.jpg');
+  background: url('/images/LiuYuxin.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -953,7 +953,7 @@ ul.portfolio-image li .desc{
   float: left;
 }
 .bg-about4 {
-  background: url('../images/JiaTiancheng.jpg');
+  background: url('/images/JiaTiancheng.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -969,7 +969,7 @@ ul.portfolio-image li .desc{
   float: left;
 }
 .bg-about5 {
-  background: url('../images/FuHan.jpg');
+  background: url('/images/FuHan.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -985,7 +985,7 @@ ul.portfolio-image li .desc{
   float: left;
 }
 .bg-about6 {
-  background: url('../images/ShenShuyi.jpg');
+  background: url('/images/ShenShuyi.jpg');
   /*-webkit-background-size: cover;*/
   /*-moz-background-size: cover;*/
   /*-o-background-size: cover;*/
@@ -1356,7 +1356,7 @@ ul.portfolio-image li .desc{
 }
 
 #background {
-  background-image: url('../images/background1.jpg');
+  background-image: url('/images/background1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
