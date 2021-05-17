@@ -115,7 +115,7 @@ function f($pp){
                                                     <a class="mega-title" href="#">Shop Single</a>
 
                                                     <ul class="mega-item">
-                                                        <li><a href="shop-single.html">Shop Single</a></li>
+                                                        <li><a href="shop-single.php">Shop Single</a></li>
                                                         <li><a href="shop-single-affiliate.html">Shop Single Affiliate</a></li>
                                                         <li><a href="shop-single-variable.html">Shop Single Variable</a></li>
                                                         <li><a href="shop-single-group.html">Shop Single Group</a></li>
@@ -210,11 +210,11 @@ function f($pp){
                                             <li class="product-cart">
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+                                                        <a href="shop-single.php"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+                                                        <h6 class="title"><a href="shop-single.php">Rock Soapwort</a></h6>
                                                         <div class="cart-price">
                                                             <span class="sale-price">$70.00</span>
                                                             <span class="regular-price">$80.00</span>
@@ -224,11 +224,11 @@ function f($pp){
                                                 </div>
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+                                                        <a href="shop-single.php"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+                                                        <h6 class="title"><a href="shop-single.php">Rock Soapwort</a></h6>
                                                         <div class="cart-price">
                                                             <span class="sale-price">$70.00</span>
                                                             <span class="regular-price">$80.00</span>
@@ -238,11 +238,11 @@ function f($pp){
                                                 </div>
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img src="assets/images/cart/cart-3.jpg" alt=""></a>
+                                                        <a href="shop-single.php"><img src="assets/images/cart/cart-3.jpg" alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+                                                        <h6 class="title"><a href="shop-single.php">Rock Soapwort</a></h6>
                                                         <div class="cart-price">
                                                             <span class="sale-price">$70.00</span>
                                                             <span class="regular-price">$80.00</span>
@@ -357,7 +357,7 @@ function f($pp){
                                     <a class="mega-title" href="#">Shop Single</a>
 
                                     <ul class="mega-item">
-                                        <li><a href="shop-single.html">Shop Single</a></li>
+                                        <li><a href="shop-single.php">Shop Single</a></li>
                                         <li><a href="shop-single-affiliate.html">Shop Single Affiliate</a></li>
                                         <li><a href="shop-single-variable.html">Shop Single Variable</a></li>
                                         <li><a href="shop-single-group.html">Shop Single Group</a></li>

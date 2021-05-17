@@ -99,7 +99,7 @@
                                                 <a class="mega-title" href="#">Shop Single</a>
 
                                                 <ul class="mega-item">
-                                                    <li><a href="shop-single.html">Shop Single</a></li>
+                                                    <li><a href="shop-single.php">Shop Single</a></li>
                                                     <li><a href="shop-single-affiliate.html">Shop Single Affiliate</a>
                                                     </li>
                                                     <li><a href="shop-single-variable.html">Shop Single Variable</a>
@@ -198,12 +198,12 @@
                                         <li class="product-cart">
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
-                                                    <a href="shop-single.html"><img src="assets/images/cart/cart-1.jpg"
-                                                                                    alt=""></a>
+                                                    <a href="shop-single.php"><img src="assets/images/cart/cart-1.jpg"
+                                                                                   alt=""></a>
                                                     <span class="pro-quantity">1x</span>
                                                 </div>
                                                 <div class="cart-content">
-                                                    <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+                                                    <h6 class="title"><a href="shop-single.php">Rock Soapwort</a></h6>
                                                     <div class="cart-price">
                                                         <span class="sale-price">$70.00</span>
                                                         <span class="regular-price">$80.00</span>
@@ -214,12 +214,12 @@
                                             </div>
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
-                                                    <a href="shop-single.html"><img src="assets/images/cart/cart-2.jpg"
-                                                                                    alt=""></a>
+                                                    <a href="shop-single.php"><img src="assets/images/cart/cart-2.jpg"
+                                                                                   alt=""></a>
                                                     <span class="pro-quantity">1x</span>
                                                 </div>
                                                 <div class="cart-content">
-                                                    <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+                                                    <h6 class="title"><a href="shop-single.php">Rock Soapwort</a></h6>
                                                     <div class="cart-price">
                                                         <span class="sale-price">$70.00</span>
                                                         <span class="regular-price">$80.00</span>
@@ -230,12 +230,12 @@
                                             </div>
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
-                                                    <a href="shop-single.html"><img src="assets/images/cart/cart-3.jpg"
-                                                                                    alt=""></a>
+                                                    <a href="shop-single.php"><img src="assets/images/cart/cart-3.jpg"
+                                                                                   alt=""></a>
                                                     <span class="pro-quantity">1x</span>
                                                 </div>
                                                 <div class="cart-content">
-                                                    <h6 class="title"><a href="shop-single.html">Rock Soapwort</a></h6>
+                                                    <h6 class="title"><a href="shop-single.php">Rock Soapwort</a></h6>
                                                     <div class="cart-price">
                                                         <span class="sale-price">$70.00</span>
                                                         <span class="regular-price">$80.00</span>
@@ -351,7 +351,7 @@
                                 <a class="mega-title" href="#">Shop Single</a>
 
                                 <ul class="mega-item">
-                                    <li><a href="shop-single.html">Shop Single</a></li>
+                                    <li><a href="shop-single.php">Shop Single</a></li>
                                     <li><a href="shop-single-affiliate.html">Shop Single Affiliate</a></li>
                                     <li><a href="shop-single-variable.html">Shop Single Variable</a></li>
                                     <li><a href="shop-single-group.html">Shop Single Group</a></li>
@@ -737,7 +737,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-1.jpg" alt="">
                                     </a>
                                     <span class="sticker-new soldout-title">Soldout</span>
@@ -764,7 +764,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Spring Snowflake</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Spring Snowflake</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$29.00</span>
@@ -775,7 +775,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-2.jpg" alt="">
                                     </a>
                                     <div class="action-links">
@@ -800,7 +800,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Rock Soapwort</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Rock Soapwort</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$50.00</span>
                                     </div>
@@ -810,7 +810,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-3.jpg" alt="">
                                     </a>
 
@@ -843,7 +843,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Scarlet Sage</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Scarlet Sage</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$39.00</span>
                                         <span class="old-price">$60.00</span>
@@ -854,7 +854,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-4.jpg" alt="">
                                     </a>
 
@@ -880,7 +880,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Foxglove Flower</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Foxglove Flower</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$79.00</span>
                                     </div>
@@ -890,7 +890,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-5.jpg" alt="">
                                     </a>
 
@@ -918,7 +918,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Summer Savory</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Summer Savory</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$40.00</span>
                                         <span class="old-price">$85.00</span>
@@ -929,7 +929,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-6.jpg" alt="">
                                     </a>
 
@@ -957,7 +957,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Wild Roses</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Wild Roses</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$21.00</span>
@@ -968,7 +968,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-7.jpg" alt="">
                                     </a>
 
@@ -994,7 +994,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Sweet Alyssum</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Sweet Alyssum</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$50.00</span>
                                     </div>
@@ -1004,7 +1004,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-8.jpg" alt="">
                                     </a>
 
@@ -1032,7 +1032,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Lity Majesty Palm</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Lity Majesty Palm</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$29.00</span>
@@ -1043,7 +1043,7 @@
                         <div class="swiper-slide">
                             <div class="single-product">
                                 <div class="product-image">
-                                    <a href="shop-single.html">
+                                    <a href="shop-single.php">
                                         <img src="assets/images/product/product-9.jpg" alt="">
                                     </a>
 
@@ -1071,7 +1071,7 @@
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                     </ul>
-                                    <h4 class="product-name"><a href="shop-single.html">Majesty Palm</a></h4>
+                                    <h4 class="product-name"><a href="shop-single.php">Majesty Palm</a></h4>
                                     <div class="price-box">
                                         <span class="current-price">$19.00</span>
                                         <span class="old-price">$29.00</span>
