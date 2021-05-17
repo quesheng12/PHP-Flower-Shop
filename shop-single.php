@@ -1,4 +1,10 @@
-﻿<!doctype html>
+﻿<?php session_start();
+if($_SESSION['uid']==null){
+    echo "Please log in.";
+    header('location:http://123.56.136.219/user/login.php');
+}
+?>
+<!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -520,9 +526,11 @@
                             <li>
                                 <button><i class="fa fa-truck"></i> Shipping</button>
                             </li>
+
+
                             <li>
 <!--                             href = " http://42.193.97.82/index.php/index/index/index?fromid=" + _SESSION['uid'] +"&toid=101"   -->
-                                <a href="<?php echo $href ?>"><button><i class="ti-email"></i> Ask About This product</button></a>
+                                <a href="http://42.193.97.82/index.php/index/index/index?fromid=<?php echo $_SESSION['uid']; ?>&toid=101"><button><i class="ti-email"></i> Ask About This product</button></a>
                             </li>
                         </ul>
 
