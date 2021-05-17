@@ -15,7 +15,7 @@ if($_SESSION['uid']==null){
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png">
 
     <!-- CSS
 	============================================ -->
@@ -34,15 +34,15 @@ if($_SESSION['uid']==null){
     <link rel="stylesheet" href="assets/css/plugins/select2.min.css"> -->
 
     <!-- Helper CSS -->
-    <link rel="stylesheet" href="assets/css/helper.css">
+    <link rel="stylesheet" href="../assets/css/helper.css">
 
     <!-- Main Style CSS -->
     <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 
 
     <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
-    <link rel="stylesheet" href="assets/css/plugins-min/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
+    <link rel="stylesheet" href="../assets/css/style.min.css">
 
 
 </head>
@@ -72,14 +72,14 @@ if($_SESSION['uid']==null){
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                            <a href="../index.html"><img src="../assets/images/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-7 position-static">
                         <div class="site-main-nav">
                             <nav class="site-nav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="../index.html">Home</a></li>
                                     <li>
                                         <a href="#">Shop <span class="new">New</span></a>
 
@@ -90,7 +90,7 @@ if($_SESSION['uid']==null){
                                                 <ul class="mega-item">
                                                     <li><a href="shop-grid-3.html">Shop Grid 3</a></li>
                                                     <li><a href="shop-grid-4.html">Shop Grid 4</a></li>
-                                                    <li><a href="shop-list.html">Shop List</a></li>
+                                                    <li><a href="../shop-list.html">Shop List</a></li>
                                                     <li><a href="shop-grid-left-sidebar.html">Shop Grid Left Sidebar</a>
                                                     </li>
                                                     <li><a href="shop-grid-right-sidebar.html">Shop Grid Right
@@ -117,17 +117,17 @@ if($_SESSION['uid']==null){
                                                 <a class="mega-title" href="#">Page</a>
 
                                                 <ul class="mega-item">
-                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="../cart.html">Cart</a></li>
                                                     <li><a href="wishlist.html">Wishlist</a></li>
                                                     <li><a href="compare.html">Compare</a></li>
-                                                    <li><a href="checkout.php">Checkout</a></li>
+                                                    <li><a href="../checkout.php">Checkout</a></li>
                                                     <li><a href="empty-cart.html">Empty Cart</a></li>
                                                     <li><a href="my-account.html">My Account</a></li>
                                                 </ul>
                                             </li>
                                             <li class="mega-dropdown">
                                                 <a class="menu-banner" href="#">
-                                                    <img src="assets/images/menu-banner.jpg" alt="">
+                                                    <img src="../assets/images/menu-banner.jpg" alt="">
                                                 </a>
                                             </li>
                                         </ul>
@@ -159,10 +159,10 @@ if($_SESSION['uid']==null){
                                         <a href="#">Pages <span class="sale">Sale</span></a>
                                         <ul class="sub-menu">
                                             <li><a href="about.html">About</a></li>
-                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="../cart.html">Cart</a></li>
                                             <li><a href="wishlist.html">Wishlist</a></li>
                                             <li><a href="compare.html">Compare</a></li>
-                                            <li><a href="checkout.php">Checkout</a></li>
+                                            <li><a href="../checkout.php">Checkout</a></li>
                                             <li><a href="empty-cart.html">Empty Cart</a></li>
                                             <li><a href="my-account.html">My Account</a></li>
                                             <li><a href="login.html">Login</a></li>
@@ -204,7 +204,7 @@ if($_SESSION['uid']==null){
                                         <li class="product-cart">
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
-                                                    <a href="shop-single.php"><img src="assets/images/cart/cart-1.jpg"
+                                                    <a href="shop-single.php"><img src="../assets/images/cart/cart-1.jpg"
                                                                                    alt=""></a>
                                                     <span class="pro-quantity">1x</span>
                                                 </div>
@@ -220,7 +220,7 @@ if($_SESSION['uid']==null){
                                             </div>
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
-                                                    <a href="shop-single.php"><img src="assets/images/cart/cart-2.jpg"
+                                                    <a href="shop-single.php"><img src="../assets/images/cart/cart-2.jpg"
                                                                                    alt=""></a>
                                                     <span class="pro-quantity">1x</span>
                                                 </div>
@@ -236,7 +236,7 @@ if($_SESSION['uid']==null){
                                             </div>
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
-                                                    <a href="shop-single.php"><img src="assets/images/cart/cart-3.jpg"
+                                                    <a href="shop-single.php"><img src="../assets/images/cart/cart-3.jpg"
                                                                                    alt=""></a>
                                                     <span class="pro-quantity">1x</span>
                                                 </div>
@@ -257,7 +257,7 @@ if($_SESSION['uid']==null){
                                             </ul>
                                         </li>
                                         <li class="product-btn">
-                                            <a href="checkout.php" class="btn btn-dark btn-block">Checkout</a>
+                                            <a href="../checkout.php" class="btn btn-dark btn-block">Checkout</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -277,7 +277,7 @@ if($_SESSION['uid']==null){
             <div class="row align-items-center">
                 <div class="col-6">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                        <a href="../index.html"><img src="../assets/images/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-6">
@@ -335,7 +335,7 @@ if($_SESSION['uid']==null){
         <div class="site-main-nav">
             <nav class="site-nav">
                 <ul class="navbar-mobile-wrapper">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li>
                         <a href="#">Shop <span class="new">New</span></a>
 
@@ -346,7 +346,7 @@ if($_SESSION['uid']==null){
                                 <ul class="mega-item">
                                     <li><a href="shop-grid-3.html">Shop Grid 3</a></li>
                                     <li><a href="shop-grid-4.html">Shop Grid 4</a></li>
-                                    <li><a href="shop-list.html">Shop List</a></li>
+                                    <li><a href="../shop-list.html">Shop List</a></li>
                                     <li><a href="shop-grid-left-sidebar.html">Shop Grid Left Sidebar</a></li>
                                     <li><a href="shop-grid-right-sidebar.html">Shop Grid Right Sidebar</a></li>
                                     <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
@@ -367,17 +367,17 @@ if($_SESSION['uid']==null){
                                 <a class="mega-title" href="#">Page</a>
 
                                 <ul class="mega-item">
-                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="../cart.html">Cart</a></li>
                                     <li><a href="wishlist.html">Wishlist</a></li>
                                     <li><a href="compare.html">Compare</a></li>
-                                    <li><a href="checkout.php">Checkout</a></li>
+                                    <li><a href="../checkout.php">Checkout</a></li>
                                     <li><a href="empty-cart.html">Empty Cart</a></li>
                                     <li><a href="my-account.html">My Account</a></li>
                                 </ul>
                             </li>
                             <li class="mega-dropdown">
                                 <a class="menu-banner" href="#">
-                                    <img src="assets/images/menu-banner.jpg" alt="">
+                                    <img src="../assets/images/menu-banner.jpg" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -407,10 +407,10 @@ if($_SESSION['uid']==null){
                         <a href="#">Pages <span class="sale">Sale</span></a>
                         <ul class="sub-menu">
                             <li><a href="about.html">About</a></li>
-                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="../cart.html">Cart</a></li>
                             <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="compare.html">Compare</a></li>
-                            <li><a href="checkout.php">Checkout</a></li>
+                            <li><a href="../checkout.php">Checkout</a></li>
                             <li><a href="empty-cart.html">Empty Cart</a></li>
                             <li><a href="my-account.html">My Account</a></li>
                             <li><a href="login.html">Login</a></li>
@@ -439,12 +439,12 @@ if($_SESSION['uid']==null){
     <!--Overlay-->
 
     <!--Page Banner Start-->
-    <div class="page-banner" style="background-image: url(assets/images/testimonial-bg.jpg);">
+    <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">
         <div class="container">
             <div class="page-banner-content text-center">
                 <h2 class="title">Shop Single</h2>
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="shop-grid-left-sidebar.html">Shop</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Shop Single</li>
                 </ol>
@@ -568,12 +568,12 @@ if($_SESSION['uid']==null){
                             <p>Guaranteed safe checkout</p>
 
                             <ul class="payment-options">
-                                <li><img src="assets/images/payment-icon/payment-1.svg" alt=""></li>
-                                <li><img src="assets/images/payment-icon/payment-2.svg" alt=""></li>
-                                <li><img src="assets/images/payment-icon/payment-3.svg" alt=""></li>
-                                <li><img src="assets/images/payment-icon/payment-4.svg" alt=""></li>
-                                <li><img src="assets/images/payment-icon/payment-5.svg" alt=""></li>
-                                <li><img src="assets/images/payment-icon/payment-7.svg" alt=""></li>
+                                <li><img src="../assets/images/payment-icon/payment-1.svg" alt=""></li>
+                                <li><img src="../assets/images/payment-icon/payment-2.svg" alt=""></li>
+                                <li><img src="../assets/images/payment-icon/payment-3.svg" alt=""></li>
+                                <li><img src="../assets/images/payment-icon/payment-4.svg" alt=""></li>
+                                <li><img src="../assets/images/payment-icon/payment-5.svg" alt=""></li>
+                                <li><img src="../assets/images/payment-icon/payment-7.svg" alt=""></li>
                             </ul>
                         </div>
 
@@ -746,13 +746,13 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-1.jpg" alt="">
+                                        <img src="../assets/images/product/product-1.jpg" alt="">
                                     </a>
                                     <span class="sticker-new soldout-title">Soldout</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -784,11 +784,11 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-2.jpg" alt="">
+                                        <img src="../assets/images/product/product-2.jpg" alt="">
                                     </a>
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -819,14 +819,14 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-3.jpg" alt="">
+                                        <img src="../assets/images/product/product-3.jpg" alt="">
                                     </a>
 
                                     <span class="sticker-new label-sale">-35%</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -863,12 +863,12 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-4.jpg" alt="">
+                                        <img src="../assets/images/product/product-4.jpg" alt="">
                                     </a>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -899,14 +899,14 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-5.jpg" alt="">
+                                        <img src="../assets/images/product/product-5.jpg" alt="">
                                     </a>
 
                                     <span class="sticker-new label-sale">-18%</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -938,14 +938,14 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-6.jpg" alt="">
+                                        <img src="../assets/images/product/product-6.jpg" alt="">
                                     </a>
 
                                     <span class="sticker-new label-sale">-10%</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -977,12 +977,12 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-7.jpg" alt="">
+                                        <img src="../assets/images/product/product-7.jpg" alt="">
                                     </a>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -1013,14 +1013,14 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-8.jpg" alt="">
+                                        <img src="../assets/images/product/product-8.jpg" alt="">
                                     </a>
 
                                     <span class="sticker-new label-sale">-34%</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -1052,14 +1052,14 @@ if($_SESSION['uid']==null){
                             <div class="single-product">
                                 <div class="product-image">
                                     <a href="shop-single.php">
-                                        <img src="assets/images/product/product-9.jpg" alt="">
+                                        <img src="../assets/images/product/product-9.jpg" alt="">
                                     </a>
 
                                     <span class="sticker-new soldout-title">Soldout</span>
 
                                     <div class="action-links">
                                         <ul>
-                                            <li><a href="cart.html" data-tooltip="tooltip" data-placement="left"
+                                            <li><a href="../cart.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
                                             <li><a href="compare.html" data-tooltip="tooltip" data-placement="left"
                                                    title="Compare"><i class="icon-sliders"></i></a></li>
@@ -1105,22 +1105,22 @@ if($_SESSION['uid']==null){
             <div class="brand-active swiper-container">
                 <div class="swiper-wrapper">
                     <div class="single-brand swiper-slide">
-                        <img src="assets/images/brand/brand-1.jpg" alt="">
+                        <img src="../assets/images/brand/brand-1.jpg" alt="">
                     </div>
                     <div class="single-brand swiper-slide">
-                        <img src="assets/images/brand/brand-2.jpg" alt="">
+                        <img src="../assets/images/brand/brand-2.jpg" alt="">
                     </div>
                     <div class="single-brand swiper-slide">
-                        <img src="assets/images/brand/brand-3.jpg" alt="">
+                        <img src="../assets/images/brand/brand-3.jpg" alt="">
                     </div>
                     <div class="single-brand swiper-slide">
-                        <img src="assets/images/brand/brand-4.jpg" alt="">
+                        <img src="../assets/images/brand/brand-4.jpg" alt="">
                     </div>
                     <div class="single-brand swiper-slide">
-                        <img src="assets/images/brand/brand-5.jpg" alt="">
+                        <img src="../assets/images/brand/brand-5.jpg" alt="">
                     </div>
                     <div class="single-brand swiper-slide">
-                        <img src="assets/images/brand/brand-6.jpg" alt="">
+                        <img src="../assets/images/brand/brand-6.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -1239,7 +1239,7 @@ if($_SESSION['uid']==null){
 
                 <!--Right Start-->
                 <div class="copyright-payment">
-                    <img src="assets/images/payment.png" alt="">
+                    <img src="../assets/images/payment.png" alt="">
                 </div>
                 <!--Right End-->
 
@@ -1265,7 +1265,7 @@ if($_SESSION['uid']==null){
                     <div class="row">
                         <div class="col-md-6">
                             <div class="quick-view-image">
-                                <img src="assets/images/product-single/product-1.jpg" alt="">
+                                <img src="../assets/images/product-single/product-1.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -1319,9 +1319,9 @@ if($_SESSION['uid']==null){
 ============================================ -->
 
 <!-- Modernizer JS -->
-<script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="../assets/js/vendor/modernizr-3.6.0.min.js"></script>
 <!-- jQuery JS -->
-<script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+<script src="../assets/js/vendor/jquery-3.3.1.min.js"></script>
 <!-- Bootstrap JS -->
 <!-- <script src="assets/js/vendor/popper.min.js"></script>
 <script src="assets/js/vendor/bootstrap.min.js"></script> -->
@@ -1335,15 +1335,15 @@ if($_SESSION['uid']==null){
 
 
 <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
-<script src="assets/js/plugins.min.js"></script>
+<script src="../assets/js/plugins.min.js"></script>
 
 <!-- Main JS -->
-<script src="assets/js/main.js"></script>
+<script src="../assets/js/main.js"></script>
 
 
 <!-- Google Map js -->
 <script src="http://www.google.cn/maps/api/js?key=AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"></script>
-<script src="assets/js/map-script.js"></script>
+<script src="../assets/js/map-script.js"></script>
 
 <script>
 
