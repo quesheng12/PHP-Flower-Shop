@@ -127,14 +127,7 @@
                                             }
                                             ?></span></li>
                                         <?php
-                                        function updateLevel($price)
-                                        {
-                                            //$price 用户下单所付的钱，这里暂时设置为0；
-                                            $exp = $price / 10;//用户获得的经验值，因为好像价格都比较高，除10降低数值
-                                            $sql = "select level from user where id=" . $_SESSION['uid'];//用户当前的等级值
-                                            $update = $exp + $sql;
-                                            $s = "update 'user' set level = '$update' where id=" . $_SESSION['uid'];//上传到数据库
-                                        }
+
 
                                         ?>
                                     </ul>

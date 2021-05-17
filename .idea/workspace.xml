@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="登陆注册中文化">
+      <change afterPath="$PROJECT_DIR$/sunrise/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunrise/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunrise/sunrise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Group9-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Group9-web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header-zh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/finish_payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/finish_payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-single-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/authcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="zhzhzhzhzhzh" />
+        <entry key="$PROJECT_DIR$" value="feature_index" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +99,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="" />
+      <changelist id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="登陆注册中文化" />
       <created>1615254981027</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -143,6 +146,7 @@
       <workItem from="1620820151029" duration="4890000" />
       <workItem from="1620908914799" duration="409000" />
       <workItem from="1620955767858" duration="10973000" />
+      <workItem from="1621186415964" duration="1943000" />
     </task>
     <task id="LOCAL-00004" summary="personal-information">
       <created>1615994226850</created>

@@ -103,8 +103,8 @@ function authcode($string, $operation, $key = '')
             return '';
         }
     } else {
-        return str_replace('=', '', base64_encode($result));
-//        $result= str_replace('=', '', base64_encode($result));
-//        return str_replace('+', '', base64_encode($result));
+//        return str_replace('=', '', base64_encode($result));
+        $result= str_replace('=', '', base64_encode($result));
+        return str_replace('+', '', base64_encode($result));
     }
 }

@@ -177,7 +177,7 @@
             {'id': '<?php echo str_replace('+', '\+', $_GET['id']);?>'},
             function (data, status) {
                 console.log(data)
-                if (data == '100') {
+                if (data != 200) {
                     xtip.msg("Successful payment");
                     setTimeout(function () {
                         location.href = 'cart.php';
