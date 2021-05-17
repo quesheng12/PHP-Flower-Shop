@@ -1,4 +1,10 @@
-﻿<!doctype html>
+<?php session_start();
+if($_SESSION['uid']==null){
+    echo "Please log in.";
+    header('location:http://123.56.136.219/user/login.php');
+}
+?>
+<!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -39,6 +45,10 @@
     <link rel="stylesheet" href="../assets/css/style.min.css">
     <link href="../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
     <script src="../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
+    <!--====== Use the minified version files listed below for better performance and remove the files listed above ======-->
+    <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
+    <link rel="stylesheet" href="../assets/css/style.min.css">
+
 
 </head>
 
@@ -135,7 +145,8 @@
 <!--                                <button><i class="fa fa-truck"></i> Shipping</button>-->
 <!--                            </li>-->
                             <li>
-                                <button><i class="ti-email"></i> Ask About This product</button>
+<!--                                <button><i class="ti-email"></i> Ask About This product</button>-->
+                                <a href="http://42.193.97.82/index.php/index/index/index?fromid=<?php echo $_SESSION['uid']; ?>&toid=101"><button><i class="ti-email"></i> Ask About This product</button></a>
                             </li>
                         </ul>
 

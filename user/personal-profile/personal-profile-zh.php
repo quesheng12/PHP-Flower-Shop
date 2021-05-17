@@ -59,7 +59,7 @@
                                                 <li class="mega-dropdown">
                                                     <a class="mega-title" href="#">商品页面</a>
                                                     <ul class="mega-item">
-                                                        <li><a href="shop-single.html">商品页面</a></li>
+                                                        <li><a href="shop-single.php">商品页面</a></li>
                                                         <li><a href="shop-single-affiliate.html">购物单分支</a></li>
                                                         <li><a href="shop-single-variable.html">购物单变量</a>
                                                         </li>
@@ -155,13 +155,13 @@
                                             <li class="product-cart">
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img
+                                                        <a href="shop-single.php"><img
                                                                 src="../../kugu-asset/images/cart/cart-1.jpg"
                                                                 alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a>
+                                                        <h6 class="title"><a href="shop-single.php">Rock Soapwort</a>
                                                         </h6>
                                                         <div class="cart-price">
                                                             <span class="sale-price">$70.00</span>
@@ -173,13 +173,13 @@
                                                 </div>
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img
+                                                        <a href="shop-single.php"><img
                                                                 src="../../kugu-asset/images/cart/cart-2.jpg"
                                                                 alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a>
+                                                        <h6 class="title"><a href="shop-single.php">Rock Soapwort</a>
                                                         </h6>
                                                         <div class="cart-price">
                                                             <span class="sale-price">$70.00</span>
@@ -191,13 +191,13 @@
                                                 </div>
                                                 <div class="single-cart-box">
                                                     <div class="cart-img">
-                                                        <a href="shop-single.html"><img
+                                                        <a href="shop-single.php"><img
                                                                 src="../../kugu-asset/images/cart/cart-3.jpg"
                                                                 alt=""></a>
                                                         <span class="pro-quantity">1x</span>
                                                     </div>
                                                     <div class="cart-content">
-                                                        <h6 class="title"><a href="shop-single.html">Rock Soapwort</a>
+                                                        <h6 class="title"><a href="shop-single.php">Rock Soapwort</a>
                                                         </h6>
                                                         <div class="cart-price">
                                                             <span class="sale-price">$70.00</span>
@@ -304,7 +304,7 @@
                                 <li class="mega-dropdown">
                                     <a class="mega-title" href="#">商品页面</a>
                                     <ul class="mega-item">
-                                        <li><a href="shop-single.html">商品页面</a></li>
+                                        <li><a href="shop-single.php">商品页面</a></li>
                                         <li><a href="shop-single-affiliate.html">购物单分支</a></li>
                                         <li><a href="shop-single-variable.html">购物单变量</a></li>
                                         <li><a href="shop-single-group.html">商品组</a></li>

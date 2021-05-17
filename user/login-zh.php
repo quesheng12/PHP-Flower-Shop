@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="index.php";</script>';
+    echo '<script>location.href="login.php";</script>';
 }
 ?>
 <html>

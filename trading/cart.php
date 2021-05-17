@@ -271,7 +271,7 @@
     });
 
     function to(id) {
-        window.location.href = 'shop-single.html?id=' + id;
+        window.location.href = 'shop-single.php?id=' + id;
     }
 
     function add(id, q) {

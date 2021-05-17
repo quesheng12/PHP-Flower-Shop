@@ -2,18 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="登陆注册中文化">
-      <change afterPath="$PROJECT_DIR$/sunrise/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sunrise/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sunrise/sunrise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Group9-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Group9-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/hero1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/reza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/signature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/testimonial-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/logo/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat/public/uploads/chat_img_606a659f8b749.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat/public/uploads/chat_img_60a109f8df210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header-zh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/finish_payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/finish_payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/authcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/authcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/application/api/controller/Chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/api/controller/Chat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/index/view/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/application/index/view/index/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/index/view/index/lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_comp_chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_comp_chat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/utils/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +130,19 @@
       <recent name="$PROJECT_DIR$/style/altha" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.Group9-web">
+    <configuration name="Group9-web" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="web" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8902">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.Group9-web" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -553,5 +601,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Group9_web@Group9_web.xml" NAME="Group9-web Coverage Results" MODIFIED="1621221230813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
