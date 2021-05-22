@@ -26,7 +26,7 @@
     <div class="smini-visible-block">
         <div class="content-header bg-black-10">
             <!-- Logo -->
-            <a class="font-w600 text-white tracking-wide" href="index.php">
+            <a class="font-w600 text-white tracking-wide" href="#">
                 D<span class="opacity-75">x</span>
             </a>
             <!-- END Logo -->
@@ -38,7 +38,7 @@
     <div class="smini-hidden">
         <div class="content-header justify-content-lg-center bg-black-10">
             <!-- Logo -->
-            <a class="font-w600 text-white tracking-wide" href="index.php">
+            <a class="font-w600 text-white tracking-wide" href="#">
                 Dash<span class="opacity-75">mix</span>
                 <span class="font-w400">Hosting</span>
             </a>

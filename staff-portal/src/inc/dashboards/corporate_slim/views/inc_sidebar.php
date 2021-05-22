@@ -25,7 +25,7 @@
     <!-- Side Header -->
     <div class="content-header bg-primary">
         <!-- Logo -->
-        <a class="font-w600 text-white tracking-wide" href="index.php">
+        <a class="font-w600 text-white tracking-wide" href="#">
             Dash<span class="opacity-75">mix</span>
             <span class="font-w400">Slim</span>
         </a>

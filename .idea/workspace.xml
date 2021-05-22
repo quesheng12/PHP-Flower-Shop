@@ -1,74 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="1">
-      <change afterPath="$PROJECT_DIR$/images/item/pre-image/联系我们.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/fileinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/fileinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/img/loading-sm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/fileinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/fileinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/LANG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/cr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/cz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/canvas-to-blob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/canvas-to-blob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/purify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/purify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/nuget/Package.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/nuget/build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/related/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/related/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/sass/fileinput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/themes/fa/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/picture-upload/themes/gly/theme.js" afterDir="false" />
+    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="index优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/epidemic_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/epidemic_manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_comp_gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_comp_gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/banking/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/banking/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/booking/views/inc_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/booking/views/inc_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/chat/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/chat/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/corporate_slim/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/corporate_slim/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/dark/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/dark/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/file_hosting/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/file_hosting/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/gaming/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/gaming/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/hosting/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/hosting/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/medical/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/medical/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/messages/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/messages/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/modern/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/modern/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/social/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/social/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/travel/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/travel/views/inc_sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/wp_post/views/inc_sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/dashboards/wp_post/views/inc_sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,13 +161,6 @@
       <workItem from="1620908914799" duration="409000" />
       <workItem from="1620955767858" duration="10973000" />
       <workItem from="1621186415964" duration="1943000" />
-    </task>
-    <task id="LOCAL-00004" summary="personal-information">
-      <created>1615994226850</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1615994226850</updated>
     </task>
     <task id="LOCAL-00005" summary="1">
       <created>1615995484906</created>
@@ -556,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621182387373</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="index优化">
+      <created>1621686784930</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1621686784931</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="staff-portal" />
     <MESSAGE value="rebased from master" />
     <MESSAGE value="debased" />
     <MESSAGE value="staff portal chat" />
@@ -613,7 +561,8 @@
     <MESSAGE value="reset password" />
     <MESSAGE value="update" />
     <MESSAGE value="登陆注册中文化" />
-    <option name="LAST_COMMIT_MESSAGE" value="登陆注册中文化" />
+    <MESSAGE value="index优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="index优化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -26,7 +26,7 @@
     <div class="bg-header-dark">
         <div class="content-header bg-white-10">
             <!-- Logo -->
-            <a class="font-w600 text-white tracking-wide" href="index.php">
+            <a class="font-w600 text-white tracking-wide" href="#">
                 <span class="smini-visible">
                     D<span class="opacity-75">x</span>
                 </span>
