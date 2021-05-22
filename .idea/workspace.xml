@@ -1,58 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="登陆注册中文化">
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/bw-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/hero1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/reza.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/signature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/EmployeeStyle/testimonial-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo/logo_small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/public/uploads/chat_img_606a659f8b749.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/public/uploads/chat_img_60a109f8df210.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/owl.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Glyphter.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/1.php" afterDir="false" />
+    <list default="true" id="db97e810-bd47-4e34-87a3-1a5a389704a3" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/images/item/pre-image/联系我们.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/LANG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/cr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/canvas-to-blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/canvas-to-blob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/purify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/purify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/js/plugins/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/nuget/Package.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/nuget/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/sass/fileinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/themes/fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/picture-upload/themes/gly/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/application/api/controller/Chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/api/controller/Chat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/application/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/index/view/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/application/index/view/index/lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/index/view/index/lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat/application/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_comp_chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_comp_chat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/utils/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/backend/epidemic_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/epidemic_manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_comp_gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_comp_gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_product_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +92,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature_index" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +124,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utils/picture-upload" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -117,10 +133,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils/picture-upload" />
+      <recent name="$PROJECT_DIR$/js/file-upload" />
+      <recent name="$PROJECT_DIR$/style/picture-upload" />
       <recent name="$PROJECT_DIR$/template" />
       <recent name="$PROJECT_DIR$/js/altha" />
-      <recent name="$PROJECT_DIR$/spread" />
-      <recent name="$PROJECT_DIR$/presentation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/user" />
@@ -130,7 +147,7 @@
       <recent name="$PROJECT_DIR$/style/altha" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.Group9-web">
+  <component name="RunManager" selected="PHP Built-in Web Server.web">
     <configuration name="Group9-web" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$" />
       <method v="2" />

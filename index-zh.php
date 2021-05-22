@@ -24,6 +24,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
 <body>
 
 <div class="main-wrapper">
+    <div id="head-fill"></div>
     <?php include('template/header-zh.html'); ?>
 
     <!--Slider Start-->
@@ -89,120 +90,90 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
                     </div>
                 </div>
             </div>
-            <div class="product-wrapper">
-
-
-                <div class="tab-content product-items-tab">
-                    <div class="tab-pane fade show active" role="tabpanel">
-                        <div class="swiper-container product-active">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=rose">
-                                                <img src="assets/images/product/rose.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=rose">玫瑰</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=pink">
-                                                <img src="assets/images/product/pink.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=pink">粉色</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=blue">
-                                                <img src="assets/images/product/blue.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=blue">蓝色</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=chrysanthemum">
-                                                <img src="assets/images/product/chrysanthemum.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=chrysanthemum">菊花</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=carnation">
-                                                <img src="assets/images/product/carnation.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a
-                                                        href="trading/shop-list.php?type=carnation">康乃馨</a></h4>
-                                        </div>
-                                    </div>
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=lily">
-                                                <img src="assets/images/product/lily.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=lily">百合</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=red">
-                                                <img src="assets/images/product/red.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=red">红色</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=white">
-                                                <img src="assets/images/product/white.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=white">白色</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Add Arrows -->
-                            <div class="swiper-next"><i class="fa fa-angle-right"></i></div>
-                            <div class="swiper-prev"><i class="fa fa-angle-left"></i></div>
+            <div class="sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-narrow">
+                <div class="row items-push js-gallery img-fluid-100">
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=rose">
+                            <img class="img-fluid" src="assets/images/product/rose.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=rose">玫瑰</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=blue">
+                            <img class="img-fluid" src="assets/images/product/blue.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=blue">蓝色</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=carnation">
+                            <img class="img-fluid" src="assets/images/product/carnation.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=carnation">康乃馨</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=red">
+                            <img class="img-fluid" src="assets/images/product/red.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=red">红色</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=pink">
+                            <img class="img-fluid" src="assets/images/product/pink.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=pink">粉色</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=chrysanthemum">
+                            <img class="img-fluid" src="assets/images/product/chrysanthemum.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=chrysanthemum">菊花</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=lili">
+                            <img class="img-fluid" src="assets/images/product/lily.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=lili">百合</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=white">
+                            <img class="img-fluid" src="assets/images/product/white.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=white">白色</a></h4>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>

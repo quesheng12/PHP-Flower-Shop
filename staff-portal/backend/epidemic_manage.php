@@ -10,7 +10,7 @@ if ($ep) {
 
 $sql = 'UPDATE general SET epidemic = ' . $ep;
 if ($conn->query($sql) === TRUE) {
-    $sql = "UPDATE orders SET status='CANCELED' WHERE status='OFFLINE'";
+    $sql = "UPDATE orders SET status='CANCELED' WHERE status='OFFLINE' OR status='OFFLINE_WAIT_PAYMENT'";
     if ($conn->query($sql) === FALSE) {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

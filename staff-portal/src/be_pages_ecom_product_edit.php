@@ -20,7 +20,7 @@ if (!isset($_GET['add'])) {
     $rst = mysqli_query($conn, $sql);
     $item = mysqli_fetch_assoc($rst);
     $id = $item['id'];
-    $type='edit';
+    $type = 'edit';
 } else {
     $sql = "select id from item ORDER BY id DESC LIMIT 1";
     $id = mysqli_fetch_assoc(mysqli_query($conn, $sql))['id'] + 1;
@@ -31,10 +31,19 @@ if (!isset($_GET['add'])) {
         'stock' => '',
         'price' => ''
     );
-    $type='add';
+    $type = 'add';
 }
 
 ?>
+
+<!--picture upload 加载-->
+<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/utils/picture-upload/css/default.css">
+<link rel="stylesheet" type="text/css" href="/utils/picture-upload/css/default.css">
+<link href="/utils/picture-upload/css/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
+<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/utils/picture-upload/js/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="/utils/picture-upload/js/fileinput.js" type="text/javascript"></script>
 
 <!-- Page Content -->
 <div class="content">
@@ -119,7 +128,8 @@ if (!isset($_GET['add'])) {
                         <div class="form-group">
                             <label>Published?</label>
                             <div class="custom-control custom-switch mb-1">
-                                <input type="checkbox" class="custom-control-input" id="dm-ecom-product-published" name="dm-ecom-product-published" checked="">
+                                <input type="checkbox" class="custom-control-input" id="dm-ecom-product-published"
+                                       name="dm-ecom-product-published" checked="">
                                 <label class="custom-control-label" for="dm-ecom-product-published"></label>
                             </div>
                         </div>
@@ -141,11 +151,19 @@ if (!isset($_GET['add'])) {
         <div class="block-content block-content-full">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8">
-                    <form id="form1" method="POST" action="../backend/product-image-upload.php"
+                    <!--                    <form id="form1" method="POST" action="../backend/product-image-upload.php"-->
+                    <!--                          enctype="multipart/form-data">-->
+                    <!--                        Select Preview Picture：<input type="file" name='file'/>-->
+                    <!--                        <input id="img-id" type="hidden" name="id" value="">-->
+                    <!--                        <input type="submit" value="submit">-->
+                    <!--                    </form>-->
+                    <form id="form1" method="post" action="../backend/product-image-upload.php"
                           enctype="multipart/form-data">
-                        Select Preview Picture：<input type="file" name='file'/>
+                        <input id="file-0a" class="file" type="file" name="file" multiple data-min-file-count="1">
+                        <br>
                         <input id="img-id" type="hidden" name="id" value="">
-                        <input type="submit" value="submit">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-default">Reset</button>
                     </form>
                 </div>
             </div>

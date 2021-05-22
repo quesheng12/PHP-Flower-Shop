@@ -153,7 +153,8 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                                 <strong>¥<?php echo $arr['price']; ?></strong>
                             </td>
                             <td class="text-center font-size-sm">
-                                <a class="btn btn-sm btn-alt-secondary" href="be_pages_ecom_product_edit.php?id=45">
+                                <a class="btn btn-sm btn-alt-secondary"
+                                   href="be_pages_ecom_product_edit.php?id=<?php echo $arr['id']; ?>">
                                     <i class="fa fa-fw fa-eye"></i>
                                 </a>
                                 <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">

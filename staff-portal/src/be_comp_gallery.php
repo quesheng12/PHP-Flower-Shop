@@ -1,80 +1,54 @@
-<?php require 'inc/_global/config.php'; ?>
-<?php require 'inc/backend/config.php'; ?>
-<?php require 'inc/_global/views/head_start.php'; ?>
-
-<!-- Page JS Plugins CSS -->
-<?php $dm->get_css('js/plugins/magnific-popup/magnific-popup.css'); ?>
-
-<?php require 'inc/_global/views/head_end.php'; ?>
-<?php require 'inc/_global/views/page_start.php'; ?>
-
-<!-- Hero -->
-<div class="bg-body-light">
-    <div class="content content-full">
-        <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
-            <h1 class="flex-sm-fill font-size-h2 font-w400 mt-2 mb-0 mb-sm-2">Gallery</h1>
-            <nav class="flex-sm-00-auto ml-sm-3" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item">Components</li>
-                    <li class="breadcrumb-item active" aria-current="page">Gallery</li>
-                </ol>
-            </nav>
-        </div>
-   </div>
-</div>
-<!-- END Hero -->
-
-<!-- Page Content -->
-<!-- Magnific Popup (.js-gallery class is initialized in Helpers.magnific()) -->
-<!-- For more info and examples you can check out http://dimsemenov.com/plugins/magnific-popup/ -->
-<div class="content">
-    <!-- Simple Gallery -->
-    <h2 class="content-heading">Simple</h2>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" id="css-main" href="assets/css/dashmix.min.css">
+</head>
+<body>
+<div class="sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-narrow">
     <div class="row items-push js-gallery img-fluid-100">
-        <?php for ($i = 10; $i < 22; $i++) { ?>
         <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
-            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="<?php echo $dm->assets_folder; ?>/media/photos/photo<?php echo $i; ?>@2x.jpg">
-                <?php $dm->get_photo($i, false, 'img-fluid'); ?>
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo14@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo14.jpg" alt="">
             </a>
         </div>
-        <?php } ?>
-    </div>
-    <!-- END Simple Gallery -->
-
-    <!-- Advanced Gallery -->
-    <h2 class="content-heading">Advanced</h2>
-    <div class="row items-push js-gallery">
-        <?php for ($i = 12; $i > 0; $i--) { ?>
         <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
-            <div class="options-container fx-item-zoom-in fx-overlay-zoom-out">
-                <?php $dm->get_photo($i, false, 'img-fluid options-item'); ?>
-                <div class="options-overlay bg-black-75">
-                    <div class="options-overlay-content">
-                        <h3 class="h4 text-white mb-1">Title</h3>
-                        <h4 class="h6 text-white-75 mb-3">More Info</h4>
-                        <a class="btn btn-sm btn-primary img-lightbox" href="<?php echo $dm->assets_folder; ?>/media/photos/photo<?php echo $i; ?>@2x.jpg">
-                            <i class="fa fa-search-plus mr-1"></i> View
-                        </a>
-                        <a class="btn btn-sm btn-secondary" href="javascript:void(0)">
-                            <i class="fa fa-pencil-alt mr-1"></i> Edit
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo15@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo15.jpg" alt="">
+            </a>
         </div>
-        <?php } ?>
+        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo16@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo16.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo17@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo17.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo18@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo18.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo19@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo19.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo20@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo20.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+            <a class="img-link img-link-zoom-in img-thumb img-lightbox" href="assets/media/photos/photo21@2x.jpg">
+                <img class="img-fluid" src="assets/media/photos/photo21.jpg" alt="">
+            </a>
+        </div>
     </div>
-    <!-- END Advanced Gallery -->
 </div>
-<!-- END Page Content -->
-
-<?php require 'inc/_global/views/page_end.php'; ?>
-<?php require 'inc/_global/views/footer_start.php'; ?>
-
-<!-- Page JS Plugins -->
-<?php $dm->get_js('js/plugins/magnific-popup/jquery.magnific-popup.min.js'); ?>
-
-<!-- Page JS Helpers (Magnific Popup Plugin) -->
-<script>jQuery(function(){ Dashmix.helpers('magnific-popup'); });</script>
-
-<?php require 'inc/_global/views/footer_end.php'; ?>
+</body>
+</html>

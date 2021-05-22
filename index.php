@@ -14,6 +14,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" id="css-main" href="/staff-portal/src/assets/css/dashmix.min.css">
     <link rel="stylesheet" href="assets/css/plugins-min/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="style/style.css">
@@ -24,6 +25,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 <body>
 
 <div class="main-wrapper">
+    <div id="head-fill"></div>
     <?php include('template/header.html'); ?>
 
     <!--Slider Start-->
@@ -86,14 +88,11 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-7 col-sm-9">
                     <div class="section-title text-center">
-
                         <img src="image/Title/花.png">
                     </div>
                 </div>
             </div>
-            <div class="product-wrapper">
-
-
+            <!--<div class="product-wrapper">
                 <div class="tab-content product-items-tab">
                     <div class="tab-pane fade show active" role="tabpanel">
                         <div class="swiper-container product-active">
@@ -199,9 +198,92 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                 </div>
                             </div>
 
-                            <!-- Add Arrows -->
                             <div class="swiper-next"><i class="fa fa-angle-right"></i></div>
                             <div class="swiper-prev"><i class="fa fa-angle-left"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="product-wrapper sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-narrow">
+                <div class="row items-push js-gallery img-fluid-100">
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=rose">
+                            <img class="img-fluid" src="assets/images/product/rose.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=rose">Rose</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=blue">
+                            <img class="img-fluid" src="assets/images/product/blue.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=blue">Blue</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=carnation">
+                            <img class="img-fluid" src="assets/images/product/carnation.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=carnation">Carnation</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=red">
+                            <img class="img-fluid" src="assets/images/product/red.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=red">Red</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=pink">
+                            <img class="img-fluid" src="assets/images/product/pink.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=pink">Pink</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=chrysanthemum">
+                            <img class="img-fluid" src="assets/images/product/chrysanthemum.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=chrysanthemum">Chrysanthemum</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?type=lili">
+                            <img class="img-fluid" src="assets/images/product/lily.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?type=lili">Lili</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
+                        <a class="img-link  img-thumb img-lightbox"
+                           href="trading/shop-list.php?color=white">
+                            <img class="img-fluid" src="assets/images/product/white.jpg" alt="">
+                        </a>
+                        <div class="product-content text-center">
+                            <h4 class="product-name"><a
+                                        href="trading/shop-list.php?color=white">White</a></h4>
                         </div>
                     </div>
                 </div>
