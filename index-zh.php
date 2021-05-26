@@ -25,7 +25,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
 
 <div class="main-wrapper">
     <div id="head-fill"></div>
-    <?php include('template/header-zh.html'); ?>
+    <?php include('template/header-zh.php'); ?>
 
     <!--Slider Start-->
     <div class="slider-area">

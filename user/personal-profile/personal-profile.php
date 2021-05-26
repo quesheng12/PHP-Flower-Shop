@@ -35,7 +35,7 @@
 <body>
 <div class="main-wrapper">
 
-    <?php include('../../template/header.html'); ?>
+    <?php include('../../template/header.php'); ?>
 
     <div class="overlay"></div>
     <!--Overlay-->

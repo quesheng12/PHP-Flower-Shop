@@ -30,7 +30,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 </head>
 <body>
 
-<?php include('../template/header.html'); ?>
+<?php include('../template/header.php'); ?>
 
 <div class="content col-md-12">
     <div class="col-md-1"></div>

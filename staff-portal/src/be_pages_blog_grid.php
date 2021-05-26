@@ -17,7 +17,7 @@ $sql = "SELECT id,title,pre_image,date,excerpt FROM news";
 $rst = mysqli_query($conn, $sql);
 ?>
 
-<?php include('../../template/header.html'); ?>
+<?php include('../../template/header.php'); ?>
 <!-- Hero -->
 <div class="bg-image" style="background-image: url('<?php echo $dm->assets_folder; ?>/media/photos/photo9@2x.jpg');">
     <div class="bg-black-50">

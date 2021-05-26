@@ -17,7 +17,7 @@ $sql = "SELECT id,title,content FROM news WHERE id=" . $id;
 $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 ?>
 
-<?php include('../../template/header.html'); ?>
+<?php include('../../template/header.php'); ?>
 
 <!-- Hero -->
 <div class="bg-image" style="background-image: url(../../assets/images/testimonial-bg.jpg);">

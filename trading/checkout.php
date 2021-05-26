@@ -69,7 +69,7 @@ function f($pp)
 
 <div class="main-wrapper">
 
-    <?php include('../template/header.html'); ?>
+    <?php include('../template/header.php'); ?>
 
     <!--Page Banner Start-->
     <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">

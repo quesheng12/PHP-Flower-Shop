@@ -44,7 +44,7 @@
 </head>
 
 <body>
-<?php include("../template/header.html"); ?>
+<?php include("../template/header.php"); ?>
 <div class="page-wrapper-two">
     <!-- Preloader -->
     <!--    <div class="loader-wrap">-->
