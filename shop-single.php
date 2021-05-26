@@ -72,14 +72,14 @@ if($_SESSION['uid']==null){
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                            <a href="index.php"><img src="assets/images/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-7 position-static">
                         <div class="site-main-nav">
                             <nav class="site-nav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li>
                                         <a href="#">Shop <span class="new">New</span></a>
 
@@ -277,7 +277,7 @@ if($_SESSION['uid']==null){
             <div class="row align-items-center">
                 <div class="col-6">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                        <a href="index.php"><img src="assets/images/logo/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-6">
@@ -335,7 +335,7 @@ if($_SESSION['uid']==null){
         <div class="site-main-nav">
             <nav class="site-nav">
                 <ul class="navbar-mobile-wrapper">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>
                         <a href="#">Shop <span class="new">New</span></a>
 
@@ -444,7 +444,7 @@ if($_SESSION['uid']==null){
             <div class="page-banner-content text-center">
                 <h2 class="title">Shop Single</h2>
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     <li class="breadcrumb-item"><a href="shop-grid-left-sidebar.html">Shop</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Shop Single</li>
                 </ol>

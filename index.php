@@ -1,3 +1,9 @@
+<?php session_start();
+if($_SESSION['uid']==null){
+    echo "Please log in.";
+    header('location:http://123.56.136.219/user/login.php');
+}
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -28,14 +34,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                            <a href="index.php"><img src="assets/images/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-7 position-static">
                         <div class="site-main-nav">
                             <nav class="site-nav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li>
                                         <a href="#">Shop <span class="new">New</span></a>
 
@@ -109,7 +115,7 @@
 
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="http://42.193.97.82/index.php/index/index/index?fromid=<?php echo $_SESSION['uid']; ?>&toid=101">Contact Us</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -134,7 +140,7 @@
                             </div>
                             <div style="margin-left: 8%; margin-right: 5%;"><a href="index-zh.html">zh</a></div>
                             <div style="float:left;width: 1px;height: 20px; background: darkgray;"></div>
-                            <div style="margin-left: 5%;"><a href="index.html">en</a> </div>
+                            <div style="margin-left: 5%;"><a href="index.php">en</a> </div>
                         </div>
                     </div>
                 </div>
@@ -150,7 +156,7 @@
             <div class="row align-items-center">
                 <div class="col -6">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo_small.png" alt=""></a>
+                        <a href="index.php"><img src="assets/images/logo/logo_small.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-6">
@@ -206,7 +212,7 @@
         <div class="site-main-nav">
             <nav class="site-nav">
                 <ul class="navbar-mobile-wrapper">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>
                         <a href="#">Shop</a>
 
