@@ -56,8 +56,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                             <p>Bouquets your mom will love!</p>
 
                             <ul class="slider-btn">
-                                <li><a href="trading/shop-single.php" class="btn btn-round btn-primary">Start
-                                        Shopping</a></li>
+                                <li><a href="trading/shop-list.php" class="btn btn-round btn-primary">Start Shopping</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1,4 +1,10 @@
-﻿<!doctype html>
+﻿<?php session_start();
+if($_SESSION['uid']==null){
+    echo "Please log in.";
+    header('location:http://123.56.136.219/user/login.php');
+}
+?>
+<!doctype html>
 <html class="no-js" lang="en">
 
 <head>

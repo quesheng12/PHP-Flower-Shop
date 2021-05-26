@@ -54,7 +54,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
                             <p>母亲会喜欢的花！</p>
 
                             <ul class="slider-btn">
-                                <li><a href="shop-single.php" class="btn btn-round btn-primary">开始购物</a></li>
+                                <li><a href="trading/shop-list.php" class="btn btn-round btn-primary">开始购物</a></li>
                             </ul>
                         </div>
                     </div>
