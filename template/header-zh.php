@@ -1,10 +1,4 @@
 <!--Header Section Start-->
-<?php session_start();
-if($_SESSION['uid']==null){
-    echo "Please log in.";
-    header('location:http://123.56.136.219/user/login.php');
-}
-?>
 <div class="header-section d-none d-lg-block">
     <!--    背景透明    -->
     <!--    style="background: linear-gradient(0deg, rgba(255,255,255,0.3)0%, rgba(145,145,145,0.3)100%)!important"    -->

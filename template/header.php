@@ -1,10 +1,4 @@
 <!--Header Section Start-->
-<?php session_start();
-if($_SESSION['uid']==null){
-    echo "Please log in.";
-    header('location:http://123.56.136.219/user/login.php');
-}
-?>
 <div class="header-section d-none d-lg-block">
     <!--    背景透明    -->
     <!--    style="background: linear-gradient(0deg, rgba(255,255,255,0.3)0%, rgba(145,145,145,0.3)100%)!important"    -->
@@ -78,7 +72,7 @@ if($_SESSION['uid']==null){
                                         <li><a href="/sunrise/sunrise.html">Sunrise</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://42.193.97.82/index.php/index/index/index?fromid=<?php echo $_SESSION['uid']; ?>&toid=101">Contact Us</a></li>
+                                <li><a href="/utils/contact-route.php">Contact Us</a></li>
                             </ul>
                         </nav>
                     </div>

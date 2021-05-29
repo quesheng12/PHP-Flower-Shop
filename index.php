@@ -19,7 +19,6 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut  icon" href="/images/favicon.ico" type="image/x-icon"/>
-
 </head>
 
 <body>
