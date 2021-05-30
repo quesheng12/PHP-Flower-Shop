@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/utils/contact-route.php" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="index更改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/1.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +147,6 @@
       <workItem from="1620955767858" duration="10973000" />
       <workItem from="1621186415964" duration="1943000" />
       <workItem from="1622004407833" duration="301000" />
-    </task>
-    <task id="LOCAL-00005" summary="1">
-      <created>1615995484906</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1615995484906</updated>
     </task>
     <task id="LOCAL-00006" summary="password-edit feature">
       <created>1616157838435</created>
@@ -496,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621686784931</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="index更改">
+      <created>1622304983168</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1622304983169</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="rebased from master" />
     <MESSAGE value="debased" />
     <MESSAGE value="staff portal chat" />
     <MESSAGE value="staff portal login" />
@@ -553,7 +547,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="登陆注册中文化" />
     <MESSAGE value="index优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="index优化" />
+    <MESSAGE value="index更改" />
+    <option name="LAST_COMMIT_MESSAGE" value="index更改" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
