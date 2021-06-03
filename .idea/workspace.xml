@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="user password reset fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/sendmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail/sendmail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/password-reset/1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/password-reset/password-reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/password-reset/password-reset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
-    </list>
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="about us" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/presentation/about-us/img" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -76,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/presentation/about-us/img" />
+      <recent name="$PROJECT_DIR$/presentation/about-us" />
       <recent name="$PROJECT_DIR$/utils/picture-upload" />
       <recent name="$PROJECT_DIR$/js/file-upload" />
       <recent name="$PROJECT_DIR$/style/picture-upload" />
-      <recent name="$PROJECT_DIR$/template" />
-      <recent name="$PROJECT_DIR$/js/altha" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/user" />
@@ -158,14 +147,7 @@
       <workItem from="1621186415964" duration="1943000" />
       <workItem from="1622004407833" duration="301000" />
       <workItem from="1622454242306" duration="308000" />
-      <workItem from="1622692977653" duration="12951000" />
-    </task>
-    <task id="LOCAL-00008" summary="good list">
-      <created>1616562488338</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1616562488338</updated>
+      <workItem from="1622692977653" duration="13304000" />
     </task>
     <task id="LOCAL-00009" summary="images directory move to image directory">
       <created>1616754945337</created>
@@ -503,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622703902880</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="about us">
+      <created>1622731096651</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1622731096651</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="staff portal login" />
     <MESSAGE value="integrated" />
     <MESSAGE value="optimise personal-profile.html" />
     <MESSAGE value="**** git" />
@@ -560,7 +548,8 @@
     <MESSAGE value="index更改" />
     <MESSAGE value="staff portal pagination implement" />
     <MESSAGE value="user password reset fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="user password reset fix" />
+    <MESSAGE value="about us" />
+    <option name="LAST_COMMIT_MESSAGE" value="about us" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
