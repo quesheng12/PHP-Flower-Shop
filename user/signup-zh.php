@@ -40,6 +40,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
                 <h1 class="h1"><strong>注册</strong></h1>
                 <p class="p"><strong>已有账户? </strong><a href="login-zh.php">登陆</a></p>
                 <input type="text" class="input" name="username" placeholder="用户名"><br>
+                <input type="email" class="input" name="email" placeholder="邮箱"><br>
                 <input type="password" id="p1" class="input" name="password" placeholder="密码"><br>
                 <input type="password" id="p2" class="input" placeholder="确认密码"><br>
                 <!--            <input type="text" class="input" placeholder="Telephone Number"><br>-->

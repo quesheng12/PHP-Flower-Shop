@@ -62,7 +62,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     $('#id').val(getQueryVariable('id'));
 
     $(':submit').click(function () {
-        if ($('#p1').val() == $('#p2').val()&&) {
+        if ($('#p1').val() == $('#p2').val()) {
             $('#form1').ajaxForm({
                 url: 'reset-back.php',
                 success: function (data, status) {

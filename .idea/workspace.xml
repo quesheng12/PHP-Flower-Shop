@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="index更改">
-      <change afterPath="$PROJECT_DIR$/image/Title/reword_zh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/Title/花_zh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/backend/item-index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/backend/orders-index.php" afterDir="false" />
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal pagination implement">
+      <change afterPath="$PROJECT_DIR$/user/password-reset/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/index-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/_global/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/loggedin-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trading/loggedin-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/shop-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kugu-asset/css/plugins-min/plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kugu-asset/css/plugins-min/plugins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kugu-asset/css/vendor/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/kugu-asset/css/vendor/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/sendmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail/sendmail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/login_back.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login_back.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/password-reset/password-reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/password-reset/password-reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset-back.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-back.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/signup-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup-zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/contact-route.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/contact-route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/signup_back.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup_back.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +162,7 @@
       <workItem from="1621186415964" duration="1943000" />
       <workItem from="1622004407833" duration="301000" />
       <workItem from="1622454242306" duration="308000" />
-      <workItem from="1622692977653" duration="5011000" />
-    </task>
-    <task id="LOCAL-00006" summary="password-edit feature">
-      <created>1616157838435</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1616157838435</updated>
+      <workItem from="1622692977653" duration="9340000" />
     </task>
     <task id="LOCAL-00007" summary="good list">
       <created>1616246492323</created>
@@ -522,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622304983169</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="staff portal pagination implement">
+      <created>1622698313847</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622698313847</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="debased" />
     <MESSAGE value="staff portal chat" />
     <MESSAGE value="staff portal login" />
     <MESSAGE value="integrated" />
@@ -579,7 +563,8 @@
     <MESSAGE value="登陆注册中文化" />
     <MESSAGE value="index优化" />
     <MESSAGE value="index更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="index更改" />
+    <MESSAGE value="staff portal pagination implement" />
+    <option name="LAST_COMMIT_MESSAGE" value="staff portal pagination implement" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
