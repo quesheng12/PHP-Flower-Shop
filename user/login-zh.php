@@ -45,7 +45,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
                 <input id="i2" type="password" name="password" class="input" placeholder="密码"><br>
                 <input type="checkbox" class="check1"> 让我保持登陆<br>
                 <input type="submit" name="submit" class="submit" value="登陆" style="border-radius: 2%"><br>
-                <a class="a1" href="password-reset/password-reset.php">忘记了您的密码？</a>
+                <a class="a1" href="password-reset/reset.html">忘记了您的密码？</a>
                 <p>我确认已阅读并同意<strong>花店</strong>的<br> <a href="">服务条款、隐私政策。</a></p>
             </form>
         </div>

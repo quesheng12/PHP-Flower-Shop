@@ -45,7 +45,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                 <input id="i2" type="password" name="password" class="input" placeholder="Password"><br>
                 <input type="checkbox" class="check1"> Keep me logged in<br>
                 <input type="submit" name="submit" class="submit" value="LOG IN" style="border-radius: 2%"><br>
-                <a class="a1" href="password-reset/password-reset.php">Forgot your username or password?</a>
+                <a class="a1" href="password-reset/reset.html">Forgot your username or password?</a>
                 <p>By clicking, I confirm that I have read and agree to <br>the Flowershop <a href="">Terms of Service,
                         Privacy Policy.</a></p>
             </form>

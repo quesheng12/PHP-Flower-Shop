@@ -460,7 +460,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                     <p>' . $data[$i]['excerpt'] . '</p>
 
                                     <div class="blog-footer">
-                                        <a class="more" href="blog-single-right-sidebar.html">Continue Reading</a>
+                                        <a class="more" href="staff-portal/src/be_pages_blog_story.php?id=' . $data[$i]['id'] . '">Continue Reading</a>
                                         <p class="comment-count"><i class="icon-message-circle"></i> 0</p>
                                     </div>
                                 </div>

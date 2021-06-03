@@ -1,8 +1,10 @@
 <?php
 require_once "Smtp.class.php";
 //******************** 配置信息 ********************************
-$smtpserver = "smtp.qq.com";//SMTP服务器
-$smtpserverport =25;//SMTP服务器端口
+$smtpserver = "ssl://smtp.qq.com";//SMTP服务器
+$smtpserverport =465;//SMTP服务器端口
+//$smtpserver = "ssl://smtp.163.com";//SMTP服务器
+//$smtpserverport =465;//SMTP服务器端口
 $smtpusermail = "2872839866@qq.com";//SMTP服务器的用户邮箱
 $smtpemailto = $_POST['toemail'];//发送给谁
 $smtpuser = "2872839866@qq.com";//SMTP服务器的用户帐号，注：部分邮箱只需@前面的用户名
