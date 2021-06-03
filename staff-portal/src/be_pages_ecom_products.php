@@ -8,6 +8,8 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
 
+<script src="../../js/jquery-3.5.1.js"></script>
+
 <?php
 $sql = "select COUNT(id) as num from item WHERE stock=0";
 $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
@@ -116,53 +118,7 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
                         <th class="text-center">Actions</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <?php
-                    $badges['0']['class'] = "badge-success";
-                    $badges['0']['text'] = "Available";
-                    $badges['1']['class'] = "badge-danger";
-                    $badges['1']['text'] = "Out of Stock";
-
-                    $sql = "select id,name,stock,price from item ORDER BY id DESC";
-                    $rst = mysqli_query($conn, $sql);
-                    ?>
-                    <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
-                        <tr>
-                            <td class="text-center font-size-sm">
-                                <a class="font-w600" href="be_pages_ecom_product_edit.php?id=<?php echo $arr['id']; ?>">
-                                    <strong>PID.<?php echo $arr['id']; ?></strong>
-                                </a>
-                            </td>
-                            <!--                            <td class="d-none d-sm-table-cell text-center font-size-sm">--><?php //echo sprintf('%02d', rand(1, 28)) . '/' . sprintf('%02d', rand(1, 12)); ?>
-                            <!--                                /2019-->
-                            <!--                            </td>-->
-                            <!--                            <td class="d-none d-md-table-cell font-size-sm">-->
-                            <!--                                <a class="font-w600" href="be_pages_ecom_product_edit.php">Product-->
-                            <!--                                    #--><?php //echo $i; ?><!--</a>-->
-                            <!--                            </td>-->
-                            <td>
-                                <a class="font-w600" href="be_pages_ecom_product_edit.php?id=<?php echo $arr['id']; ?>">
-                                    <strong><?php echo $arr['name']; ?></strong>
-                                </a>
-                            </td>
-                            <td>
-                                <span class="badge<?php
-                                echo ($arr['stock'] == 0) ? " " . $badges['1']['class'] : " " . $badges['0']['class']; ?>"><?php echo ($arr['stock'] == 0) ? "" . $badges['1']['text'] : "" . $badges['0']['text']; ?></span>
-                            </td>
-                            <td class="text-right d-none d-sm-table-cell font-size-sm">
-                                <strong>¥<?php echo $arr['price']; ?></strong>
-                            </td>
-                            <td class="text-center font-size-sm">
-                                <a class="btn btn-sm btn-alt-secondary"
-                                   href="be_pages_ecom_product_edit.php?id=<?php echo $arr['id']; ?>">
-                                    <i class="fa fa-fw fa-eye"></i>
-                                </a>
-                                <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">
-                                    <i class="fa fa-fw fa-times text-danger"></i>
-                                </a>
-                            </td>
-                        </tr>
-                    <?php } ?>
+                    <tbody id="tbody">
                     </tbody>
                 </table>
             </div>
@@ -170,25 +126,32 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
 
             <!-- Pagination -->
             <nav aria-label="Photos Search Navigation">
-                <ul class="pagination justify-content-end mt-2">
-                    <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)" tabindex="-1" aria-label="Previous">
+                <ul id="index-ul" class="pagination justify-content-end mt-2">
+                    <li class="page-item" data-index="prev">
+                        <a class="page-link" href="javascript:void(0)" tabindex="-1"
+                           aria-label="Previous">
                             Prev
                         </a>
                     </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="javascript:void(0)">1</a>
+                    <li class="page-item active" data-index="1">
+                        <a class="page-link"
+                           href="javascript:void(0)">1</a>
                     </li>
-                    <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)">4</a>
-                    </li>
-                    <li class="page-item">
+                    <?php
+                    $sql = "select COUNT('id') as num from item";
+                    $num = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
+                    if ($num % 10 == 0) {
+                        $num = $num / 10;
+                    } else {
+                        $num = $num / 10 + 1;
+                    }
+                    for ($i = 2; $i <= $num; $i++) { ?>
+                        <li class="page-item" data-index="<?php echo $i; ?>">
+                            <a class="page-link"
+                               href="javascript:void(0)"><?php echo $i; ?></a>
+                        </li>
+                    <?php } ?>
+                    <li class="page-item" data-index="next">
                         <a class="page-link" href="javascript:void(0)" aria-label="Next">
                             Next
                         </a>
@@ -201,6 +164,43 @@ $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
     <!-- END All Products -->
 </div>
 <!-- END Page Content -->
+
+<script>
+    function get_item(index) {
+        $.post(
+            '../backend/item-index.php',
+            {
+                'index': index,
+                'current': $('.page-item.active').attr('data-index')
+            },
+            function (data) {
+                $('#tbody').html(data);
+            }
+        )
+    }
+
+    function index_active(index) {
+        $('#index-ul').find('.page-item').removeClass('active');
+        $('#index-ul').find('.page-item').eq(index).addClass('active');
+        get_item(index);
+    }
+
+    $('.page-item').on('click', function () {
+        let index = $(this).attr('data-index');
+        let current_active = parseInt($('#index-ul').find('.page-item.active').attr('data-index'));
+        if (index === 'prev') {
+            if (current_active !== 1)
+                index_active(current_active - 1);
+        } else if (index === 'next') {
+            if (current_active !== parseInt(<?php echo $num;?>))
+                index_active(current_active + 1);
+        } else {
+            index_active(index);
+        }
+    })
+
+    get_item("1");
+</script>
 
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>

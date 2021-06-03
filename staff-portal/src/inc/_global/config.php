@@ -53,7 +53,7 @@ $dm->theme                      = '';
 
 // true                         : Enables Page Loader screen
 // false                        : Disables Page Loader screen
-$dm->page_loader                = true;
+$dm->page_loader                = false;
 
 // true                         : Remembers active color theme between pages
 //                                (when set through color theme helper Template._uiHandleTheme())

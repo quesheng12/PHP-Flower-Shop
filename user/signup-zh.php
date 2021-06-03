@@ -14,7 +14,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
-    <link rel="stylesheet" href="../assets/css/style.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/demo.css"/>
     <link rel="stylesheet" href="../style/bootstrap.min.css">

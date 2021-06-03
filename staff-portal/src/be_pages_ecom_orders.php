@@ -9,6 +9,7 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/page_start.php'; ?>
     <link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
     <script src="../../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
+    <script src="../../js/jquery-3.5.1.js" type="text/javascript"></script>
 <?php
 include('../../utils/conn.php');
 $today = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE TO_DAYS(NOW()) - TO_DAYS(time) < 1"))['num'];
@@ -135,61 +136,8 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
                             <th class="text-center">Actions</th>
                         </tr>
                         </thead>
-                        <tbody>
-                        <?php
-                        $badges['DELIVERY_WAIT_PAYMENT']['class'] = "badge-secondary";
-                        $badges['DELIVERY_WAIT_PAYMENT']['text'] = "Wait payment";
-                        $badges['OFFLINE_WAIT_PAYMENT']['class'] = "badge-secondary";
-                        $badges['OFFLINE_WAIT_PAYMENT']['text'] = "Wait payment";
-                        $badges['FOR_DELIVERY']['class'] = "badge-info";
-                        $badges['FOR_DELIVERY']['text'] = "For delivery";
-                        $badges['FINISHED']['class'] = "badge-success";
-                        $badges['FINISHED']['text'] = "Finished";
-                        $badges['CANCELED']['class'] = "badge-danger";
-                        $badges['CANCELED']['text'] = "Canceled";
-                        $badges['OFFLINE']['class'] = "badge-warning";
-                        $badges['OFFLINE']['text'] = "Offline";
-                        $badges['DELIVERING']['class'] = "badge-primary";
-                        $badges['DELIVERING']['text'] = "Delivering";
+                        <tbody id="tbody">
 
-                        $sql = "select id,user_id,service,status,time from orders ORDER BY time DESC";
-                        $rst = mysqli_query($conn, $sql);
-                        ?>
-                        <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>
-                            <tr>
-                                <td class="text-center">
-                                    <a class="font-w600" href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
-                                        <strong>ORD.<?php echo $arr['id']; ?></strong>
-                                    </a>
-                                </td>
-                                <td class="d-none d-sm-table-cell text-center"><?php echo $arr['time'] ?></td>
-                                <td class="font-size-base">
-                                <span class="badge badge-pill<?php $status = $arr['status'];
-                                echo ($badges[$status]['class']) ? " " . $badges[$status]['class'] : ""; ?>"><?php echo $badges[$status]['text']; ?></span>
-                                </td>
-                                <td class="d-none d-xl-table-cell">
-                                    <a class="font-w600"
-                                       href="">USER.<?php echo $arr['user_id']; ?></a>
-                                </td>
-                                <!--                            <td class="d-none d-xl-table-cell text-center">-->
-                                <!--                                <a class="font-w600" href="be_pages_ecom_order.php">-->
-                                <?php //echo rand(1, 9); ?><!--</a>-->
-                                <!--                            </td>-->
-                                <!--                            <td class="d-none d-sm-table-cell text-right">-->
-                                <!--                                <strong>$-->
-                                <?php //echo rand(25, 2500) . ',' . rand(10, 99); ?><!--</strong>-->
-                                <!--                            </td>-->
-                                <td class="text-center font-size-base">
-                                    <a class="btn btn-sm btn-alt-secondary"
-                                       href="be_pages_ecom_order.php?id=<?php echo $arr['id']; ?>">
-                                        <i class="fa fa-fw fa-eye"></i>
-                                    </a>
-                                    <!--                                <a class="btn btn-sm btn-alt-secondary" href="javascript:void(0)">-->
-                                    <!--                                    <i class="fa fa-fw fa-times text-danger"></i>-->
-                                    <!--                                </a>-->
-                                </td>
-                            </tr>
-                        <?php } ?>
                         </tbody>
                     </table>
                 </div>
@@ -197,25 +145,32 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
 
                 <!-- Pagination -->
                 <nav aria-label="Photos Search Navigation">
-                    <ul class="pagination justify-content-end mt-2">
-                        <li class="page-item">
-                            <a class="page-link" href="javascript:void(0)" tabindex="-1" aria-label="Previous">
+                    <ul id="index-ul" class="pagination justify-content-end mt-2">
+                        <li class="page-item" data-index="prev">
+                            <a class="page-link" href="javascript:void(0)" tabindex="-1"
+                               aria-label="Previous">
                                 Prev
                             </a>
                         </li>
-                        <li class="page-item active">
-                            <a class="page-link" href="javascript:void(0)">1</a>
+                        <li class="page-item active" data-index="1">
+                            <a class="page-link"
+                               href="javascript:void(0)">1</a>
                         </li>
-                        <li class="page-item">
-                            <a class="page-link" href="javascript:void(0)">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="javascript:void(0)">3</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="javascript:void(0)">4</a>
-                        </li>
-                        <li class="page-item">
+                        <?php
+                        $sql = "select COUNT('id') as num from orders";
+                        $num = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
+                        if ($num % 10 == 0) {
+                            $num = $num / 10;
+                        } else {
+                            $num = $num / 10 + 1;
+                        }
+                        for ($i = 2; $i <= $num; $i++) { ?>
+                            <li class="page-item" data-index="<?php echo $i; ?>">
+                                <a class="page-link"
+                                   href="javascript:void(0)"><?php echo $i; ?></a>
+                            </li>
+                        <?php } ?>
+                        <li class="page-item" data-index="next">
                             <a class="page-link" href="javascript:void(0)" aria-label="Next">
                                 Next
                             </a>
@@ -228,6 +183,43 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
         <!-- END All Orders -->
     </div>
     <!-- END Page Content -->
+
+    <script>
+        function get_orders(index) {
+            $.post(
+                '../backend/orders-index.php',
+                {
+                    'index': index,
+                    'current': $('.page-item.active').attr('data-index')
+                },
+                function (data) {
+                    $('#tbody').html(data);
+                }
+            )
+        }
+
+        function index_active(index) {
+            $('#index-ul').find('.page-item').removeClass('active');
+            $('#index-ul').find('.page-item').eq(index).addClass('active');
+            get_orders(index);
+        }
+
+        $('.page-item').on('click', function () {
+            let index = $(this).attr('data-index');
+            let current_active = parseInt($('#index-ul').find('.page-item.active').attr('data-index'));
+            if (index === 'prev') {
+                if (current_active !== 1)
+                    index_active(current_active - 1);
+            } else if (index === 'next') {
+                if (current_active !== parseInt(<?php echo $num;?>))
+                    index_active(current_active + 1);
+            } else {
+                index_active(index);
+            }
+        })
+
+        get_orders("1");
+    </script>
 
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>

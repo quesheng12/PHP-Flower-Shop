@@ -7,7 +7,7 @@
 <?php require 'inc/_global/views/head_end.php'; ?>
 
 <link rel="stylesheet" href="/assets/css/plugins-min/plugins.min.css">
-<link rel="stylesheet" href="/assets/css/style.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/style/style.css">
 
 <?php

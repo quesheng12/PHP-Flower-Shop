@@ -5,7 +5,7 @@
     <title>Payment</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="../assets/css/plugins-min/plugins.min.css">
-    <link rel="stylesheet" href="../assets/css/style.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="/style/payment.css">
     <link href="/plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
     <script src="/plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>

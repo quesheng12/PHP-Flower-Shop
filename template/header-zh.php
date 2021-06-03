@@ -47,10 +47,14 @@
 
                                             <ul class="mega-item">
                                                 <li><a href="/trading/shop-list.php?sort=best-selling">卖的最好</a></li>
-                                                <li><a href="/trading/shop-list.php?sort=title-ascending">按字母顺序, A-Z</a></li>
-                                                <li><a href="/trading/shop-list.php?sort=title-descending">按字母顺序, Z-A</a></li>
-                                                <li><a href="/trading/shop-list.php?sort=price-ascending">价格, 从低到高</a></li>
-                                                <li><a href="/trading/shop-list.php?sort=price-descending">价格, 从高到低</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=title-ascending">按字母顺序, A-Z</a>
+                                                </li>
+                                                <li><a href="/trading/shop-list.php?sort=title-descending">按字母顺序,
+                                                        Z-A</a></li>
+                                                <li><a href="/trading/shop-list.php?sort=price-ascending">价格, 从低到高</a>
+                                                </li>
+                                                <li><a href="/trading/shop-list.php?sort=price-descending">价格, 从高到低</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <!--                                                <li class="mega-dropdown">-->
@@ -72,7 +76,7 @@
                                         <li><a href="/sunrise/sunrise.html">日出</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://42.193.97.82/index.php/index/index/index?fromid=<?php echo $_SESSION['uid']; ?>&toid=101">联系我们</a></li>
+                                <li><a href="/utils/contact-route.php">联系我们</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -88,7 +92,7 @@
                         <div class="header-account">
                             <div class="header-account-list top-link">
                                 <a href="/user/personal-profile/personal-profile.php" role="button"><i
-                                        class="icon-users"></i></a>
+                                            class="icon-users"></i></a>
                             </div>
                             <div class="header-account-list mini-cart">
                                 <a href="/trading/cart.php" role="button">
@@ -122,7 +126,8 @@
                 <div class="header-meta-info">
                     <div class="header-account">
                         <div class="header-account-list dropdown top-link">
-                            <a href="/user/personal-profile/personal-profile.php" role="button"><i class="icon-users"></i></a>
+                            <a href="/user/personal-profile/personal-profile.php" role="button"><i
+                                        class="icon-users"></i></a>
 
                             <!--                            <ul class="dropdown-menu ">-->
                             <!--                                <li><a href="#">My Orders</a></li>-->

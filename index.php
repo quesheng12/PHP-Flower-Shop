@@ -16,7 +16,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" id="css-main" href="/staff-portal/src/assets/css/dashmix.min.css">
     <link rel="stylesheet" href="assets/css/plugins-min/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut  icon" href="/images/favicon.ico" type="image/x-icon"/>
 </head>
@@ -83,125 +83,13 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <div class="col-lg-2 col-md-3 col-sm-2 align-items-start">
                 <img src="image/Title/icon2.png">
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center headline headline-reco">
                 <div class="col-lg-5 col-md-7 col-sm-9">
                     <div class="section-title text-center">
                         <img src="image/Title/花.png">
                     </div>
                 </div>
             </div>
-            <!--<div class="product-wrapper">
-                <div class="tab-content product-items-tab">
-                    <div class="tab-pane fade show active" role="tabpanel">
-                        <div class="swiper-container product-active">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=rose">
-                                                <img src="assets/images/product/rose.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=rose">Rose</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=pink">
-                                                <img src="assets/images/product/pink.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=pink">Pink</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=blue">
-                                                <img src="assets/images/product/blue.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=blue">Blue</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=chrysanthemum">
-                                                <img src="assets/images/product/chrysanthemum.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=chrysanthemum">Chrysanthemum</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=carnation">
-                                                <img src="assets/images/product/carnation.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=carnation">Carnation</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?type=lily">
-                                                <img src="assets/images/product/lily.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?type=lily">Lily</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=red">
-                                                <img src="assets/images/product/red.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a href="trading/shop-list.php?color=red">Red</a>
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="single-product">
-                                        <div class="product-image">
-                                            <a href="trading/shop-list.php?color=white">
-                                                <img src="assets/images/product/white.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="product-content text-center">
-                                            <h4 class="product-name"><a
-                                                        href="trading/shop-list.php?color=white">White</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-next"><i class="fa fa-angle-right"></i></div>
-                            <div class="swiper-prev"><i class="fa fa-angle-left"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
             <div class="product-wrapper sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-narrow">
                 <div class="row items-push js-gallery img-fluid-100">
                     <div class="col-md-6 col-lg-4 col-xl-3 animated fadeIn">
@@ -296,10 +184,9 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <div class="col-lg-2 col-md-3 col-sm-2 align-items-start">
                 <img src="image/Title/icon2.png">
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center headline">
                 <div class="col-lg-5 col-md-7 col-sm-9">
                     <div class="section-title text-center">
-
                         <img src="image/Title/reword.png">
                     </div>
                 </div>
