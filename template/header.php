@@ -67,7 +67,7 @@
                                 <li>
                                     <a href="#">About Us</a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">Our Company</a></li>
+                                        <li><a href="/presentation/about-us/index.html">Our Company</a></li>
                                         <li><a href="/presentation/employee-style.html">Employee Style</a></li>
                                         <li><a href="/sunrise/sunrise.html">Sunrise</a></li>
                                     </ul>
@@ -225,7 +225,7 @@
                 <li>
                     <a href="#">About us</a>
                     <ul class="sub-menu">
-                        <li><a href="#">Our Company</a></li>
+                        <li><a href="/presentation/about-us/index.html">Our Company</a></li>
                         <li><a href="/presentation/employee-style.html">Employee Style</a></li>
                         <li><a href="/sunrise/sunrise.html">Sunrise</a></li>
                     </ul>
