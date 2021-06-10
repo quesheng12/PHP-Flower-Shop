@@ -93,6 +93,7 @@ function getUserInfo() {
     $.get(
         "user-information.php",
         function (data, status) {
+            console.log(data)
             data = JSON.parse(data)
             // console.log(data["first_name"])
             if (data['header'] !== "") {

@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
 
 //用户信息
 $username = $_SESSION['username'];
-$sql = "SELECT * FROM user WHERE username=" . $username;
+$sql = "SELECT * FROM user WHERE username='".$username."'";
 $user = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 
 //用户地址

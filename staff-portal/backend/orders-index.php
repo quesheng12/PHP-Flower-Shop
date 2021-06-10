@@ -1,6 +1,7 @@
 <?php
 include('../../utils/conn.php');
 $index = $_POST['index'] - 1;
+$type = $_POST['type'];
 
 $badges['DELIVERY_WAIT_PAYMENT']['class'] = "badge-secondary";
 $badges['DELIVERY_WAIT_PAYMENT']['text'] = "Wait payment";
@@ -17,7 +18,17 @@ $badges['OFFLINE']['text'] = "Offline";
 $badges['DELIVERING']['class'] = "badge-primary";
 $badges['DELIVERING']['text'] = "Delivering";
 
-$sql = "select id,user_id,service,status,time from orders ORDER BY time DESC LIMIT " . ($index * 10) . ",10";
+$sql_array = array(
+    'all' => "select id,user_id,service,status,time from orders ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+    'wait-payment' => "select id,user_id,service,status,time from orders WHERE status='OFFLINE_WAIT_PAYMENT' or status='DELIVERY_WAIT_PAYMENT' ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+    'for-delivery' => "select id,user_id,service,status,time from orders WHERE status='FOR_DELIVERY' ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+    'finished' => "select id,user_id,service,status,time from orders WHERE status='FINISHED' ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+    'canceled' => "select id,user_id,service,status,time from orders WHERE status='CANCELED' ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+    'delivering' => "select id,user_id,service,status,time from orders WHERE status='DELIVERING' ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+    'offline' => "select id,user_id,service,status,time from orders WHERE status='OFFLINE' ORDER BY time DESC LIMIT " . ($index * 10) . ",10",
+);
+
+$sql = $sql_array[$type];
 $rst = mysqli_query($conn, $sql);
 ?>
 <?php while ($arr = mysqli_fetch_assoc($rst)) { ?>

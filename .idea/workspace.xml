@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/get-orders-type-number.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/news-release.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/news-release.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/personal-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personal-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/backend/orders-index.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/orders-index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/user-information.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/user-information.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +157,7 @@
       <workItem from="1622692977653" duration="14448000" />
       <workItem from="1622800874186" duration="1277000" />
       <workItem from="1623217762893" duration="905000" />
-      <workItem from="1623299478394" duration="814000" />
-    </task>
-    <task id="LOCAL-00012" summary="personal-profile">
-      <created>1617160278281</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1617160278281</updated>
+      <workItem from="1623299478394" duration="4919000" />
     </task>
     <task id="LOCAL-00013" summary="personal-profile">
       <created>1617160332175</created>
@@ -499,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623299794890</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="1">
+      <created>1623300528467</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1623300528467</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

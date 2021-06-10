@@ -77,35 +77,40 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
                             <i class="fa fa-angle-down ml-1"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-ecom-filters">
-                            <a class="dropdown-item d-flex align-items-center justify-content-between"
-                               href="javascript:void(0)">
-                                Pending..
-                                <span class="badge badge-primary badge-pill">78</span>
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="wait-payment">
+                                Wait Payment
+                                <!--                                <span class="badge badge-primary badge-pill">78</span>-->
                             </a>
-                            <a class="dropdown-item d-flex align-items-center justify-content-between"
-                               href="javascript:void(0)">
-                                Processing
-                                <span class="badge badge-secondary badge-pill">12</span>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center justify-content-between"
-                               href="javascript:void(0)">
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="for-delivery">
                                 For Delivery
-                                <span class="badge badge-secondary badge-pill">20</span>
+                                <!--                                <span class="badge badge-secondary badge-pill">12</span>-->
                             </a>
-                            <a class="dropdown-item d-flex align-items-center justify-content-between"
-                               href="javascript:void(0)">
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="delivering">
+                                Delivering
+                                <!--                                <span class="badge badge-secondary badge-pill">12</span>-->
+                            </a>
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="offline">
+                                Offline
+                                <!--                                <span class="badge badge-secondary badge-pill">20</span>-->
+                            </a>
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="finished">
+                                Finished
+                                <!--                                <span class="badge badge-secondary badge-pill">5</span>-->
+                            </a>
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="canceled">
                                 Canceled
-                                <span class="badge badge-secondary badge-pill">5</span>
+                                <!--                                <span class="badge badge-secondary badge-pill">280</span>-->
                             </a>
-                            <a class="dropdown-item d-flex align-items-center justify-content-between"
-                               href="javascript:void(0)">
-                                Delivered
-                                <span class="badge badge-secondary badge-pill">280</span>
-                            </a>
-                            <a class="dropdown-item d-flex align-items-center justify-content-between"
-                               href="javascript:void(0)">
+                            <a class="filter dropdown-item d-flex align-items-center justify-content-between"
+                               href="javascript:void(0)" data-filter="all">
                                 All
-                                <span class="badge badge-secondary badge-pill">19k</span>
+                                <!--                                <span class="badge badge-secondary badge-pill">19k</span>-->
                             </a>
                         </div>
                     </div>
@@ -185,11 +190,12 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
     <!-- END Page Content -->
 
     <script>
-        function get_orders(index) {
+        function get_orders(index, type) {
             $.post(
                 '../backend/orders-index.php',
                 {
                     'index': index,
+                    'type': type,
                     'current': $('.page-item.active').attr('data-index')
                 },
                 function (data) {
@@ -198,27 +204,53 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
             )
         }
 
-        function index_active(index) {
+        function index_active(index, type) {
             $('#index-ul').find('.page-item').removeClass('active');
             $('#index-ul').find('.page-item').eq(index).addClass('active');
-            get_orders(index);
+            get_orders(index, type);
         }
 
-        $('.page-item').on('click', function () {
-            let index = $(this).attr('data-index');
-            let current_active = parseInt($('#index-ul').find('.page-item.active').attr('data-index'));
-            if (index === 'prev') {
-                if (current_active !== 1)
-                    index_active(current_active - 1);
-            } else if (index === 'next') {
-                if (current_active !== parseInt(<?php echo $num;?>))
-                    index_active(current_active + 1);
-            } else {
-                index_active(index);
-            }
+        function index_init() {
+            $('.page-item').on('click', function () {
+                let type = $(this).attr('data-type');
+                let index = $(this).attr('data-index');
+                let current_active = parseInt($('#index-ul').find('.page-item.active').attr('data-index'));
+                if (index === 'prev') {
+                    if (current_active !== 1)
+                        index_active(current_active - 1, type);
+                } else if (index === 'next') {
+                    if (current_active !== parseInt(<?php echo $num;?>))
+                        index_active(current_active + 1, type);
+                } else {
+                    index_active(index, type);
+                }
+            })
+        }
+        index_init();
+
+        $('.filter').on('click', function () {
+            get_orders("1", $(this).attr('data-filter'))
+
+            $.post('../backend/get-orders-type-number.php',
+                {'type': $(this).attr('data-filter')},
+                function (data) {
+                    console.log(data)
+                    let num = data / 10;
+                    $('#index-ul').html(' <li class="page-item" data-index="prev"> <a class="page-link" href="javascript:void(0)" tabindex="-1" aria-label="Previous">Prev </a> </li> <li class="page-item active" data-index="1"><a class="page-link"href="javascript:void(0)">1</a></li>')
+                    if (data % 10 != 0) {
+                        num += 1;
+                    }
+                    for (var i = 2; i <= num; i++) {
+                        $('#index-ul').append('<li class="page-item" data-index="' + i + '"><a class="page-link"href="javascript:void(0)">' + i + '</a></li>');
+                    }
+                    $('#index-ul').append('<li class="page-item" data-index="next"> <a class="page-link" href="javascript:void(0)" aria-label="Next">Next </a> </li>');
+                    index_init()
+                    $('.page-item').attr('data-type', $(this).attr('data-filter'))
+                })
         })
 
-        get_orders("1");
+        $('.page-item').attr('data-type', 'all')
+        get_orders("1", "all");
     </script>
 
 <?php require 'inc/_global/views/page_end.php'; ?>
