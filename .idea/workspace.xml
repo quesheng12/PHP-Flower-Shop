@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="personal-profile.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/personal-profile/address-manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/address-manage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_ecom_orders.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,14 +153,7 @@
       <workItem from="1622692977653" duration="14448000" />
       <workItem from="1622800874186" duration="1277000" />
       <workItem from="1623217762893" duration="905000" />
-      <workItem from="1623299478394" duration="5377000" />
-    </task>
-    <task id="LOCAL-00014" summary="personal-profile">
-      <created>1617192925450</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1617192925450</updated>
+      <workItem from="1623299478394" duration="5610000" />
     </task>
     <task id="LOCAL-00015" summary="1">
       <created>1617444877076</created>
@@ -498,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623305033576</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="personal-profile.js">
+      <created>1623305489724</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1623305489724</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

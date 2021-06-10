@@ -226,10 +226,12 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
                 }
             })
         }
+
         index_init();
 
         $('.filter').on('click', function () {
-            get_orders("1", $(this).attr('data-filter'))
+            let type = $(this).attr('data-filter');
+            get_orders("1", type)
 
             $.post('../backend/get-orders-type-number.php',
                 {'type': $(this).attr('data-filter')},
@@ -245,7 +247,7 @@ $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FR
                     }
                     $('#index-ul').append('<li class="page-item" data-index="next"> <a class="page-link" href="javascript:void(0)" aria-label="Next">Next </a> </li>');
                     index_init()
-                    $('.page-item').attr('data-type', $(this).attr('data-filter'))
+                    $('.page-item').attr('data-type', type)
                 })
         })
 
