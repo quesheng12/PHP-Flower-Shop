@@ -13,7 +13,7 @@ if ($_POST['type'] == 'add') {
     $attr_str = "user_id,";
     $value_str = $id . ",";
     foreach ($_POST as $key => $value) {
-        if ($key != 'type') {
+        if ($key != 'type' && $key != 'id') {
             $attr_str .= $key . ",";
             $value_str .= "'" . $value . "',";
         }
