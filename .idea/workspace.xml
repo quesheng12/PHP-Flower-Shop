@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="about us">
-      <change afterPath="$PROJECT_DIR$/images/news/7/background8871380.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/8/about28243720.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/8/about28369890.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.php" afterDir="false" />
-    </list>
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,13 +150,7 @@
       <workItem from="1622692977653" duration="14448000" />
       <workItem from="1622800874186" duration="1277000" />
       <workItem from="1623217762893" duration="905000" />
-    </task>
-    <task id="LOCAL-00010" summary="personal-profile前端工作">
-      <created>1617116692934</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1617116692934</updated>
+      <workItem from="1623299478394" duration="272000" />
     </task>
     <task id="LOCAL-00011" summary="personal-profile">
       <created>1617158505415</created>
@@ -501,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622734443492</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="1">
+      <created>1623299623209</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1623299623213</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +542,6 @@
     <MESSAGE value="trading 疫情系统修改" />
     <MESSAGE value="bug fix" />
     <MESSAGE value="payment page" />
-    <MESSAGE value="1" />
     <MESSAGE value="11" />
     <MESSAGE value="reset password" />
     <MESSAGE value="update" />
@@ -558,7 +551,8 @@
     <MESSAGE value="staff portal pagination implement" />
     <MESSAGE value="user password reset fix" />
     <MESSAGE value="about us" />
-    <option name="LAST_COMMIT_MESSAGE" value="about us" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
