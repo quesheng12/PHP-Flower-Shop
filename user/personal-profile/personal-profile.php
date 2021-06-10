@@ -93,36 +93,36 @@
                                                     echo "<span>" . "1" . "</span>";
                                                     echo "<br>";
                                                     $exp = 100 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!</span>";
+                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php' style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
                                                 } elseif (100 <= $row['level'] && $row['level'] < 200) {
                                                     echo "<span>" . "2" . "</span>";
                                                     echo "<br>";
                                                     $exp = 200 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!</span>";
+                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php' style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
                                                 } elseif (200 <= $row['level'] && $row['level'] < 300) {
                                                     echo "<span>" . "3" . "</span>";
                                                     echo "<br>";
                                                     $exp = 300 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!</span>";
+                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
                                                 } elseif (300 <= $row['level'] && $row['level'] < 400) {
                                                     echo "<span>" . "4" . "</span>";
                                                     echo "<br>";
                                                     $exp = 400 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!</span>";
+                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
                                                 } elseif (400 <= $row['level'] && $row['level'] < 500) {
                                                     echo "<span>" . "5" . "</span>";
                                                     echo "<br>";
                                                     $exp = 500 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!</span>";
+                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
                                                 } elseif (500 <= $row['level'] && $row['level'] < 600) {
                                                     echo "<span>" . "6" . "</span>";
                                                     echo "<br>";
                                                     $exp = 600 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!</span>";
+                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
                                                 } else {
                                                     echo "<span>" . "MAX" . "</span>";
                                                     echo "<br>";
-                                                    echo "<span>You have reached the highest level!</span>";
+                                                    echo "<span>You have reached the highest level!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a> </span>";
                                                 }
                                             }
                                             ?></span></li>
