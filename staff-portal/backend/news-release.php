@@ -20,6 +20,8 @@ $filepath = $_SERVER['DOCUMENT_ROOT'] . '/images/news/' . $id . '/';
 //文本替换
 $_POST['content'] = str_replace('"', '\\"', $_POST['content']);
 $_POST['content'] = str_replace("'", "\\'", $_POST['content']);
+$_POST['title'] = str_replace('"', '\\"', $_POST['title']);
+$_POST['title'] = str_replace("'", "\\'", $_POST['title']);
 
 if (!is_dir($filepath)) {
     mkdir($filepath);

@@ -40,7 +40,7 @@ $rst = mysqli_query($conn, $sql);
 
             <!-- Story -->
             <div class="col-lg-4 invisible" data-toggle="appear" data-offset="50" data-class="animated fadeIn">
-                <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php">
+                <a class="block block-rounded block-link-pop" href="be_pages_blog_story.php?id=<?php echo $news['id'];?>">
                     <img class="img-fluid" src="<?php echo $news['pre_image']; ?>" alt="">
                     <div class="block-content">
                         <h4 class="mb-1"><?php echo $news['title']; ?></h4>
