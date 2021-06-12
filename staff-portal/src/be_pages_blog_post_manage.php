@@ -37,7 +37,7 @@
                             <i class="far fa-2x fa-file-alt opacity-50"></i>
                         </div>
                         <p class="font-size-h3 font-w700 mb-0">
-                            2
+                            3
                         </p>
                         <p class="text-muted mb-0">
                             All Posts
@@ -59,7 +59,7 @@
                             <i class="fa fa-plus text-success-light mr-1 d-md-none"></i> New Post
                         </p>
                         <p class="text-muted mb-0">
-                            by John Doe
+                            Creat news
                         </p>
                     </div>
                 </div>

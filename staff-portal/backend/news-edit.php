@@ -3,6 +3,12 @@ include('../../utils/conn.php');
 
 $id = $_POST['id'];
 
+//文本替换
+$_POST['content'] = str_replace('"', '\\"', $_POST['content']);
+$_POST['content'] = str_replace("'", "\\'", $_POST['content']);
+$_POST['title'] = str_replace('"', '\\"', $_POST['title']);
+$_POST['title'] = str_replace("'", "\\'", $_POST['title']);
+
 if ($_FILES['pre_image']['name']!='') {
     $file = $_FILES['pre_image'];
 //文件名后加毫秒级时间戳避免文件名重复
@@ -11,10 +17,6 @@ if ($_FILES['pre_image']['name']!='') {
     $file['name'] = $imgname;
     $tmp = $file['tmp_name'];
     $filepath = $_SERVER['DOCUMENT_ROOT'] . '/images/news/' . $id . '/';
-
-//文本替换
-    $_POST['content'] = str_replace('"', '\\"', $_POST['content']);
-    $_POST['content'] = str_replace("'", "\\'", $_POST['content']);
 
     if (!is_dir($filepath)) {
         mkdir($filepath);
@@ -40,7 +42,7 @@ if ($_FILES['pre_image']['name']!='') {
 }
 
 if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('更改成功');location.href='../src/be_pages_blog_story.php?id=" . $id . "';</script>";
+    echo "<script>alert('Edit Successfully!');location.href='../src/be_pages_blog_story.php?id=" . $id . "';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

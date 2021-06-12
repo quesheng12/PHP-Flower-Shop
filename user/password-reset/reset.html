@@ -33,7 +33,7 @@
             url: 'password-reset.php',
             success: function (data, status) {
                 console.log(data)
-                if (data == 100) {
+                if (data != 200) {
                     xtip.msg('Send Successfully!')
                 } else {
                     xtip.msg('Wrong Email Address');

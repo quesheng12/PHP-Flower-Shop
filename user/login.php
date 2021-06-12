@@ -26,7 +26,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     <script src="../plugins/tanchuang/js/xtiper.min.js" type="text/javascript"></script>
     <script src="../js/jquery-3.5.1.js"></script>
     <script src="../js/jquery.form.js"></script>
-    <link rel="shortcut  icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut  icon" href="../images/favicon.ico" type="image/x-icon"/>
 
 
 </head>
@@ -41,7 +41,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <form id="form1" class="form1" method="post">
                 <h1 class="h1"><strong>Log In</strong></h1>
                 <p class="p"><strong>Don't have an account yet?</strong> <a href="signup.php">Sign up</a></p>
-                <input id="i1" type="text" name="username" class="input" placeholder="Username or Email"><br>
+                <input id="i1" type="text" name="username" class="input" placeholder="Username"><br>
                 <input id="i2" type="password" name="password" class="input" placeholder="Password"><br>
                 <input type="checkbox" class="check1"> Keep me logged in<br>
                 <input type="submit" name="submit" class="submit" value="LOG IN" style="border-radius: 2%"><br>
@@ -82,11 +82,37 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                     xtip.alert('Wrong Username or Password', 'e');
                 }
                 // alert(status);
-            },error:function () {
+            }, error: function () {
                 console.log(2222)
             }
         });
     });
+
+    $(document).keypress(function (e) {
+        if (e.which === 13) {
+            $('#form1').ajaxForm({
+                url: 'login_back.php',
+                success: function (data, status) {
+                    console.log(data)
+                    if (data == 100) {
+                        // alert("登录成功")
+                        xtip.msg('Login Successfully!')
+                        setTimeout(function () {
+                            //内容3秒后执行
+                            location.href = '../index.php';
+                        }, 2000);
+                    } else if (data == 200) {
+                        // alert("用户名或密码错误")
+                        xtip.alert('Wrong Username or Password', 'e');
+                    }
+                    // alert(status);
+                }, error: function () {
+                    console.log(2222)
+                }
+            });
+        }
+    });
+
 </script>
 </body>
 </html>

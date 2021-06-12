@@ -16,7 +16,7 @@ $rst = mysqli_query($conn, $sql);
 $match = false;
 while ($arr = mysqli_fetch_assoc($rst)) {
     // print_r($p);
-    if (($p['username'] == $arr['username'] || $p['username'] == $arr['email']) && $p['password'] == $arr['password']) {
+    if (($p['username'] == $arr['username']) && $p['password'] == $arr['password']) {
         $match = true;
         //写入session
         session_start();

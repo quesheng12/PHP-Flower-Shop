@@ -4,13 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kngu - Flower HTML Bootstrap 5 Template </title>
+    <title>Personnal Profile</title>
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../../kugu-asset/images/favicon.png">
-
+    <link rel="shortcut  icon" href="/images/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="../../staff-portal/src/assets/css/dashmix.min.css">
     <link rel="stylesheet" href="../../kugu-asset/css/helper.css">
     <link rel="stylesheet" href="../../kugu-asset/css/plugins-min/plugins.min.css">

@@ -36,6 +36,19 @@ $(window).resize(function () {
     console.log(option.width)
 })
 
+var w = window.screen.availWidth;
+console.log(w)
+if (w <= 580) {
+    console.log(11111)
+    option.app = true;
+    option.height = '400px';
+    option.width = parseInt(document.documentElement.clientWidth / 3) + 'px'
+} else {
+    option.app = false;
+    option.height = '300px';
+    option.width = parseInt(document.documentElement.clientWidth / 3) + 'px'
+}
+
 function open_form(content, title) {
     option.content = content;
     option.title = title;
@@ -81,6 +94,7 @@ function submit_form() {
             $('.form').ajaxForm({
                 url: 'signup.php',
                 success: function (data, status) {
+                    console.log(data)
                     if (data == 100) {
                         // alert("注册成功")
                         xtip.msg('Sign Up Successfully!');
@@ -169,6 +183,8 @@ $.post(
     'get_done.php',
     {'input': getQueryVariable('input')},
     function (data, status) {
+        console.log(getQueryVariable('input'))
+        console.log(data)
         data = JSON.parse(data);
         done = parseInt(data['done']);
         $('#user-name').html(data['name']);

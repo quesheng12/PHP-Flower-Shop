@@ -239,7 +239,7 @@ $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 <script src="/assets/js/vendor/modernizr-3.6.0.min.js"></script>
 <script src="/assets/js/vendor/jquery-3.3.1.min.js"></script>
 <script src="/assets/js/plugins.min.js"></script>
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main1.js"></script>
 
 <?php include('../../template/footer.html'); ?>
 

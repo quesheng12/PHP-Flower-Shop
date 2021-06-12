@@ -5,7 +5,7 @@ $done = (int)$_POST['done'];
 $input = $_POST['input'] . '';
 
 //查询字典获取订单id
-$sql = "select value from dictionary where input=" . $input;
+$sql = "select value from dictionary where input='$input'";
 $oid = mysqli_fetch_assoc(mysqli_query($conn, $sql))['value'];
 
 $sql = "select id from user where username=" . $username;

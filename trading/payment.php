@@ -104,18 +104,21 @@
 </div>
 <!--End pagewrapper-->
 <div id="share-wrapper">
-    <!-- <div>
+   <!-- <div>
         <div style="font-weight: 700;
     font-size: large;
-    color: #e40068;margin-left: 20px;
-    margin-top: 10px;">
-            Share URL:
+    color: #e40068;margin-left: 10%;
+    margin-top: 15px;">
+            Friend's Email:
         </div>
         <div style="    font-size: medium;
     margin-top: 12px;
     text-align: center;">
-            http://123.56.136.219/spread/spread.html?input=<?php echo $_GET['id']; ?>
-        </div>
+            <input id='share-email' type="email" style="width:80%; margin-bottom: 12px;">
+<button id='share-button' class="btn btn-primary m-auto" style="display: block">
+                                                        Share
+                                                    </button>
+
     </div>-->
 </div>
 
@@ -141,7 +144,7 @@
         content: '#share-wrapper',
         title: 'Share',
         width: (document.documentElement.clientWidth / 4) + 'px',
-        height: '200px',
+        height: '220px',
         min: true,
         shade: true,
         shadeClose: true,
@@ -169,6 +172,20 @@
 
     function open_form() {
         xtip.open(option);
+        $('#share-button').on('click',function () {
+            $.post("email-send.php",
+                {
+                    'email':$('#share-email').val(),
+                    'url': "http://123.56.136.219/spread/spread.html?input=<?php echo $_GET['id']; ?>"
+                },
+                function (data) {
+                if(data!=200){
+                    xtip.msg("Share Successfully!")
+                }else {
+                    xtip.msg("Share Failed")
+                }
+            });
+        })
     }
 
     console.log('<?php echo str_replace('+', '\+', $_GET['id']);?>');
