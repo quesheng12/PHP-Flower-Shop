@@ -8,7 +8,7 @@ $dm->l_header_style = 'dark-glass';
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
     echo '<script>location.href="reset.php?id="+getQueryVariable("id");</script>';
 }
 ?>
@@ -30,11 +30,9 @@ $rst = mysqli_query($conn, $sql);
     <div class="bg-black-50">
         <div class="content content-top content-full text-center">
             <h1 class="font-w700 text-white mt-5 mb-2 invisible" data-toggle="appear">
-                Check out our latest stories
+                看看我们的最新报道
             </h1>
-            <h3 class="font-w400 text-white-75 mb-5 invisible" data-toggle="appear" data-timeout="400">Be inspired
-                and
-                create something amazing today.</h3>
+            <h3 class="font-w400 text-white-75 mb-5 invisible" data-toggle="appear" data-timeout="400">激发灵感，创造今天的精彩。</h3>
         </div>
     </div>
 </div>
