@@ -3,7 +3,12 @@
 <?php require 'inc/_global/views/head_start.php'; ?>
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
-
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="be_pages_ecom_order.php?id="+getQueryVariable("id");</script>';
+}
+?>
 <!-- Page Content -->
 <div class="content">
     <!-- Quick Overview -->
@@ -27,7 +32,7 @@
                         <i class="fa fa-check text-xeco-dark"></i>
                     </div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
-                        Payment
+                        付款
                     </p>
                 </div>
             </a>
@@ -39,7 +44,7 @@
                         <i class="fa fa-sync fa-spin text-xsmooth-dark"></i>
                     </div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
-                        Packaging
+                        包裹
                     </p>
                 </div>
             </a>
@@ -51,7 +56,7 @@
                         <i class="fa fa-times text-muted"></i>
                     </div>
                     <p class="font-w600 font-size-sm text-muted text-uppercase mb-0">
-                        Delivery
+                        快递
                     </p>
                 </div>
             </a>

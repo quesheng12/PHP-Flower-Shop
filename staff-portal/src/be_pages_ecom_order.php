@@ -15,6 +15,12 @@ $total_price = 0;
 $sql = "select * from order_item where oid=" . $oid;
 $rst = mysqli_query($conn, $sql);
 ?>
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+    echo '<script>location.href="be_pages_ecom_order-zh.php?id="+getQueryVariable("id");</script>';
+}
+?>
 <!-- Page Content -->
 <div class="content">
     <!-- Quick Overview -->
