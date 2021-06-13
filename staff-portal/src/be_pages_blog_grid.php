@@ -9,7 +9,7 @@ $dm->l_header_style = 'dark-glass';
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="reset.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="be_pages_blog_grid-zh.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <link rel="stylesheet" href="/assets/css/plugins-min/plugins.min.css">
