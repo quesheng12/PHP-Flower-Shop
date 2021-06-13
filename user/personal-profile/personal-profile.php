@@ -10,7 +10,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Personnal Profile</title>
+    <title>个人主页</title>
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,19 +54,19 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                         <ul class="nav account-menu-list flex-column">
                             <li>
                                 <a class="active" data-toggle="pill" href="#pills-account"><i
-                                            class="fa fa-user"></i> Account Details</a>
+                                            class="fa fa-user"></i> 账户信息</a>
                             </li>
                             <li>
-                                <a data-toggle="pill" href="#pills-order"><i class="fa fa-shopping-cart"></i> Order</a>
+                                <a data-toggle="pill" href="#pills-order"><i class="fa fa-shopping-cart"></i> 订单</a>
                             </li>
                             <li>
-                                <a data-toggle="pill" href="#pills-address"><i class="fa fa-map-marker"></i> Address</a>
+                                <a data-toggle="pill" href="#pills-address"><i class="fa fa-map-marker"></i> 地址</a>
                             </li>
                             <li>
-                                <a data-toggle="pill" href="#pills-edit-account"><i class="fa fa-user"></i> Edit Account</a>
+                                <a data-toggle="pill" href="#pills-edit-account"><i class="fa fa-user"></i> 编辑账户</a>
                             </li>
                             <li>
-                                <a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a>
+                                <a href="logout.php"><i class="fa fa-sign-out"></i> 登出</a>
                             </li>
                         </ul>
                     </div>
@@ -81,14 +81,14 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                                 src="../../kugu-images/main-photo.svg"
                                                 alt="Ronald Robertson"></div>
                                     <div class="header__base-info"><h4
-                                                class="title titl--h4">Ronald Robertson</h4>
+                                                class="title titl--h4"></h4>
                                     </div>
                                 </div>
                                 <div class="header__right">
                                     <ul class="header__contact">
-                                        <li><span class="overhead">Email: </span><span id="email"></span></li>
-                                        <li><span class="overhead">Phone: </span><span id="phone"></span></li>
-                                        <li><span class="overhead">Current Level:
+                                        <li><span class="overhead">邮箱: </span><span id="email"></span></li>
+                                        <li><span class="overhead">电话: </span><span id="phone"></span></li>
+                                        <li><span class="overhead">当前等级:
                                             <?php
                                             $sql = "select level from user where id=" . $_SESSION['uid'];
                                             $result = mysqli_query($conn, $sql);
@@ -98,36 +98,36 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                                     echo "<span>" . "1" . "</span>";
                                                     echo "<br>";
                                                     $exp = 100 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php' style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
+                                                    echo "<span>你还需" . $exp . "经验来升级!<a href='Introduction-zh.php' style='border-bottom:1px solid #00F; color:#0item90'> 这是什么？</a></span>";
                                                 } elseif (100 <= $row['level'] && $row['level'] < 200) {
                                                     echo "<span>" . "2" . "</span>";
                                                     echo "<br>";
                                                     $exp = 200 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php' style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
+                                                    echo "<span>你还需" . $exp . "经验来升级!<a href='Introduction-zh.php' style='border-bottom:1px solid #00F; color:#0item90'> 这是什么？</a></span>";
                                                 } elseif (200 <= $row['level'] && $row['level'] < 300) {
                                                     echo "<span>" . "3" . "</span>";
                                                     echo "<br>";
                                                     $exp = 300 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
+                                                    echo "<span>你还需" . $exp . "经验来升级!<a href='Introduction-zh.php' style='border-bottom:1px solid #00F; color:#0item90'> 这是什么？</a></span>";
                                                 } elseif (300 <= $row['level'] && $row['level'] < 400) {
                                                     echo "<span>" . "4" . "</span>";
                                                     echo "<br>";
                                                     $exp = 400 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
+                                                    echo "<span>你还需" . $exp . "经验来升级!<a href='Introduction-zh.php' style='border-bottom:1px solid #00F; color:#0item90'> 这是什么？</a></span>";
                                                 } elseif (400 <= $row['level'] && $row['level'] < 500) {
                                                     echo "<span>" . "5" . "</span>";
                                                     echo "<br>";
                                                     $exp = 500 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
+                                                    echo "<span>你还需" . $exp . "经验来升级!<a href='Introduction-zh.php' style='border-bottom:1px solid #00F; color:#0item90'> 这是什么？</a></span>";
                                                 } elseif (500 <= $row['level'] && $row['level'] < 600) {
                                                     echo "<span>" . "6" . "</span>";
                                                     echo "<br>";
                                                     $exp = 600 - $row['level'];
-                                                    echo "<span>You have " . $exp . " exp left to upgrade!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a></span>";
+                                                    echo "<span>你还需" . $exp . "经验来升级!<a href='Introduction-zh.php' style='border-bottom:1px solid #00F; color:#0item90'> 这是什么？</a></span>";
                                                 } else {
                                                     echo "<span>" . "MAX" . "</span>";
                                                     echo "<br>";
-                                                    echo "<span>You have reached the highest level!<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'>What is this?</a> </span>";
+                                                    echo "<span>你已经达到了最高级！<a href='Introduction.php'style='border-bottom:1px solid #00F; color:#090'> 这是什么？</a> </span>";
                                                 }
                                             }
                                             ?></span></li>
@@ -141,7 +141,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                         </div>
                         <div class="tab-pane fade" id="pills-order">
                             <div class="my-account-order account-wrapper">
-                                <h4 class="account-title">Orders</h4>
+                                <h4 class="account-title">订单</h4>
                                 <div class="account-table text-center mt-30 table-responsive">
                                     <div id="order-view-modal">
                                         <!--<table id='quick-view-table' class="table table-borderless table-striped table-vcenter font-size-sm">
@@ -164,12 +164,12 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             <thead>
                                             <tr>
                                                 <th class="text-center" style="width: 100px;">ID</th>
-                                                <th class="d-none d-sm-table-cell text-center">Submitted</th>
-                                                <th>Status</th>
+                                                <th class="d-none d-sm-table-cell text-center">已提交</th>
+                                                <th>状态</th>
                                                 <!--                                                <th class="d-none d-xl-table-cell">Customer</th>-->
                                                 <!--                        <th class="d-none d-xl-table-cell text-center">Products</th>-->
                                                 <!--                        <th class="d-none d-sm-table-cell text-right">Value</th>-->
-                                                <th class="text-center">Actions</th>
+                                                <th class="text-center">行动</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -241,7 +241,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                         </div>
                         <div class="tab-pane fade" id="pills-address">
                             <div class="my-account-address account-wrapper">
-                                <h4 class="account-title">Address</h4>
+                                <h4 class="account-title">地址</h4>
                                 <div id="address-form">
                                     <!--<form id="" method="post" action="address-manage.php"
                                           style="padding: 0 20px">
@@ -300,7 +300,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                         </div>
                         <div class="tab-pane fade" id="pills-edit-account">
                             <div class="my-account-details account-wrapper">
-                                <h4 class="account-title">Account Details</h4>
+                                <h4 class="account-title">账号信息</h4>
                                 <div class="account-details">
                                     <form id="edit-personal-profiles" method="post" action="user-information-edit.php">
                                         <div class="row">
@@ -330,7 +330,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="single-form">
-                                                    <h5 class="title">Password change</h5>
+                                                    <h5 class="title">改密码</h5>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -352,7 +352,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="single-form">
-                                                    <button class="btn btn-primary">Save Change</button>
+                                                    <button class="btn btn-primary">保存</button>
                                                 </div>
                                             </div>
                                         </div>
