@@ -9,8 +9,8 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/page_start.php'; ?>
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="be_comp_chat-zh.php?id="+getQueryVariable("id");</script>';
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="be_comp_chat.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <script src="/js/jquery-3.5.1.js"></script>
