@@ -1,7 +1,7 @@
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="cart-zh.php?id="+getQueryVariable("id");</script>';
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="cart.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <!doctype html>
@@ -10,7 +10,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shopping Cart</title>
+    <title>购物车</title>
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -58,10 +58,10 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">
         <div class="container">
             <div class="page-banner-content text-center">
-                <h2 class="title">Your Shopping Cart</h2>
+                <h2 class="title">你的购物车</h2>
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Your Shopping Cart</li>
+                    <li class="breadcrumb-item"><a href="index.html">主页</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">你的购物车</li>
                 </ol>
             </div>
         </div>
@@ -72,12 +72,12 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
     <div class="empty-cart-page section-padding-5" hidden>
         <div class="container">
             <div class="empty-cart-content text-center">
-                <h2 class="empty-cart-title">Shopping Cart</h2>
+                <h2 class="empty-cart-title">购物车</h2>
                 <div class="empty-cart-img">
                     <img src="../assets/images/cart.png" alt="">
                 </div>
-                <p>Your cart is currently empty!</p>
-                <a href="shop-list.php" class="btn btn-primary"><i class="fa fa-angle-left"></i> Continue Shopping</a>
+                <p>你的购物车为空</p>
+                <a href="shop-list.php" class="btn btn-primary"><i class="fa fa-angle-left"></i> 继续购物</a>
             </div>
         </div>
     </div>
@@ -90,12 +90,12 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                 <table class="table">
                     <thead>
                     <tr>
-                        <th class="image">Image</th>
-                        <th class="product">Product</th>
-                        <th class="price">Price</th>
-                        <th class="quantity">Quantity</th>
-                        <th class="total">Total</th>
-                        <th class="remove">Remove</th>
+                        <th class="image">图片</th>
+                        <th class="product">产品</th>
+                        <th class="price">价格</th>
+                        <th class="quantity">数量</th>
+                        <th class="total">总共</th>
+                        <th class="remove">移除</th>
                     </tr>
                     </thead>
                     <tbody id="cart-body" class="tbody">
@@ -105,10 +105,10 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             </div>
             <div class="cart-btn">
                 <div class="cart-btn-left">
-                    <a href="#" class="btn btn-primary continue">Continue Shopping</a>
+                    <a href="#" class="btn btn-primary continue">继续购物</a>
                 </div>
                 <div class="cart-btn-right">
-                    <a href="#" class="btn clear">Clear Cart</a>
+                    <a href="#" class="btn clear">清空购物车</a>
                     <!--                        <a href="#" class="btn">Update Cart</a>-->
                 </div>
             </div>
@@ -138,14 +138,14 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                 <div class="col-lg-4">
                     <div class="cart-totals">
                         <div class="cart-title">
-                            <h4 class="title">Cart totals</h4>
+                            <h4 class="title">购物车总共</h4>
                         </div>
                         <div class="cart-total-table mt-25">
                             <table class="table">
                                 <tbody>
                                 <tr>
                                     <td>
-                                        <p class="value">Subtotal</p>
+                                        <p class="value">小计</p>
                                     </td>
                                     <td>
                                         <p class="price subtotal"></p>
@@ -155,7 +155,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                             </table>
                         </div>
                         <div class="cart-total-btn">
-                            <button class="btn btn-primary btn-block checkout">Proceed To Checkout</button>
+                            <button class="btn btn-primary btn-block checkout">进入结算</button>
                         </div>
                     </div>
                 </div>
@@ -184,14 +184,14 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
-                            <h4 class="footer-widget-title">About Us</h4>
+                            <h4 class="footer-widget-title">关于我们</h4>
 
                             <div class="footer-widget-menu">
                                 <ul>
-                                    <li><a href="#">Company</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Wechat</a></li>
+                                    <li><a href="#">公司</a></li>
+                                    <li><a href="#">服务</a></li>
+                                    <li><a href="#">博客</a></li>
+                                    <li><a href="#">微信</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -200,12 +200,12 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-widget">
-                            <h4 class="footer-widget-title">Help</h4>
+                            <h4 class="footer-widget-title">帮助</h4>
 
                             <div class="footer-widget-menu">
                                 <ul>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Customer Service</a></li>
+                                    <li><a href="#">帮助中心</a></li>
+                                    <li><a href="#">客服中心</a></li>
                                 </ul>
                             </div>
                         </div>
