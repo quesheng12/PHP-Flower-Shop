@@ -67,9 +67,9 @@
                                 <li>
                                     <a href="#">About Us</a>
                                     <ul class="sub-menu">
-                                        <li><a href="/presentation/about-us/index.html">Our Company</a></li>
-                                        <li><a href="/presentation/employee-style.html">Employee Style</a></li>
-                                        <li><a href="/sunrise/sunrise.html">Sunrise</a></li>
+                                        <li><a href="/presentation/about-us/index.html" target="_blank">Our Company</a></li>
+                                        <li><a href="/presentation/employee-style.html" target="_blank">Employee Style</a></li>
+                                        <li><a href="/sunrise/sunrise.html" target="_blank">Sunrise</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="/utils/contact-route.php">Contact Us</a></li>
@@ -225,12 +225,12 @@
                 <li>
                     <a href="#">About us</a>
                     <ul class="sub-menu">
-                        <li><a href="/presentation/about-us/index.html">Our Company</a></li>
-                        <li><a href="/presentation/employee-style.html">Employee Style</a></li>
-                        <li><a href="/sunrise/sunrise.html">Sunrise</a></li>
+                        <li><a href="/presentation/about-us/index.html" target="_blank">Our Company</a></li>
+                        <li><a href="/presentation/employee-style.html" target="_blank">Employee Style</a></li>
+                        <li><a href="/sunrise/sunrise.html" target="_blank">Sunrise</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="/utils/contact-route.php">Contact us</a></li>
             </ul>
         </nav>
     </div>

@@ -49,7 +49,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
             </form>
         </div>
 
-        <div class="col-md-4 .d-sm-none .d-md-block">
+        <div class="col-md-4 .d-sm-none .d-md-block" style="padding-bottom: 20px">
             <img src="../image/signup.jpg" class="imgs"/>
         </div>
     </div>

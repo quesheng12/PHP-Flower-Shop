@@ -63,8 +63,14 @@
                              <i class="far fa-fw fa-building mr-1"></i> Settings
                          </a>
 
-
-                         <div role="separator" class="dropdown-divider"></div>-->
+-->
+                        <a class="dropdown-item" onclick="language_switch('zh')">
+                            <i class="far fa-fw fa-file-alt mr-1"></i> 中文
+                        </a>
+                        <a class="dropdown-item" onclick="language_switch('en')">
+                            <i class="far fa-fw fa-file-alt mr-1"></i> English
+                        </a>
+                        <div role="separator" class="dropdown-divider"></div>
                         <a class="dropdown-item" href="../backend/staff-logout.php">
                             <i class="far fa-fw fa-arrow-alt-circle-left mr-1"></i> Sign Out
                         </a>
@@ -212,3 +218,14 @@
     <!-- END Header Loader -->
 </header>
 <!-- END Header -->
+<script>
+    function language_switch(language) {
+        $.post('/utils/language-switch.php',
+            {
+                'language': language
+            },
+            function () {
+                location.reload();
+            })
+    }
+</script>

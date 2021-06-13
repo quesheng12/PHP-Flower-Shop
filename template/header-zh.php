@@ -71,9 +71,9 @@
                                 <li>
                                     <a href="#">关于我们</a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">公司简介</a></li>
-                                        <li><a href="/presentation/employee-style.html">员工风采</a></li>
-                                        <li><a href="/sunrise/sunrise.html">日出</a></li>
+                                        <li><a href="/presentation/about-us/index.html" target="_blank">公司简介</a></li>
+                                        <li><a href="/presentation/employee-style.html" target="_blank">员工风采</a></li>
+                                        <li><a href="/sunrise/sunrise.html" target="_blank">日出</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="/utils/contact-route.php">联系我们</a></li>
@@ -230,12 +230,12 @@
                 <li>
                     <a href="#">关于我们</a>
                     <ul class="sub-menu">
-                        <li><a href="#">公司简介</a></li>
-                        <li><a href="/presentation/employee-style.html">员工风采</a></li>
-                        <li><a href="/sunrise/sunrise.html">日出</a></li>
+                        <li><a href="/presentation/about-us/index.html" target="_blank">公司简介</a></li>
+                        <li><a href="/presentation/employee-style.html" target="_blank">员工风采</a></li>
+                        <li><a href="/sunrise/sunrise.html" target="_blank">日出</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">联系我们</a></li>
+                <li><a href="/utils/contact-route.php">联系我们</a></li>
             </ul>
         </nav>
     </div>
