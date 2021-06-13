@@ -3,7 +3,12 @@
 <?php require 'inc/_global/views/head_start.php'; ?>
 <?php require 'inc/_global/views/head_end.php'; ?>
 <?php require 'inc/_global/views/page_start.php'; ?>
-
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="be_pages_ecom_products.php?id="+getQueryVariable("id");</script>';
+}
+?>
 <!-- Page Content -->
 <div class="content">
     <!-- Quick Overview -->
@@ -83,7 +88,7 @@
             <!-- Search Form -->
             <form action="be_pages_ecom_products.php" method="POST" onsubmit="return false;">
                 <div class="form-group">
-                    <input type="text" class="form-control form-control-alt" id="dm-ecom-products-search" name="dm-ecom-products-search" placeholder="Search all products..">
+                    <input type="text" class="form-control form-control-alt" id="dm-ecom-products-search" name="dm-ecom-products-search" placeholder="搜索商品...">
                 </div>
             </form>
             <!-- END Search Form -->

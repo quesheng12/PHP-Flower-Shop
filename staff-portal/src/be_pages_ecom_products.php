@@ -9,7 +9,12 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/page_start.php'; ?>
 
 <script src="../../js/jquery-3.5.1.js"></script>
-
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+    echo '<script>location.href="be_pages_ecom_products-zh.php?id="+getQueryVariable("id");</script>';
+}
+?>
 <?php
 $sql = "select COUNT(id) as num from item WHERE stock=0";
 $out_stock = mysqli_fetch_assoc(mysqli_query($conn, $sql))['num'];
