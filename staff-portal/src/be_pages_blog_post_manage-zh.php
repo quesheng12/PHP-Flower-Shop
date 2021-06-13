@@ -9,8 +9,8 @@ require '../../utils/check-staff-login.php';
 <?php require 'inc/_global/views/page_start.php'; ?>
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="be_pages_blog_post_manage-zh.php?id="+getQueryVariable("id");</script>';
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="be_pages_blog_post_manage.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>
@@ -20,12 +20,12 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 <div class="bg-body-light">
     <div class="content content-full">
         <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
-            <h1 class="flex-sm-fill font-size-h2 font-w400 mt-2 mb-0 mb-sm-2">Manage All Posts</h1>
+            <h1 class="flex-sm-fill font-size-h2 font-w400 mt-2 mb-0 mb-sm-2">管理所有Post</h1>
             <nav class="flex-sm-00-auto ml-sm-3" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item">Pages</li>
-                    <li class="breadcrumb-item">Blog</li>
-                    <li class="breadcrumb-item active" aria-current="page">Manage</li>
+                    <li class="breadcrumb-item">页面</li>
+                    <li class="breadcrumb-item">博客</li>
+                    <li class="breadcrumb-item active" aria-current="page">管理</li>
                 </ol>
             </nav>
         </div>
@@ -49,7 +49,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                             3
                         </p>
                         <p class="text-muted mb-0">
-                            All Posts
+                            所有Post
                         </p>
                     </div>
                 </div>
@@ -65,10 +65,10 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                             <i class="fa fa-2x fa-plus text-success-light"></i>
                         </div>
                         <p class="font-size-h3 font-w700 mb-0">
-                            <i class="fa fa-plus text-success-light mr-1 d-md-none"></i> New Post
+                            <i class="fa fa-plus text-success-light mr-1 d-md-none"></i> 新的Post
                         </p>
                         <p class="text-muted mb-0">
-                            Creat news
+                            创建新闻
                         </p>
                     </div>
                 </div>
@@ -107,9 +107,9 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                 <thead class="thead-light">
                 <tr>
                     <th style="width: 60px;">ID</th>
-                    <th style="width: 33%;">Title</th>
-                    <th class="d-none d-xl-table-cell">Created</th>
-                    <th style="width: 100px;" class="text-center">Actions</th>
+                    <th style="width: 33%;">标题</th>
+                    <th class="d-none d-xl-table-cell">创建</th>
+                    <th style="width: 100px;" class="text-center">行动</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -150,27 +150,27 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                             <span aria-hidden="true">
                                 <i class="fa fa-angle-double-left"></i>
                             </span>
-                            <span class="sr-only">Previous</span>
+                            <span class="sr-only">之前</span>
                         </a>
                     </li>
                     <li class="page-item active">
                         <a class="page-link" href="javascript:void(0)">1</a>
                     </li>
-             <!--       <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="javascript:void(0)">4</a>
-                    </li>-->
+                    <!--       <li class="page-item">
+                               <a class="page-link" href="javascript:void(0)">2</a>
+                           </li>
+                           <li class="page-item">
+                               <a class="page-link" href="javascript:void(0)">3</a>
+                           </li>
+                           <li class="page-item">
+                               <a class="page-link" href="javascript:void(0)">4</a>
+                           </li>-->
                     <li class="page-item">
                         <a class="page-link" href="javascript:void(0)" aria-label="Next">
                             <span aria-hidden="true">
                                 <i class="fa fa-angle-double-right"></i>
                             </span>
-                            <span class="sr-only">Next</span>
+                            <span class="sr-only">之后</span>
                         </a>
                     </li>
                 </ul>
@@ -187,7 +187,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             $.post('../backend/news-delete.php',
                 {'id': id},
                 function () {
-                    xtip.alert('Success', 's');
+                    xtip.alert('成功', 's');
                 })
         });
     }
