@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+    echo '<script>location.href="personal-profile-zh.php";</script>';
+}
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -26,7 +32,7 @@
         });
     </script>
     <?php
-    session_start();
+//    session_start();
     include("../../utils/conn.php");
     ?>
 </head>

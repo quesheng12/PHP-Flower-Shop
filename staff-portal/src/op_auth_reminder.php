@@ -32,7 +32,7 @@
                                     <i class="fa fa-fw fa-reply mr-1"></i> Password Reminder
                                 </button>
                                 <p class="mt-3 mb-0 d-lg-flex justify-content-lg-between">
-                                    <a class="btn btn-sm btn-light d-block d-lg-inline-block mb-1" href="op_auth_signin.php">
+                                    <a class="btn btn-sm btn-light d-block d-lg-inline-block mb-1" href="staff-login.php">
                                         <i class="fa fa-sign-in-alt text-muted mr-1"></i> Sign In
                                     </a>
                                     <a class="btn btn-sm btn-light d-block d-lg-inline-block mb-1" href="op_auth_signup.php">

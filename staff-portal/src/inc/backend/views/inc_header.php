@@ -65,7 +65,7 @@
 
 
                          <div role="separator" class="dropdown-divider"></div>-->
-                        <a class="dropdown-item" href="op_auth_signin.php">
+                        <a class="dropdown-item" href="../backend/staff-logout.php">
                             <i class="far fa-fw fa-arrow-alt-circle-left mr-1"></i> Sign Out
                         </a>
                     </div>

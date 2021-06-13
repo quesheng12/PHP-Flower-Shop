@@ -1,7 +1,21 @@
+<script src="../js/jquery-3.5.1.js"></script>
+<script>
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+</script>
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="reset-zh.php";</script>';
+    echo '<script>location.href="reset-zh.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <html>
@@ -88,18 +102,6 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
         }
 
     });
-
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] == variable) {
-                return pair[1];
-            }
-        }
-        return (false);
-    }
 </script>
 </body>
 </html>

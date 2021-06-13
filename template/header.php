@@ -251,7 +251,7 @@
 <div class="overlay"></div>
 <!--Overlay-->
 
-<script src="../trading/search.js"></script>
+<script src="/trading/search.js"></script>
 <script>
     function language_switch(language) {
         $.post('/utils/language-switch.php',

@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal orders">
-      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/main1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/9/笑脸1413830.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/backend/news-index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/staff-portal/src/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading/email-send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff-portal/backend/staff-logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/password-reset/reset-zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spread/get_done.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/get_done.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spread/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/spread/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spread/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spread/spread.html" beforeDir="false" afterPath="$PROJECT_DIR$/spread/spread.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spread/success_help.php" beforeDir="false" afterPath="$PROJECT_DIR$/spread/success_help.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/backend/news-edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_comp_chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_comp_chat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_auth_all.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_auth_all.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_manage.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_post_manage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading/payment.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/payment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login_back.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login_back.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/password-reset/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/password-reset/reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/op_auth_lock.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/op_auth_lock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/op_auth_reminder.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/op_auth_reminder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/op_auth_signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/op_auth_signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/footer-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/footer-zh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/password-reset/password-reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/password-reset/password-reset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup_back.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup_back.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset-back.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-back.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +175,7 @@
       <workItem from="1623329012910" duration="22000" />
       <workItem from="1623375886356" duration="242000" />
       <workItem from="1623398344050" duration="529000" />
-      <workItem from="1623487211803" duration="7242000" />
-    </task>
-    <task id="LOCAL-00016" summary="1">
-      <created>1617444932894</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1617444932894</updated>
+      <workItem from="1623487211803" duration="9971000" />
     </task>
     <task id="LOCAL-00017" summary="staff-portal">
       <created>1617686679233</created>
@@ -523,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623305726372</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="staff portal orders">
+      <created>1623513261362</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1623513261363</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

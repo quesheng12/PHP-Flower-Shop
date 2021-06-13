@@ -17,7 +17,7 @@ $uid = mysqli_fetch_assoc(mysqli_query($conn, $sql))['id'];
 $sql = 'INSERT INTO dictionary(input, value) VALUE (\'' . authcode($uid, 'ENCODE') . '\',\'' . $uid . '\')';
 mysqli_query($conn, $sql);
 
-$mailcontent = "Click the link to reset your password:<br>http://localhost:8902/user/reset.php?id=" . authcode($uid, 'ENCODE');//邮件内容
+$mailcontent = "Click the link to reset your password:<br>http://123.56.136.219/user/reset.php?id=" . authcode($uid, 'ENCODE');//邮件内容
 $mailtype = "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
 //************************ 配置信息 ****************************
 $smtp = new Smtp($smtpserver, $smtpserverport, true, $smtpuser, $smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.

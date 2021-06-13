@@ -1,7 +1,21 @@
+<script src="../js/jquery-3.5.1.js"></script>
+<script>
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+</script>
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="reset.php";</script>';
+    echo '<script>location.href="reset.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <html>
@@ -40,7 +54,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
                 <input id="id" type="hidden" name="id">
                 <input id="p1" type="password" name="password" class="input" placeholder="密码"><br>
                 <input id="p2" type="password" class="input" placeholder="确认密码"><br>
-                <input type="submit" class="submit" value="Confirm"><br>
+                <input type="submit" class="submit" value="确认"><br>
                 <p>我确认已阅读并同意<strong>花店</strong>的<br> <a href="">服务条款、隐私政策。</a></p>
             </form>
         </div>
@@ -61,7 +75,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
     $('#id').val(getQueryVariable('id'));
 
     $(':submit').click(function () {
-        if ($('#p1').val() == $('#p2').val() &&) {
+        if ($('#p1').val() == $('#p2').val()) {
             $('#form1').ajaxForm({
                 url: 'reset-back.php',
                 success: function (data, status) {
@@ -87,18 +101,6 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
         }
 
     });
-
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] == variable) {
-                return pair[1];
-            }
-        }
-        return (false);
-    }
 </script>
 </body>
 </html>

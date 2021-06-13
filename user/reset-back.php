@@ -3,7 +3,6 @@
 //    echo "<script>location.href='login.php';</script>";
 //    exit;
 //}
-
 //连接数据库
 include('../utils/conn.php');
 $sql = 'SELECT value FROM dictionary WHERE input=\'' . $_POST['id'] . "'";

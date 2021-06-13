@@ -61,7 +61,7 @@
                                     <a class="btn btn-sm btn-light d-block d-lg-inline-block mb-1" href="op_auth_reminder.php">
                                         <i class="fa fa-exclamation-triangle text-muted mr-1"></i> Forgot password
                                     </a>
-                                    <a class="btn btn-sm btn-light d-block d-lg-inline-block mb-1" href="op_auth_signin.php">
+                                    <a class="btn btn-sm btn-light d-block d-lg-inline-block mb-1" href="staff-login.php">
                                         <i class="fa fa-sign-out-alt text-muted mr-1"></i> Sign Out
                                     </a>
                                 </p>
