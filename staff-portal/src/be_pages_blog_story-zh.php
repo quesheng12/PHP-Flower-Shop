@@ -20,8 +20,8 @@ $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 <?php include('../../template/header.php'); ?>
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="be_pages_blog_grid-zh.php?id="+getQueryVariable("id");</script>';
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="be_pages_blog_story.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <!-- Hero -->
@@ -31,7 +31,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <h1 class="font-w700  mt-5 mb-3 invisible" data-toggle="appear">
                 <?php echo $news['title']; ?>
             </h1>
-            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">You deserve a better life</h2>
+            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">你应该有更好的生活</h2>
             <p class="invisible" data-toggle="appear" data-timeout="400">
                 <!--                <a class="badge badge-pill badge-primary font-size-base px-3 py-2 mr-2 m-1" href="javascript:void(0)">-->
                 <!--                    <i class="fa fa-user-circle mr-1"></i> by Lisa Smith-->
@@ -131,7 +131,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
                 <div class="btn-group" role="group">
                     <button type="button" class="btn btn-light dropdown-toggle" id="dropdown-blog-story"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-share-alt mr-1"></i> Share
+                        <i class="fa fa-share-alt mr-1"></i> 分享
                     </button>
                     <div class="dropdown-menu dropdown-menu-right font-size-sm" aria-labelledby="dropdown-blog-story">
                         <a class="dropdown-item" href="javascript:void(0)">
