@@ -1,7 +1,13 @@
 ﻿<?php session_start();
 if($_SESSION['uid']==null){
-    echo "Please log in.";
-    header('location:http://123.56.136.219/user/login.php');
+    echo "请先登录";
+    header('location:http://123.56.136.219/user/login-zh.php');
+}
+?>
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="reset-zh.php?id="+getQueryVariable("id");</script>';
 }
 ?>
 <!doctype html>
@@ -10,7 +16,7 @@ if($_SESSION['uid']==null){
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Kngu - Flower HTML Bootstrap 5 Template </title>
+    <title>商品</title>
     <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -396,7 +402,7 @@ if($_SESSION['uid']==null){
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Blog Single</a>
+                                <a href="#">日志单</a>
                                 <ul class="sub-menu">
                                     <li><a href="blog-single-left-sidebar.html">日志单左侧侧边栏</a></li>
                                     <li><a href="blog-single-right-sidebar.html">日志单右侧侧边栏</a></li>
@@ -1282,10 +1288,7 @@ if($_SESSION['uid']==null){
                                     </ul>
                                     <span>没有评论</span>
                                 </div>
-                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so
-                                    beguiled and demoralized by the charms of pleasure of the moment, so blinded by
-                                    desire, that they cannot foresee the pain and trouble that are bound to ensue; and
-                                    equal blame belongs to those who fail in their duty through weakness of will</p>
+                                <p>另一方面，我们义愤填膺地谴责和厌恶那些被当下欢乐的魅力所迷惑和挫败的人，他们被欲望所蒙蔽，无法预见必然会发生的痛苦和麻烦；同样的责任属于那些因意志薄弱而失职的人</p>
 
                                 <div class="quick-view-quantity-addcart d-flex flex-wrap">
                                     <form action="#">
@@ -1358,7 +1361,7 @@ if($_SESSION['uid']==null){
     let stock;
     let id=getQueryVariable('id');
     // let quan = $('#quantity').val();
-    $('#add_to_cart').html('<button class="btn btn-primary" onclick="add_to_cart(' + 1 + ', ' + id + ', $(\'#quantity\').val())">Add to cart</button>');
+    $('#add_to_cart').html('<button class="btn btn-primary" onclick="add_to_cart(' + 1 + ', ' + id + ', $(\'#quantity\').val())">添加购物车</button>');
     $.ajax({
         type: "POST",
         url: "trading/item.php",
@@ -1390,10 +1393,10 @@ if($_SESSION['uid']==null){
             },
             dataType: "json",
             success: function () {
-                alert("Added Successfully!");
+                alert("添加成功！");
             },
             error: function () {
-                alert("error");
+                alert("错误");
             }
         });
     }

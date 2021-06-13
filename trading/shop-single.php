@@ -4,6 +4,12 @@ if($_SESSION['uid']==null){
     header('location:http://123.56.136.219/user/login.php');
 }
 ?>
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+    echo '<script>location.href="reset-zh.php?id="+getQueryVariable("id");</script>';
+}
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
