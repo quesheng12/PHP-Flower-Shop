@@ -12,7 +12,7 @@ require '../../utils/check-staff-login.php';
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="be_pages_ecom_products-zh.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="be_pages_ecom_products-zh.php";</script>';
 }
 ?>
 <?php

@@ -21,7 +21,7 @@
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="be_pages_blog_story.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="be_pages_blog_story.php";</script>';
 }
 ?>
 

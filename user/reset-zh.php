@@ -15,7 +15,7 @@
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="reset.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="reset.php";</script>';
 }
 ?>
 <html>

@@ -19,7 +19,7 @@ if ($_SESSION['uid'] == null) {
 ?>
 <?php
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="shop-single.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="shop-single.php";</script>';
 }
 ?>
 <!doctype html>

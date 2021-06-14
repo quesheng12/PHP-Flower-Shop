@@ -10,7 +10,7 @@ require '../../utils/check-staff-login.php';
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="be_pages_blog_post_manage.php?id="+getQueryVariable("id");</script>';
+echo '<script>location.href="be_pages_blog_post_manage.php";</script>';
 }
 ?>
 <link href="../../plugins/tanchuang/css/xtiper.css" type="text/css" rel="stylesheet"/>

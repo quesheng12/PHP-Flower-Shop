@@ -6,7 +6,7 @@
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="be_pages_ecom_products.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="be_pages_ecom_products.php";</script>';
 }
 ?>
 <!-- Page Content -->

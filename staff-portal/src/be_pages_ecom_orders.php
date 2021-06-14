@@ -16,7 +16,12 @@ $today = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM or
 $yesterday = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE TO_DAYS(NOW()) - TO_DAYS(time) = 1"))['num'];
 $this_month = mysqli_fetch_assoc(mysqli_query($conn, "SELECT COUNT(id) as num FROM orders WHERE DATE_SUB(CURDATE(), INTERVAL 30 DAY) <= time"))['num'];
 ?>
-
+<?php
+session_start();
+if(isset($_SESSION['language']) && ($_SESSION['language'] == 'zh')){
+    echo '<script>location.href="be_pages_ecom_orders-zh.php";</script>';
+}
+?>
 
     <!-- Page Content -->
     <div class="content">

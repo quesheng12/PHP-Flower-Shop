@@ -26,8 +26,8 @@ if ($epi) {
 ?>
 <?php
 session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="epidemic_manage-zh.php";</script>';
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="epidemic_manage.php";</script>';
 }
 ?>
 
@@ -35,11 +35,11 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
 <div class="content">
     <div id='button' class="<?php echo $btn_class; ?>"><i class="fa fa-bell"></i></div>
     <p class="description">
-        Click the button to <span><?php echo $open_str; ?></span> the epidemic model
+         点击按钮去<span><?php echo $open_str; ?></span>史诗模型
     </p>
     <?php if (!$epi) { ?>
         <p class="description">
-            All current offline orders will be canceled and offline orders can not be created.
+            所有离线订单将会被取消并且不能被建立
         </p>
     <?php } ?>
 </div>

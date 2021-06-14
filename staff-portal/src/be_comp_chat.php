@@ -10,7 +10,7 @@ require '../../utils/check-staff-login.php';
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="be_comp_chat-zh.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="be_comp_chat-zh.php";</script>';
 }
 ?>
 <script src="/js/jquery-3.5.1.js"></script>

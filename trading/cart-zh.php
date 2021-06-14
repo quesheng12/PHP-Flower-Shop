@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="cart.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="cart.php";</script>';
 }
 ?>
 <!doctype html>
@@ -52,7 +52,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
 
 <div class="main-wrapper">
 
-    <?php include('../template/header.php'); ?>
+    <?php include('../template/header-zh.php'); ?>
 
     <!--Page Banner Start-->
     <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">
