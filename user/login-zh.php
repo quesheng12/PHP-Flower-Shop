@@ -98,7 +98,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
                         xtip.msg('Login Successfully!')
                         setTimeout(function () {
                             //内容3秒后执行
-                            location.href = '../index.php';
+                            location.href = '../index-zh.php';
                         }, 2000);
                     } else if (data == 200) {
                         // alert("用户名或密码错误")

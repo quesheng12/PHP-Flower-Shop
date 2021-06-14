@@ -1,3 +1,17 @@
+<script>
+    function getQueryVariable(variable) {
+        let query = window.location.search.substring(1);
+        let vars = query.split("&");
+        for (let i = 0; i < vars.length; i++) {
+            let pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+</script>
+
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
@@ -11,6 +25,12 @@
 <link rel="stylesheet" href="/style/style.css">
 
 <?php
+//session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
+    echo '<script>location.href="be_pages_blog_story-zh.php?id="+getQueryVariable("id");</script>';
+}
+?>
+<?php
 include('../../utils/conn.php');
 $id = $_GET['id'];
 $sql = "SELECT id,title,content FROM news WHERE id=" . $id;
@@ -18,12 +38,6 @@ $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 ?>
 
 <?php include('../../template/header.php'); ?>
-<?php
-session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="be_pages_blog_grid-zh.php?id="+getQueryVariable("id");</script>';
-}
-?>
 <!-- Hero -->
 <div class="bg-image" style="background-image: url(../../assets/images/testimonial-bg.jpg);">
     <div class="">
@@ -31,7 +45,8 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
             <h1 class="font-w700  mt-5 mb-3 invisible" data-toggle="appear">
                 <?php echo $news['title']; ?>
             </h1>
-            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">You deserve a better life</h2>
+            <h2 class="h3 font-w400  mb-5 invisible" data-toggle="appear" data-timeout="400">You deserve a better
+                life</h2>
             <p class="invisible" data-toggle="appear" data-timeout="400">
                 <!--                <a class="badge badge-pill badge-primary font-size-base px-3 py-2 mr-2 m-1" href="javascript:void(0)">-->
                 <!--                    <i class="fa fa-user-circle mr-1"></i> by Lisa Smith-->

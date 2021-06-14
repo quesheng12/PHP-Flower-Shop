@@ -9,7 +9,7 @@ $dm->l_header_style = 'dark-glass';
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="be_pages_blog_grid.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="be_pages_blog_grid.php";</script>';
 }
 ?>
 <link rel="stylesheet" href="/assets/css/plugins-min/plugins.min.css">
@@ -23,7 +23,7 @@ $sql = "SELECT id,title,pre_image,date,excerpt FROM news";
 $rst = mysqli_query($conn, $sql);
 ?>
 <div id="head-fill"></div>
-<?php include('../../template/header.php'); ?>
+<?php include('../../template/header-zh.php'); ?>
 <!-- Hero -->
 <div class="bg-image"
      style="background-image: url('<?php echo $dm->assets_folder; ?>/media/photos/photo9@2x.jpg');">
@@ -96,7 +96,7 @@ $rst = mysqli_query($conn, $sql);
     <!-- END Pagination -->
 </div>
 <!-- END Page Content -->
-<?php include('../../template/footer.html'); ?>
+<?php include('../../template/footer-zh.html'); ?>
 
 <script>
     // function get_news(index) {

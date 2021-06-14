@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'zh') {
-    echo '<script>location.href="shop-list-zh.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="shop-list-zh.php";</script>';
 }
 ?>
 <!doctype html>
