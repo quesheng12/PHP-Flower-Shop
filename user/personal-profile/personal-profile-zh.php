@@ -40,7 +40,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
 <body>
 <div class="main-wrapper">
 
-    <?php include('../../template/header.php'); ?>
+    <?php include('../../template/header-zh.php'); ?>
 
     <div class="overlay"></div>
     <!--Overlay-->
@@ -367,7 +367,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
     </div>
     <!--My Account End-->
 
-    <?php include('../../template/footer.html'); ?>
+    <?php include('../../template/footer-zh.html'); ?>
 
 </div>
 <div id="share-wrapper">

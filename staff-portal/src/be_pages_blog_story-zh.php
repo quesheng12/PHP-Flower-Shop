@@ -1,3 +1,16 @@
+<script>
+    function getQueryVariable(variable) {
+        let query = window.location.search.substring(1);
+        let vars = query.split("&");
+        for (let i = 0; i < vars.length; i++) {
+            let pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+</script>
 <?php require 'inc/_global/config.php'; ?>
 <?php require 'inc/backend/config.php'; ?>
 <?php require 'inc/_global/views/head_start.php'; ?>
@@ -5,6 +18,12 @@
 <!-- Page JS Plugins CSS -->
 <?php $dm->get_css('js/plugins/magnific-popup/magnific-popup.css'); ?>
 <?php require 'inc/_global/views/head_end.php'; ?>
+<?php
+session_start();
+if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
+    echo '<script>location.href="be_pages_blog_story.php?id="+getQueryVariable("id");</script>';
+}
+?>
 
 <link rel="stylesheet" href="/assets/css/plugins-min/plugins.min.css">
 <link rel="stylesheet" href="/assets/css/style.css">
@@ -17,13 +36,7 @@ $sql = "SELECT id,title,content FROM news WHERE id=" . $id;
 $news = mysqli_fetch_assoc(mysqli_query($conn, $sql));
 ?>
 
-<?php include('../../template/header.php'); ?>
-<?php
-session_start();
-if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="be_pages_blog_story.php?id="+getQueryVariable("id");</script>';
-}
-?>
+<?php include('../../template/header-zh.php'); ?>
 <!-- Hero -->
 <div class="bg-image" style="background-image: url(../../assets/images/testimonial-bg.jpg);">
     <div class="">
@@ -246,7 +259,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
 <script src="/assets/js/plugins.min.js"></script>
 <script src="/assets/js/main1.js"></script>
 
-<?php include('../../template/footer.html'); ?>
+<?php include('../../template/footer-zh.html'); ?>
 
 <?php require 'inc/_global/views/page_end.php'; ?>
 <?php require 'inc/_global/views/footer_start.php'; ?>

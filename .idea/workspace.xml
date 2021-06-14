@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="staff portal orders">
+    <list default="true" id="ccf1dde2-bcf2-44a4-9945-3373bacfc2d7" name="Default Changelist" comment="bilinggo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/about-us/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/about-us/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/employee-style.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/employee-style.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/inc/backend/views/inc_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_grid.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-portal/src/be_pages_blog_story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/footer-zh.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/footer-zh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/header-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-list-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-single-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single-zh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading/shop-single.php" beforeDir="false" afterPath="$PROJECT_DIR$/trading/shop-single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/login-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/reset.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/reset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup-zh.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/personal-profile/personal-profile-zh.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +168,11 @@
       <workItem from="1623329012910" duration="22000" />
       <workItem from="1623375886356" duration="242000" />
       <workItem from="1623398344050" duration="529000" />
-      <workItem from="1623487211803" duration="12622000" />
-    </task>
-    <task id="LOCAL-00018" summary="rebased from master">
-      <created>1617708927670</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1617708927670</updated>
+      <workItem from="1623487211803" duration="13195000" />
+      <workItem from="1623571154717" duration="222000" />
+      <workItem from="1623589432701" duration="451000" />
+      <workItem from="1623593417213" duration="139000" />
+      <workItem from="1623599022761" duration="3087000" />
     </task>
     <task id="LOCAL-00019" summary="debased">
       <created>1617709231684</created>
@@ -513,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623563564630</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="bilinggo">
+      <created>1623566613590</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1623566613590</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="**** git" />
     <MESSAGE value="staff portal" />
     <MESSAGE value="footer, header 封装" />
     <MESSAGE value="login register optimize" />
@@ -570,7 +573,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="personal-profile.js" />
     <MESSAGE value="staff portal orders" />
-    <option name="LAST_COMMIT_MESSAGE" value="staff portal orders" />
+    <MESSAGE value="bilinggo" />
+    <option name="LAST_COMMIT_MESSAGE" value="bilinggo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

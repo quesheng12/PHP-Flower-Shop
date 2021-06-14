@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
-    echo '<script>location.href="shop-list.php?id="+getQueryVariable("id");</script>';
+    echo '<script>location.href="shop-list.php";</script>';
 }
 ?>
 <!doctype html>
@@ -27,7 +27,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
 
 <div class="main-wrapper">
 
-    <?php include('../template/header.php'); ?>
+    <?php include('../template/header-zh.php'); ?>
 
     <!--Page Banner Start-->
     <div class="page-banner" style="background-image: url(../assets/images/testimonial-bg.jpg);">
@@ -96,135 +96,7 @@ if (isset($_SESSION['language']) && $_SESSION['language'] == 'en') {
     <!--Shop End-->
 
 
-    <!--Footer Section Start-->
-    <div class="footer-area">
-        <div class="container">
-            <div class="footer-widget-area section-padding-6">
-                <div class="row justify-content-between">
-
-                    <!--Footer Widget Start-->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget">
-                            <a class="footer-logo" href="#"><img src="../assets/images/logo/logo2.png" alt=""></a>
-                            <div class="footer-widget-text">
-                                <p>Group 9: Programmers Never Give Up</p>
-                            </div>
-                        </div>
-                        <!--Footer Widget End-->
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">About Us</h4>
-
-                            <div class="footer-widget-menu">
-                                <ul>
-                                    <li><a href="#">Company</a></li>
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Wechat</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-2 col-md-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Help</h4>
-
-                            <div class="footer-widget-menu">
-                                <ul>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Customer Service</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Footer Section End-->
-
-    <!--Copyright Section Start-->
-    <div class="copyright-section">
-        <div class="container">
-            <div class="copyright-wrapper">
-
-                <!--Right Start-->
-                <div class="copyright-content" style="text-align: center">
-                    <p>Copyright © 2021 Group9_PNG Inc. All Rights Reserved.</p>
-                </div>
-                <!--Right End-->
-            </div>
-        </div>
-    </div>
-    <!--Copyright Section End-->
-
-
-    <!--Back To Start-->
-    <a href="#" class="back-to-top">
-        <i class="fa fa-angle-double-up"></i>
-    </a>
-    <!--Back To End-->
-
-
-
-
-    <!-- Quick View  Start-->
-    <div class="modal fade" id="exampleModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="quick-view-image">
-                                <img src="../assets/images/product-single/product-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="quick-view-content">
-                                <h4 class="product-title"></h4>
-                                <div class="thumb-price">
-                                    <span class="current-price"></span>
-
-                                </div>
-                                <div class="product-rating">
-                                    <ul class="rating-star">
-                                        <li><i class="fa fa-star-o"></i></li>
-                                        <li><i class="fa fa-star-o"></i></li>
-                                        <li><i class="fa fa-star-o"></i></li>
-                                        <li><i class="fa fa-star-o"></i></li>
-                                        <li><i class="fa fa-star-o"></i></li>
-                                    </ul>
-                                    <span>No reviews</span>
-                                </div>
-                                <p class="description"></p>
-
-                                <div class="quick-view-quantity-addcart d-flex flex-wrap">
-                                    <div action="#">
-                                        <div class="quantity d-inline-flex">
-                                            <button type="button" class="sub"><i class="ti-minus"></i></button>
-                                            <input type="text" value="1" />
-                                            <button type="button" class="add"><i class="ti-plus"></i></button>
-                                        </div>
-                                    </div>
-                                    <div class="addcart-btn">
-                                        <button class="btn btn-primary add_to_cart">添加到购物车</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Quick View Tags End-->
-
+    <?php include "../template/footer-zh.html"; ?>
 
 </div>
 
